@@ -1,0 +1,342 @@
+{
+ "id": "week-01",
+ "emoji": "🧸",
+ "title": "Week 1",
+ "age": "~10½ months",
+ "dates": "Sep 16–22, 2026",
+ "start": "2026-09-16",
+ "end": "2026-09-22",
+ "oneLiner": "Match her real level, keep safety <b>one leap ahead</b> of her climbing, and stretch play past games she’s already mastered.",
+ "now": [
+  "🧗 Pull-to-stand, cruises sideways",
+  "🪜 Climbs stairs",
+  "🛝 Playground ~2×/day",
+  "👂 Understands “no” and “give me”",
+  "🐦 Ditty Bird, give-and-take, peekaboo: mastered"
+ ],
+ "bigThree": [
+  {
+   "icon": "🪜",
+   "title": "Spot stairs & playground, especially going down",
+   "sub": "Safety",
+   "roots": [
+    "Brave",
+    "Healthy"
+   ],
+   "lines": [
+    "Down is harder than up. Hands ready on the way down.",
+    "Stay one safety leap ahead: gates, furniture anchors, cords, pull-down hazards.",
+    "“No” isn’t a brake yet. Understanding ≠ stopping mid-climb. You are the brake."
+   ],
+   "videos": [
+    {
+     "id": "X8pWIhVQ0Qc",
+     "title": "The SAFEST Way To Teach Baby To Go Down Stairs",
+     "channel": "Baby Milestones With Cherrick (pediatric PT)",
+     "length": "7:52"
+    }
+   ]
+  },
+  {
+   "icon": "🧩",
+   "title": "Stretch play past mastered games",
+   "sub": "Thinking",
+   "roots": [
+    "Curious",
+    "Self-led"
+   ],
+   "lines": [
+    "Ditty Bird / peekaboo / give-me = 1–2 min warm-ups only.",
+    "Then go one step harder: hide-and-find, bring-it, pull-the-scarf, container lab.",
+    "Mastery without stretch = boredom, not learning."
+   ],
+   "videos": [
+    {
+     "id": "VNNsN9IJkws",
+     "title": "Experiences Build Brain Architecture",
+     "channel": "Harvard Center on the Developing Child",
+     "length": "1:57"
+    }
+   ]
+  },
+  {
+   "icon": "💬",
+   "title": "Narrate her goals (serve & return)",
+   "sub": "Connection",
+   "roots": [
+    "Kind",
+    "Secure"
+   ],
+   "lines": [
+    "She acts → you answer → she continues. That loop builds brain circuits.",
+    "Talk about what she’s already doing: “You’re climbing up… two feet!”",
+    "After a scare, comfort first, then let her choose to retry."
+   ],
+   "videos": [
+    {
+     "id": "KNrnZag17Ek",
+     "title": "5 Steps for Brain-Building Serve and Return",
+     "channel": "Harvard Center on the Developing Child",
+     "length": "6:07"
+    },
+    {
+     "id": "wRUeSafZtQg",
+     "title": "Learn About Serve & Return",
+     "channel": "Harvard Center on the Developing Child",
+     "length": "0:35",
+     "short": true
+    }
+   ]
+  }
+ ],
+ "daily": [
+  "One spotted playground stretch (not only free chaos)",
+  "One next-level game (hide-find / bring-it / scarf / containers)",
+  "Stair-school or push-ferry session",
+  "Quiet 5–10 min floor time after the park",
+  "One language stretch: “Where’s ___?” or bring-it",
+  "Same bedtime order"
+ ],
+ "todos": [
+  "Safety leap-ahead: stairs, climbing, pull-down hazards",
+  "Read the serve-and-return idea once"
+ ],
+ "quiz": [
+  {
+   "q": "Keep Ditty Bird and peekaboo as the main games?",
+   "a": "dont",
+   "why": "She’s mastered them. Use them as warm-ups, then give her the next problem."
+  },
+  {
+   "q": "Push her to walk on her own for show?",
+   "a": "dont",
+   "why": "Cruising and stairs are already serious motor homework. Pressure adds fear, not skill."
+  },
+  {
+   "q": "Comfort after a fall, then let her choose to try again?",
+   "a": "do",
+   "why": "Recovery with you builds Brave. Forced retries can build fear."
+  },
+  {
+   "q": "Trust “she knows no” to keep her off the stairs?",
+   "a": "dont",
+   "why": "Understanding no isn’t the same as stopping mid-climb. Gates and your spot are the safety."
+  },
+  {
+   "q": "Short limit + a legal climb option?",
+   "a": "do",
+   "why": "“No stairs alone. Yes, climb this cushion hill with me.”"
+  },
+  {
+   "q": "Use screens to burn off energy?",
+   "a": "dont",
+   "why": "Busy bodies still need real-world problem-solving more than video."
+  }
+ ],
+ "plays": [
+  {
+   "emoji": "🧣",
+   "name": "Pull-the-scarf fishing",
+   "how": "Toy on a scarf; she pulls the scarf to get it.",
+   "roots": [
+    "Curious"
+   ]
+  },
+  {
+   "emoji": "🥣",
+   "name": "Dump & fill station",
+   "how": "Bowls, blocks, lids: in, out, dump.",
+   "roots": [
+    "Curious",
+    "Self-led"
+   ]
+  },
+  {
+   "emoji": "🫙",
+   "name": "Lid lab",
+   "how": "Containers with easy lids on/off. You narrate, she leads.",
+   "roots": [
+    "Curious"
+   ]
+  },
+  {
+   "emoji": "🧸",
+   "name": "Hide-and-find under a cloth",
+   "how": "Hide a toy while she watches: “Where’s bear?” Level up: hide while she looks away for a second.",
+   "roots": [
+    "Curious"
+   ]
+  },
+  {
+   "emoji": "📦",
+   "name": "Bring-it delivery",
+   "how": "“Give me” → “Put it in the bowl” → “Bring it to Mama.” Cheer the delivery.",
+   "roots": [
+    "Kind",
+    "Self-led"
+   ]
+  },
+  {
+   "emoji": "🧺",
+   "name": "Laundry-basket ferry",
+   "how": "A basket with a book inside to push across a cleared lane.",
+   "roots": [
+    "Healthy",
+    "Brave"
+   ]
+  },
+  {
+   "emoji": "🗼",
+   "name": "Stack & crash",
+   "how": "Stack blocks, she knocks them down on purpose.",
+   "roots": [
+    "Curious"
+   ]
+  },
+  {
+   "emoji": "🥁",
+   "name": "Drum kitchen",
+   "how": "Pots and wooden spoons.",
+   "roots": [
+    "Curious",
+    "Kind"
+   ]
+  },
+  {
+   "emoji": "🔦",
+   "name": "Flashlight on/off",
+   "how": "Supervised; she presses, you name “on / off.”",
+   "roots": [
+    "Curious"
+   ]
+  },
+  {
+   "emoji": "🪞",
+   "name": "Mirror play",
+   "how": "Faces and waves in a safe mirror.",
+   "roots": [
+    "Kind"
+   ]
+  },
+  {
+   "emoji": "📖",
+   "name": "Quiet board book",
+   "how": "No buttons. Point and name.",
+   "roots": [
+    "Kind",
+    "Curious"
+   ]
+  },
+  {
+   "emoji": "☎️",
+   "name": "Pretend sip / phone",
+   "how": "Cup to lips: “Sip.” Phone to ear: “Hi!” 10–30 seconds.",
+   "roots": [
+    "Curious",
+    "Kind"
+   ]
+  },
+  {
+   "emoji": "⚽",
+   "name": "Ball to a person",
+   "how": "Roll a ball back and forth.",
+   "roots": [
+    "Kind",
+    "Healthy"
+   ]
+  },
+  {
+   "emoji": "💧",
+   "name": "Water wipe station",
+   "how": "Damp cloth to wipe a tray, supervised.",
+   "roots": [
+    "Self-led"
+   ]
+  },
+  {
+   "emoji": "🛝",
+   "name": "Playground mission",
+   "how": "Pick ONE spotted stretch per visit, stop while she’s still happy.",
+   "roots": [
+    "Brave"
+   ]
+  }
+ ],
+ "scripts": [
+  {
+   "icon": "🪜",
+   "when": "She heads for the stairs alone",
+   "steps": [
+    {
+     "say": "Stop. Stairs are with Mama."
+    },
+    {
+     "say": "Yes, climb this cushion hill with me!"
+    }
+   ]
+  },
+  {
+   "icon": "🫶",
+   "when": "I snapped at the 40th stair dash",
+   "steps": [
+    {
+     "do": "Breathe, soften."
+    },
+    {
+     "say": "Mama used a loud voice. I’m sorry."
+    },
+    {
+     "do": "Hug and reconnect, then hold the limit."
+    }
+   ]
+  },
+  {
+   "icon": "👋",
+   "when": "Leaving the park",
+   "steps": [
+    {
+     "do": "Short, warm goodbye. Don’t sneak off."
+    },
+    {
+     "say": "Baibai slide! Time for the car."
+    }
+   ]
+  }
+ ],
+ "details": [
+  {
+   "icon": "🧠",
+   "title": "What’s going on in her brain",
+   "lines": [
+    "Balance and motor planning: how do I get up, across, down?",
+    "Means–end: “I do A to get B.” Ready for level 2–3.",
+    "Understands more than she says: names, simple “where’s ___?”",
+    "Frustration at limits is a strong body plus a big goal, not naughtiness."
+   ],
+   "videos": [
+    {
+     "id": "m_5u8-QSh6A",
+     "title": "Serve & Return Interaction Shapes Brain Circuitry",
+     "channel": "Harvard Center on the Developing Child",
+     "length": "1:43"
+    }
+   ]
+  },
+  {
+   "icon": "🗺️",
+   "title": "Coming in the next 4–8 weeks",
+   "lines": [
+    "Bolder climbing; up is easier than safe down.",
+    "Maybe brief stands without holding, maybe first steps (or later, both fine).",
+    "Tool use: stick, scarf, lids, nesting. More “I show you this.”",
+    "Bigger protests at limits; possible clinginess with strangers."
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "label": "Harvard Center on the Developing Child: Serve and Return",
+   "url": "https://developingchild.harvard.edu/key-concept/serve-and-return/"
+  }
+ ]
+}

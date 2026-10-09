@@ -1,0 +1,958 @@
+{
+ "id": "week-03",
+ "emoji": "🌱",
+ "title": "Week 3",
+ "age": "~11 months",
+ "dates": "Oct 4–17, 2026",
+ "start": "2026-10-04",
+ "end": "2026-10-17",
+ "oneLiner": "Teach <b>going down</b>, let standing happen <b>on purpose</b>, grow words <b>without testing</b>, and make the <b>floor bed</b> truly safe.",
+ "now": [
+  "🐆 Fast, smooth crawler",
+  "🪜 Stairs: up yes, down not yet",
+  "🛝 Slides down alone",
+  "🛒 Many push-walker steps",
+  "🧍 Stands alone a few seconds (without noticing)",
+  "👯 Stands more near other babies",
+  "🗣️ baba · mama · yeye 爷爷 · baibai 拜拜",
+  "🎵 Loves music & Ditty Bird",
+  "🖊️ Hands you the music pen for help",
+  "🦷 Tooth #3 coming · likes soft chicken",
+  "🧩 Plays more on her own",
+  "🛏️ New floor bed in a fenced area"
+ ],
+ "bigThree": [
+  {
+   "icon": "🧍",
+   "title": "Standing on purpose + going down feet-first",
+   "sub": "Body",
+   "roots": [
+    "Brave",
+    "Healthy"
+   ],
+   "lines": [
+    "She already stands alone by accident. Next: <b>noticing</b> it. Say softly <b>“You’re standing.”</b> No big cheer (it startles her down).",
+    "Hold out a toy that needs <b>both hands</b> while she’s at the couch, so she lets go on her own.",
+    "Stairs, couch, bed: <b>“Turn around. Feet first.”</b> Guide her hips, start with 1 step, you stay below her.",
+    "Standing less at home is normal: crawling is just faster right now."
+   ],
+   "videos": [
+    {
+     "id": "X8pWIhVQ0Qc",
+     "title": "The SAFEST Way To Teach Baby To Go Down Stairs",
+     "channel": "Baby Milestones With Cherrick (pediatric PT)",
+     "length": "7:52"
+    },
+    {
+     "id": "ZBrsdF6fQlA",
+     "title": "The Safest, Most Effective Way to Teach Your Baby to Stand",
+     "channel": "Emma Hubbard (pediatric PT)",
+     "length": "6:00"
+    }
+   ]
+  },
+  {
+   "icon": "🗣️",
+   "title": "First words: echo-and-add, don’t test",
+   "sub": "Talking",
+   "roots": [
+    "Kind",
+    "Curious"
+   ],
+   "lines": [
+    "She says “mama” → you say <b>“Mama! Mama’s here!”</b> Copy her word, add one.",
+    "Pause and wait 3–5 sec (“Bye-…”). If she doesn’t fill it, just say it and move on.",
+    "Never “Say mama for Grandma!” Saying words on request comes a few months later.",
+    "Pen handoff = she’s asking. <b>“Help? Mama helps! Your turn!”</b>"
+   ],
+   "videos": [
+    {
+     "id": "_QLX7Rp2brs",
+     "title": "You Are the Key to Your Child’s First Words",
+     "channel": "The Hanen Centre",
+     "length": "1:32"
+    },
+    {
+     "id": "m_5u8-QSh6A",
+     "title": "Serve & Return Interaction Shapes Brain Circuitry",
+     "channel": "Harvard Center on the Developing Child",
+     "length": "1:43"
+    }
+   ]
+  },
+  {
+   "icon": "🛏️",
+   "title": "Safe floor bed + teething foods",
+   "sub": "Sleep & food",
+   "roots": [
+    "Healthy",
+    "Secure"
+   ],
+   "lines": [
+    "Until her 1st birthday: <b>firm, flat, bare</b>. Fitted sheet only. <b>Books move outside</b> the sleep zone.",
+    "Check mattress gaps, fence locked and anchored, cords and outlets out of reach.",
+    "Sore gums: fridge-cold (not frozen) teether, soft proteins: salmon, egg, tofu, shredded slow-cooked meat, lentils.",
+    "Teething doesn’t cause fever ≥100.4°F. A fever means something else."
+   ],
+   "videos": [
+    {
+     "id": "AzA3joFgulo",
+     "title": "Safe Sleep for Your Baby: Every Nap & Every Night",
+     "channel": "American Academy of Pediatrics",
+     "length": "0:31"
+    },
+    {
+     "id": "6tdpDi4sZ2A",
+     "title": "#AskThePediatrician: Teething",
+     "channel": "American Academy of Pediatrics",
+     "length": "0:39"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "icon": "🙈",
+   "title": "Stranger anxiety",
+   "sub": "Hides from new people? Normal.",
+   "roots": [
+    "Secure"
+   ],
+   "lines": [
+    "Very common around <b>8–12 months</b>. It comes and goes for months.",
+    "It’s a good sign: she now knows <b>you are her safe base</b> and can tell familiar from new.",
+    "Let people <b>warm up</b>: they talk to you first, offer a toy, wait for her to come.",
+    "<b>Don’t force holding</b> or hand her over while she’s crying. Stay close; she can watch from your lap."
+   ],
+   "videos": [
+    {
+     "id": "_sWGkYCxLEQ",
+     "title": "Why Is My Baby Afraid of Strangers?",
+     "channel": "What To Expect",
+     "length": "4:21"
+    }
+   ]
+  },
+  {
+   "icon": "🛏️",
+   "title": "Why a floor bed?",
+   "sub": "Our choice, not an official rule",
+   "roots": [
+    "Self-led",
+    "Healthy"
+   ],
+   "lines": [
+    "It’s a <b>Montessori</b> choice. The AAP doesn’t recommend or review floor beds. Its rule for under 12 months: a firm, flat, bare surface (crib, bassinet or play yard).",
+    "<b>Pros:</b> she can get in/out herself, no crib to climb out of and fall from, a calm “yes” space.",
+    "<b>Cons:</b> she can roam at night, so the whole fenced area must be baby-proof; gaps against the wall or fence are a risk; some nights she won’t stay put.",
+    "Under 12 months: <b>bare, firm, flat</b>. Keep books outside until her birthday, then ask the pediatrician."
+   ],
+   "videos": [
+    {
+     "id": "Rs9Jw3uIoaU",
+     "title": "Safe Sleep For Your Baby — 60 Seconds",
+     "channel": "NIH (NICHD) Safe to Sleep",
+     "length": "1:01"
+    }
+   ]
+  },
+  {
+   "icon": "🍌",
+   "title": "Fussy after ~3 hours of active play?",
+   "sub": "Usually low fuel",
+   "roots": [
+    "Healthy"
+   ],
+   "lines": [
+    "Most likely she’s <b>hungry and tired</b>. Busy movers burn a lot. Offer <b>milk or a snack</b> about every 2–3 hours.",
+    "Good quick fuel: milk, yogurt, banana, soft egg, cheese, a few soft crackers with something protein.",
+    "True low blood sugar (hypoglycemia) is <b>rare</b> in healthy babies who are eating normally.",
+    "<b>Red flags, call now:</b> very sleepy or hard to wake, limp, shaky or sweaty, pale or gray, won’t feed, vomiting, far fewer wet diapers, or a seizure (call 911)."
+   ]
+  },
+  {
+   "icon": "🛝",
+   "title": "Slides: alone, not on your lap",
+   "sub": "Tell every caregiver",
+   "roots": [
+    "Brave",
+    "Healthy"
+   ],
+   "lines": [
+    "Lap rides can catch her foot and <b>break her shin</b> (a documented toddler injury).",
+    "She goes down <b>sitting, feet first</b>, on toddler-size slides. You wait at the bottom.",
+    "Touch the slide first: sunny metal can burn."
+   ],
+   "videos": [
+    {
+     "id": "S28sR2uNro8",
+     "title": "Mayo Clinic Minute: A warning to parents about sliding with kids",
+     "channel": "Mayo Clinic",
+     "length": "0:55"
+    }
+   ]
+  },
+  {
+   "icon": "🎵",
+   "title": "Music as a back-and-forth game",
+   "sub": "Live beats background",
+   "roots": [
+    "Curious",
+    "Kind"
+   ],
+   "lines": [
+    "Freeze dance: music on → bounce; off → “FREEZE!”",
+    "Rhythm copy: tap the pot twice, wait, copy whatever she does.",
+    "Sing slowly and pause before the gesture so she can join in. No “Mozart effect” needed."
+   ],
+   "videos": [
+    {
+     "id": "Gnd7joNP_gI",
+     "title": "Encouraging your Child to Talk with Music",
+     "channel": "The Hanen Centre",
+     "length": "3:37"
+    }
+   ]
+  }
+ ],
+ "daily": [
+  "Stair or couch “Turn around, feet first” practice",
+  "One standing invitation (toys on couch, dance, walker mission), never forced",
+  "Hands-busy standing + quiet “You’re standing”",
+  "Pen-book 5–10 min: help / more / play",
+  "One live music game together",
+  "Independent play with check-ins",
+  "2–3 echo-and-add word moments (no testing)",
+  "“Baibai” wave at real goodbyes",
+  "Snack or milk every 2–3 hours on busy days",
+  "Same bedtime order, books outside the bed"
+ ],
+ "todos": [
+  "Floor-bed zone: books out, gaps checked, fence secured, cords/outlets/furniture done",
+  "Tell every caregiver: no lap rides on slides",
+  "Check no sit-in baby walker is used anywhere",
+  "Try one new soft protein",
+  "Make a family photo book (mama, baba, yeye)",
+  "Start her word list (Chinese + English together)",
+  "Start 12-month checkup questions (milk switch, iron, dentist, sleep items)",
+  "Watch the 3 big-thing videos"
+ ],
+ "quiz": [
+  {
+   "q": "Ride down the slide with her on your lap?",
+   "a": "dont",
+   "why": "Her foot can catch while your weight pushes forward: a known cause of toddler shin fractures. Let her slide alone, you at the bottom."
+  },
+  {
+   "q": "“Say mama for Grandma! Say it!”",
+   "a": "dont",
+   "why": "Words on request come months later. Testing makes many babies go quiet. Echo her words when she says them instead."
+  },
+  {
+   "q": "Softly say “You’re standing” when she stands alone?",
+   "a": "do",
+   "why": "A calm label helps her notice standing. A big cheer startles her and she plops."
+  },
+  {
+   "q": "Leave a couple of board books in her floor bed?",
+   "a": "dont",
+   "why": "Until 12 months the sleep space should be bare. Read in a spot outside the sleep zone."
+  },
+  {
+   "q": "Give a frozen-solid teether?",
+   "a": "dont",
+   "why": "Frozen-hard can hurt gums. Fridge-cold is right. Also skip numbing gels and amber necklaces."
+  },
+  {
+   "q": "Teach “turn around, feet first” on the couch?",
+   "a": "do",
+   "why": "The same words and move on couch, bed and stairs make going down automatic."
+  },
+  {
+   "q": "Use a sit-in baby walker (seat on wheels)?",
+   "a": "dont",
+   "why": "AAP says they’re never safe (falls down stairs, reaching hot things). Her stand-behind push walker is fine."
+  },
+  {
+   "q": "She says “ba” for bottle. Correct her?",
+   "a": "dont",
+   "why": "Just say it back warmly: “Bottle! Here’s your bottle.” Hearing it clearly is how she learns."
+  },
+  {
+   "q": "Hand her to a new friend while she cries?",
+   "a": "dont",
+   "why": "Stranger wariness is normal. Let her warm up from your lap; the friend can offer a toy."
+  },
+  {
+   "q": "Offer milk or a snack when she’s fussy after a long busy morning?",
+   "a": "do",
+   "why": "Usually it’s low fuel plus tiredness. Feed first, then see."
+  },
+  {
+   "q": "Blame a 101°F fever on teething?",
+   "a": "dont",
+   "why": "Teething doesn’t cause a true fever (100.4°F/38°C+). Something else is going on, so call the doctor."
+  },
+  {
+   "q": "Hold both her hands high and march her around for a long time?",
+   "a": "dont",
+   "why": "It takes over her balance, so she isn’t practicing her own. Offer one finger or a push walker."
+  }
+ ],
+ "plays": [
+  {
+   "emoji": "🪜",
+   "name": "Stair school: feet first",
+   "how": "Bottom step only. “Turn around. Feet first.” Guide her hips, slide feet to the floor. 1 step → 2 → 3. You stay below.",
+   "roots": [
+    "Brave",
+    "Healthy"
+   ],
+   "time": "3–5 min"
+  },
+  {
+   "emoji": "🛋️",
+   "name": "Couch/bed slide-off",
+   "how": "Same words on the couch and her bed edge: “Turn around, feet first.”",
+   "roots": [
+    "Brave",
+    "Self-led"
+   ],
+   "time": "2 min"
+  },
+  {
+   "emoji": "🧺",
+   "name": "Toys on the couch",
+   "how": "Put a basket of balls or the drum on the couch seat so she has to stand to reach.",
+   "roots": [
+    "Healthy",
+    "Curious"
+   ]
+  },
+  {
+   "emoji": "🛒",
+   "name": "Push-walker delivery",
+   "how": "Put a ball in the walker: “Take the ball to Daddy!” Clear, flat path, no stairs nearby.",
+   "roots": [
+    "Healthy",
+    "Self-led"
+   ]
+  },
+  {
+   "emoji": "⬇️",
+   "name": "Squat-to-pick-up",
+   "how": "While she holds the couch, put a toy by her feet. She bends and comes back up.",
+   "roots": [
+    "Healthy"
+   ]
+  },
+  {
+   "emoji": "↔️",
+   "name": "Stand-to-stand gap",
+   "how": "Move two sturdy pieces of furniture half a step apart so she lets go briefly to cross.",
+   "roots": [
+    "Brave",
+    "Healthy"
+   ]
+  },
+  {
+   "emoji": "🖊️",
+   "name": "Pen-book: help / more / play",
+   "how": "Handoff = “Help!” (sign). Play it, hand back: “Your turn!” Once or twice hand-over-hand on a big picture, then let go.",
+   "roots": [
+    "Curious",
+    "Kind",
+    "Self-led"
+   ],
+   "time": "5–10 min"
+  },
+  {
+   "emoji": "🕺",
+   "name": "Freeze dance",
+   "how": "Music on: bounce. Off: “FREEZE!” On: “GO!” Early self-control.",
+   "roots": [
+    "Curious",
+    "Healthy"
+   ]
+  },
+  {
+   "emoji": "🥁",
+   "name": "Rhythm copy",
+   "how": "Tap a pot twice (“boom boom”), wait, then copy whatever she does.",
+   "roots": [
+    "Curious",
+    "Kind"
+   ]
+  },
+  {
+   "emoji": "🕷️",
+   "name": "Gesture songs",
+   "how": "Itsy Bitsy, Wheels on the Bus, Row Your Boat. Sing slowly, pause before the gesture.",
+   "roots": [
+    "Kind",
+    "Curious"
+   ]
+  },
+  {
+   "emoji": "🥤",
+   "name": "Hide-and-find with a move",
+   "how": "Hide a toy under a cup, then switch it to another cup while she watches. “Where’d it go?”",
+   "roots": [
+    "Curious"
+   ]
+  },
+  {
+   "emoji": "👉",
+   "name": "Point-and-name walk",
+   "how": "Carry her around: “Where’s the light? There it is!” When she points, look and name it.",
+   "roots": [
+    "Curious",
+    "Kind"
+   ]
+  },
+  {
+   "emoji": "🪞",
+   "name": "Copy-me games",
+   "how": "Wipe the table, phone to ear, clap. Let her copy, then copy her back.",
+   "roots": [
+    "Kind",
+    "Curious"
+   ]
+  },
+  {
+   "emoji": "👯",
+   "name": "Peer time side by side",
+   "how": "Playdate or music class with 1–2 babies. No need to share, just watching and copying.",
+   "roots": [
+    "Kind",
+    "Brave"
+   ]
+  },
+  {
+   "emoji": "😴",
+   "name": "Daytime “night-night” game",
+   "how": "Lie on her bed together, eyes closed, “shhh”… “Good morning!” Makes the bed feel calm.",
+   "roots": [
+    "Secure",
+    "Self-led"
+   ]
+  },
+  {
+   "emoji": "🔁",
+   "name": "Echo-and-add",
+   "how": "“Mama” → “Mama! Mama’s here!” “Baibai” → “Baibai! Bye-bye, car!”",
+   "roots": [
+    "Kind",
+    "Curious"
+   ]
+  },
+  {
+   "emoji": "🚪",
+   "name": "Baibai door game",
+   "how": "Step out: “Baibai!” + wave, close door, open: “Hi!” Then “Bai…” and pause.",
+   "roots": [
+    "Kind",
+    "Secure"
+   ]
+  },
+  {
+   "emoji": "📸",
+   "name": "Family photo book",
+   "how": "“Where’s yeye?” Let her pat the picture. Echo any name she says.",
+   "roots": [
+    "Kind",
+    "Secure"
+   ]
+  },
+  {
+   "emoji": "⚽",
+   "name": "Hands-busy standing",
+   "how": "At the couch, offer a big ball or two clappers so she uses both hands and lets go.",
+   "roots": [
+    "Brave",
+    "Healthy"
+   ]
+  },
+  {
+   "emoji": "🤗",
+   "name": "One step to me",
+   "how": "Kneel half a step away: “Come to Mama.” A lean counts. Crawling over is fine too.",
+   "roots": [
+    "Brave",
+    "Secure"
+   ]
+  },
+  {
+   "emoji": "🧩",
+   "name": "Solo play + check-ins",
+   "how": "4–6 toys out, play 2–3 min together, “I’ll be right here,” move a little away. Smile and narrate now and then.",
+   "roots": [
+    "Self-led",
+    "Secure"
+   ]
+  },
+  {
+   "emoji": "🍌",
+   "name": "Banana or cracker?",
+   "how": "Hold up two things. Any reach or look is her answer: name it.",
+   "roots": [
+    "Self-led",
+    "Kind"
+   ]
+  }
+ ],
+ "scripts": [
+  {
+   "icon": "🫶",
+   "when": "I snapped at her (repair)",
+   "steps": [
+    {
+     "do": "Calm yourself first: one slow breath, soften your face and voice."
+    },
+    {
+     "say": "Mama used a loud voice. I’m sorry."
+    },
+    {
+     "do": "Reconnect: get low, a hug or touch, eye contact if she wants it.",
+     "say": "I love you. I’m here."
+    },
+    {
+     "do": "Hold the limit calmly, with a yes option.",
+     "say": "Stairs are with Mama. Let’s climb the cushions."
+    }
+   ],
+   "note": "Repair keeps trust strong. She doesn’t need perfect, she needs you to come back."
+  },
+  {
+   "icon": "🪜",
+   "when": "Going down stairs, couch or bed",
+   "steps": [
+    {
+     "say": "Turn around. Feet first."
+    },
+    {
+     "do": "Guide her hips so her legs go first."
+    },
+    {
+     "say": "Feet down! You did it!"
+    }
+   ],
+   "note": "Same words every time. Later she’ll turn herself when she hears them."
+  },
+  {
+   "icon": "🚫",
+   "when": "She heads for the stairs alone (limit + yes)",
+   "steps": [
+    {
+     "do": "Move your body between her and the stairs; calm voice."
+    },
+    {
+     "say": "Stop. Stairs are with Mama."
+    },
+    {
+     "say": "You want to climb! Climb this pillow hill."
+    }
+   ]
+  },
+  {
+   "icon": "🖊️",
+   "when": "She hands me the music pen",
+   "steps": [
+    {
+     "say": "You want help! Help!",
+     "do": "Do the help sign (flat hand under fist, lift)."
+    },
+    {
+     "say": "Play!",
+     "do": "Make the music."
+    },
+    {
+     "say": "Your turn!",
+     "do": "Hand the pen back."
+    },
+    {
+     "say": "More?",
+     "do": "Tap fingertips together."
+    }
+   ]
+  },
+  {
+   "icon": "🙈",
+   "when": "A new person wants to hold her",
+   "steps": [
+    {
+     "say": "She likes to warm up first. Let’s say hi from here.",
+     "do": "Keep her on your lap."
+    },
+    {
+     "do": "Ask them to talk to you, then offer her a toy."
+    },
+    {
+     "say": "Want to show Auntie your ball?",
+     "do": "Let her decide. No forcing."
+    }
+   ]
+  },
+  {
+   "icon": "🛝",
+   "when": "Someone offers to ride the slide with her",
+   "steps": [
+    {
+     "say": "Thanks! We let her go down by herself. Lap rides can hurt little legs."
+    },
+    {
+     "say": "Can you catch her at the bottom?"
+    }
+   ]
+  },
+  {
+   "icon": "🌙",
+   "when": "She crawls out of bed at night",
+   "steps": [
+    {
+     "do": "Calm, quiet, dim. Little talk, no play."
+    },
+    {
+     "say": "Bed time. Back to bed."
+    },
+    {
+     "do": "If she climbs in herself, whisper:",
+     "say": "You went back to bed."
+    }
+   ]
+  },
+  {
+   "icon": "👋",
+   "when": "Leaving the playground",
+   "steps": [
+    {
+     "say": "Two more slides, then car."
+    },
+    {
+     "say": "Baibai slide! Baibai swings!",
+     "do": "Wave together."
+    },
+    {
+     "say": "You’re sad. You loved the slide. We’ll come back.",
+     "do": "Name the feeling, carry her warmly."
+    }
+   ]
+  }
+ ],
+ "timeline": {
+  "now": 0,
+  "hint": "Each step can take days or weeks. She may skip around.",
+  "steps": [
+   {
+    "label": "Standing without noticing",
+    "note": "Lets go while busy, then sits or grabs back. (now)"
+   },
+   {
+    "label": "Noticing she’s standing",
+    "note": "A “whoa” look, stays up a bit longer"
+   },
+   {
+    "label": "Standing on purpose",
+    "note": "Lets go because she wants to; stands from a squat in the open"
+   },
+   {
+    "label": "Standing longer",
+    "note": "5 → 10 → 20+ seconds, maybe holding a toy"
+   },
+   {
+    "label": "1–3 steps",
+    "note": "Between furniture or into your arms, then plop"
+   },
+   {
+    "label": "Walking",
+    "note": "Arms up high, lots of falls (normal!)"
+   }
+  ],
+  "ruler": {
+   "label": "When healthy babies first walk alone (WHO):",
+   "min": 8,
+   "max": 18,
+   "from": 8.2,
+   "to": 17.6,
+   "age": 11,
+   "ticks": [
+    8,
+    10,
+    12,
+    14,
+    16,
+    18
+   ]
+  },
+  "footer": "Many walk at 12–15 months; 16–18 is still normal. Ask the pediatrician if she isn’t walking alone by ~18 months, or anytime you’re worried."
+ },
+ "details": [
+  {
+   "icon": "🧠",
+   "title": "Why she stands less at home",
+   "roots": [
+    "Healthy"
+   ],
+   "lines": [
+    "Babies pick the fastest, safest way to get places. Crawling is fast and rarely ends in a fall.",
+    "Lab studies found babies switch to walking once walking gets them farther and faster than crawling.",
+    "Push walker = real practice: weight shift, one-leg balance, step after step."
+   ],
+   "videos": [
+    {
+     "id": "4yIOSrxcaCw",
+     "title": "What Every Parent Needs to Hear About Baby Push Walkers",
+     "channel": "Emma Hubbard (pediatric PT)",
+     "length": "10:32"
+    }
+   ]
+  },
+  {
+   "icon": "🪜",
+   "title": "Why up is easier than down",
+   "roots": [
+    "Brave"
+   ],
+   "lines": [
+    "Going up, she sees where she’s going. Going down means turning around and feeling backward with her feet.",
+    "Down usually comes weeks after up, and it has to be taught. Gate top and bottom at home."
+   ]
+  },
+  {
+   "icon": "🧍",
+   "title": "Standing: more ideas",
+   "roots": [
+    "Brave",
+    "Healthy"
+   ],
+   "lines": [
+    "Barefoot on rug, grass or mat: bare feet grip and feel the floor.",
+    "Squat-to-stand: a toy on the floor away from furniture.",
+    "If she drops to crawl, let her. Offer again later."
+   ],
+   "videos": [
+    {
+     "id": "jKT9ICWs6oU",
+     "title": "Help Your Baby Stand Up from the Middle of the Floor",
+     "channel": "Pediatric Physical Therapy Exercises",
+     "length": "1:56"
+    }
+   ]
+  },
+  {
+   "icon": "🗣️",
+   "title": "Words: what counts, two languages",
+   "roots": [
+    "Kind",
+    "Curious"
+   ],
+   "lines": [
+    "~4 words (baba, mama, yeye, baibai) is on track or a bit early. Most babies say a first word around 12 months.",
+    "A word counts when she uses it for the right person or moment.",
+    "Count <b>Chinese + English together</b>. Same idea in both (bye-bye/baibai) counts once.",
+    "AAP: two languages don’t cause delays. Each adult uses the language they’re most comfortable in."
+   ],
+   "videos": [
+    {
+     "id": "KNrnZag17Ek",
+     "title": "5 Steps for Brain-Building Serve and Return",
+     "channel": "Harvard Center on the Developing Child",
+     "length": "6:07"
+    },
+    {
+     "id": "TO367LWQqpQ",
+     "title": "What is a serve & return interaction?",
+     "channel": "Harvard Center on the Developing Child",
+     "length": "0:34",
+     "short": true
+    }
+   ]
+  },
+  {
+   "icon": "🖊️",
+   "title": "Pen-book plan (step by step)",
+   "roots": [
+    "Curious",
+    "Self-led"
+   ],
+   "lines": [
+    "Celebrate the handoff as a request. Add “more” and “play” words.",
+    "Hand-over-hand once or twice, then let her try.",
+    "Big pictures first; a sticker on the best spot helps.",
+    "Fatten the pen with a foam grip (nothing she can bite off). Show “tip down.”",
+    "Fade help: hand-over-hand → guide wrist → just tap the spot."
+   ]
+  },
+  {
+   "icon": "🛏️",
+   "title": "Floor-bed safety checklist",
+   "roots": [
+    "Healthy"
+   ],
+   "lines": [
+    "Firm, flat mattress, low; fitted sheet only. No adult memory foam or topper.",
+    "No gaps against wall or fence. Check corners.",
+    "No pillows, blankets, bumpers, stuffed toys, books until 12 months. Sleep sack instead.",
+    "Nothing small enough to fit through a toilet-paper tube anywhere in the zone.",
+    "Fence locked, anchored, no gaps or climbable bars; check pinch points.",
+    "Foam tiles thick and locked (she may chew corners).",
+    "Cords, outlets, chargers out of reach. Furniture anchored. Room not hot.",
+    "Childproof the room as if the fence weren’t there."
+   ]
+  },
+  {
+   "icon": "🌙",
+   "title": "Bedtime routine",
+   "roots": [
+    "Secure",
+    "Self-led"
+   ],
+   "lines": [
+    "Same order, 20–30 min: dim lights → wash → teeth/gums → pajamas + sleep sack → books <b>outside</b> the bed → same song → bed → same goodnight words.",
+    "If she falls asleep on the firm padded floor inside the fence, that’s okay. Move her if you can without fully waking her.",
+    "Staying in bed takes weeks to months to learn."
+   ]
+  },
+  {
+   "icon": "🍗",
+   "title": "Teething + food plan",
+   "roots": [
+    "Healthy"
+   ],
+   "lines": [
+    "Soft proteins: flaked salmon, soft egg, tofu, shredded slow-cooked meat, lentils/beans mashed, soft meatballs, yogurt, cottage cheese.",
+    "Iron focus around 12 months. Pair beans/tofu with vitamin C (berries, tomato, broccoli).",
+    "Gums: fridge-cold teether or wet washcloth, gum rub, cool soft foods. Ask about acetaminophen dosing.",
+    "Skip: frozen-hard teethers, benzocaine/lidocaine gels, amber necklaces."
+   ]
+  },
+  {
+   "icon": "⚠️",
+   "title": "Choking safety",
+   "roots": [
+    "Healthy"
+   ],
+   "lines": [
+    "Always seated, upright, watched. No eating while crawling or in the car.",
+    "Quarter round foods (grapes, cherry tomatoes). No whole nuts, popcorn, hard raw veg, hot-dog chunks.",
+    "Gagging (coughing, red face) is normal learning. Choking (silent, can’t breathe, turning blue) is an emergency. Consider an infant CPR class."
+   ],
+   "videos": [
+    {
+     "id": "TJR-PKKecDU",
+     "title": "Baby Gagging on Food: What’s normal… what’s not?",
+     "channel": "Katie Ferraro (registered dietitian)",
+     "length": "4:20"
+    },
+    {
+     "id": "tQlyJl2S9rs",
+     "title": "Tips to Prevent Children from Choking",
+     "channel": "UCLA Health",
+     "length": "1:57"
+    }
+   ]
+  },
+  {
+   "icon": "🩺",
+   "title": "12-month checkup: questions to bring",
+   "lines": [
+    "CDC 1-year milestones check",
+    "Iron / anemia check",
+    "Vaccines due",
+    "Fluoride varnish; first dentist visit by age 1",
+    "Switching to whole milk (AAP: from 12 months, ~16–24 oz/day, from a cup)",
+    "When books/lovey can come back into bed",
+    "Anything about walking, hearing or talking"
+   ]
+  },
+  {
+   "icon": "🔬",
+   "title": "This week’s reading (2 minutes)",
+   "lines": [
+    "<b>Moving changes thinking.</b> Once babies get around on their own, spatial memory, wariness of heights and checking your face all grow. Mostly correlational, so let her move, keep it safe, stay close.",
+    "<b>Music:</b> the “Mozart effect” is a myth. Active, social music (bouncing together, rhythm turns) showed promise in small studies. It’s a great way to connect.",
+    "<b>Peers:</b> toddlers copy other kids, even days later. That fits her standing longer near other babies."
+   ]
+  }
+ ],
+ "watch": [
+  "Won’t bear weight on her legs, or legs seem stiff or floppy",
+  "<b>Loses skills</b>: stops crawling, babbling, or saying words she had",
+  "Uses one side much more than the other",
+  "By 12 months: no pointing or waving, doesn’t respond to her name, doesn’t look where you point, no back-and-forth babble",
+  "By ~16 months: no single words in any language (count both languages)",
+  "By ~18 months: not walking alone, or fewer than 3 words besides mama/dada",
+  "Fever <b>100.4°F / 38°C</b> or higher, a sudden limp, or won’t stand on a leg after a fall",
+  "Seems not to hear. CDC: don’t wait."
+ ],
+ "sources": [
+  {
+   "label": "Harvard Center on the Developing Child: Serve and Return",
+   "url": "https://developingchild.harvard.edu/key-concept/serve-and-return/"
+  },
+  {
+   "label": "WHO motor development milestones (walking alone 8.2–17.6 mo)",
+   "url": "https://www.who.int/tools/child-growth-standards/standards/motor-development-milestones"
+  },
+  {
+   "label": "Adolph et al. 2012: How do you learn to walk?",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3591461/"
+  },
+  {
+   "label": "Campos et al. 2000: Travel Broadens the Mind",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32680291/"
+  },
+  {
+   "label": "Slide-on-lap injuries (Jennissen et al. 2018)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5893512/"
+  },
+  {
+   "label": "AAP/HealthyChildren: A Parent’s Guide to Safe Sleep",
+   "url": "https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/A-Parents-Guide-to-Safe-Sleep.aspx"
+  },
+  {
+   "label": "NIH Safe to Sleep: Safe sleep environment",
+   "url": "https://safetosleep.nichd.nih.gov/reduce-risk/safe-sleep-environment"
+  },
+  {
+   "label": "HealthyChildren: Teething pain",
+   "url": "https://www.healthychildren.org/English/ages-stages/baby/teething-tooth-care/Pages/Teething-Pain.aspx"
+  },
+  {
+   "label": "HealthyChildren: Fever and your baby",
+   "url": "https://www.healthychildren.org/English/health-issues/conditions/fever/Pages/Fever-and-Your-Baby.aspx"
+  },
+  {
+   "label": "HealthyChildren: Emotional & social development 8–12 months (stranger anxiety)",
+   "url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/Emotional-and-Social-Development-8-12-Months.aspx"
+  },
+  {
+   "label": "CDC: Iron for infants and toddlers",
+   "url": "https://www.cdc.gov/infant-toddler-nutrition/vitamins-minerals/iron.html"
+  },
+  {
+   "label": "HealthyChildren: Choking prevention",
+   "url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/Pages/Choking-Prevention.aspx"
+  },
+  {
+   "label": "HealthyChildren: Children learning multiple languages",
+   "url": "https://www.healthychildren.org/english/ages-stages/gradeschool/school/pages/7-myths-facts-bilingual-children-learning-language.aspx"
+  },
+  {
+   "label": "HealthyChildren: Baby walkers, a dangerous choice",
+   "url": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/baby-walkers-a-dangerous-choice.aspx"
+  },
+  {
+   "label": "CDC milestones by 1 year",
+   "url": "https://www.cdc.gov/act-early/milestones/1-year.html"
+  },
+  {
+   "label": "Zhao & Kuhl 2016: music play in 9-month-olds",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4868410/"
+  },
+  {
+   "label": "Hanna & Meltzoff 1993: peer imitation by toddlers",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4215951/"
+  }
+ ]
+}
