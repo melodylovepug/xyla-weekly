@@ -139,3 +139,17 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var
 .lang button,.filters button,.tabs button,.q .btns button,.score .reset,nav.jump a{min-height:40px;display:inline-flex;align-items:center;justify-content:center}
 .check{min-height:44px;align-items:center}
 .lang{padding:2px}
+/* phone title scale */
+@media (max-width:600px){
+  .hero h1{font-size:21px}
+  h2{font-size:17px}
+  .big3 details.card>summary .t{font-size:16px}
+  details.card>summary .t{font-size:15px}
+  .q .qq{font-size:15px}
+  .say{font-size:15px}
+  .lucky-btn{font-size:16px;padding:14px}
+  .lucky-card h3{font-size:16px}
+  .q .verdict{font-size:15px}
+  .weeks a.card b{font-size:16px}
+  details.card>summary .ico{font-size:26px}
+}
