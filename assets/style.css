@@ -133,3 +133,4 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var
 .lang.big button{flex:1;font-size:18px;padding:12px;font-weight:650}
 .score .reset{margin-left:8px;font:inherit;font-size:13px;border:1px solid var(--line);background:#fff;border-radius:99px;padding:4px 10px;cursor:pointer}
 :lang(zh-Hans) body,html:lang(zh-Hans){line-height:1.65}
+.toprow.end{justify-content:flex-end}

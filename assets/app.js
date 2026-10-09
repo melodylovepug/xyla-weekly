@@ -32,27 +32,27 @@
       chooseLang: 'Language / 语言', loadFail: 'Couldn’t load this page', retry: 'Try refreshing.', pageTitle: 'Xyla Weekly'
     },
     zh: {
-      htmlLang: 'zh-Hans', roots: { Secure: '安全感', Curious: '好奇', Kind: '友善', Brave: '勇敢', 'Self-led': '自主', Healthy: '健康' },
-      allWeeks: '← 所有周', nowTitle: 'Xyla 现在', nowSub: function (n) { return '她正在做的 ' + n + ' 件事 · 点开看'; },
-      big3: '⭐ 本周 3 件大事', big3Hint: '点开卡片，每张 30 秒。',
-      topics: '💬 你这周问到的', topicsHint: '你问过的问题，简短回答。',
-      next: '🗺️ 接下来', hereBadge: 'Xyla 在这里', rulerLegend: function (a) { return 'Xyla（约 ' + a + ' 个月）· 绿色 = 独立走路的正常范围'; }, mo: '个月',
-      today: '✅ 今日清单', todayHint: '保存在这台手机上，每天自动重置。小进步也算数。',
-      tabDaily: '每天', tabOnce: '本周做一次', ofToday: function (d, n) { return '今天完成 ' + d + ' / ' + n; }, ofDone: function (d, n) { return '已完成 ' + d + ' / ' + n; }, allDone: ' 🎉 太棒了！',
-      quiz: '🤔 该做还是不该做？', quizHint: '先猜，再看为什么。', score: '得分', reset: '重来', doBtn: '✅ 该做', dontBtn: '❌ 不该做',
-      right: '👍 答对了！', wrong: '🙂 差一点。', DO: '✅ 该做', DONT: '❌ 不该做',
-      play: '🎲 幸运游戏', playHint: '不知道玩什么？点一下按钮。也可以按“根”筛选。', lucky: '🎲 帮我们挑一个游戏！', all: '全部', seeAll: '看所有游戏', ideas: function (n) { return n + ' 个点子'; },
-      scripts: '🗣️ 该怎么说', scriptsHint: '点开一个场景，看具体说什么。',
-      more: '📚 更多细节（可选）', moreHint: '想看再看，都收起来了。',
-      watch: '🩺 出现这些情况，打电话或问儿科医生', watchFoot: '直觉觉得不对劲？随时都可以问。',
-      videos: '🎬 本周所有视频', videosHint: function (n) { return n + ' 个来自可靠频道的短视频，点一下播放。视频都是英文的，在 YouTube 里可以试试打开字幕 → 自动翻译成中文。'; }, showAll: function (n) { return '显示全部 ' + n + ' 个视频'; },
-      openYT: '在 YouTube 打开 ↗', short: '短视频', enOnly: '英文视频', playVideo: '播放视频：',
-      sources: '参考资料', sourcesSub: '这一页背后的研究和指南', sourcesNote: '以下链接都是英文网站。',
-      footer: '一般信息，不是医疗建议；请咨询儿科医生。', made: '用爱为 Xyla 制作 💛',
-      nav: { big3: '⭐ 3件大事', topics: '💬 问题', today: '✅ 今日', quiz: '🤔 小测验', play: '🎲 游戏', scripts: '🗣️ 怎么说', next: '🗺️ 接下来', more: '📚 更多', watch: '🩺 看医生' },
-      homeSub: '每周一份，短小好点。最重要的放最前面。', weeks: '📅 每周内容', thisWeek: '本周',
-      howTitle: '怎么用', how: ['打开本周 → 看 <b>3 件大事</b>（2 分钟）。', '勾 <b>今日清单</b>（保存在你手机上）。', '没主意了？点 <b>🎲 幸运游戏</b>。'],
-      chooseLang: 'Language / 语言', loadFail: '页面加载失败', retry: '请刷新试试。', pageTitle: 'Xyla 每周'
+      htmlLang: 'zh-Hans', roots: { Secure: '安全感', Curious: '好奇心', Kind: '友爱', Brave: '勇敢', 'Self-led': '自主', Healthy: '健康' },
+      allWeeks: '← 全部', nowTitle: 'Xyla 最近', nowSub: function (n) { return '最近会的 ' + n + ' 件事，点开看'; },
+      big3: '⭐ 这周最重要的 3 件事', big3Hint: '点开看，一张半分钟。',
+      topics: '💬 你最近问的', topicsHint: '挑重点，简单说。',
+      next: '🗺️ 接下来会怎样', hereBadge: '现在在这', rulerLegend: function (a) { return 'Xyla（约 ' + a + ' 个月）· 绿色是独立走路的正常范围'; }, mo: '月',
+      today: '✅ 今天的小目标', todayHint: '存在这台手机里，每天自动清空。做到一点也算赢。',
+      tabDaily: '每天', tabOnce: '这周做一次', ofToday: function (d, n) { return '今天完成 ' + d + '/' + n; }, ofDone: function (d, n) { return '已完成 ' + d + '/' + n; }, allDone: ' 🎉 全部搞定！',
+      quiz: '🤔 这样做对吗？', quizHint: '先猜一猜，再看原因。', score: '答对', reset: '重来', doBtn: '✅ 可以', dontBtn: '❌ 别这样',
+      right: '👍 答对啦！', wrong: '🙂 差一点～', DO: '✅ 可以', DONT: '❌ 别这样',
+      play: '🎲 今天玩什么', playHint: '没主意？点一下随机抽一个，也可以按方向筛选。', lucky: '🎲 随机抽一个游戏！', all: '全部', seeAll: '全部游戏', ideas: function (n) { return '共 ' + n + ' 个'; },
+      scripts: '🗣️ 这时候怎么说', scriptsHint: '点开场景，直接照着说。',
+      more: '📚 想多了解再看', moreHint: '都折起来了，想看再点。',
+      watch: '🩺 有这些情况，问问儿科医生', watchFoot: '总觉得哪里不对劲？随时问，不用不好意思。',
+      videos: '🎬 这周的视频', videosHint: function (n) { return '共 ' + n + ' 个，都来自靠谱的频道，点一下就能看。视频是英文的，可以在 YouTube 里打开字幕，选“自动翻译 → 中文（简体）”。'; }, showAll: function (n) { return '展开全部 ' + n + ' 个视频'; },
+      openYT: '去 YouTube 看 ↗', short: '短视频', enOnly: '英文', playVideo: '播放：', origTitle: '原标题：',
+      sources: '参考资料', sourcesSub: '这页内容的出处', sourcesNote: '链接都是英文网站。',
+      footer: '以上是一般育儿信息，不是医疗建议，具体请问儿科医生。', made: '给 Xyla 的，满满都是爱 💛',
+      nav: { big3: '⭐ 3件事', topics: '💬 问答', today: '✅ 今天', quiz: '🤔 测一测', play: '🎲 玩什么', scripts: '🗣️ 怎么说', next: '🗺️ 接下来', more: '📚 更多', watch: '🩺 就医' },
+      homeSub: '每周一份，点开就看，重要的先说。', weeks: '📅 每周内容', thisWeek: '本周',
+      howTitle: '怎么用', how: ['打开本周，先看<b>最重要的 3 件事</b>，两分钟搞定。', '每天勾一勾<b>今天的小目标</b>，进度存在手机里。', '不知道玩什么？点<b>🎲 随机抽一个</b>。'],
+      chooseLang: 'Language / 语言', loadFail: '页面没加载出来', retry: '刷新一下试试。', pageTitle: 'Xyla 成长周记'
     }
   };
 
@@ -108,7 +108,7 @@
     return '<button class="yt" type="button" data-yt="' + esc(id) + '" style="background-image:url(' + thumb + ')" aria-label="' + esc(t.playVideo + title) + '">' +
       '<span class="play"></span><span class="cap"><b>▶ ' + esc(title) + '</b>' + esc(meta.join(' · ')) + '</span></button>' +
       '<a class="ytlink" href="' + url + '" target="_blank" rel="noopener">' + t.openYT + '</a>' +
-      (zh && v.lang === 'en' ? '<span class="ytlink"> · 原标题：' + esc(v.title) + '</span>' : '');
+      (zh && v.lang === 'en' ? '<span class="ytlink"> · ' + t.origTitle + esc(v.title) + '</span>' : '');
   }
   document.addEventListener('click', function (e) {
     var b = e.target.closest && e.target.closest('button.yt');
@@ -352,8 +352,8 @@
   function buildHome(list) {
     document.title = t.pageTitle;
     var root = document.getElementById('app'); root.innerHTML = '';
-    root.insertAdjacentHTML('beforeend', '<header class="hero"><h1>🧸 ' + t.pageTitle + '</h1><p class="sub">' + t.homeSub + '</p>' +
-      '<p class="small" style="margin:16px 0 6px">' + t.chooseLang + '</p>' + langToggleHTML(true) + '</header>');
+    root.insertAdjacentHTML('beforeend', '<header class="hero"><div class="toprow end"><span class="small">🌐</span>' + langToggleHTML(false) + '</div><h1>🧸 ' + t.pageTitle + '</h1><p class="sub">' + t.homeSub + '</p>' +
+      '</header>');
     var s = section('weeks', t.weeks, ''); s.className = 'weeks';
     var today = localISO();
     s.insertAdjacentHTML('beforeend', list.slice().reverse().map(function (x) {

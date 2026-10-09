@@ -7,7 +7,7 @@ Short, tappable weekly baby-development packs, in **English and 简体中文**. 
 **Privacy:** this repo is public. First name only, no birth date, addresses, photos, or private links.
 
 ## How it works
-- `index.html`: home page with the 中文 / English selector. Lists weeks from `weeks/weeks.json`.
+- `index.html`: home page with a compact 中文 / English toggle (top right, same as week pages). Lists weeks from `weeks/weeks.json`.
 - `week-XX.html`: tiny stub page with `<body data-week="week-XX">` (and a small 中文/English toggle in the header).
 - `weeks/week-XX.json`: that week's content, both languages side by side.
 - `assets/app.js` + `assets/style.css`: shared template and UI labels (both languages) for any week.
@@ -34,7 +34,7 @@ Cards refer to videos by ID (`"videos": ["YOUTUBE_ID"]`), so both languages use 
 5. Add an entry to `weeks/weeks.json` with `id`, `file`, `emoji`, `start`, `end`, plus `en` and `zh` objects (`title`, `age`, `dates`, `tagline`). Commit and push. Pages updates in ~1 minute.
 6. Check both languages on a phone-width screen (tap 中文 / English at the top).
 
-Chinese style: warm, plain Mandarin a parent would actually say (爸爸 / 妈妈 / 爷爷 / 拜拜). Not stiff word-for-word translation.
+Chinese style: write the zh block **from the meaning, not sentence by sentence**, the way an experienced mainland mom / 小红书育儿博主 would tell a friend. Short 口语 sentences, native word order, common parenting words (认生、大运动、精细动作、长牙、辅食、手指食物、独立入睡、陪玩、情绪安抚、修复关系、安全感). Avoid translationese (“当…的时候”chains, “进行…”, passive 被, overused “你的”, literal English metaphors). Facts and safety guidance must stay exactly the same as the English. Self-check every line: would a native speaker actually say it this way?
 
 ## Content fields (inside `en` / `zh`)
 | Field | What it shows |
