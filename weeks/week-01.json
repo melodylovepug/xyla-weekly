@@ -1,342 +1,673 @@
 {
  "id": "week-01",
  "emoji": "🧸",
- "title": "Week 1",
- "age": "~10½ months",
- "dates": "Sep 16–22, 2026",
  "start": "2026-09-16",
  "end": "2026-09-22",
- "oneLiner": "Match her real level, keep safety <b>one leap ahead</b> of her climbing, and stretch play past games she’s already mastered.",
- "now": [
-  "🧗 Pull-to-stand, cruises sideways",
-  "🪜 Climbs stairs",
-  "🛝 Playground ~2×/day",
-  "👂 Understands “no” and “give me”",
-  "🐦 Ditty Bird, give-and-take, peekaboo: mastered"
- ],
- "bigThree": [
-  {
-   "icon": "🪜",
-   "title": "Spot stairs & playground, especially going down",
-   "sub": "Safety",
-   "roots": [
-    "Brave",
-    "Healthy"
-   ],
-   "lines": [
-    "Down is harder than up. Hands ready on the way down.",
-    "Stay one safety leap ahead: gates, furniture anchors, cords, pull-down hazards.",
-    "“No” isn’t a brake yet. Understanding ≠ stopping mid-climb. You are the brake."
-   ],
-   "videos": [
-    {
-     "id": "X8pWIhVQ0Qc",
-     "title": "The SAFEST Way To Teach Baby To Go Down Stairs",
-     "channel": "Baby Milestones With Cherrick (pediatric PT)",
-     "length": "7:52"
-    }
-   ]
+ "videos": {
+  "X8pWIhVQ0Qc": {
+   "title": "The SAFEST Way To Teach Baby To Go Down Stairs",
+   "titleZh": "儿科物理治疗师：最安全的教宝宝下楼梯方法",
+   "channel": "Baby Milestones With Cherrick (pediatric PT)",
+   "channelZh": "Baby Milestones With Cherrick（儿科物理治疗师）",
+   "length": "7:52",
+   "lang": "en"
   },
-  {
-   "icon": "🧩",
-   "title": "Stretch play past mastered games",
-   "sub": "Thinking",
-   "roots": [
-    "Curious",
-    "Self-led"
-   ],
-   "lines": [
-    "Ditty Bird / peekaboo / give-me = 1–2 min warm-ups only.",
-    "Then go one step harder: hide-and-find, bring-it, pull-the-scarf, container lab.",
-    "Mastery without stretch = boredom, not learning."
-   ],
-   "videos": [
-    {
-     "id": "VNNsN9IJkws",
-     "title": "Experiences Build Brain Architecture",
-     "channel": "Harvard Center on the Developing Child",
-     "length": "1:57"
-    }
-   ]
+  "VNNsN9IJkws": {
+   "title": "Experiences Build Brain Architecture",
+   "titleZh": "经历塑造大脑结构",
+   "channel": "Harvard Center on the Developing Child",
+   "channelZh": "哈佛大学儿童发展中心",
+   "length": "1:57",
+   "lang": "en"
   },
-  {
-   "icon": "💬",
-   "title": "Narrate her goals (serve & return)",
-   "sub": "Connection",
-   "roots": [
-    "Kind",
-    "Secure"
-   ],
-   "lines": [
-    "She acts → you answer → she continues. That loop builds brain circuits.",
-    "Talk about what she’s already doing: “You’re climbing up… two feet!”",
-    "After a scare, comfort first, then let her choose to retry."
-   ],
-   "videos": [
-    {
-     "id": "KNrnZag17Ek",
-     "title": "5 Steps for Brain-Building Serve and Return",
-     "channel": "Harvard Center on the Developing Child",
-     "length": "6:07"
-    },
-    {
-     "id": "wRUeSafZtQg",
-     "title": "Learn About Serve & Return",
-     "channel": "Harvard Center on the Developing Child",
-     "length": "0:35",
-     "short": true
-    }
-   ]
+  "KNrnZag17Ek": {
+   "title": "5 Steps for Brain-Building Serve and Return",
+   "titleZh": "搭建大脑的“你来我往”5个步骤",
+   "channel": "Harvard Center on the Developing Child",
+   "channelZh": "哈佛大学儿童发展中心",
+   "length": "6:07",
+   "lang": "en"
+  },
+  "wRUeSafZtQg": {
+   "title": "Learn About Serve & Return",
+   "titleZh": "认识“你来我往”",
+   "channel": "Harvard Center on the Developing Child",
+   "channelZh": "哈佛大学儿童发展中心",
+   "length": "0:35",
+   "short": true,
+   "lang": "en"
+  },
+  "m_5u8-QSh6A": {
+   "title": "Serve & Return Interaction Shapes Brain Circuitry",
+   "titleZh": "“你来我往”的互动塑造大脑回路",
+   "channel": "Harvard Center on the Developing Child",
+   "channelZh": "哈佛大学儿童发展中心",
+   "length": "1:43",
+   "lang": "en"
   }
- ],
- "daily": [
-  "One spotted playground stretch (not only free chaos)",
-  "One next-level game (hide-find / bring-it / scarf / containers)",
-  "Stair-school or push-ferry session",
-  "Quiet 5–10 min floor time after the park",
-  "One language stretch: “Where’s ___?” or bring-it",
-  "Same bedtime order"
- ],
- "todos": [
-  "Safety leap-ahead: stairs, climbing, pull-down hazards",
-  "Read the serve-and-return idea once"
- ],
- "quiz": [
-  {
-   "q": "Keep Ditty Bird and peekaboo as the main games?",
-   "a": "dont",
-   "why": "She’s mastered them. Use them as warm-ups, then give her the next problem."
-  },
-  {
-   "q": "Push her to walk on her own for show?",
-   "a": "dont",
-   "why": "Cruising and stairs are already serious motor homework. Pressure adds fear, not skill."
-  },
-  {
-   "q": "Comfort after a fall, then let her choose to try again?",
-   "a": "do",
-   "why": "Recovery with you builds Brave. Forced retries can build fear."
-  },
-  {
-   "q": "Trust “she knows no” to keep her off the stairs?",
-   "a": "dont",
-   "why": "Understanding no isn’t the same as stopping mid-climb. Gates and your spot are the safety."
-  },
-  {
-   "q": "Short limit + a legal climb option?",
-   "a": "do",
-   "why": "“No stairs alone. Yes, climb this cushion hill with me.”"
-  },
-  {
-   "q": "Use screens to burn off energy?",
-   "a": "dont",
-   "why": "Busy bodies still need real-world problem-solving more than video."
-  }
- ],
- "plays": [
-  {
-   "emoji": "🧣",
-   "name": "Pull-the-scarf fishing",
-   "how": "Toy on a scarf; she pulls the scarf to get it.",
-   "roots": [
-    "Curious"
-   ]
-  },
-  {
-   "emoji": "🥣",
-   "name": "Dump & fill station",
-   "how": "Bowls, blocks, lids: in, out, dump.",
-   "roots": [
-    "Curious",
-    "Self-led"
-   ]
-  },
-  {
-   "emoji": "🫙",
-   "name": "Lid lab",
-   "how": "Containers with easy lids on/off. You narrate, she leads.",
-   "roots": [
-    "Curious"
-   ]
-  },
-  {
-   "emoji": "🧸",
-   "name": "Hide-and-find under a cloth",
-   "how": "Hide a toy while she watches: “Where’s bear?” Level up: hide while she looks away for a second.",
-   "roots": [
-    "Curious"
-   ]
-  },
-  {
-   "emoji": "📦",
-   "name": "Bring-it delivery",
-   "how": "“Give me” → “Put it in the bowl” → “Bring it to Mama.” Cheer the delivery.",
-   "roots": [
-    "Kind",
-    "Self-led"
-   ]
-  },
-  {
-   "emoji": "🧺",
-   "name": "Laundry-basket ferry",
-   "how": "A basket with a book inside to push across a cleared lane.",
-   "roots": [
-    "Healthy",
-    "Brave"
-   ]
-  },
-  {
-   "emoji": "🗼",
-   "name": "Stack & crash",
-   "how": "Stack blocks, she knocks them down on purpose.",
-   "roots": [
-    "Curious"
-   ]
-  },
-  {
-   "emoji": "🥁",
-   "name": "Drum kitchen",
-   "how": "Pots and wooden spoons.",
-   "roots": [
-    "Curious",
-    "Kind"
-   ]
-  },
-  {
-   "emoji": "🔦",
-   "name": "Flashlight on/off",
-   "how": "Supervised; she presses, you name “on / off.”",
-   "roots": [
-    "Curious"
-   ]
-  },
-  {
-   "emoji": "🪞",
-   "name": "Mirror play",
-   "how": "Faces and waves in a safe mirror.",
-   "roots": [
-    "Kind"
-   ]
-  },
-  {
-   "emoji": "📖",
-   "name": "Quiet board book",
-   "how": "No buttons. Point and name.",
-   "roots": [
-    "Kind",
-    "Curious"
-   ]
-  },
-  {
-   "emoji": "☎️",
-   "name": "Pretend sip / phone",
-   "how": "Cup to lips: “Sip.” Phone to ear: “Hi!” 10–30 seconds.",
-   "roots": [
-    "Curious",
-    "Kind"
-   ]
-  },
-  {
-   "emoji": "⚽",
-   "name": "Ball to a person",
-   "how": "Roll a ball back and forth.",
-   "roots": [
-    "Kind",
-    "Healthy"
-   ]
-  },
-  {
-   "emoji": "💧",
-   "name": "Water wipe station",
-   "how": "Damp cloth to wipe a tray, supervised.",
-   "roots": [
-    "Self-led"
-   ]
-  },
-  {
-   "emoji": "🛝",
-   "name": "Playground mission",
-   "how": "Pick ONE spotted stretch per visit, stop while she’s still happy.",
-   "roots": [
-    "Brave"
-   ]
-  }
- ],
- "scripts": [
-  {
-   "icon": "🪜",
-   "when": "She heads for the stairs alone",
-   "steps": [
-    {
-     "say": "Stop. Stairs are with Mama."
-    },
-    {
-     "say": "Yes, climb this cushion hill with me!"
-    }
-   ]
-  },
-  {
-   "icon": "🫶",
-   "when": "I snapped at the 40th stair dash",
-   "steps": [
-    {
-     "do": "Breathe, soften."
-    },
-    {
-     "say": "Mama used a loud voice. I’m sorry."
-    },
-    {
-     "do": "Hug and reconnect, then hold the limit."
-    }
-   ]
-  },
-  {
-   "icon": "👋",
-   "when": "Leaving the park",
-   "steps": [
-    {
-     "do": "Short, warm goodbye. Don’t sneak off."
-    },
-    {
-     "say": "Baibai slide! Time for the car."
-    }
-   ]
-  }
- ],
- "details": [
-  {
-   "icon": "🧠",
-   "title": "What’s going on in her brain",
-   "lines": [
-    "Balance and motor planning: how do I get up, across, down?",
-    "Means–end: “I do A to get B.” Ready for level 2–3.",
-    "Understands more than she says: names, simple “where’s ___?”",
-    "Frustration at limits is a strong body plus a big goal, not naughtiness."
-   ],
-   "videos": [
-    {
-     "id": "m_5u8-QSh6A",
-     "title": "Serve & Return Interaction Shapes Brain Circuitry",
-     "channel": "Harvard Center on the Developing Child",
-     "length": "1:43"
-    }
-   ]
-  },
-  {
-   "icon": "🗺️",
-   "title": "Coming in the next 4–8 weeks",
-   "lines": [
-    "Bolder climbing; up is easier than safe down.",
-    "Maybe brief stands without holding, maybe first steps (or later, both fine).",
-    "Tool use: stick, scarf, lids, nesting. More “I show you this.”",
-    "Bigger protests at limits; possible clinginess with strangers."
-   ]
-  }
- ],
- "sources": [
-  {
-   "label": "Harvard Center on the Developing Child: Serve and Return",
-   "url": "https://developingchild.harvard.edu/key-concept/serve-and-return/"
-  }
- ]
+ },
+ "en": {
+  "title": "Week 1",
+  "age": "~10½ months",
+  "dates": "Sep 16–22, 2026",
+  "oneLiner": "Match her real level, keep safety <b>one leap ahead</b> of her climbing, and stretch play past games she’s already mastered.",
+  "now": [
+   "🧗 Pull-to-stand, cruises sideways",
+   "🪜 Climbs stairs",
+   "🛝 Playground ~2×/day",
+   "👂 Understands “no” and “give me”",
+   "🐦 Ditty Bird, give-and-take, peekaboo: mastered"
+  ],
+  "bigThree": [
+   {
+    "icon": "🪜",
+    "title": "Spot stairs & playground, especially going down",
+    "sub": "Safety",
+    "roots": [
+     "Brave",
+     "Healthy"
+    ],
+    "lines": [
+     "Down is harder than up. Hands ready on the way down.",
+     "Stay one safety leap ahead: gates, furniture anchors, cords, pull-down hazards.",
+     "“No” isn’t a brake yet. Understanding ≠ stopping mid-climb. You are the brake."
+    ],
+    "videos": [
+     "X8pWIhVQ0Qc"
+    ]
+   },
+   {
+    "icon": "🧩",
+    "title": "Stretch play past mastered games",
+    "sub": "Thinking",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "lines": [
+     "Ditty Bird / peekaboo / give-me = 1–2 min warm-ups only.",
+     "Then go one step harder: hide-and-find, bring-it, pull-the-scarf, container lab.",
+     "Mastery without stretch = boredom, not learning."
+    ],
+    "videos": [
+     "VNNsN9IJkws"
+    ]
+   },
+   {
+    "icon": "💬",
+    "title": "Narrate her goals (serve & return)",
+    "sub": "Connection",
+    "roots": [
+     "Kind",
+     "Secure"
+    ],
+    "lines": [
+     "She acts → you answer → she continues. That loop builds brain circuits.",
+     "Talk about what she’s already doing: “You’re climbing up… two feet!”",
+     "After a scare, comfort first, then let her choose to retry."
+    ],
+    "videos": [
+     "KNrnZag17Ek",
+     "wRUeSafZtQg"
+    ]
+   }
+  ],
+  "daily": [
+   "One spotted playground stretch (not only free chaos)",
+   "One next-level game (hide-find / bring-it / scarf / containers)",
+   "Stair-school or push-ferry session",
+   "Quiet 5–10 min floor time after the park",
+   "One language stretch: “Where’s ___?” or bring-it",
+   "Same bedtime order"
+  ],
+  "todos": [
+   "Safety leap-ahead: stairs, climbing, pull-down hazards",
+   "Read the serve-and-return idea once"
+  ],
+  "quiz": [
+   {
+    "q": "Keep Ditty Bird and peekaboo as the main games?",
+    "a": "dont",
+    "why": "She’s mastered them. Use them as warm-ups, then give her the next problem."
+   },
+   {
+    "q": "Push her to walk on her own for show?",
+    "a": "dont",
+    "why": "Cruising and stairs are already serious motor homework. Pressure adds fear, not skill."
+   },
+   {
+    "q": "Comfort after a fall, then let her choose to try again?",
+    "a": "do",
+    "why": "Recovery with you builds Brave. Forced retries can build fear."
+   },
+   {
+    "q": "Trust “she knows no” to keep her off the stairs?",
+    "a": "dont",
+    "why": "Understanding no isn’t the same as stopping mid-climb. Gates and your spot are the safety."
+   },
+   {
+    "q": "Short limit + a legal climb option?",
+    "a": "do",
+    "why": "“No stairs alone. Yes, climb this cushion hill with me.”"
+   },
+   {
+    "q": "Use screens to burn off energy?",
+    "a": "dont",
+    "why": "Busy bodies still need real-world problem-solving more than video."
+   }
+  ],
+  "plays": [
+   {
+    "emoji": "🧣",
+    "name": "Pull-the-scarf fishing",
+    "how": "Toy on a scarf; she pulls the scarf to get it.",
+    "roots": [
+     "Curious"
+    ]
+   },
+   {
+    "emoji": "🥣",
+    "name": "Dump & fill station",
+    "how": "Bowls, blocks, lids: in, out, dump.",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ]
+   },
+   {
+    "emoji": "🫙",
+    "name": "Lid lab",
+    "how": "Containers with easy lids on/off. You narrate, she leads.",
+    "roots": [
+     "Curious"
+    ]
+   },
+   {
+    "emoji": "🧸",
+    "name": "Hide-and-find under a cloth",
+    "how": "Hide a toy while she watches: “Where’s bear?” Level up: hide while she looks away for a second.",
+    "roots": [
+     "Curious"
+    ]
+   },
+   {
+    "emoji": "📦",
+    "name": "Bring-it delivery",
+    "how": "“Give me” → “Put it in the bowl” → “Bring it to Mama.” Cheer the delivery.",
+    "roots": [
+     "Kind",
+     "Self-led"
+    ]
+   },
+   {
+    "emoji": "🧺",
+    "name": "Laundry-basket ferry",
+    "how": "A basket with a book inside to push across a cleared lane.",
+    "roots": [
+     "Healthy",
+     "Brave"
+    ]
+   },
+   {
+    "emoji": "🗼",
+    "name": "Stack & crash",
+    "how": "Stack blocks, she knocks them down on purpose.",
+    "roots": [
+     "Curious"
+    ]
+   },
+   {
+    "emoji": "🥁",
+    "name": "Drum kitchen",
+    "how": "Pots and wooden spoons.",
+    "roots": [
+     "Curious",
+     "Kind"
+    ]
+   },
+   {
+    "emoji": "🔦",
+    "name": "Flashlight on/off",
+    "how": "Supervised; she presses, you name “on / off.”",
+    "roots": [
+     "Curious"
+    ]
+   },
+   {
+    "emoji": "🪞",
+    "name": "Mirror play",
+    "how": "Faces and waves in a safe mirror.",
+    "roots": [
+     "Kind"
+    ]
+   },
+   {
+    "emoji": "📖",
+    "name": "Quiet board book",
+    "how": "No buttons. Point and name.",
+    "roots": [
+     "Kind",
+     "Curious"
+    ]
+   },
+   {
+    "emoji": "☎️",
+    "name": "Pretend sip / phone",
+    "how": "Cup to lips: “Sip.” Phone to ear: “Hi!” 10–30 seconds.",
+    "roots": [
+     "Curious",
+     "Kind"
+    ]
+   },
+   {
+    "emoji": "⚽",
+    "name": "Ball to a person",
+    "how": "Roll a ball back and forth.",
+    "roots": [
+     "Kind",
+     "Healthy"
+    ]
+   },
+   {
+    "emoji": "💧",
+    "name": "Water wipe station",
+    "how": "Damp cloth to wipe a tray, supervised.",
+    "roots": [
+     "Self-led"
+    ]
+   },
+   {
+    "emoji": "🛝",
+    "name": "Playground mission",
+    "how": "Pick ONE spotted stretch per visit, stop while she’s still happy.",
+    "roots": [
+     "Brave"
+    ]
+   }
+  ],
+  "scripts": [
+   {
+    "icon": "🪜",
+    "when": "She heads for the stairs alone",
+    "steps": [
+     {
+      "say": "Stop. Stairs are with Mama."
+     },
+     {
+      "say": "Yes, climb this cushion hill with me!"
+     }
+    ]
+   },
+   {
+    "icon": "🫶",
+    "when": "I snapped at the 40th stair dash",
+    "steps": [
+     {
+      "do": "Breathe, soften."
+     },
+     {
+      "say": "Mama used a loud voice. I’m sorry."
+     },
+     {
+      "do": "Hug and reconnect, then hold the limit."
+     }
+    ]
+   },
+   {
+    "icon": "👋",
+    "when": "Leaving the park",
+    "steps": [
+     {
+      "do": "Short, warm goodbye. Don’t sneak off."
+     },
+     {
+      "say": "Baibai slide! Time for the car."
+     }
+    ]
+   }
+  ],
+  "details": [
+   {
+    "icon": "🧠",
+    "title": "What’s going on in her brain",
+    "lines": [
+     "Balance and motor planning: how do I get up, across, down?",
+     "Means–end: “I do A to get B.” Ready for level 2–3.",
+     "Understands more than she says: names, simple “where’s ___?”",
+     "Frustration at limits is a strong body plus a big goal, not naughtiness."
+    ],
+    "videos": [
+     "m_5u8-QSh6A"
+    ]
+   },
+   {
+    "icon": "🗺️",
+    "title": "Coming in the next 4–8 weeks",
+    "lines": [
+     "Bolder climbing; up is easier than safe down.",
+     "Maybe brief stands without holding, maybe first steps (or later, both fine).",
+     "Tool use: stick, scarf, lids, nesting. More “I show you this.”",
+     "Bigger protests at limits; possible clinginess with strangers."
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "Harvard Center on the Developing Child: Serve and Return",
+    "url": "https://developingchild.harvard.edu/key-concept/serve-and-return/"
+   }
+  ]
+ },
+ "zh": {
+  "title": "第1周",
+  "age": "约10个半月",
+  "dates": "2026年9月16日–22日",
+  "oneLiner": "跟上她真实的水平，安全措施<b>比她的攀爬早一步</b>，把她已经玩熟的游戏升级。",
+  "now": [
+   "🧗 能扶着站起来，扶着横着走",
+   "🪜 会爬楼梯",
+   "🛝 每天去游乐场约2次",
+   "👂 听得懂“不行”和“给我”",
+   "🐦 Ditty Bird、你给我拿、躲猫猫：都玩熟了"
+  ],
+  "bigThree": [
+   {
+    "icon": "🪜",
+    "title": "楼梯和游乐场要护着，尤其是往下",
+    "sub": "安全",
+    "roots": [
+     "Brave",
+     "Healthy"
+    ],
+    "lines": [
+     "往下比往上难。往下的时候手要随时准备好。",
+     "安全措施比她早一步：安全门、固定家具、电线、会被拉倒的东西。",
+     "“不行”还不是刹车。听得懂不等于爬到一半能停下。你才是刹车。"
+    ],
+    "videos": [
+     "X8pWIhVQ0Qc"
+    ]
+   },
+   {
+    "icon": "🧩",
+    "title": "把玩熟的游戏升级",
+    "sub": "思考",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "lines": [
+     "Ditty Bird / 躲猫猫 / 给我 = 只当1–2分钟热身。",
+     "然后难一步：找藏起来的玩具、送东西、拉围巾、容器实验。",
+     "只玩会的、不加挑战，是无聊，不是学习。"
+    ],
+    "videos": [
+     "VNNsN9IJkws"
+    ]
+   },
+   {
+    "icon": "💬",
+    "title": "说出她想做的事（你来我往）",
+    "sub": "连接",
+    "roots": [
+     "Kind",
+     "Secure"
+    ],
+    "lines": [
+     "她做 → 你回应 → 她继续。这个循环在搭建大脑回路。",
+     "说她正在做的事：“你在往上爬……两只脚！”",
+     "吓到或摔了以后，先安慰，再让她自己决定要不要再试。"
+    ],
+    "videos": [
+     "KNrnZag17Ek",
+     "wRUeSafZtQg"
+    ]
+   }
+  ],
+  "daily": [
+   "游乐场做一次有人护着的小挑战（不只是乱跑）",
+   "一个升级游戏（找藏的玩具 / 送东西 / 拉围巾 / 容器）",
+   "一次楼梯课或推车练习",
+   "公园回来后，安静地在地上玩5–10分钟",
+   "一次语言练习：“___在哪儿？”或送东西",
+   "睡前顺序不变"
+  ],
+  "todos": [
+   "安全早一步：楼梯、攀爬、会被拉倒的东西",
+   "读一遍“你来我往”的理念"
+  ],
+  "quiz": [
+   {
+    "q": "把 Ditty Bird 和躲猫猫当主要游戏？",
+    "a": "dont",
+    "why": "她已经玩熟了。当热身就好，然后给她下一个难题。"
+   },
+   {
+    "q": "为了给人看，逼她自己走路？",
+    "a": "dont",
+    "why": "扶着走和爬楼梯已经是很重的运动功课了。施压只会添恐惧，不会添本事。"
+   },
+   {
+    "q": "摔了先安慰，再让她自己决定要不要再试？",
+    "a": "do",
+    "why": "有你陪着缓过来，她才会变勇敢。逼她再试可能会让她害怕。"
+   },
+   {
+    "q": "相信“她懂不行”，就能让她不上楼梯？",
+    "a": "dont",
+    "why": "懂“不行”不等于爬到一半能停。安全门和你的保护才是安全。"
+   },
+   {
+    "q": "简短的规则 + 一个可以爬的选择？",
+    "a": "do",
+    "why": "“不能自己上楼梯。可以，跟妈妈一起爬这个靠垫山。”"
+   },
+   {
+    "q": "用屏幕帮她消耗精力？",
+    "a": "dont",
+    "why": "精力旺盛的身体，更需要在真实世界里动手解决问题，而不是看视频。"
+   }
+  ],
+  "plays": [
+   {
+    "emoji": "🧣",
+    "name": "拉围巾钓玩具",
+    "how": "玩具放在围巾上，她拉围巾就能拿到。",
+    "roots": [
+     "Curious"
+    ]
+   },
+   {
+    "emoji": "🥣",
+    "name": "倒出来、装进去",
+    "how": "碗、积木、盖子：放进去、拿出来、倒掉。",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ]
+   },
+   {
+    "emoji": "🫙",
+    "name": "盖子实验室",
+    "how": "盖子好开的容器，盖上又打开。你来说，她来主导。",
+    "roots": [
+     "Curious"
+    ]
+   },
+   {
+    "emoji": "🧸",
+    "name": "布下面找玩具",
+    "how": "当着她的面把玩具藏在布下：“小熊在哪儿？”升级：趁她转头一秒时藏。",
+    "roots": [
+     "Curious"
+    ]
+   },
+   {
+    "emoji": "📦",
+    "name": "送东西",
+    "how": "“给我” → “放进碗里” → “拿给妈妈”。送到了就欢呼。",
+    "roots": [
+     "Kind",
+     "Self-led"
+    ]
+   },
+   {
+    "emoji": "🧺",
+    "name": "洗衣篮摆渡",
+    "how": "篮子里放本书，推着穿过清空的通道。",
+    "roots": [
+     "Healthy",
+     "Brave"
+    ]
+   },
+   {
+    "emoji": "🗼",
+    "name": "搭了再推倒",
+    "how": "搭积木，让她故意推倒。",
+    "roots": [
+     "Curious"
+    ]
+   },
+   {
+    "emoji": "🥁",
+    "name": "厨房打鼓",
+    "how": "锅和木勺。",
+    "roots": [
+     "Curious",
+     "Kind"
+    ]
+   },
+   {
+    "emoji": "🔦",
+    "name": "手电筒开开关关",
+    "how": "大人看着；她来按，你说“开 / 关”。",
+    "roots": [
+     "Curious"
+    ]
+   },
+   {
+    "emoji": "🪞",
+    "name": "照镜子",
+    "how": "在安全的镜子前做鬼脸、挥挥手。",
+    "roots": [
+     "Kind"
+    ]
+   },
+   {
+    "emoji": "📖",
+    "name": "安静的硬纸板书",
+    "how": "没有按钮的书。指一指，说名字。",
+    "roots": [
+     "Kind",
+     "Curious"
+    ]
+   },
+   {
+    "emoji": "☎️",
+    "name": "假装喝水 / 打电话",
+    "how": "杯子放嘴边：“喝。”电话放耳边：“喂！”10–30秒就够。",
+    "roots": [
+     "Curious",
+     "Kind"
+    ]
+   },
+   {
+    "emoji": "⚽",
+    "name": "把球滚给人",
+    "how": "来回滚球。",
+    "roots": [
+     "Kind",
+     "Healthy"
+    ]
+   },
+   {
+    "emoji": "💧",
+    "name": "擦水小站",
+    "how": "用湿布擦托盘，大人在旁边看着。",
+    "roots": [
+     "Self-led"
+    ]
+   },
+   {
+    "emoji": "🛝",
+    "name": "游乐场任务",
+    "how": "每次只挑一个有人护着的小挑战，趁她还开心时就停。",
+    "roots": [
+     "Brave"
+    ]
+   }
+  ],
+  "scripts": [
+   {
+    "icon": "🪜",
+    "when": "她自己往楼梯跑",
+    "steps": [
+     {
+      "say": "停。上楼梯要和妈妈一起。"
+     },
+     {
+      "say": "可以，跟妈妈一起爬这个靠垫山！"
+     }
+    ]
+   },
+   {
+    "icon": "🫶",
+    "when": "她第40次冲向楼梯，我发火了",
+    "steps": [
+     {
+      "do": "深呼吸，放软语气。"
+     },
+     {
+      "say": "妈妈刚才声音太大了。对不起。"
+     },
+     {
+      "do": "抱抱她，重新连接，然后坚持规则。"
+     }
+    ]
+   },
+   {
+    "icon": "👋",
+    "when": "离开公园",
+    "steps": [
+     {
+      "do": "简短、温暖地告别。别偷偷溜走。"
+     },
+     {
+      "say": "滑梯拜拜！我们上车啦。"
+     }
+    ]
+   }
+  ],
+  "details": [
+   {
+    "icon": "🧠",
+    "title": "她的大脑在忙什么",
+    "lines": [
+     "平衡和动作计划：我怎么上去、过去、下来？",
+     "手段和目的：“我做A就能得到B。”可以玩更难一点的了。",
+     "她懂的比说的多：名字、简单的“___在哪儿？”",
+     "被拦住就发脾气，是身体有劲加上想法很大，不是调皮。"
+    ],
+    "videos": [
+     "m_5u8-QSh6A"
+    ]
+   },
+   {
+    "icon": "🗺️",
+    "title": "接下来4–8周",
+    "lines": [
+     "攀爬更大胆；往上比安全地往下容易。",
+     "可能会短暂地不扶站，可能迈出第一步（也可能晚一点，都正常）。",
+     "开始用工具：棍子、围巾、盖子、套杯。更多“给你看这个”。",
+     "被拦住时抗议更大；见生人可能更黏人。"
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "哈佛大学儿童发展中心：Serve and Return（你来我往）",
+    "url": "https://developingchild.harvard.edu/key-concept/serve-and-return/"
+   }
+  ]
+ }
 }

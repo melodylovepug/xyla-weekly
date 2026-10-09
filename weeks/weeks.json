@@ -1,4 +1,8 @@
 [
-  {"id":"week-01","file":"week-01.html","emoji":"🧸","title":"Week 1","age":"~10½ months","dates":"Sep 16–22, 2026","start":"2026-09-16","end":"2026-09-22","tagline":"Advanced mover: spot the stairs, stretch play past mastered games"},
-  {"id":"week-03","file":"week-03.html","emoji":"🌱","title":"Week 3","age":"~11 months","dates":"Oct 4–17, 2026","start":"2026-10-04","end":"2026-10-17","tagline":"Standing on purpose · first words · safe floor bed"}
+ {"id":"week-01","file":"week-01.html","emoji":"🧸","start":"2026-09-16","end":"2026-09-22",
+  "en":{"title":"Week 1","age":"~10½ months","dates":"Sep 16–22, 2026","tagline":"Advanced mover: spot the stairs, stretch play past mastered games"},
+  "zh":{"title":"第1周","age":"约10个半月","dates":"2026年9月16日–22日","tagline":"爱动的宝宝：护好楼梯，把玩熟的游戏升级"}},
+ {"id":"week-03","file":"week-03.html","emoji":"🌱","start":"2026-10-04","end":"2026-10-17",
+  "en":{"title":"Week 3","age":"~11 months","dates":"Oct 4–17, 2026","tagline":"Standing on purpose · first words · safe floor bed"},
+  "zh":{"title":"第3周","age":"约11个月","dates":"2026年10月4日–17日","tagline":"主动站立 · 学说话 · 安全的地床"}}
 ]
