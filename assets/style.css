@@ -183,3 +183,28 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var
 .tl.sched li li b{display:inline}
 .refs{font-size:13px;color:var(--soft);margin:10px 0 0;line-height:1.5}
 .refs a{color:var(--accent2)}
+/* guide pages: grouped checklists, handout form, print sheet */
+.cgroup{padding:0}
+.gtitle{margin:0;padding:10px 14px;font-weight:700;font-size:14px;background:#fff7f0;border-bottom:1px solid var(--line)}
+.check span small{display:block;color:var(--soft);font-size:12px;margin-top:2px;text-decoration:none}
+.check.done span small{text-decoration:none}
+.badge.ok{background:var(--good);font-style:normal;text-decoration:none}
+.check.done .badge.ok{text-decoration:none}
+#pack>.cbtns.sm,#papers>.cbtns.sm{grid-template-columns:1fr}
+.aform{padding:12px 14px}
+.afield{display:block;margin:0 0 10px}
+.afield b{display:block;font-size:13px;margin-bottom:3px}
+.afield textarea{width:100%;box-sizing:border-box;font:inherit;font-size:15px;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:#fffdfb;resize:vertical;min-height:44px}
+.aform .cbtns{grid-template-columns:1fr 1fr}
+.psheet{display:none}
+@media print{
+  body{background:#fff}
+  body.printing-about #app>*:not(#about),body.printing-about #about>*:not(.psheet),body.printing-about nav.jump{display:none!important}
+  body.printing-about .psheet{display:block;color:#000;font-size:12pt}
+  .psheet h2{font-size:18pt;margin:0 0 6pt}
+  .psheet table{width:100%;border-collapse:collapse}
+  .psheet th,.psheet td{border:1px solid #999;padding:6pt;vertical-align:top;text-align:left}
+  .psheet th{width:30%;background:#f3f3f3}
+  .psheet .blank{display:block;border-bottom:1px solid #999;height:16pt}
+  .psheet .pfoot{font-size:9pt;color:#444}
+}

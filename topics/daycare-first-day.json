@@ -1,0 +1,1410 @@
+{
+ "id": "daycare-first-day",
+ "kind": "guide",
+ "emoji": "🎒",
+ "version": 1,
+ "videos": {
+  "MrCQmbt2DTs": {
+   "title": "Toddler separation anxiety: easing transitions, what helps",
+   "titleZh": "幼儿分离焦虑：怎么让过渡更顺、什么方法管用",
+   "channel": "PedsDocTalk (pediatrician)",
+   "channelZh": "PedsDocTalk（儿科医生）",
+   "length": "12:38",
+   "lang": "en"
+  }
+ },
+ "sources": [
+  {
+   "label": "ZERO TO THREE — Separation anxiety",
+   "url": "https://www.zerotothree.org/resource/separation-anxiety/"
+  },
+  {
+   "label": "AAP HealthyChildren — Making baby drop-off at child care easier",
+   "url": "https://healthychildren.org/English/family-life/work-and-child-care/Pages/making-baby-drop-off-at-child-care-easier.aspx"
+  },
+  {
+   "label": "AAP HealthyChildren — How to ease your child's separation anxiety",
+   "url": "https://www.healthychildren.org/English/ages-stages/toddler/Pages/Soothing-Your-Childs-Separation-Anxiety.aspx"
+  },
+  {
+   "label": "AAP HealthyChildren — Preparing your child for child care",
+   "url": "https://healthychildren.org/English/family-life/work-and-child-care/Pages/preparing-your-child-for-child-care.aspx"
+  },
+  {
+   "label": "AAP HealthyChildren — When to keep your child home from child care",
+   "url": "https://www.healthychildren.org/English/family-life/work-and-child-care/Pages/When-to-Keep-Your-Child-Home-from-Child-Care.aspx"
+  },
+  {
+   "label": "AAP HealthyChildren — Reducing the spread of illness in child care",
+   "url": "https://www.healthychildren.org/English/health-issues/conditions/prevention/Pages/Prevention-In-Child-Care-or-School.aspx"
+  },
+  {
+   "label": "AAP HealthyChildren — Recommended drinks for young children 0–5",
+   "url": "https://www.healthychildren.org/English/healthy-living/nutrition/Pages/Recommended-Drinks-for-Young-Children-Ages-0-5.aspx"
+  },
+  {
+   "label": "California Dept. of Education — The first days",
+   "url": "https://www.cde.ca.gov/sp/Cd/re/caqfirstdays.asp"
+  }
+ ],
+ "en": {
+  "title": "Daycare: first day",
+  "sub": "Packing, paperwork, a countdown, a handout for teachers, and a goodbye that works",
+  "oneLiner": "<b>Short, warm, same every day — then leave.</b> Xyla (~11 months, about to turn 1) is in peak stranger-anxiety age, so tears at drop-off are normal and usually stop soon after you go. Prep the bag and forms early so the last week is just about her.",
+  "labels": {
+   "nav": {
+    "pack": "🎒 Pack",
+    "papers": "📋 Forms",
+    "plan": "📅 Countdown",
+    "about": "🧾 About Xyla",
+    "scripts": "👋 Goodbye",
+    "normal": "🌧️ Normal?",
+    "why": "🔬 Why"
+   },
+   "packT": "🎒 Packing list",
+   "packHint": "From the daycare's own list, plus what Xyla needs. Saved on this phone. Ticks are shared by both languages.",
+   "papersT": "📋 Paperwork & to-dos",
+   "papersHint": "Some are already done (green). Tick the rest as you go.",
+   "progress": "{d} of {n} done",
+   "preBadge": "done ✓",
+   "resetList": "↺ Reset this list",
+   "planT": "📅 Countdown plan",
+   "planHint": "From two weeks out to the end of week one.",
+   "aboutT": "🧾 “All about Xyla” for teachers",
+   "aboutHint": "Pre-filled with what we know. Fill the blanks, then print or save as PDF. What you type is saved on this phone only.",
+   "blank": "(fill in)",
+   "printBtn": "🖨️ Print / PDF",
+   "printEn": "English",
+   "resetForm": "↺ Clear my edits",
+   "aboutFoot": "Tip: on iPhone, Print → pinch the preview → Share → Save to Files to get a PDF.",
+   "byeT": "👋 The goodbye",
+   "byeHint": "Tap a moment to see what to do and say.",
+   "normalT": "🌧️ What’s normal in weeks 1–4",
+   "normalHint": "Most of this is a sign she’s attached to you, not that something’s wrong.",
+   "talkT": "Talk to the teacher (or pediatrician) if…",
+   "whyT": "🔬 Why this works",
+   "whyHint": "Short notes from ZERO TO THREE and the AAP."
+  },
+  "pack": [
+   {
+    "title": "🏷️ Label everything first",
+    "items": [
+     {
+      "id": "stickers",
+      "text": "Name stickers",
+      "pre": true
+     },
+     {
+      "id": "stamp",
+      "text": "Name stamp for clothes",
+      "pre": true
+     },
+     {
+      "id": "lab-clothes",
+      "text": "Stamp every piece of clothing",
+      "note": "Tags of shirts, pants, socks, hats, coat. First + last name; unlabeled lost items usually get donated."
+     },
+     {
+      "id": "lab-bottles",
+      "text": "Stickers on water bottles and cups",
+      "note": "Lid and body, both."
+     },
+     {
+      "id": "lab-bedding",
+      "text": "Label the crib sheet and blanket",
+      "note": "Stamp the corner tag."
+     },
+     {
+      "id": "lab-shoes",
+      "text": "Label both pairs of shoes",
+      "note": "Sticker inside the tongue or heel."
+     },
+     {
+      "id": "lab-comfort",
+      "text": "Label pacifier / lovey (only if allowed)",
+      "note": "Ask first; many daycares don't allow items from home."
+     },
+     {
+      "id": "lab-misc",
+      "text": "Label diaper pack, wipes, creams",
+      "note": "Write on the pack itself."
+     }
+    ]
+   },
+   {
+    "title": "🛏️ Stays at daycare",
+    "items": [
+     {
+      "id": "diapers",
+      "text": "Taped diapers (not pull-ups)",
+      "note": "The daycare asked for taped ones at this age. Start with a big pack."
+     },
+     {
+      "id": "wipes",
+      "text": "Wipes"
+     },
+     {
+      "id": "sheet",
+      "text": "Standard crib sheet",
+      "note": "Comes home Friday to wash, back Monday. A second set helps."
+     },
+     {
+      "id": "blanket",
+      "text": "Blanket for nap"
+     },
+     {
+      "id": "clothes",
+      "text": "2–3 full changes of clothes",
+      "note": "Long pants, tops, socks. Replace whatever comes home dirty."
+     },
+     {
+      "id": "shoes-in",
+      "text": "Indoor shoes",
+      "note": "Soft, flexible soles; easy for cruising."
+     },
+     {
+      "id": "bibs",
+      "text": "Bibs (3–5)"
+     },
+     {
+      "id": "coat",
+      "text": "Coat / rain jacket",
+      "note": "Kids go outside daily, rain or shine. A one-piece rain suit + warm hat helps."
+     },
+     {
+      "id": "cream",
+      "text": "Optional: diaper cream & sunscreen",
+      "note": "Original containers, labeled, with the daycare's medication form."
+     }
+    ]
+   },
+   {
+    "title": "🎒 Goes back and forth daily",
+    "items": [
+     {
+      "id": "bottles",
+      "text": "Water bottles (2)",
+      "note": "Home every day, washed, refilled with fresh water."
+     },
+     {
+      "id": "shoes-out",
+      "text": "Supportive outdoor shoes",
+      "note": "Good for wobbly first steps."
+     },
+     {
+      "id": "cup",
+      "text": "Her own cup for milk (if they want one)",
+      "note": "Ask whether they use their cups or yours; straw or open cup, not a bottle."
+     },
+     {
+      "id": "bag",
+      "text": "Wet bag for dirty clothes"
+     }
+    ]
+   },
+   {
+    "title": "💛 Comfort (ask first)",
+    "items": [
+     {
+      "id": "photo",
+      "text": "Small family photo for her cubby",
+      "note": "Ask the teacher; most love this."
+     },
+     {
+      "id": "lovey",
+      "text": "Lovey or pacifier for nap — only if allowed",
+      "note": "If not allowed, a T-shirt that smells like you can be an option to ask about."
+     },
+     {
+      "id": "song",
+      "text": "Write down her favorite songs",
+      "note": "Put them on the handout below."
+     }
+    ]
+   }
+  ],
+  "papers": [
+   {
+    "title": "✅ Enrollment",
+    "items": [
+     {
+      "id": "enroll",
+      "text": "Enrollment / registration forms",
+      "pre": true
+     },
+     {
+      "id": "fees",
+      "text": "First payments made",
+      "pre": true
+     },
+     {
+      "id": "handbook",
+      "text": "Signed the parent handbook",
+      "pre": true
+     },
+     {
+      "id": "emerg",
+      "text": "Emergency contacts sent",
+      "pre": true
+     },
+     {
+      "id": "imm",
+      "text": "Immunization record sent",
+      "pre": true
+     },
+     {
+      "id": "app",
+      "text": "Daycare app installed; both parents added",
+      "note": "Turn on notifications.",
+      "pre": true
+     }
+    ]
+   },
+   {
+    "title": "🩺 Health",
+    "items": [
+     {
+      "id": "wellvisit",
+      "text": "Book the 12-month checkup",
+      "note": "Ask for any forms the daycare needs (annual physical) and get shots done."
+     },
+     {
+      "id": "imm2",
+      "text": "Send the updated immunization record after the 12-month shots"
+     },
+     {
+      "id": "allergy",
+      "text": "Tell the daycare in writing: allergies, medical needs, diet",
+      "note": "Even “no known allergies” is worth writing down. Allergy plans and meds must be in before day one."
+     },
+     {
+      "id": "medform",
+      "text": "Medication form for diaper cream / sunscreen (if sending)"
+     },
+     {
+      "id": "milkplan",
+      "text": "Agree on milk: whole milk, formula, or both — and cup vs bottle",
+      "note": "Tell the teacher where she is in the switch."
+     }
+    ]
+   },
+   {
+    "title": "📱 Admin",
+    "items": [
+     {
+      "id": "photo-ok",
+      "text": "Decide on the photo release"
+     },
+     {
+      "id": "pickup",
+      "text": "Check who's allowed to pick up (they'll need ID)"
+     },
+     {
+      "id": "age",
+      "text": "Confirm her age fits the class on day one"
+     },
+     {
+      "id": "questions",
+      "text": "Send your questions to the daycare (list in the countdown)"
+     },
+     {
+      "id": "calendar",
+      "text": "Save the closure dates to your calendar"
+     },
+     {
+      "id": "backup",
+      "text": "Line up backup care for sick days",
+      "note": "She will catch colds; have a plan B and talk to work about flexibility."
+     },
+     {
+      "id": "handout",
+      "text": "Print “All about Xyla” and bring it to a visit"
+     }
+    ]
+   }
+  ],
+  "plan": {
+   "steps": [
+    {
+     "t": "2 weeks before",
+     "lines": [
+      "Shop and <b>label everything</b> (stickers + stamp are ready).",
+      "Send your questions: milk type & cup, how they cut food for a 1-year-old, nap setup, lovey/pacifier, short first days, family photo.",
+      "Start the <b>milk switch</b> to whole milk from a cup around her birthday (see Milk at one), so she's not learning a new drink and a new place in the same week.",
+      "Practice <b>short separations</b>: 1–2 hours with a grandparent or sitter, using the same goodbye you'll use at daycare.",
+      "Book the 12-month checkup."
+     ]
+    },
+    {
+     "t": "1 week before",
+     "lines": [
+      "<b>Naps:</b> daycare usually has one midday nap. If she still naps twice, push the morning nap a bit later every few days. Car and stroller naps are short, so protect one real nap at home.",
+      "Practice falling asleep on her floor bed with her daycare sheet + blanket, so the smell is familiar.",
+      "<b>Food:</b> she's teething, so keep soft textures; offer soft chicken (her favorite) next to new foods. Practice finger foods and a cup at meals.",
+      "Talk about it in small doses: “You'll play at school, then Mama comes back.”",
+      "Fill in the handout; pick a <b>goodbye song</b> she loves to share with the teachers."
+     ]
+    },
+    {
+     "t": "Warm-up visits",
+     "lines": [
+      "Stay with her. Sit on the floor and let her come back to you as her “safe base”.",
+      "Let the teacher play near her first before holding her — she warms up slowly.",
+      "Ask if you can drop off the labeled supplies on the last visit.",
+      "Ask how they'll update you on day one."
+     ]
+    },
+    {
+     "t": "Night before",
+     "lines": [
+      "Bag by the door; outfit out; bottles washed and ready to fill.",
+      "Early bedtime. Keep the evening calm and boring.",
+      "Charge your phone; app notifications on."
+     ]
+    },
+    {
+     "t": "Morning of",
+     "lines": [
+      "Normal wake-up, normal breakfast, unhurried. Leave extra time.",
+      "Fill water bottles fresh.",
+      "Sing your daycare song in the car or stroller."
+     ]
+    },
+    {
+     "t": "Drop-off",
+     "lines": [
+      "Sign in. Help her settle for a couple of minutes, then do <b>the same quick goodbye</b> (see below).",
+      "Hand her to a teacher, say goodbye, and <b>leave</b>. Never sneak out.",
+      "If she cries, that's okay. Don't come back in. Message the teacher 15–20 minutes later if you need to know."
+     ]
+    },
+    {
+     "t": "Pickup",
+     "lines": [
+      "Get down to her level: “Mama came back, like I said!” Big cuddle.",
+      "Take home bottles and dirty clothes; restock.",
+      "Quiet evening, early bed. Clinginess tonight is normal."
+     ]
+    },
+    {
+     "t": "First week",
+     "lines": [
+      "If the daycare allows, <b>shorter days first</b> (e.g. pick up after nap), then build up.",
+      "Same person, same time, same goodbye as much as you can.",
+      "Expect tiredness, more night waking, and her first cold. Keep weekends low-key.",
+      "Check in with the teacher at the end of week 1 and week 2."
+     ]
+    }
+   ],
+   "note": "These steps are general advice; the daycare's own rules come first."
+  },
+  "about": {
+   "title": "All about Xyla",
+   "intro": "Hi! I'm Xyla. Here's how to help me feel at home.",
+   "foot": "Made by Xyla's family. Thank you for taking care of me!",
+   "fields": [
+    {
+     "id": "name",
+     "label": "My name",
+     "value": "Xyla",
+     "rows": 1
+    },
+    {
+     "id": "age",
+     "label": "Age",
+     "value": "About 12 months",
+     "rows": 1
+    },
+    {
+     "id": "words",
+     "label": "Words I say",
+     "value": "baba, mama, yeye (= grandpa in Mandarin), baibai (= bye-bye). I wave bye.",
+     "rows": 2
+    },
+    {
+     "id": "lang",
+     "label": "Languages at home",
+     "value": "",
+     "ph": "e.g. Mandarin and English",
+     "rows": 1
+    },
+    {
+     "id": "milk",
+     "label": "Milk & drinks",
+     "value": "Formula now; switching to whole milk from a cup around my 1st birthday. Please no bottle at daycare unless we agree on it.",
+     "rows": 3
+    },
+    {
+     "id": "food",
+     "label": "Food",
+     "value": "I'm teething, so soft foods please, cut small. I love soft chicken. Allergies: ",
+     "rows": 3
+    },
+    {
+     "id": "sleep",
+     "label": "Sleep",
+     "value": "At home I sleep on a floor bed. Car/stroller naps are short. Current naps: ",
+     "rows": 3
+    },
+    {
+     "id": "tired",
+     "label": "When I'm tired",
+     "value": "",
+     "ph": "e.g. rubs eyes, pulls ears, fussy, stares off",
+     "rows": 2
+    },
+    {
+     "id": "hungry",
+     "label": "When I'm hungry",
+     "value": "",
+     "ph": "e.g. fussy, reaches for food, smacks lips",
+     "rows": 2
+    },
+    {
+     "id": "comfort",
+     "label": "What comforts me",
+     "value": "Music! Singing to me works. Favorite songs: ",
+     "rows": 3
+    },
+    {
+     "id": "warm",
+     "label": "New people",
+     "value": "I warm up slowly. Play near me for a minute before picking me up.",
+     "rows": 2
+    },
+    {
+     "id": "move",
+     "label": "How I move",
+     "value": "Fast crawler. Pulls to stand, cruises, walks with a push walker, stands alone a few seconds. Climbs stairs up but can't go down safely yet. Slides down a slide alone.",
+     "rows": 3
+    },
+    {
+     "id": "likes",
+     "label": "I love",
+     "value": "Music and songs, slides, push walker, playing next to other babies.",
+     "rows": 2
+    },
+    {
+     "id": "other",
+     "label": "Anything else",
+     "value": "",
+     "ph": "anything the teacher should know",
+     "rows": 2
+    }
+   ]
+  },
+  "scripts": [
+   {
+    "icon": "🌅",
+    "when": "At home in the morning",
+    "steps": [
+     {
+      "do": "Tell her the plan in toddler time, not clock time.",
+      "say": "Today is school. You play, eat, nap, then Mama comes back."
+     },
+     {
+      "do": "Sing the same daycare song on the way. Same song every day."
+     }
+    ]
+   },
+   {
+    "icon": "🚪",
+    "when": "At the classroom door (the goodbye)",
+    "steps": [
+     {
+      "do": "Kneel, hug, eye contact. Keep your face and voice calm and happy."
+     },
+     {
+      "say": "Mama loves you. After nap, Mama comes back. Baibai!"
+     },
+     {
+      "do": "Wave together (she knows “baibai”). Hand her to a teacher."
+     },
+     {
+      "do": "Walk out. Don't sneak away, and don't come back for one more hug."
+     }
+    ],
+    "note": "Same words, same order, every day. That predictability is what helps.",
+    "videos": [
+     "MrCQmbt2DTs"
+    ]
+   },
+   {
+    "icon": "😭",
+    "when": "If she cries and clings",
+    "steps": [
+     {
+      "do": "Stay calm. Name it once.",
+      "say": "You're sad. Mama always comes back."
+     },
+     {
+      "do": "Hand her to the teacher and go. Lingering makes it longer."
+     },
+     {
+      "do": "Message the teacher 15–20 minutes later if you need to know. Most babies settle soon after the parent leaves."
+     }
+    ]
+   },
+   {
+    "icon": "🤗",
+    "when": "At pickup",
+    "steps": [
+     {
+      "do": "Get down to her level and open your arms.",
+      "say": "Mama came back, like I said!"
+     },
+     {
+      "do": "Let her cling or cry; it's relief. Skip the questions and give her a calm evening."
+     }
+    ]
+   }
+  ],
+  "normal": [
+   {
+    "icon": "😢",
+    "title": "Crying at drop-off",
+    "sub": "Very common for weeks",
+    "lines": [
+     "Separation anxiety peaks between <b>12 and 24 months</b> — right when she starts.",
+     "Crying at the door is not a sign the daycare is wrong. What matters is that she settles and plays after you leave. Ask the teacher how long it took."
+    ]
+   },
+   {
+    "icon": "🧲",
+    "title": "Extra clingy at home",
+    "sub": "Evenings and weekends",
+    "lines": [
+     "She may cry when you leave the room, want to be held, or melt down after pickup. She held it together all day; now she's safe with you.",
+     "Give extra cuddles and keep routines the same."
+    ]
+   },
+   {
+    "icon": "😴",
+    "title": "Tired, sleep changes",
+    "sub": "New nap rhythm",
+    "lines": [
+     "Daycare naps can be short at first. Early bedtime for a few weeks helps.",
+     "More night waking is common and usually fades."
+    ]
+   },
+   {
+    "icon": "🤧",
+    "title": "Lots of colds",
+    "sub": "The first year is the worst",
+    "lines": [
+     "The AAP says babies who start group care may get as many as <b>8–12 more colds</b> in the first year than babies at home. It gets better in the second year.",
+     "Runny nose and cough without fever is often OK for daycare; fever, vomiting or diarrhea usually means home. Your daycare's sick policy decides."
+    ]
+   },
+   {
+    "icon": "🍽️",
+    "title": "Eating or drinking less there",
+    "sub": "Often makes up at home",
+    "lines": [
+     "New place, new cup, new food. Offer a good breakfast and dinner.",
+     "If she barely drinks there for several days, tell the teacher."
+    ]
+   },
+   {
+    "icon": "↩️",
+    "title": "Backsliding after a break",
+    "sub": "Sick days, holidays, weekends",
+    "lines": [
+     "Drop-off can get hard again after time off. Same goodbye, and it passes again."
+    ]
+   }
+  ],
+  "talk": [
+   "She's still crying hard <b>most of the day</b> after 3–4 weeks, or never seems to settle and play.",
+   "She's not eating or drinking at daycare for several days, or not napping at all.",
+   "Big changes at home (sleep, mood, eating) last more than 2–3 weeks.",
+   "You're unsure how food is cut for her (choking risk) or how naps are done.",
+   "Any injury or bite, or anything that just feels off to you.",
+   "Call the pediatrician for fever, trouble breathing, signs of dehydration, or anything that worries you."
+  ],
+  "why": [
+   {
+    "icon": "🏠",
+    "title": "Secure attachment = she protests, then trusts",
+    "sub": "ZERO TO THREE",
+    "lines": [
+     "Babies around this age understand that when you leave, you go somewhere they can't follow — so they protest.",
+     "With a routine, she learns that <b>you come back, every time</b>, and learns to keep you in mind while you're gone."
+    ],
+    "refs": [
+     {
+      "label": "ZERO TO THREE: Separation anxiety",
+      "url": "https://www.zerotothree.org/resource/separation-anxiety/"
+     }
+    ]
+   },
+   {
+    "icon": "👋",
+    "title": "Why not sneak out",
+    "sub": "ZERO TO THREE · AAP",
+    "lines": [
+     "Sneaking away makes a child worry you might disappear at any time, which makes separation anxiety worse.",
+     "AAP: once you've left, don't reappear unless you're ready to stay."
+    ],
+    "refs": [
+     {
+      "label": "ZERO TO THREE",
+      "url": "https://www.zerotothree.org/resource/separation-anxiety/"
+     },
+     {
+      "label": "AAP: Making drop-off easier",
+      "url": "https://healthychildren.org/English/family-life/work-and-child-care/Pages/making-baby-drop-off-at-child-care-easier.aspx"
+     }
+    ]
+   },
+   {
+    "icon": "⏱️",
+    "title": "Why short and the same every day",
+    "sub": "AAP",
+    "lines": [
+     "The AAP's advice: a quick goodbye ritual, done the same way at the same time. If you linger, the anxiety lasts longer too.",
+     "Practicing short separations before daycare helps."
+    ],
+    "refs": [
+     {
+      "label": "AAP: How to ease separation anxiety",
+      "url": "https://www.healthychildren.org/English/ages-stages/toddler/Pages/Soothing-Your-Childs-Separation-Anxiety.aspx"
+     }
+    ]
+   },
+   {
+    "icon": "🧸",
+    "title": "Visits and a reminder of home",
+    "sub": "AAP · ZERO TO THREE",
+    "lines": [
+     "Visit together first and show her you like and trust the teacher.",
+     "A family photo or something that smells like you can help — ask what the daycare allows."
+    ],
+    "refs": [
+     {
+      "label": "AAP: Preparing your child for child care",
+      "url": "https://healthychildren.org/English/family-life/work-and-child-care/Pages/preparing-your-child-for-child-care.aspx"
+     },
+     {
+      "label": "CA Dept. of Education: The first days",
+      "url": "https://www.cde.ca.gov/sp/Cd/re/caqfirstdays.asp"
+     }
+    ]
+   },
+   {
+    "icon": "🤒",
+    "title": "Germs and when to stay home",
+    "sub": "AAP",
+    "lines": [
+     "Lots of illness in the first year of group care is expected; immune systems catch up.",
+     "Fever with symptoms, vomiting 2+ times, or diarrhea usually means home. Follow your daycare's policy, which may be stricter."
+    ],
+    "refs": [
+     {
+      "label": "AAP: When to keep your child home",
+      "url": "https://www.healthychildren.org/English/family-life/work-and-child-care/Pages/When-to-Keep-Your-Child-Home-from-Child-Care.aspx"
+     },
+     {
+      "label": "AAP: Reducing illness in child care",
+      "url": "https://www.healthychildren.org/English/health-issues/conditions/prevention/Pages/Prevention-In-Child-Care-or-School.aspx"
+     }
+    ]
+   },
+   {
+    "icon": "🥛",
+    "title": "Milk at one",
+    "sub": "See the Milk at one page",
+    "lines": [
+     "Whole milk from a cup starting at 12 months is the AAP's general advice. Coordinate the switch with what the daycare serves.",
+     "<a href=\"milk-at-one.html\">→ Milk at one</a>"
+    ],
+    "refs": [
+     {
+      "label": "AAP: Recommended drinks ages 0–5",
+      "url": "https://www.healthychildren.org/English/healthy-living/nutrition/Pages/Recommended-Drinks-for-Young-Children-Ages-0-5.aspx"
+     }
+    ]
+   }
+  ]
+ },
+ "zh": {
+  "title": "上托班第一天",
+  "sub": "打包、表格、倒计时、给老师的小卡片，还有不哭（少哭）的告别",
+  "oneLiner": "<b>告别要短、要暖、每天都一样——然后就走。</b>Xyla 现在 11 个月左右，快一岁了，正是最认生的时候，门口哭很正常，一般你走了没多久就好了。包和表格早点弄好，最后一周就只管陪她。",
+  "labels": {
+   "nav": {
+    "pack": "🎒 打包",
+    "papers": "📋 表格",
+    "plan": "📅 倒计时",
+    "about": "🧾 宝宝卡",
+    "scripts": "👋 告别",
+    "normal": "🌧️ 正常吗",
+    "why": "🔬 为什么"
+   },
+   "packT": "🎒 打包清单",
+   "packHint": "照着托班自己给的清单，再加上 Xyla 需要的。勾选会存在这台手机上，中英文共用。",
+   "papersT": "📋 表格和待办",
+   "papersHint": "有些已经搞定了（绿色），剩下的边做边勾。",
+   "progress": "已完成 {d}/{n}",
+   "preBadge": "已搞定",
+   "resetList": "↺ 重置这个清单",
+   "planT": "📅 倒计时安排",
+   "planHint": "从提前两周到第一周结束。",
+   "aboutT": "🧾 给老师的“宝宝介绍卡”",
+   "aboutHint": "已经填好我们知道的，空的地方你补上，然后打印或存成 PDF。你写的内容只存在这台手机上。",
+   "blank": "（待填写）",
+   "printBtn": "🖨️ 打印中文版",
+   "printEn": "🖨️ 打印英文版（给老师）",
+   "resetForm": "↺ 清除我改的内容",
+   "aboutFoot": "小技巧：iPhone 上点打印 → 两指放大预览 → 分享 → 存储到“文件”，就是 PDF 了。",
+   "byeT": "👋 怎么告别",
+   "byeHint": "点开每个时刻，看该做什么、说什么。",
+   "normalT": "🌧️ 头 1–4 周哪些算正常",
+   "normalHint": "这些大多说明她跟你感情好，不是出了问题。",
+   "talkT": "遇到这些情况，找老师（或儿科医生）聊聊：",
+   "whyT": "🔬 为什么这样做有用",
+   "whyHint": "来自 ZERO TO THREE 和美国儿科学会（AAP）的简短说明。"
+  },
+  "pack": [
+   {
+    "title": "🏷️ 先把名字贴满",
+    "items": [
+     {
+      "id": "stickers",
+      "text": "姓名贴",
+      "pre": true
+     },
+     {
+      "id": "stamp",
+      "text": "衣服用的姓名印章",
+      "pre": true
+     },
+     {
+      "id": "lab-clothes",
+      "text": "每件衣服都盖章",
+      "note": "上衣、裤子、袜子、帽子、外套的标签上都盖。要写全名，没名字的东西丢了一般就被捐掉了。"
+     },
+     {
+      "id": "lab-bottles",
+      "text": "水杯、奶杯贴姓名贴",
+      "note": "杯盖和杯身都贴。"
+     },
+     {
+      "id": "lab-bedding",
+      "text": "床单和小被子做标记",
+      "note": "在角上的标签盖章。"
+     },
+     {
+      "id": "lab-shoes",
+      "text": "两双鞋都贴上名字",
+      "note": "贴在鞋舌或鞋跟里面。"
+     },
+     {
+      "id": "lab-comfort",
+      "text": "安抚奶嘴 / 安抚玩偶贴名字（允许带才贴）",
+      "note": "先问清楚，很多托班不让带家里的东西。"
+     },
+     {
+      "id": "lab-misc",
+      "text": "尿布包、湿巾、护臀膏都写上名字",
+      "note": "直接写在包装上。"
+     }
+    ]
+   },
+   {
+    "title": "🛏️ 放在托班的",
+    "items": [
+     {
+      "id": "diapers",
+      "text": "粘贴式纸尿裤（不要拉拉裤）",
+      "note": "托班说这个年纪要粘贴式的，先备一大包。"
+     },
+     {
+      "id": "wipes",
+      "text": "湿巾"
+     },
+     {
+      "id": "sheet",
+      "text": "标准婴儿床床单",
+      "note": "每周五带回家洗，周一带回去。备两套更省心。"
+     },
+     {
+      "id": "blanket",
+      "text": "午睡用的小被子"
+     },
+     {
+      "id": "clothes",
+      "text": "2–3 套完整的换洗衣服",
+      "note": "长裤、上衣、袜子。弄脏带回来的要记得补上。"
+     },
+     {
+      "id": "shoes-in",
+      "text": "室内鞋",
+      "note": "软底、能弯，扶走方便。"
+     },
+     {
+      "id": "bibs",
+      "text": "围兜 3–5 个"
+     },
+     {
+      "id": "coat",
+      "text": "外套 / 雨衣",
+      "note": "每天都要去户外，下雨也去。连体雨衣加保暖帽很实用。"
+     },
+     {
+      "id": "cream",
+      "text": "可选：护臀膏、防晒霜",
+      "note": "用原包装、贴好名字，再填托班的用药表。"
+     }
+    ]
+   },
+   {
+    "title": "🎒 每天带来带去的",
+    "items": [
+     {
+      "id": "bottles",
+      "text": "水杯 2 个",
+      "note": "每天带回家洗干净，第二天装新鲜的水。"
+     },
+     {
+      "id": "shoes-out",
+      "text": "包脚、支撑好的户外鞋",
+      "note": "刚学走路的时候更稳。"
+     },
+     {
+      "id": "cup",
+      "text": "她自己的牛奶杯（如果托班需要）",
+      "note": "问一下用托班的杯子还是自己带；吸管杯或敞口杯，不用奶瓶。"
+     },
+     {
+      "id": "bag",
+      "text": "装脏衣服的防水袋"
+     }
+    ]
+   },
+   {
+    "title": "💛 安抚的东西（先问老师）",
+    "items": [
+     {
+      "id": "photo",
+      "text": "一张小小的全家福，放她的格子里",
+      "note": "问问老师，大多数都很欢迎。"
+     },
+     {
+      "id": "lovey",
+      "text": "午睡用的安抚玩偶或奶嘴——允许才带",
+      "note": "如果不让带，可以问问能不能放一件有你味道的 T 恤。"
+     },
+     {
+      "id": "song",
+      "text": "写下她最喜欢的几首歌",
+      "note": "写到下面的宝宝卡里。"
+     }
+    ]
+   }
+  ],
+  "papers": [
+   {
+    "title": "✅ 入学手续",
+    "items": [
+     {
+      "id": "enroll",
+      "text": "报名 / 注册表",
+      "pre": true
+     },
+     {
+      "id": "fees",
+      "text": "首笔费用已交",
+      "pre": true
+     },
+     {
+      "id": "handbook",
+      "text": "家长手册已签字",
+      "pre": true
+     },
+     {
+      "id": "emerg",
+      "text": "紧急联系人已发",
+      "pre": true
+     },
+     {
+      "id": "imm",
+      "text": "疫苗记录已发",
+      "pre": true
+     },
+     {
+      "id": "app",
+      "text": "托班 App 装好了，爸爸妈妈都加上了",
+      "note": "记得打开通知。",
+      "pre": true
+     }
+    ]
+   },
+   {
+    "title": "🩺 健康",
+    "items": [
+     {
+      "id": "wellvisit",
+      "text": "约一岁体检",
+      "note": "顺便问医生要托班需要的表（每年一次的体检表），该打的针打上。"
+     },
+     {
+      "id": "imm2",
+      "text": "打完一岁的针，把更新后的疫苗记录发给托班"
+     },
+     {
+      "id": "allergy",
+      "text": "书面告诉托班：过敏、身体情况、饮食要求",
+      "note": "就算“没有已知过敏”也写下来。过敏方案和药要在第一天之前交。"
+     },
+     {
+      "id": "medform",
+      "text": "如果带护臀膏 / 防晒霜，填用药表"
+     },
+     {
+      "id": "milkplan",
+      "text": "和老师说好喝什么奶：全脂奶、配方奶还是都有——用杯子还是奶瓶",
+      "note": "告诉老师她转奶转到哪一步了。"
+     }
+    ]
+   },
+   {
+    "title": "📱 其他手续",
+    "items": [
+     {
+      "id": "photo-ok",
+      "text": "决定要不要签拍照授权"
+     },
+     {
+      "id": "pickup",
+      "text": "确认谁可以来接（要带证件）"
+     },
+     {
+      "id": "age",
+      "text": "确认第一天她的年龄符合这个班"
+     },
+     {
+      "id": "questions",
+      "text": "把问题发给托班（倒计时里有清单）"
+     },
+     {
+      "id": "calendar",
+      "text": "把放假日期存进日历"
+     },
+     {
+      "id": "backup",
+      "text": "安排好生病时的备用照顾",
+      "note": "肯定会感冒，提前找好备胎，也和公司聊聊弹性上班。"
+     },
+     {
+      "id": "handout",
+      "text": "打印“宝宝介绍卡”，去试园时带上"
+     }
+    ]
+   }
+  ],
+  "plan": {
+   "steps": [
+    {
+     "t": "提前 2 周",
+     "lines": [
+      "买齐东西，<b>全部贴好名字</b>（姓名贴和印章已经有了）。",
+      "把问题发给托班：喝什么奶、用什么杯子、一岁宝宝的饭怎么切、午睡怎么安排、能不能带安抚物、头几天能不能早接、能不能放全家福。",
+      "一岁前后开始<b>转全脂奶</b>，用杯子喝（看“一岁转牛奶”那页），别让她同一周既要适应新奶又要适应新地方。",
+      "练习<b>短时间分开</b>：让爷爷奶奶或保姆带 1–2 小时，用的告别方式跟去托班一样。",
+      "约好一岁体检。"
+     ]
+    },
+    {
+     "t": "提前 1 周",
+     "lines": [
+      "<b>午睡：</b>托班一般只有中午一觉。如果她还睡两觉，每隔几天把上午那觉往后挪一点。车上、推车里睡得都短，家里至少保一觉睡踏实。",
+      "让她在地床上铺托班那套床单和小被子练习入睡，先熟悉味道。",
+      "<b>吃饭：</b>她在长牙，吃软一点的；新食物旁边放点她最爱的软鸡肉。吃饭时练练手指食物和杯子。",
+      "一点点跟她说：“你去学校玩，玩完妈妈就来接你。”",
+      "填好宝宝卡；挑一首她最喜欢的<b>告别歌</b>，告诉老师。"
+     ]
+    },
+    {
+     "t": "试园那几天",
+     "lines": [
+      "全程陪着。坐在地上，让她玩一会儿就回来找你——你就是她的“安全基地”。",
+      "让老师先在她旁边玩，别急着抱，她慢热。",
+      "问问最后一次试园能不能把贴好名字的东西先放过去。",
+      "问问第一天老师会怎么跟你同步情况。"
+     ]
+    },
+    {
+     "t": "前一天晚上",
+     "lines": [
+      "包放门口，衣服摆好，水杯洗好等着装水。",
+      "早点睡。晚上安安静静的，别安排新花样。",
+      "手机充满电，App 通知打开。"
+     ]
+    },
+    {
+     "t": "当天早上",
+     "lines": [
+      "照常起床、照常吃早饭，别赶。多留点时间。",
+      "水杯装新鲜的水。",
+      "路上唱你们的“上学歌”。"
+     ]
+    },
+    {
+     "t": "送进去",
+     "lines": [
+      "签到。陪她熟悉两三分钟，然后用<b>每天一样的快速告别</b>（看下面）。",
+      "把她交给老师，说拜拜，然后<b>就走</b>。千万别偷偷溜。",
+      "她哭也没关系，别再回去。实在不放心，15–20 分钟后给老师发个消息问问。"
+     ]
+    },
+    {
+     "t": "接的时候",
+     "lines": [
+      "蹲下来跟她平视：“妈妈说会回来，真的回来啦！”抱一大抱。",
+      "水杯、脏衣服带回家，缺的补上。",
+      "晚上安静点，早点睡。今晚特别黏人很正常。"
+     ]
+    },
+    {
+     "t": "第一周",
+     "lines": [
+      "托班允许的话，<b>头几天早点接</b>（比如午睡后），再慢慢加长。",
+      "尽量同一个人送、同一个时间、同一种告别。",
+      "她会更累、夜醒多，第一次感冒也可能来了。周末别安排太满。",
+      "第一周和第二周结束时，各找老师聊一次。"
+     ]
+    }
+   ],
+   "note": "以上是通用建议，以托班自己的规定为准。"
+  },
+  "about": {
+   "title": "Xyla 宝宝介绍卡",
+   "intro": "你好！我是 Xyla，这样照顾我，我会更快适应哦。",
+   "foot": "Xyla 的家人做的。谢谢你照顾我！",
+   "fields": [
+    {
+     "id": "name",
+     "label": "我叫",
+     "value": "Xyla",
+     "rows": 1
+    },
+    {
+     "id": "age",
+     "label": "年龄",
+     "value": "一岁左右",
+     "rows": 1
+    },
+    {
+     "id": "words",
+     "label": "我会说的词",
+     "value": "baba（爸爸）、mama（妈妈）、yeye（爷爷）、baibai（拜拜），会挥手说再见。",
+     "rows": 2
+    },
+    {
+     "id": "lang",
+     "label": "家里说的语言",
+     "value": "",
+     "ph": "比如：中文和英文",
+     "rows": 1
+    },
+    {
+     "id": "milk",
+     "label": "喝奶",
+     "value": "现在喝配方奶；一岁前后改喝全脂奶，用杯子喝。在托班先别用奶瓶，除非我们商量好。",
+     "rows": 3
+    },
+    {
+     "id": "food",
+     "label": "吃饭",
+     "value": "在长牙，请给软一点的、切小块。最爱软软的鸡肉。过敏：",
+     "rows": 3
+    },
+    {
+     "id": "sleep",
+     "label": "睡觉",
+     "value": "在家睡地床。车上、推车里睡得很短。现在每天睡：",
+     "rows": 3
+    },
+    {
+     "id": "tired",
+     "label": "我困了会",
+     "value": "",
+     "ph": "比如：揉眼睛、抓耳朵、闹、发呆",
+     "rows": 2
+    },
+    {
+     "id": "hungry",
+     "label": "我饿了会",
+     "value": "",
+     "ph": "比如：哼哼唧唧、伸手要吃的、咂嘴",
+     "rows": 2
+    },
+    {
+     "id": "comfort",
+     "label": "怎么哄我",
+     "value": "音乐！给我唱歌最管用。最爱的歌：",
+     "rows": 3
+    },
+    {
+     "id": "warm",
+     "label": "见到新面孔",
+     "value": "我比较慢热。先在我旁边玩一会儿，再来抱我。",
+     "rows": 2
+    },
+    {
+     "id": "move",
+     "label": "我的大运动",
+     "value": "爬得飞快。会扶站、扶走，推着学步车能走很多步，能自己站几秒。会往上爬楼梯，但还不会安全地下来。能自己滑滑梯。",
+     "rows": 3
+    },
+    {
+     "id": "likes",
+     "label": "我喜欢",
+     "value": "音乐和唱歌、滑滑梯、学步车、在别的宝宝旁边玩。",
+     "rows": 2
+    },
+    {
+     "id": "other",
+     "label": "还想说的",
+     "value": "",
+     "ph": "老师需要知道的其他事",
+     "rows": 2
+    }
+   ]
+  },
+  "scripts": [
+   {
+    "icon": "🌅",
+    "when": "早上在家",
+    "steps": [
+     {
+      "do": "用宝宝听得懂的顺序讲，别讲几点几分。",
+      "say": "今天去学校哦。玩一玩、吃饭饭、睡觉觉，然后妈妈就来接你。"
+     },
+     {
+      "do": "路上唱同一首“上学歌”，每天都唱这首。"
+     }
+    ]
+   },
+   {
+    "icon": "🚪",
+    "when": "在教室门口（告别）",
+    "steps": [
+     {
+      "do": "蹲下、抱一抱、看着她的眼睛。表情和声音放轻松、开心一点。"
+     },
+     {
+      "say": "妈妈爱你。睡完觉，妈妈就来接你。拜拜！"
+     },
+     {
+      "do": "一起挥手（她会说“拜拜”）。把她交给老师。"
+     },
+     {
+      "do": "转身走。别偷偷溜，也别回头再抱一下。"
+     }
+    ],
+    "note": "每天同样的话、同样的顺序。就是这种可预期，才让她安心。",
+    "videos": [
+     "MrCQmbt2DTs"
+    ]
+   },
+   {
+    "icon": "😭",
+    "when": "她哭着不让走",
+    "steps": [
+     {
+      "do": "你先稳住，帮她说出来一次。",
+      "say": "你舍不得妈妈，难过了。妈妈一定会回来的。"
+     },
+     {
+      "do": "交给老师，然后走。越磨蹭，哭得越久。"
+     },
+     {
+      "do": "不放心的话，15–20 分钟后给老师发消息问问。大多数宝宝爸妈一走没多久就不哭了。"
+     }
+    ]
+   },
+   {
+    "icon": "🤗",
+    "when": "接她的时候",
+    "steps": [
+     {
+      "do": "蹲下来张开手臂。",
+      "say": "妈妈说会回来，真的回来啦！"
+     },
+     {
+      "do": "她黏着你或者哭一下都没关系，那是松了口气。别追着问，晚上安安静静过。"
+     }
+    ]
+   }
+  ],
+  "normal": [
+   {
+    "icon": "😢",
+    "title": "送的时候哭",
+    "sub": "很常见，会持续几周",
+    "lines": [
+     "分离焦虑在 <b>12–24 个月</b> 最厉害——她正好这时候入园。",
+     "门口哭不代表托班不好。关键是你走了以后她能不能平静下来去玩。问问老师她多久就好了。"
+    ]
+   },
+   {
+    "icon": "🧲",
+    "title": "在家特别黏人",
+    "sub": "晚上和周末",
+    "lines": [
+     "你一离开房间她就哭、要抱，或者接回来就崩溃。她在外面撑了一天，回到你身边才敢放松。",
+     "多抱抱，家里的作息别变。"
+    ]
+   },
+   {
+    "icon": "😴",
+    "title": "累，睡觉有变化",
+    "sub": "新的午睡节奏",
+    "lines": [
+     "刚开始托班的午睡可能很短。头几周早点哄睡。",
+     "夜里醒得多也常见，一般会慢慢好。"
+    ]
+   },
+   {
+    "icon": "🤧",
+    "title": "老是感冒",
+    "sub": "第一年最难熬",
+    "lines": [
+     "AAP 说，婴儿期开始上托班的孩子，第一年可能比在家带的孩子 <b>多感冒 8–12 次</b>。第二年就会少很多。",
+     "只是流鼻涕、咳嗽、不发烧，通常可以去；发烧、吐、拉肚子一般就得在家。具体听托班的规定。"
+    ]
+   },
+   {
+    "icon": "🍽️",
+    "title": "在托班吃得少、喝得少",
+    "sub": "回家常常会补回来",
+    "lines": [
+     "新地方、新杯子、新饭菜。早饭、晚饭在家吃好点。",
+     "如果连着几天在托班几乎不喝水，告诉老师。"
+    ]
+   },
+   {
+    "icon": "↩️",
+    "title": "休息几天后又哭了",
+    "sub": "病假、假期、周末之后",
+    "lines": [
+     "放完假送园可能又变难。还用一样的告别，过几天又会好。"
+    ]
+   }
+  ],
+  "talk": [
+   "过了 3–4 周，她<b>大半天</b>都还在哭，或者一直没法安顿下来玩。",
+   "连着几天在托班不吃不喝，或者完全不睡午觉。",
+   "家里的睡眠、情绪、吃饭变化超过 2–3 周还没好。",
+   "你不确定老师怎么给她切食物（怕噎着），或者午睡怎么安排。",
+   "受伤、被咬，或者你就是觉得哪里不对劲。",
+   "发烧、呼吸困难、有脱水迹象，或者任何让你担心的情况，直接找儿科医生。"
+  ],
+  "why": [
+   {
+    "icon": "🏠",
+    "title": "安全依恋：先抗议，再信任",
+    "sub": "ZERO TO THREE",
+    "lines": [
+     "这个月龄的宝宝已经明白：你走了，是去了一个她跟不过去的地方——所以会抗议。",
+     "有了固定的流程，她慢慢学会<b>妈妈每次都会回来</b>，你不在的时候她心里也装着你。"
+    ],
+    "refs": [
+     {
+      "label": "ZERO TO THREE：分离焦虑",
+      "url": "https://www.zerotothree.org/resource/separation-anxiety/"
+     }
+    ]
+   },
+   {
+    "icon": "👋",
+    "title": "为什么不能偷偷溜",
+    "sub": "ZERO TO THREE · AAP",
+    "lines": [
+     "偷偷走会让孩子担心你随时会消失，分离焦虑反而更重。",
+     "AAP：已经走了就别再出现，除非你打算留下来。"
+    ],
+    "refs": [
+     {
+      "label": "ZERO TO THREE",
+      "url": "https://www.zerotothree.org/resource/separation-anxiety/"
+     },
+     {
+      "label": "AAP：让送园更顺利",
+      "url": "https://healthychildren.org/English/family-life/work-and-child-care/Pages/making-baby-drop-off-at-child-care-easier.aspx"
+     }
+    ]
+   },
+   {
+    "icon": "⏱️",
+    "title": "为什么要短、要每天一样",
+    "sub": "AAP",
+    "lines": [
+     "AAP 的建议：告别仪式要短，每天同一时间、同一种方式。你磨蹭多久，她焦虑就拖多久。",
+     "入园前先练习短时间分开，会有帮助。"
+    ],
+    "refs": [
+     {
+      "label": "AAP：怎么缓解分离焦虑",
+      "url": "https://www.healthychildren.org/English/ages-stages/toddler/Pages/Soothing-Your-Childs-Separation-Anxiety.aspx"
+     }
+    ]
+   },
+   {
+    "icon": "🧸",
+    "title": "先试园，带点“家的味道”",
+    "sub": "AAP · ZERO TO THREE",
+    "lines": [
+     "先一起去看看，让她看到你喜欢、信任老师。",
+     "全家福或者有你味道的东西会有帮助——先问托班允许带什么。"
+    ],
+    "refs": [
+     {
+      "label": "AAP：为上托班做准备",
+      "url": "https://healthychildren.org/English/family-life/work-and-child-care/Pages/preparing-your-child-for-child-care.aspx"
+     },
+     {
+      "label": "加州教育厅：入园头几天",
+      "url": "https://www.cde.ca.gov/sp/Cd/re/caqfirstdays.asp"
+     }
+    ]
+   },
+   {
+    "icon": "🤒",
+    "title": "细菌和什么时候该在家",
+    "sub": "AAP",
+    "lines": [
+     "上托班第一年生病多是正常的，免疫力会慢慢跟上。",
+     "发烧加其他症状、吐两次以上、拉肚子，一般就在家休息。以托班规定为准，可能更严。"
+    ],
+    "refs": [
+     {
+      "label": "AAP：什么时候该让孩子在家",
+      "url": "https://www.healthychildren.org/English/family-life/work-and-child-care/Pages/When-to-Keep-Your-Child-Home-from-Child-Care.aspx"
+     },
+     {
+      "label": "AAP：减少托班里的传染",
+      "url": "https://www.healthychildren.org/English/health-issues/conditions/prevention/Pages/Prevention-In-Child-Care-or-School.aspx"
+     }
+    ]
+   },
+   {
+    "icon": "🥛",
+    "title": "一岁转牛奶",
+    "sub": "看“一岁转牛奶”那页",
+    "lines": [
+     "AAP 的一般建议是 12 个月起用杯子喝全脂奶。转奶的节奏和托班提供的奶配合好。",
+     "<a href=\"milk-at-one.html\">→ 一岁转牛奶</a>"
+    ],
+    "refs": [
+     {
+      "label": "AAP：0–5 岁推荐饮品",
+      "url": "https://www.healthychildren.org/English/healthy-living/nutrition/Pages/Recommended-Drinks-for-Young-Children-Ages-0-5.aspx"
+     }
+    ]
+   }
+  ]
+ }
+}

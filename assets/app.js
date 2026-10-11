@@ -318,7 +318,7 @@
       return '<details class="card"><summary><span class="ico">' + esc(sc.icon || '💬') + '</span><span class="t">' + esc(sc.when) + '</span></summary><div class="body">' +
         sc.steps.map(function (st, i) {
           return '<div class="step"><span class="n">' + (i + 1) + '</span><div class="c">' + (st.do ? esc(st.do) : '') + (st.say ? '<span class="say">“' + esc(st.say) + '”</span>' : '') + '</div></div>';
-        }).join('') + (sc.note ? '<p class="small">' + sc.note + '</p>' : '') + '</div></details>';
+        }).join('') + (sc.note ? '<p class="small">' + sc.note + '</p>' : '') + arr(sc.videos).map(videoHTML).join('') + '</div></details>';
     }).join(''));
     root.appendChild(s);
   }
@@ -465,6 +465,108 @@
     footer(root);
   }
 
+  /* ---------- guide pages (checklists, countdown, printable handout) ---------- */
+  function fill(s, d, n) { return String(s || '').replace('{d}', d).replace('{n}', n); }
+  function renderCheckGroups(id, key, groups, L, title, hint, sid, root) {
+    groups = arr(groups).filter(function (g) { return g && Array.isArray(g.items) && g.items.length; });
+    if (!groups.length) return;
+    var s = section(sid, title, hint);
+    var sk = 'xyla:' + id + ':' + key;
+    s.insertAdjacentHTML('beforeend', '<div class="progress"><i></i></div><p class="small pl"></p>' + groups.map(function (g) {
+      return '<div class="card cgroup"><p class="gtitle">' + esc(g.title || '') + '</p>' + g.items.map(function (it) {
+        if (!it || !it.id) return '';
+        return '<label class="check"><input type="checkbox" data-id="' + esc(it.id) + '"><span>' + (it.text || '') + (it.note ? '<small>' + it.note + '</small>' : '') + (it.pre ? ' <em class="badge ok">' + esc(L.preBadge || '✓') + '</em>' : '') + '</span></label>';
+      }).join('') + '</div>';
+    }).join('') + '<div class="cbtns sm"><button type="button" data-reset>' + esc(L.resetList || 'Reset') + '</button></div>');
+    root.appendChild(s);
+    var pre = {}; groups.forEach(function (g) { g.items.forEach(function (it) { if (it && it.id) pre[it.id] = !!it.pre; }); });
+    function isOn(st, k) { return typeof st[k] === 'boolean' ? st[k] : pre[k]; }
+    function draw() {
+      var st = storeObj(sk), boxes = s.querySelectorAll('input[data-id]'), n = 0;
+      boxes.forEach(function (b) { var on = !!isOn(st, b.getAttribute('data-id')); b.checked = on; b.closest('.check').classList.toggle('done', on); if (on) n++; });
+      var pct = boxes.length ? Math.round(n / boxes.length * 100) : 0;
+      s.querySelector('.progress i').style.width = pct + '%';
+      s.querySelector('.pl').textContent = fill(L.progress || '{d} / {n}', n, boxes.length) + (pct === 100 ? t.allDone : '');
+    }
+    s.addEventListener('change', function (e) {
+      var b = e.target; if (!b.matches || !b.matches('input[data-id]')) return;
+      var st = storeObj(sk); st[b.getAttribute('data-id')] = b.checked; store(sk, st); draw();
+    });
+    s.querySelector('[data-reset]').addEventListener('click', function () { try { localStorage.removeItem(sk); } catch (e) {} draw(); });
+    draw();
+  }
+  function renderAbout(d, w, root) {
+    var A = w.about, L = w.labels; if (!A || !Array.isArray(A.fields) || !A.fields.length) return;
+    var sk = 'xyla:' + d.id + ':about';
+    var s = section('about', L.aboutT, L.aboutHint);
+    s.insertAdjacentHTML('beforeend', '<div class="card aform">' + A.fields.map(function (f) {
+      return '<label class="afield"><b>' + esc(f.label) + '</b><textarea rows="' + (f.rows || 2) + '" data-f="' + esc(f.id) + '" placeholder="' + esc(f.ph || L.blank || '') + '"></textarea></label>';
+    }).join('') + '<div class="cbtns"><button type="button" data-print="' + lang + '">' + esc(L.printBtn) + '</button>' +
+      (lang !== 'en' && d.en && d.en.about ? '<button type="button" data-print="en">' + esc(L.printEn || 'English') + '</button>' : '') + '</div>' +
+      '<div class="cbtns sm"><button type="button" data-areset>' + esc(L.resetForm || 'Reset') + '</button></div><p class="small">' + (L.aboutFoot || '') + '</p></div><div class="psheet" aria-hidden="true"></div>');
+    root.appendChild(s);
+    function vals() { return storeObj(sk); }
+    function draw() {
+      var v = vals();
+      s.querySelectorAll('textarea[data-f]').forEach(function (ta) {
+        var k = ta.getAttribute('data-f'), f = A.fields.filter(function (x) { return x.id === k; })[0] || {};
+        ta.value = typeof v[k] === 'string' ? v[k] : (f.value || '');
+      });
+    }
+    s.addEventListener('input', function (e) {
+      var ta = e.target; if (!ta.matches || !ta.matches('textarea[data-f]')) return;
+      var v = vals(); v[ta.getAttribute('data-f')] = ta.value; store(sk, v);
+    });
+    s.querySelector('[data-areset]').addEventListener('click', function () { try { localStorage.removeItem(sk); } catch (e) {} draw(); });
+    s.addEventListener('click', function (e) {
+      var b = e.target.closest('[data-print]'); if (!b) return;
+      var pl = b.getAttribute('data-print'), PA = (d[pl] && d[pl].about) || A, v = vals();
+      var ids = {}; A.fields.forEach(function (f) { ids[f.id] = f; });
+      s.querySelector('.psheet').innerHTML = '<h2>' + esc(PA.title || '') + '</h2>' + (PA.intro ? '<p>' + esc(PA.intro) + '</p>' : '') + '<table>' + arr(PA.fields).map(function (f) {
+        var own = typeof v[f.id] === 'string' && v[f.id] !== (ids[f.id] || {}).value ? v[f.id] : null; // typed by Melody wins
+        var val = own != null ? own : (f.value || '');
+        return '<tr><th>' + esc(f.label) + '</th><td>' + (val.trim() ? esc(val).replace(/\n/g, '<br>') : '<span class="blank"></span><span class="blank"></span>') + '</td></tr>';
+      }).join('') + '</table>' + (PA.foot ? '<p class="pfoot">' + esc(PA.foot) + '</p>' : '');
+      document.body.classList.add('printing-about');
+      var done = function () { document.body.classList.remove('printing-about'); window.removeEventListener('afterprint', done); };
+      window.addEventListener('afterprint', done);
+      try { window.print(); } catch (err) {}
+      setTimeout(done, 60000);
+    });
+    draw();
+  }
+  function buildGuide(d) {
+    var w = d[lang] || d.en; w.id = d.id; var L = w.labels = w.labels || {};
+    document.title = w.title + ' · ' + t.pageTitle;
+    var root = document.getElementById('app'); root.innerHTML = '';
+    var h = el('header', { class: 'hero' });
+    h.innerHTML = '<div class="toprow"><a class="back" href="./">' + t.home + '</a>' + langToggleHTML(false) + '</div>' +
+      '<h1>' + esc(d.emoji || '') + ' ' + esc(w.title) + '</h1><p class="sub">' + esc(w.sub || '') + '</p>' +
+      (w.oneLiner ? '<div class="callout answer">' + w.oneLiner + '</div>' : '');
+    root.appendChild(h);
+    var nav = L.nav || {};
+    renderNav(root, ['pack', 'papers', 'plan', 'about', 'scripts', 'normal', 'why'].filter(function (k) { return nav[k]; }), nav);
+    safe(renderCheckGroups, d.id, 'pack', w.pack, L, L.packT, L.packHint, 'pack', root);
+    safe(renderCheckGroups, d.id, 'papers', w.papers, L, L.papersT, L.papersHint, 'papers', root);
+    safe(function plan() { if (w.plan && Array.isArray(w.plan.steps) && w.plan.steps.length) renderSchedule({ schedule: w.plan, labels: L }, root); });
+    safe(renderAbout, d, w, root);
+    safe(function bye() { var ts = t.scripts, th = t.scriptsHint; t.scripts = L.byeT || ts; t.scriptsHint = L.byeHint || th; try { if (arr(w.scripts).length) renderScripts(w, root); } finally { t.scripts = ts; t.scriptsHint = th; } });
+    safe(function normal() {
+      var cards = arr(w.normal); if (!cards.length && !arr(w.talk).length) return;
+      var s = section('normal', L.normalT, L.normalHint);
+      s.insertAdjacentHTML('beforeend', cards.map(function (c) { return cardHTML(c); }).join('') +
+        (arr(w.talk).length ? '<div class="callout"><b>' + esc(L.talkT || '') + '</b><ul>' + w.talk.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul></div>' : ''));
+      root.appendChild(s);
+    });
+    safe(function why() {
+      var cards = arr(w.why); if (!cards.length) return;
+      var s = section('why', L.whyT, L.whyHint);
+      s.insertAdjacentHTML('beforeend', cards.map(function (c) { return cardHTML(c); }).join('')); root.appendChild(s);
+    });
+    safe(function sources() { var tn = t.sourcesNote; if (lang === 'zh') t.sourcesNote = '都是英文网站。'; try { renderSources({ sources: d.sources }, root); } finally { t.sourcesNote = tn; } });
+    footer(root);
+  }
+
   /* ---------- pages ---------- */
   function buildWeek(d) {
     var w = d[lang] || d.en; w.id = d.id; w.emoji = d.emoji;
@@ -501,7 +603,7 @@
   function render() {
     document.documentElement.lang = t.htmlLang;
     if (!DATA) return;
-    try { if (topicId) buildTopic(DATA); else if (isWeek) buildWeek(DATA); else buildHome(DATA); }
+    try { if (topicId) (DATA && DATA.kind === 'guide' ? buildGuide : buildTopic)(DATA); else if (isWeek) buildWeek(DATA); else buildHome(DATA); }
     catch (e) { if (window.console) console.error(e); fail(e.message); }
   }
   function fail(msg) { document.getElementById('app').innerHTML = '<p style="padding:20px">' + t.loadFail + ' (' + esc(msg) + '). ' + t.retry + '</p><p style="padding:0 20px"><a href="./?r=' + Date.now() + '">↻ ' + (lang === 'zh' ? '回首页' : 'Home') + '</a></p>'; }

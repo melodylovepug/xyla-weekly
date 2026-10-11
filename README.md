@@ -68,6 +68,8 @@ General info, not medical advice; ask your pediatrician. 一般信息，不是�
 - Topic pages are stubs like `milk-at-one.html` with `<body data-topic="milk-at-one">`; content lives in `topics/<id>.json` (shared `videos`, `sources`, then `en` and `zh` with identical shape).
 - List every topic in `topics/topics.json` (`id, file, emoji, weeks:[...], en:{title,tagline}, zh:{...}`). It shows on the home page under **Big topics / 重点话题**, and on any week listed in `weeks`.
 - Topic sections: `bigThree`, `how` (rules), `schedule`, `tips`, `counter`, `quiz`, `watch`, `disagree`, `details`. State is saved per topic in localStorage (`xyla:<id>:oz:<date>`, `xyla:<id>:quiz`).
+- **Guide pages** (`"kind": "guide"` in the topic JSON, e.g. `daycare-first-day`) use `buildGuide`: grouped checklists `pack` / `papers` (`items: [{id, text, note?, pre?}]`; `pre` = already done; ticks saved by id in `xyla:<id>:pack` / `:papers`), `plan` (countdown timeline), `about` (editable printable handout; edits in `xyla:<id>:about`; zh view can print the English version for teachers), `scripts` (goodbye, tap to reveal), `normal` + `talk`, `why` (cards with refs).
+- **Privacy on the daycare page:** the repo is public. No daycare name, address, phones, teacher names, start date, hours, fees, door codes or account info — generic words only ("daycare", "teacher", "first day"). `scratch/daycare.py` asserts a list of banned strings before writing the JSON.
 
 ## Cache-busting (important after every change to assets/ or data)
 Phones cache `assets/app.js` and `style.css` (GitHub Pages sends `max-age=600`). An old cached script running against new data once broke the milk page. When you change `assets/` or any JSON, bump the version on **every** page stub:
