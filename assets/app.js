@@ -6,6 +6,8 @@
   var ROOTS = ['Secure', 'Curious', 'Kind', 'Brave', 'Self-led', 'Healthy'];
   var ROOT_ICON = { Secure: '🫶', Curious: '🔍', Kind: '💞', Brave: '🦁', 'Self-led': '🧭', Healthy: '🌱' };
   var LANG_KEY = 'xyla:lang';
+  /* Cache-busting: the page stubs load this file as app.js?v=<version>; data files get the same ?v=. */
+  var VER = (function () { try { var m = /[?&]v=([^&#]+)/.exec((document.currentScript && document.currentScript.src) || ''); return m ? m[1] : String(Date.now()); } catch (e) { return String(Date.now()); } })();
 
   var T = {
     en: {
@@ -73,11 +75,16 @@
       localStorage.setItem(key, JSON.stringify(val));
     } catch (e) { return null; }
   }
+  /* Defensive readers: old or corrupted saved data is ignored instead of crashing the page. */
+  function storeArr(key) { var v = store(key); return Array.isArray(v) ? v.filter(function (x) { return typeof x === 'number' && isFinite(x); }) : []; }
+  function storeObj(key) { var v = store(key); return v && typeof v === 'object' && !Array.isArray(v) ? v : {}; }
+  function arr(x) { return Array.isArray(x) ? x : []; }
   function localISO(d) { d = d || new Date(); return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
 
   /* ---------- language ---------- */
   function detectLang() {
     var saved = store(LANG_KEY);
+    if (saved == null) { try { saved = localStorage.getItem(LANG_KEY); } catch (e) {} } // tolerate a raw, non-JSON value
     if (saved === 'en' || saved === 'zh') return saved;
     var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];
     return /^zh/i.test(langs[0] || '') ? 'zh' : 'en';
@@ -155,6 +162,7 @@
     root.appendChild(n);
   }
   function renderBig3(w, root) {
+    if (!w.bigThree || !w.bigThree.length) return;
     var s = section('big3', t.big3, t.big3Hint); s.className = 'big3';
     s.insertAdjacentHTML('beforeend', w.bigThree.map(function (c, i) { return cardHTML(c, true, i); }).join(''));
     root.appendChild(s);
@@ -199,7 +207,7 @@
       '<div class="progress"><i></i></div><p class="small pl"></p><div class="card" id="cl"></div><div class="days"></div>';
     s.appendChild(box); root.appendChild(s);
     function list() { return checkTab === 'd' ? w.daily : w.todos; }
-    function getDone() { return (checkTab === 'd' ? store(key(today)) : store(todoKey)) || []; }
+    function getDone() { return checkTab === 'd' ? storeArr(key(today)) : storeArr(todoKey); }
     function draw() {
       var done = getDone(), items = list();
       box.querySelector('#cl').innerHTML = items.map(function (it, i) {
@@ -214,7 +222,7 @@
       if (checkTab === 'd' && DATA.start && DATA.end) {
         var d = new Date(DATA.start + 'T12:00:00'), end = new Date(DATA.end + 'T12:00:00'), out = '';
         while (d <= end) {
-          var iso = localISO(d), c = (store(key(iso)) || []).length, f = c / w.daily.length;
+          var iso = localISO(d), c = storeArr(key(iso)).length, f = c / w.daily.length;
           var bg = c ? 'rgba(47,158,107,' + (0.25 + 0.75 * f).toFixed(2) + ')' : '';
           out += '<span class="day' + (iso === today ? ' today' : '') + '" title="' + iso + ': ' + c + '" style="' + (bg ? 'background:' + bg + ';color:#fff' : '') + '">' + d.getDate() + '</span>';
           d.setDate(d.getDate() + 1);
@@ -238,7 +246,7 @@
   }
 
   function renderQuiz(w, root) {
-    if (!w.quiz) return;
+    if (!w.quiz || !w.quiz.length) return;
     var qKey = 'xyla:' + w.id + ':quiz';
     var s = section('quiz', t.quiz, t.quizHint);
     s.insertAdjacentHTML('beforeend', '<p class="score">' + t.score + ': <span class="sc">0</span> / ' + w.quiz.length + ' <button type="button" class="reset">' + t.reset + '</button></p>');
@@ -249,11 +257,11 @@
     }).join('');
     s.appendChild(g); root.appendChild(s);
     function apply() {
-      var st = store(qKey) || {}, score = 0;
+      var st = storeObj(qKey), score = 0;
       g.querySelectorAll('.q').forEach(function (card) {
         var i = card.getAttribute('data-i'), q = w.quiz[+i], guess = st[i];
         card.classList.remove('flipped', 'right', 'wrong');
-        if (!guess) return;
+        if (!q || (guess !== 'do' && guess !== 'dont')) return;
         var ok = guess === q.a; if (ok) score++;
         card.classList.add('flipped', ok ? 'right' : 'wrong');
         card.querySelector('.verdict').textContent = (ok ? t.right : t.wrong) + (q.a === 'do' ? t.DO : t.DONT);
@@ -262,7 +270,7 @@
     }
     g.addEventListener('click', function (e) {
       var b = e.target.closest('[data-g]'); if (!b) return;
-      var st = store(qKey) || {}; st[b.closest('.q').getAttribute('data-i')] = b.getAttribute('data-g');
+      var st = storeObj(qKey); st[b.closest('.q').getAttribute('data-i')] = b.getAttribute('data-g');
       store(qKey, st); apply();
     });
     s.querySelector('.reset').addEventListener('click', function () { store(qKey, {}); apply(); });
@@ -311,13 +319,13 @@
     root.appendChild(s);
   }
   function renderDetails(w, root) {
-    if (!w.details) return;
+    if (!w.details || !w.details.length) return;
     var s = section('more', t.more, t.moreHint);
     s.insertAdjacentHTML('beforeend', w.details.map(function (c) { return cardHTML(c); }).join(''));
     root.appendChild(s);
   }
   function renderWatch(w, root) {
-    if (!w.watch) return;
+    if (!w.watch || !w.watch.length) return;
     var s = section('watch', t.watch, '');
     s.insertAdjacentHTML('beforeend', '<div class="callout"><ul>' + w.watch.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul><p class="small" style="margin:6px 0 0">' + t.watchFoot + '</p></div>');
     root.appendChild(s);
@@ -332,11 +340,16 @@
     root.appendChild(s);
   }
   function renderSources(w, root) {
-    if (!w.sources) return;
+    if (!w.sources || !w.sources.length) return;
     var s = el('section', { id: 'sources' });
     s.innerHTML = '<details class="card"><summary><span class="ico">🔗</span><span class="t">' + t.sources + ' <small>' + t.sourcesSub + '</small></span></summary><div class="body">' + (t.sourcesNote ? '<p class="small">' + t.sourcesNote + '</p>' : '') + '<ul class="sources">' +
       w.sources.map(function (x) { return '<li><a href="' + esc(x.url) + '" target="_blank" rel="noopener">' + esc(x.label) + '</a></li>'; }).join('') + '</ul></div></details>';
     root.appendChild(s);
+  }
+  /* Run one section; if it throws, log it and keep rendering the rest of the page. */
+  function safe(fn) {
+    var args = Array.prototype.slice.call(arguments, 1);
+    try { fn.apply(null, args); } catch (e) { if (window.console) console.warn('Section skipped:', fn.name, e); }
   }
   function footer(root) {
     root.insertAdjacentHTML('beforeend', '<footer><strong>' + t.footer + '</strong><br>' + t.made + '</footer>');
@@ -357,7 +370,7 @@
     root.appendChild(s);
   }
   function renderHow(w, root) {
-    var p = w.how, L = w.labels; if (!p) return;
+    var p = w.how, L = w.labels || {}; if (!p || !Array.isArray(p.steps)) return;
     var s = section('how', L.howT, L.howHint);
     s.insertAdjacentHTML('beforeend', '<div class="card pcard"><p class="pintro">🍼 ' + p.intro + '</p>' +
       p.steps.map(function (st, i) { return '<div class="step"><span class="n">' + (i + 1) + '</span><div class="c">' + st + '</div></div>'; }).join('') +
@@ -365,7 +378,7 @@
     root.appendChild(s);
   }
   function renderTips(w, root) {
-    if (!w.tips) return;
+    if (!w.tips || !w.tips.length) return;
     var s = section('tips', w.labels.tipsT, w.labels.tipsHint);
     s.insertAdjacentHTML('beforeend', w.tips.map(function (c) { return cardHTML(c); }).join(''));
     root.appendChild(s);
@@ -389,7 +402,7 @@
       '<div class="cbtns">' + C.add.map(function (n) { return '<button type="button" data-add="' + n + '">' + esc(C.addLabel[String(n)]) + '</button>'; }).join('') + '</div>' +
       '<div class="cbtns sm"><button type="button" data-undo>' + esc(C.undo) + '</button><button type="button" data-clear>' + esc(C.reset) + '</button></div></div>');
     root.appendChild(s);
-    function get() { return store(key) || []; }
+    function get() { return storeArr(key); }
     function draw() {
       var list = get(), oz = list.reduce(function (a, b) { return a + b; }, 0), ml = oz * 30;
       s.querySelector('.cnum').textContent = lang === 'zh' ? ml + ' ml' : oz + ' oz';
@@ -425,17 +438,27 @@
       if (d.version && store(vk) !== d.version) { localStorage.removeItem('xyla:' + d.id + ':quiz'); store(vk, d.version); } // quiz items changed
     } catch (e) {}
     renderNav(root, ['big3', 'how', 'plan', 'tips', 'count', 'quiz', 'watch', 'disagree', 'more'], t.tnav);
-    var b3 = section('big3', t.big3T, t.big3Hint); b3.className = 'big3';
-    b3.insertAdjacentHTML('beforeend', w.bigThree.map(function (c, i) { return cardHTML(c, true, i); }).join(''));
-    root.appendChild(b3);
-    renderHow(w, root); renderSchedule(w, root); renderTips(w, root); renderCounter(w, d.id, root);
-    var q = { id: d.id, quiz: w.quiz }; var tq = t.quiz; t.quiz = L.quizT; renderQuiz(q, root); t.quiz = tq;
-    var tw = t.watch; t.watch = L.watchT; renderWatch(w, root); t.watch = tw;
-    var ds = section('disagree', L.disagreeT, L.disagreeHint);
-    ds.insertAdjacentHTML('beforeend', w.disagree.map(function (c) { return cardHTML(c); }).join('')); root.appendChild(ds);
-    var tm = t.more; t.more = L.moreT; renderDetails(w, root); t.more = tm;
-    renderVideos({ bigThree: w.bigThree, details: w.details.concat(w.how ? [w.how] : []) }, root, t.topicVideos);
-    var tn = t.sourcesNote; if (lang === 'zh') t.sourcesNote = '大部分是英文网站，最后两条是国内的。'; renderSources({ sources: d.sources }, root); t.sourcesNote = tn; footer(root);
+    w.bigThree = arr(w.bigThree); w.quiz = arr(w.quiz); w.disagree = arr(w.disagree); w.details = arr(w.details); w.tips = arr(w.tips); w.labels = L = L || {};
+    safe(function big3() {
+      var b3 = section('big3', t.big3T, t.big3Hint); b3.className = 'big3';
+      b3.insertAdjacentHTML('beforeend', w.bigThree.map(function (c, i) { return cardHTML(c, true, i); }).join(''));
+      root.appendChild(b3);
+    });
+    safe(renderHow, w, root);
+    if (w.schedule && Array.isArray(w.schedule.steps)) safe(renderSchedule, w, root);
+    safe(renderTips, w, root);
+    if (w.counter) safe(renderCounter, w, d.id, root);
+    safe(function quiz() { var tq = t.quiz; t.quiz = L.quizT || tq; try { renderQuiz({ id: d.id, quiz: w.quiz }, root); } finally { t.quiz = tq; } });
+    safe(function watch() { var tw = t.watch; t.watch = L.watchT || tw; try { renderWatch(w, root); } finally { t.watch = tw; } });
+    safe(function disagree() {
+      if (!w.disagree.length) return;
+      var ds = section('disagree', L.disagreeT, L.disagreeHint);
+      ds.insertAdjacentHTML('beforeend', w.disagree.map(function (c) { return cardHTML(c); }).join('')); root.appendChild(ds);
+    });
+    safe(function more() { var tm = t.more; t.more = L.moreT || tm; try { renderDetails(w, root); } finally { t.more = tm; } });
+    safe(function videos() { renderVideos({ bigThree: w.bigThree, details: w.details.concat(w.how ? [w.how] : []) }, root, t.topicVideos); });
+    safe(function sources() { var tn = t.sourcesNote; if (lang === 'zh') t.sourcesNote = '大部分是英文网站，也有两条国内的。'; try { renderSources({ sources: d.sources }, root); } finally { t.sourcesNote = tn; } });
+    footer(root);
   }
 
   /* ---------- pages ---------- */
@@ -446,9 +469,9 @@
     renderHero(w, root);
     var have = { big3: w.bigThree, topics: w.cards, today: w.daily, quiz: w.quiz, play: w.plays, scripts: w.scripts, next: w.timeline, more: w.details, watch: w.watch };
     renderNav(root, ['big3', 'topics', 'today', 'quiz', 'play', 'scripts', 'next', 'more', 'watch'].filter(function (k) { return have[k]; }));
-    renderBig3(w, root); renderWeekTopics(w, root); renderCards(w, root); renderChecklist(w, root); renderQuiz(w, root);
-    renderPlay(w, root); renderScripts(w, root); renderTimeline(w, root); renderDetails(w, root);
-    renderWatch(w, root); renderVideos(w, root); renderSources(w, root); footer(root);
+    [renderBig3, renderWeekTopics, renderCards, renderChecklist, renderQuiz, renderPlay, renderScripts, renderTimeline, renderDetails, renderWatch, renderVideos, renderSources]
+      .forEach(function (fn) { safe(fn, w, root); });
+    footer(root);
   }
   function buildHome(list) {
     document.title = t.pageTitle;
@@ -474,12 +497,13 @@
   function render() {
     document.documentElement.lang = t.htmlLang;
     if (!DATA) return;
-    if (topicId) buildTopic(DATA); else if (isWeek) buildWeek(DATA); else buildHome(DATA);
+    try { if (topicId) buildTopic(DATA); else if (isWeek) buildWeek(DATA); else buildHome(DATA); }
+    catch (e) { if (window.console) console.error(e); fail(e.message); }
   }
-  function fail(msg) { document.getElementById('app').innerHTML = '<p style="padding:20px">' + t.loadFail + ' (' + esc(msg) + '). ' + t.retry + '</p>'; }
+  function fail(msg) { document.getElementById('app').innerHTML = '<p style="padding:20px">' + t.loadFail + ' (' + esc(msg) + '). ' + t.retry + '</p><p style="padding:0 20px"><a href="./?r=' + Date.now() + '">↻ ' + (lang === 'zh' ? '回首页' : 'Home') + '</a></p>'; }
   document.documentElement.lang = t.htmlLang;
   var url = topicId ? 'topics/' + topicId + '.json' : isWeek ? 'weeks/' + document.body.getAttribute('data-week') + '.json' : 'weeks/weeks.json';
-  function getJSON(u) { return fetch(u, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+  function getJSON(u) { return fetch(u + '?v=' + encodeURIComponent(VER), { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
   Promise.all([getJSON(url), topicId ? Promise.resolve([]) : getJSON('topics/topics.json').catch(function () { return []; })])
     .then(function (res) {
       var d = res[0]; TOPICS = Array.isArray(res[1]) ? res[1] : [];

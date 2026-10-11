@@ -175,7 +175,8 @@
    "watchT": "🚩 Red flags: call the pediatrician",
    "disagreeT": "⚖️ Where experts disagree",
    "disagreeHint": "Same direction, different details.",
-   "moreT": "📚 More detail (optional)"
+   "moreT": "📚 More detail (optional)",
+   "pathT": ""
   },
   "counter": {
    "add": [
@@ -501,7 +502,8 @@
      "Either way: stop, and call the pediatrician."
     ]
    }
-  ]
+  ],
+  "paths": []
  },
  "zh": {
   "title": "一岁转牛奶",
@@ -520,7 +522,8 @@
    "watchT": "🚩 出现这些情况，联系儿科医生",
    "disagreeT": "⚖️ 专家意见不一样的地方",
    "disagreeHint": "大方向一致，细节有出入。",
-   "moreT": "📚 想多了解再看"
+   "moreT": "📚 想多了解再看",
+   "pathT": ""
   },
   "counter": {
    "add": [
@@ -846,6 +849,7 @@
      "不管是哪种，先停下来，问儿科医生。"
     ]
    }
-  ]
+  ],
+  "paths": []
  }
 }
