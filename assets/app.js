@@ -1,5 +1,5 @@
 /* Xyla Weekly: shared renderer (English + 简体中文).
-   Each week page sets <body data-week="week-03">; this file loads weeks/<id>.json, which holds
+   Each week page sets <body data-week="week-03">, each topic page <body data-topic="milk-at-one">; this file loads weeks/<id>.json or topics/<id>.json, which holds
    shared fields (id, start, end, videos) plus "en" and "zh" content side by side. No build step. */
 (function () {
   'use strict';
@@ -29,7 +29,9 @@
       nav: { big3: '⭐ Big 3', topics: '💬 Questions', today: '✅ Today', quiz: '🤔 Quiz', play: '🎲 Play', scripts: '🗣️ Say', next: '🗺️ Next', more: '📚 More', watch: '🩺 Doctor' },
       homeSub: 'Short, tappable weekly packs. The most important things first.', weeks: '📅 Weeks', thisWeek: 'This week',
       howTitle: 'How to use this', how: ['Open this week → read the <b>3 big things</b> (2 minutes).', 'Tick the <b>daily checklist</b> (saved on your phone).', 'Stuck? Hit <b>🎲 Lucky play</b>.'],
-      chooseLang: 'Language / 语言', loadFail: 'Couldn’t load this page', retry: 'Try refreshing.', pageTitle: 'Xyla Weekly'
+      chooseLang: 'Language / 语言', loadFail: 'Couldn’t load this page', retry: 'Try refreshing.', pageTitle: 'Xyla Weekly',
+      home: '← Home', bigTopics: '📌 Big topics', bigTopicsHint: 'One page per big question. Read once, come back as needed.', weekTopic: '📌 Big topic this week', topicVideos: '🎬 Videos on this topic',
+      tnav: { big3: '⭐ Big 3', path: '🧭 Path', plan: '📅 Plan', count: '🥛 Count', quiz: '🤔 Quiz', watch: '🚩 Red flags', disagree: '⚖️ Debates', more: '📚 More' }, big3T: '⭐ 3 big things', stepsT: 'Step by step', tipT: 'Tip: '
     },
     zh: {
       htmlLang: 'zh-Hans', roots: { Secure: '安全感', Curious: '好奇心', Kind: '友爱', Brave: '勇敢', 'Self-led': '自主', Healthy: '健康' },
@@ -52,7 +54,9 @@
       nav: { big3: '⭐ 3件事', topics: '💬 问答', today: '✅ 今天', quiz: '🤔 测一测', play: '🎲 玩什么', scripts: '🗣️ 怎么说', next: '🗺️ 接下来', more: '📚 更多', watch: '🩺 就医' },
       homeSub: '每周一份，点开就看，重要的先说。', weeks: '📅 每周内容', thisWeek: '本周',
       howTitle: '怎么用', how: ['打开本周，先看<b>最重要的 3 件事</b>，两分钟搞定。', '每天勾一勾<b>今天的小目标</b>，进度存在手机里。', '不知道玩什么？点<b>🎲 随机抽一个</b>。'],
-      chooseLang: 'Language / 语言', loadFail: '页面没加载出来', retry: '刷新一下试试。', pageTitle: 'Xyla 成长周记'
+      chooseLang: 'Language / 语言', loadFail: '页面没加载出来', retry: '刷新一下试试。', pageTitle: 'Xyla 成长周记',
+      home: '← 首页', bigTopics: '📌 重点话题', bigTopicsHint: '大问题单独整理成一页，看一遍，需要时再回来翻。', weekTopic: '📌 这周的重点话题', topicVideos: '🎬 相关视频',
+      tnav: { big3: '⭐ 3件事', path: '🧭 选情况', plan: '📅 计划', count: '🥛 记奶量', quiz: '🤔 测一测', watch: '🚩 警惕', disagree: '⚖️ 分歧', more: '📚 更多' }, big3T: '⭐ 最重要的 3 件事', stepsT: '一步一步来', tipT: '小提示：'
     }
   };
 
@@ -144,9 +148,10 @@
       (w.now && w.now.length ? '<details class="card" style="margin-top:14px"><summary><span class="ico">👶</span><span class="t">' + t.nowTitle + ' <small>' + esc(t.nowSub(w.now.length)) + '</small></span></summary><div class="body"><ul class="chips" style="margin:0">' + w.now.map(function (n) { return '<li>' + esc(n) + '</li>'; }).join('') + '</ul></div></details>' : '');
     root.appendChild(h);
   }
-  function renderNav(root, ids) {
+  function renderNav(root, ids, labels) {
+    labels = labels || t.nav;
     var n = el('nav', { class: 'jump', 'aria-label': 'Jump' });
-    n.innerHTML = ids.map(function (x) { return '<a href="#' + x + '">' + t.nav[x] + '</a>'; }).join('');
+    n.innerHTML = ids.map(function (x) { return '<a href="#' + x + '">' + labels[x] + '</a>'; }).join('');
     root.appendChild(n);
   }
   function renderBig3(w, root) {
@@ -317,12 +322,12 @@
     s.insertAdjacentHTML('beforeend', '<div class="callout"><ul>' + w.watch.map(function (x) { return '<li>' + x + '</li>'; }).join('') + '</ul><p class="small" style="margin:6px 0 0">' + t.watchFoot + '</p></div>');
     root.appendChild(s);
   }
-  function renderVideos(w, root) {
+  function renderVideos(w, root, title) {
     var seen = {}, all = [];
     (w.bigThree || []).concat(w.cards || [], w.details || []).forEach(function (c) { (c.videos || []).forEach(function (id) { if (!seen[id]) { seen[id] = 1; all.push(id); } }); });
     Object.keys(VIDEOS).forEach(function (id) { if (!seen[id]) { seen[id] = 1; all.push(id); } });
     if (!all.length) return;
-    var s = section('videos', t.videos, t.videosHint(all.length));
+    var s = section('videos', title || t.videos, t.videosHint(all.length));
     s.insertAdjacentHTML('beforeend', '<details class="card"><summary><span class="ico">🎬</span><span class="t">' + t.showAll(all.length) + '</span></summary><div class="body">' + all.map(videoHTML).join('') + '</div></details>');
     root.appendChild(s);
   }
@@ -337,6 +342,103 @@
     root.insertAdjacentHTML('beforeend', '<footer><strong>' + t.footer + '</strong><br>' + t.made + '</footer>');
   }
 
+  /* ---------- big topics ---------- */
+  function topicCardsHTML(list) {
+    return list.map(function (x) {
+      var c = x[lang] || x.en;
+      return '<a class="card" href="' + esc(x.file) + '"><span class="e">' + esc(x.emoji || '📌') + '</span><div><b>' + esc(c.title) + '</b><span>' + esc(c.tagline || '') + '</span></div></a>';
+    }).join('');
+  }
+  function renderWeekTopics(w, root) {
+    var list = TOPICS.filter(function (x) { return (x.weeks || []).indexOf(w.id) > -1; });
+    if (!list.length) return;
+    var s = section('bigtopic', t.weekTopic, ''); s.className = 'weeks';
+    s.insertAdjacentHTML('beforeend', topicCardsHTML(list));
+    root.appendChild(s);
+  }
+  function renderPaths(w, id, root) {
+    var L = w.labels, key = 'xyla:' + id + ':path';
+    var s = section('path', L.pathT, L.pathHint);
+    s.insertAdjacentHTML('beforeend', '<div class="paths" role="tablist">' + w.paths.map(function (p) {
+      return '<button type="button" role="tab" data-path="' + esc(p.key) + '"><span class="pi">' + esc(p.icon) + '</span><span>' + esc(p.label) + '</span></button>';
+    }).join('') + '</div><div class="pathplan" aria-live="polite"></div>');
+    root.appendChild(s);
+    function draw(k) {
+      var p = w.paths.filter(function (x) { return x.key === k; })[0];
+      s.querySelectorAll('[data-path]').forEach(function (b) { b.setAttribute('aria-selected', b.getAttribute('data-path') === k); });
+      s.querySelector('.pathplan').innerHTML = p ? '<div class="card pcard"><p class="pintro">' + esc(p.icon) + ' ' + p.intro + '</p><b class="small">' + t.stepsT + '</b>' +
+        p.steps.map(function (st, i) { return '<div class="step"><span class="n">' + (i + 1) + '</span><div class="c">' + st + '</div></div>'; }).join('') +
+        (p.tip ? '<p class="ptip">💡 ' + t.tipT + p.tip + '</p>' : '') + (p.videos || []).map(videoHTML).join('') + '</div>' : '';
+    }
+    s.querySelector('.paths').addEventListener('click', function (e) {
+      var b = e.target.closest('[data-path]'); if (!b) return;
+      store(key, b.getAttribute('data-path')); draw(b.getAttribute('data-path'));
+    });
+    draw(store(key) || '');
+  }
+  function renderSchedule(w, root) {
+    var sc = w.schedule, L = w.labels;
+    var s = section('plan', L.planT, L.planHint);
+    s.insertAdjacentHTML('beforeend', '<div class="card" style="padding:14px 16px"><ul class="tl sched">' + sc.steps.map(function (st, i) {
+      return '<li class="' + (i === 0 ? 'now' : '') + '"><span class="dot"></span><b>' + esc(st.t) + '</b><ul>' + st.lines.map(function (l) { return '<li>' + l + '</li>'; }).join('') + '</ul></li>';
+    }).join('') + '</ul>' + (sc.note ? '<p class="small" style="margin:0">' + sc.note + '</p>' : '') + '</div>' +
+      ((sc.videos || []).length ? '<details class="card"><summary><span class="ico">🎬</span><span class="t">' + t.showAll(sc.videos.length) + '</span></summary><div class="body">' + sc.videos.map(videoHTML).join('') + '</div></details>' : ''));
+    root.appendChild(s);
+  }
+  function renderCounter(w, id, root) {
+    var C = w.counter, L = w.labels, MAX = 32;
+    var key = 'xyla:' + id + ':oz:' + localISO();
+    var s = section('count', L.countT, L.countHint);
+    s.insertAdjacentHTML('beforeend', '<div class="card counter"><div class="cbig"><span class="cnum"></span><span class="csub"></span></div>' +
+      '<div class="cbar"><i></i><span class="m" style="left:' + (16 / MAX * 100) + '%"></span><span class="m over" style="left:' + (24 / MAX * 100) + '%"></span></div>' +
+      '<p class="small cleg">' + esc(C.legend) + '</p><p class="cmsg" aria-live="polite"></p>' +
+      '<div class="cbtns">' + C.add.map(function (n) { return '<button type="button" data-add="' + n + '">' + esc(C.addLabel[String(n)]) + '</button>'; }).join('') + '</div>' +
+      '<div class="cbtns sm"><button type="button" data-undo>' + esc(C.undo) + '</button><button type="button" data-clear>' + esc(C.reset) + '</button></div></div>');
+    root.appendChild(s);
+    function get() { return store(key) || []; }
+    function draw() {
+      var list = get(), oz = list.reduce(function (a, b) { return a + b; }, 0), ml = oz * 30;
+      s.querySelector('.cnum').textContent = lang === 'zh' ? ml + ' ml' : oz + ' oz';
+      s.querySelector('.csub').textContent = lang === 'zh' ? '（约 ' + oz + ' oz）' : ' ≈ ' + ml + ' ml';
+      var bar = s.querySelector('.cbar i'); bar.style.width = Math.min(oz / MAX * 100, 100) + '%';
+      var z = oz === 0 ? 'msg0' : oz < 8 ? 'msgLow' : oz <= 16 ? 'msgOk' : oz <= 24 ? 'msgHigh' : 'msgOver';
+      var card = s.querySelector('.counter'); card.className = 'card counter z-' + z;
+      s.querySelector('.cmsg').textContent = C[z];
+    }
+    s.addEventListener('click', function (e) {
+      var b = e.target.closest('button'); if (!b) return;
+      var list = get();
+      if (b.hasAttribute('data-add')) list.push(+b.getAttribute('data-add'));
+      else if (b.hasAttribute('data-undo')) list.pop();
+      else if (b.hasAttribute('data-clear')) list = [];
+      else return;
+      store(key, list); draw();
+    });
+    draw();
+  }
+  function buildTopic(d) {
+    var w = d[lang] || d.en, L = w.labels; w.id = d.id;
+    document.title = w.title + ' · ' + t.pageTitle;
+    var root = document.getElementById('app'); root.innerHTML = '';
+    var h = el('header', { class: 'hero' });
+    h.innerHTML = '<div class="toprow"><a class="back" href="./">' + t.home + '</a>' + langToggleHTML(false) + '</div>' +
+      '<h1>' + esc(d.emoji || '') + ' ' + esc(w.title) + '</h1><p class="sub">' + esc(w.sub) + '</p>' +
+      '<div class="callout answer">' + w.oneLiner + '</div>';
+    root.appendChild(h);
+    renderNav(root, ['big3', 'path', 'plan', 'count', 'quiz', 'watch', 'disagree', 'more'], t.tnav);
+    var b3 = section('big3', t.big3T, t.big3Hint); b3.className = 'big3';
+    b3.insertAdjacentHTML('beforeend', w.bigThree.map(function (c, i) { return cardHTML(c, true, i); }).join(''));
+    root.appendChild(b3);
+    renderPaths(w, d.id, root); renderSchedule(w, root); renderCounter(w, d.id, root);
+    var q = { id: d.id, quiz: w.quiz }; var tq = t.quiz; t.quiz = L.quizT; renderQuiz(q, root); t.quiz = tq;
+    var tw = t.watch; t.watch = L.watchT; renderWatch(w, root); t.watch = tw;
+    var ds = section('disagree', L.disagreeT, L.disagreeHint);
+    ds.insertAdjacentHTML('beforeend', w.disagree.map(function (c) { return cardHTML(c); }).join('')); root.appendChild(ds);
+    var tm = t.more; t.more = L.moreT; renderDetails(w, root); t.more = tm;
+    renderVideos({ bigThree: w.bigThree, details: w.details }, root, t.topicVideos);
+    var tn = t.sourcesNote; if (lang === 'zh') t.sourcesNote = '大部分是英文网站，最后两条是国内的。'; renderSources({ sources: d.sources }, root); t.sourcesNote = tn; footer(root);
+  }
+
   /* ---------- pages ---------- */
   function buildWeek(d) {
     var w = d[lang] || d.en; w.id = d.id; w.emoji = d.emoji;
@@ -345,7 +447,7 @@
     renderHero(w, root);
     var have = { big3: w.bigThree, topics: w.cards, today: w.daily, quiz: w.quiz, play: w.plays, scripts: w.scripts, next: w.timeline, more: w.details, watch: w.watch };
     renderNav(root, ['big3', 'topics', 'today', 'quiz', 'play', 'scripts', 'next', 'more', 'watch'].filter(function (k) { return have[k]; }));
-    renderBig3(w, root); renderCards(w, root); renderChecklist(w, root); renderQuiz(w, root);
+    renderBig3(w, root); renderWeekTopics(w, root); renderCards(w, root); renderChecklist(w, root); renderQuiz(w, root);
     renderPlay(w, root); renderScripts(w, root); renderTimeline(w, root); renderDetails(w, root);
     renderWatch(w, root); renderVideos(w, root); renderSources(w, root); footer(root);
   }
@@ -361,21 +463,27 @@
       return '<a class="card' + (cur ? ' current' : '') + '" href="' + esc(x.file) + '"><span class="e">' + esc(x.emoji || '📘') + '</span><div><b>' + esc(c.title) + (cur ? '<span class="badge">' + t.thisWeek + '</span>' : '') + '</b><span>' + esc(c.age) + ' · ' + esc(c.dates) + '</span><br><span>' + esc(c.tagline || '') + '</span></div></a>';
     }).join(''));
     root.appendChild(s);
+    if (TOPICS.length) {
+      var ts = section('topics', t.bigTopics, t.bigTopicsHint); ts.className = 'weeks';
+      ts.insertAdjacentHTML('beforeend', topicCardsHTML(TOPICS)); root.appendChild(ts);
+    }
     root.insertAdjacentHTML('beforeend', '<section><div class="callout"><b>' + t.howTitle + '</b><ul>' + t.how.map(function (h) { return '<li>' + h + '</li>'; }).join('') + '</ul></div></section>');
     footer(root);
   }
 
-  var isWeek = !!document.body.getAttribute('data-week');
+  var isWeek = !!document.body.getAttribute('data-week'), topicId = document.body.getAttribute('data-topic'), TOPICS = [];
   function render() {
     document.documentElement.lang = t.htmlLang;
     if (!DATA) return;
-    if (isWeek) buildWeek(DATA); else buildHome(DATA);
+    if (topicId) buildTopic(DATA); else if (isWeek) buildWeek(DATA); else buildHome(DATA);
   }
   function fail(msg) { document.getElementById('app').innerHTML = '<p style="padding:20px">' + t.loadFail + ' (' + esc(msg) + '). ' + t.retry + '</p>'; }
   document.documentElement.lang = t.htmlLang;
-  var url = isWeek ? 'weeks/' + document.body.getAttribute('data-week') + '.json' : 'weeks/weeks.json';
-  fetch(url, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function (d) {
+  var url = topicId ? 'topics/' + topicId + '.json' : isWeek ? 'weeks/' + document.body.getAttribute('data-week') + '.json' : 'weeks/weeks.json';
+  function getJSON(u) { return fetch(u, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+  Promise.all([getJSON(url), topicId ? Promise.resolve([]) : getJSON('topics/topics.json').catch(function () { return []; })])
+    .then(function (res) {
+      var d = res[0]; TOPICS = Array.isArray(res[1]) ? res[1] : [];
       DATA = d; VIDEOS = d.videos || {}; render();
       if (location.hash) { var x = document.querySelector(location.hash); if (x) x.scrollIntoView(); }
     })

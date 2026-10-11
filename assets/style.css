@@ -153,3 +153,34 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var
   .weeks a.card b{font-size:16px}
   details.card>summary .ico{font-size:26px}
 }
+/* topic pages */
+.answer{margin-top:12px}
+.paths{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.paths button{font:inherit;font-weight:650;font-size:14px;border:2px solid var(--line);background:#fff;border-radius:14px;padding:10px 6px;min-height:64px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;cursor:pointer;color:var(--ink)}
+.paths button .pi{font-size:22px;line-height:1.1}
+.paths button[aria-selected=true]{border-color:var(--accent);background:#fff4ec}
+.pcard{padding:14px 16px}
+.pintro{margin:0 0 8px;font-weight:600}
+.ptip{background:#f3f8ff;border-radius:10px;padding:8px 10px;font-size:14px;margin:10px 0 0}
+.tl.sched>li>ul{margin:4px 0 0;padding-left:18px}
+.tl.sched li li{padding:2px 0;font-size:14px;color:var(--ink);list-style:disc}
+.counter{padding:16px}
+.cbig{text-align:center}
+.cnum{font-size:32px;font-weight:800}
+.csub{color:var(--soft);font-size:14px}
+.cbar{position:relative;height:14px;background:#f1e7de;border-radius:99px;margin:12px 0 4px}
+.cbar i{display:block;height:100%;border-radius:99px;background:var(--good);width:0;transition:width .3s}
+.cbar .m{position:absolute;top:-4px;width:3px;height:22px;background:var(--soft);border-radius:2px}
+.cbar .m.over{background:var(--bad)}
+.cleg{text-align:center;margin:4px 0}
+.cmsg{font-weight:650;text-align:center;margin:8px 0 12px;min-height:1.5em}
+.cbtns{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.cbtns button{font:inherit;font-weight:650;font-size:14px;min-height:48px;border-radius:12px;border:2px solid var(--line);background:#fff;cursor:pointer;padding:6px;color:var(--ink)}
+.cbtns button:active{transform:scale(.97)}
+.cbtns.sm{grid-template-columns:1fr 1fr;margin-top:8px}
+.cbtns.sm button{min-height:40px;font-weight:500;font-size:13px}
+.counter.z-msgHigh .cbar i{background:var(--curious)}
+.counter.z-msgOver{border:2px solid var(--bad)}
+.counter.z-msgOver .cbar i{background:var(--bad)}
+.counter.z-msgOver .cmsg{color:var(--bad)}
+@media (max-width:600px){.cnum{font-size:28px}.paths button{font-size:13px}}

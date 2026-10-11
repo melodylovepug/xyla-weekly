@@ -1,0 +1,18 @@
+[
+ {
+  "id": "milk-at-one",
+  "file": "milk-at-one.html",
+  "emoji": "🥛",
+  "weeks": [
+   "week-03"
+  ],
+  "en": {
+   "title": "Milk at one",
+   "tagline": "Switch or not? Why 12 months, how much, how."
+  },
+  "zh": {
+   "title": "一岁转牛奶",
+   "tagline": "要不要换、为什么等一岁、喝多少、怎么换"
+  }
+ }
+]

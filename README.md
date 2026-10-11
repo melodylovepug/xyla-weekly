@@ -63,3 +63,8 @@ Preview locally: `python3 -m http.server` then open http://localhost:8000.
 
 ---
 General info, not medical advice; ask your pediatrician. 一般信息，不是医疗建议；请咨询儿科医生。
+
+## Big topics (one-page deep dives)
+- Topic pages are stubs like `milk-at-one.html` with `<body data-topic="milk-at-one">`; content lives in `topics/<id>.json` (shared `videos`, `sources`, then `en` and `zh` with identical shape).
+- List every topic in `topics/topics.json` (`id, file, emoji, weeks:[...], en:{title,tagline}, zh:{...}`). It shows on the home page under **Big topics / 重点话题**, and on any week listed in `weeks`.
+- Topic sections: `bigThree`, `paths` (picker), `schedule`, `counter`, `quiz`, `watch`, `disagree`, `details`. State is saved per topic in localStorage (`xyla:<id>:path`, `xyla:<id>:oz:<date>`, `xyla:<id>:quiz`).
