@@ -45,6 +45,10 @@
   {
    "label": "California Dept. of Education — The first days",
    "url": "https://www.cde.ca.gov/sp/Cd/re/caqfirstdays.asp"
+  },
+  {
+   "label": "AAP HealthyChildren — Toothbrushing tips for young children",
+   "url": "https://www.healthychildren.org/English/healthy-living/oral-health/Pages/Toothbrushing-Tips-for-Young-Children.aspx"
   }
  ],
  "en": {
@@ -175,6 +179,16 @@
       "id": "cream",
       "text": "Optional: diaper cream & sunscreen",
       "note": "Original containers, labeled, with the daycare's medication form."
+     },
+     {
+      "id": "toothbrush",
+      "text": "Soft infant/toddler toothbrush, labeled with her name",
+      "note": "Their day includes a brushing time. Add a cap/cover if they use one."
+     },
+     {
+      "id": "toothpaste",
+      "text": "Fluoride toothpaste — only if the daycare asks families to bring it",
+      "note": "Under 3: a smear the size of a grain of rice (AAP/ADA). Label the tube."
      }
     ]
    },
@@ -305,7 +319,8 @@
      },
      {
       "id": "questions",
-      "text": "Send your questions to the daycare (list in the countdown)"
+      "text": "Send your questions to the daycare (list in the countdown)",
+      "note": "Include: do they supply toothbrushes/toothpaste, and how are brushes stored?"
      },
      {
       "id": "calendar",
@@ -329,7 +344,7 @@
      "t": "2 weeks before",
      "lines": [
       "Shop and <b>label everything</b> (stickers + stamp are ready).",
-      "Send your questions: milk type & cup, how they cut food for a 1-year-old, nap setup, lovey/pacifier, short first days, family photo.",
+      "Send your questions: milk type & cup, how they cut food for a 1-year-old, nap setup, lovey/pacifier, short first days, family photo. Also ask: <b>do they supply toothbrushes/toothpaste, and how are brushes stored?</b>",
       "Start the <b>milk switch</b> to whole milk from a cup around her birthday (see Milk at one), so she's not learning a new drink and a new place in the same week.",
       "Practice <b>short separations</b>: 1–2 hours with a grandparent or sitter, using the same goodbye you'll use at daycare.",
       "Book the 12-month checkup."
@@ -855,6 +870,16 @@
       "id": "cream",
       "text": "可选：护臀膏、防晒霜",
       "note": "用原包装、贴好名字，再填托班的用药表。"
+     },
+     {
+      "id": "toothbrush",
+      "text": "婴幼儿软毛牙刷，贴上她的名字",
+      "note": "托班每天有刷牙时间。如果他们用牙刷套，也备一个。"
+     },
+     {
+      "id": "toothpaste",
+      "text": "含氟牙膏——托班要求家长带才带",
+      "note": "3 岁以下只挤米粒大小的一点点（AAP/美国牙医协会）。牙膏管也贴名字。"
      }
     ]
    },
@@ -985,7 +1010,8 @@
      },
      {
       "id": "questions",
-      "text": "把问题发给托班（倒计时里有清单）"
+      "text": "把问题发给托班（倒计时里有清单）",
+      "note": "记得问：牙刷、牙膏是托班准备还是家长带？牙刷怎么存放？"
      },
      {
       "id": "calendar",
@@ -1009,7 +1035,7 @@
      "t": "提前 2 周",
      "lines": [
       "买齐东西，<b>全部贴好名字</b>（姓名贴和印章已经有了）。",
-      "把问题发给托班：喝什么奶、用什么杯子、一岁宝宝的饭怎么切、午睡怎么安排、能不能带安抚物、头几天能不能早接、能不能放全家福。",
+      "把问题发给托班：喝什么奶、用什么杯子、一岁宝宝的饭怎么切、午睡怎么安排、能不能带安抚物、头几天能不能早接、能不能放全家福。再问一句：<b>牙刷、牙膏是托班准备还是家长带？牙刷怎么存放？</b>",
       "一岁前后开始<b>转全脂奶</b>，用杯子喝（看“一岁转牛奶”那页），别让她同一周既要适应新奶又要适应新地方。",
       "练习<b>短时间分开</b>：让爷爷奶奶或保姆带 1–2 小时，用的告别方式跟去托班一样。",
       "约好一岁体检。"
