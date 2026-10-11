@@ -184,3 +184,4 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var
 .counter.z-msgOver .cbar i{background:var(--bad)}
 .counter.z-msgOver .cmsg{color:var(--bad)}
 @media (max-width:600px){.cnum{font-size:28px}.paths button{font-size:13px}}
+.tl.sched li li b{display:inline}

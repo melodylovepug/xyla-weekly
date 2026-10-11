@@ -31,7 +31,7 @@
       howTitle: 'How to use this', how: ['Open this week → read the <b>3 big things</b> (2 minutes).', 'Tick the <b>daily checklist</b> (saved on your phone).', 'Stuck? Hit <b>🎲 Lucky play</b>.'],
       chooseLang: 'Language / 语言', loadFail: 'Couldn’t load this page', retry: 'Try refreshing.', pageTitle: 'Xyla Weekly',
       home: '← Home', bigTopics: '📌 Big topics', bigTopicsHint: 'One page per big question. Read once, come back as needed.', weekTopic: '📌 Big topic this week', topicVideos: '🎬 Videos on this topic',
-      tnav: { big3: '⭐ Big 3', path: '🧭 Path', plan: '📅 Plan', count: '🥛 Count', quiz: '🤔 Quiz', watch: '🚩 Red flags', disagree: '⚖️ Debates', more: '📚 More' }, big3T: '⭐ 3 big things', stepsT: 'Step by step', tipT: 'Tip: '
+      tnav: { big3: '⭐ Big 3', how: '🔁 Rules', plan: '📅 4 weeks', tips: '🧊 Tips', count: '🥛 Count', quiz: '🤔 Quiz', watch: '🚩 Red flags', disagree: '⚖️ Debates', more: '📚 More' }, big3T: '⭐ 3 big things', stepsT: 'Step by step', tipT: 'Tip: '
     },
     zh: {
       htmlLang: 'zh-Hans', roots: { Secure: '安全感', Curious: '好奇心', Kind: '友爱', Brave: '勇敢', 'Self-led': '自主', Healthy: '健康' },
@@ -56,7 +56,7 @@
       howTitle: '怎么用', how: ['打开本周，先看<b>最重要的 3 件事</b>，两分钟搞定。', '每天勾一勾<b>今天的小目标</b>，进度存在手机里。', '不知道玩什么？点<b>🎲 随机抽一个</b>。'],
       chooseLang: 'Language / 语言', loadFail: '页面没加载出来', retry: '刷新一下试试。', pageTitle: 'Xyla 成长周记',
       home: '← 首页', bigTopics: '📌 重点话题', bigTopicsHint: '大问题单独整理成一页，看一遍，需要时再回来翻。', weekTopic: '📌 这周的重点话题', topicVideos: '🎬 相关视频',
-      tnav: { big3: '⭐ 3件事', path: '🧭 选情况', plan: '📅 计划', count: '🥛 记奶量', quiz: '🤔 测一测', watch: '🚩 警惕', disagree: '⚖️ 分歧', more: '📚 更多' }, big3T: '⭐ 最重要的 3 件事', stepsT: '一步一步来', tipT: '小提示：'
+      tnav: { big3: '⭐ 3件事', how: '🔁 规矩', plan: '📅 4周计划', tips: '🧊 贴士', count: '🥛 记奶量', quiz: '🤔 测一测', watch: '🚩 警惕', disagree: '⚖️ 分歧', more: '📚 更多' }, big3T: '⭐ 最重要的 3 件事', stepsT: '一步一步来', tipT: '小提示：'
     }
   };
 
@@ -356,25 +356,19 @@
     s.insertAdjacentHTML('beforeend', topicCardsHTML(list));
     root.appendChild(s);
   }
-  function renderPaths(w, id, root) {
-    var L = w.labels, key = 'xyla:' + id + ':path';
-    var s = section('path', L.pathT, L.pathHint);
-    s.insertAdjacentHTML('beforeend', '<div class="paths" role="tablist">' + w.paths.map(function (p) {
-      return '<button type="button" role="tab" data-path="' + esc(p.key) + '"><span class="pi">' + esc(p.icon) + '</span><span>' + esc(p.label) + '</span></button>';
-    }).join('') + '</div><div class="pathplan" aria-live="polite"></div>');
+  function renderHow(w, root) {
+    var p = w.how, L = w.labels; if (!p) return;
+    var s = section('how', L.howT, L.howHint);
+    s.insertAdjacentHTML('beforeend', '<div class="card pcard"><p class="pintro">🍼 ' + p.intro + '</p>' +
+      p.steps.map(function (st, i) { return '<div class="step"><span class="n">' + (i + 1) + '</span><div class="c">' + st + '</div></div>'; }).join('') +
+      (p.tip ? '<p class="ptip">💡 ' + t.tipT + p.tip + '</p>' : '') + (p.videos || []).map(videoHTML).join('') + '</div>');
     root.appendChild(s);
-    function draw(k) {
-      var p = w.paths.filter(function (x) { return x.key === k; })[0];
-      s.querySelectorAll('[data-path]').forEach(function (b) { b.setAttribute('aria-selected', b.getAttribute('data-path') === k); });
-      s.querySelector('.pathplan').innerHTML = p ? '<div class="card pcard"><p class="pintro">' + esc(p.icon) + ' ' + p.intro + '</p><b class="small">' + t.stepsT + '</b>' +
-        p.steps.map(function (st, i) { return '<div class="step"><span class="n">' + (i + 1) + '</span><div class="c">' + st + '</div></div>'; }).join('') +
-        (p.tip ? '<p class="ptip">💡 ' + t.tipT + p.tip + '</p>' : '') + (p.videos || []).map(videoHTML).join('') + '</div>' : '';
-    }
-    s.querySelector('.paths').addEventListener('click', function (e) {
-      var b = e.target.closest('[data-path]'); if (!b) return;
-      store(key, b.getAttribute('data-path')); draw(b.getAttribute('data-path'));
-    });
-    draw(store(key) || '');
+  }
+  function renderTips(w, root) {
+    if (!w.tips) return;
+    var s = section('tips', w.labels.tipsT, w.labels.tipsHint);
+    s.insertAdjacentHTML('beforeend', w.tips.map(function (c) { return cardHTML(c); }).join(''));
+    root.appendChild(s);
   }
   function renderSchedule(w, root) {
     var sc = w.schedule, L = w.labels;
@@ -425,17 +419,22 @@
       '<h1>' + esc(d.emoji || '') + ' ' + esc(w.title) + '</h1><p class="sub">' + esc(w.sub) + '</p>' +
       '<div class="callout answer">' + w.oneLiner + '</div>';
     root.appendChild(h);
-    renderNav(root, ['big3', 'path', 'plan', 'count', 'quiz', 'watch', 'disagree', 'more'], t.tnav);
+    try {
+      localStorage.removeItem('xyla:' + d.id + ':path'); // old picker (removed)
+      var vk = 'xyla:' + d.id + ':v';
+      if (d.version && store(vk) !== d.version) { localStorage.removeItem('xyla:' + d.id + ':quiz'); store(vk, d.version); } // quiz items changed
+    } catch (e) {}
+    renderNav(root, ['big3', 'how', 'plan', 'tips', 'count', 'quiz', 'watch', 'disagree', 'more'], t.tnav);
     var b3 = section('big3', t.big3T, t.big3Hint); b3.className = 'big3';
     b3.insertAdjacentHTML('beforeend', w.bigThree.map(function (c, i) { return cardHTML(c, true, i); }).join(''));
     root.appendChild(b3);
-    renderPaths(w, d.id, root); renderSchedule(w, root); renderCounter(w, d.id, root);
+    renderHow(w, root); renderSchedule(w, root); renderTips(w, root); renderCounter(w, d.id, root);
     var q = { id: d.id, quiz: w.quiz }; var tq = t.quiz; t.quiz = L.quizT; renderQuiz(q, root); t.quiz = tq;
     var tw = t.watch; t.watch = L.watchT; renderWatch(w, root); t.watch = tw;
     var ds = section('disagree', L.disagreeT, L.disagreeHint);
     ds.insertAdjacentHTML('beforeend', w.disagree.map(function (c) { return cardHTML(c); }).join('')); root.appendChild(ds);
     var tm = t.more; t.more = L.moreT; renderDetails(w, root); t.more = tm;
-    renderVideos({ bigThree: w.bigThree, details: w.details }, root, t.topicVideos);
+    renderVideos({ bigThree: w.bigThree, details: w.details.concat(w.how ? [w.how] : []) }, root, t.topicVideos);
     var tn = t.sourcesNote; if (lang === 'zh') t.sourcesNote = '大部分是英文网站，最后两条是国内的。'; renderSources({ sources: d.sources }, root); t.sourcesNote = tn; footer(root);
   }
 

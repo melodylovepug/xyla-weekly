@@ -1,5 +1,6 @@
 {
  "id": "milk-at-one",
+ "version": 2,
  "emoji": "🥛",
  "videos": {
   "_T-baecQk4M": {
@@ -58,14 +59,6 @@
    "length": "6:50",
    "lang": "en"
   },
-  "m3xIC24XeXg": {
-   "title": "Weaning a Baby From Breastfeeding - First With Kids - Vermont Children's Hospital",
-   "titleZh": "想断母乳的时候，怎么慢慢断",
-   "channel": "University of Vermont Health",
-   "channelZh": "佛蒙特儿童医院",
-   "length": "2:00",
-   "lang": "en"
-  },
   "Ism9tiYmjMc": {
    "title": "Toddler Formulas: What are They & Does Your Toddler Need One?",
    "titleZh": "幼儿配方奶是什么？需要喝吗？",
@@ -84,14 +77,6 @@
   }
  },
  "sources": [
-  {
-   "label": "AAP policy: Breastfeeding and the Use of Human Milk (2022)",
-   "url": "https://publications.aap.org/pediatrics/article/150/1/e2022057988/188347"
-  },
-  {
-   "label": "WHO fact sheet: Infant and young child feeding",
-   "url": "https://www.who.int/news-room/fact-sheets/detail/infant-and-young-child-feeding"
-  },
   {
    "label": "WHO Guideline for complementary feeding 6–23 months (2023)",
    "url": "https://www.who.int/publications/i/item/9789240081864"
@@ -153,21 +138,39 @@
    "url": "https://www.cnsoc.org/knowledge/7125112041.html"
   },
   {
+   "label": "HealthyChildren (AAP): How long can baby bottles sit out at room temperature? (2026)",
+   "url": "https://www.healthychildren.org/English/tips-tools/ask-the-pediatrician/Pages/how-long-can-baby-bottles-sit-at-room-temperature.aspx"
+  },
+  {
+   "label": "Nemours KidsHealth: Formula Feeding FAQs, Preparation and Storage",
+   "url": "https://kidshealth.org/en/parents/formulafeed-storing.html"
+  },
+  {
+   "label": "FoodSafety.gov: Cold Food Storage Chart (fridge 40°F / 4°C)",
+   "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts"
+  },
+  {
+   "label": "MSU Extension: Safely donating baby food and formula",
+   "url": "https://msu-prod-2.dotcms.cloud/news/safely-donating-baby-food-formula-and-breast-milk"
+  },
+  {
    "label": "Congress.gov: Whole Milk for Healthy Kids Act (2026)",
    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/222"
   }
  ],
  "en": {
   "title": "Milk at one",
-  "sub": "Around Xyla’s 1st birthday · 12 months+",
-  "oneLiner": "<b>Short answer:</b> switching to cow’s milk is <b>optional</b>, not a must. Breast milk can keep going. Formula is usually done by 12 months. If you want a milk drink, whole cow’s milk is the easy default. From one, <b>food is the meal; milk is a drink</b>.",
+  "sub": "Formula-fed · around Xyla’s 1st birthday · 12 months+",
+  "oneLiner": "<b>Short answer:</b> around 12 months, infant formula’s job is done. Move her to <b>whole cow’s milk plus food</b>, not to another formula; toddler (“stage 3”) formula isn’t needed. Switch gradually over about 4 weeks, in a cup. Cow’s milk itself isn’t required, it’s just the easiest option. From one, <b>food is the meal; milk is a drink</b>.",
   "labels": {
-   "pathT": "🧭 Which path are you on?",
-   "pathHint": "Tap one to see your step-by-step plan. (Saved on this phone.)",
-   "planT": "📅 2–4 week switch plan",
-   "planHint": "For any formula or bottle feeds you’re replacing. Nursing can stay as is.",
+   "howT": "🔁 Formula → whole milk: the rules",
+   "howHint": "Five rules that make the switch smooth.",
+   "planT": "📅 4-week switch plan",
+   "planHint": "Formula and bottles out, whole milk and cups in. Faster or slower is fine.",
+   "tipsT": "🧊 Practical tips",
+   "tipsHint": "Storage, temperature, leftover cans, and stage 3.",
    "countT": "🥛 Today’s milk counter",
-   "countHint": "Tap for each cup of cow’s milk or formula she drinks. Saved on this phone, resets daily. Nursing isn’t counted, and that’s fine.",
+   "countHint": "Tap for each serving of whole milk or formula she drinks (mixes count too). Saved on this phone, resets daily.",
    "quizT": "🤔 Do or Don’t?",
    "watchT": "🚩 Red flags: call the pediatrician",
    "disagreeT": "⚖️ Where experts disagree",
@@ -188,7 +191,7 @@
    "undo": "Undo",
    "reset": "Reset",
    "msg0": "Nothing yet today.",
-   "msgLow": "A light day. Fine if she eats yogurt or cheese, or nurses.",
+   "msgLow": "A light day. Fine if she eats yogurt or cheese.",
    "msgOk": "👍 Right in the sweet spot.",
    "msgHigh": "OK, upper end. No more needed today; offer water.",
    "msgOver": "⚠️ Over 24 oz. Too much milk crowds out food and can lower iron. Switch to water, and offer food first next time.",
@@ -196,13 +199,13 @@
   },
   "bigThree": [
    {
-    "icon": "🥛",
-    "title": "It’s optional. Breast milk counts.",
-    "sub": "No one has to switch to cow’s milk",
+    "icon": "🍼",
+    "title": "Formula’s job is done at 12 months",
+    "sub": "No stage 3 needed",
     "lines": [
-     "Breast milk can continue to <b>2 years or beyond</b>, as long as you both want (AAP, WHO).",
-     "Infant formula usually isn’t needed after 12 months. Toddler or “stage 3” formula isn’t needed either (AAP, WHO).",
-     "Whole cow’s milk is just the easiest way to get calcium, protein and vitamin D. Yogurt and cheese work too."
+     "Around 12 months, she can move from infant formula to whole cow’s milk plus food (AAP).",
+     "Toddler or “stage 3” formula isn’t needed (AAP, WHO). Whole milk does the same job for less money, without added sugar.",
+     "Cow’s milk isn’t magic either: it’s just the easiest source of calcium, protein and vitamin D. Yogurt and cheese count too."
     ],
     "videos": [
      "PD3k4BbYQLw",
@@ -225,13 +228,13 @@
    },
    {
     "icon": "📏",
-    "title": "About 2 cups a day, never over 3",
+    "title": "About 2 cups a day, in a cup",
     "sub": "~16 oz (480 ml) · max 24 oz (720 ml)",
     "lines": [
      "Aim for about <b>16 oz</b> (2 cups) of whole milk a day. <b>24 oz</b> is the ceiling.",
      "Too much milk fills her up, so she eats less iron-rich food. That can mean iron-deficiency anemia, and often constipation.",
      "Whole milk (not skim or 1%) until 2. Use 2% only if the pediatrician suggests it.",
-     "Off the bottle by 12–18 months: milk goes in a cup, with meals."
+     "Cups, not bottles: daytime bottles go first, the bedtime bottle last, all done by about 15–18 months."
     ],
     "videos": [
      "8G2tnEmRAtI",
@@ -239,102 +242,108 @@
     ]
    }
   ],
-  "paths": [
-   {
-    "key": "breast",
-    "icon": "🤱",
-    "label": "Breastfeeding",
-    "intro": "Good news: nothing has to change on her birthday. Breast milk is still great food in year two.",
-    "steps": [
-     "Keep nursing as much as you both want. Breast milk counts as her milk, so there’s no need to count ounces.",
-     "Make food the main event: 3 meals + 2 snacks, with iron-rich foods (meat, eggs, beans, tofu, iron-fortified cereal).",
-     "Offer water in an open or straw cup at meals.",
-     "Optional: add whole milk, yogurt or cheese for calcium, e.g. a small cup (4 oz) with a meal. If you pump and want to stop, swap one pumped bottle for whole milk in a cup every few days (mix 1:1 first if she’s unsure).",
-     "At the 12-month visit, ask about vitamin D (most toddlers who drink under ~32 oz of fortified milk need a supplement) and iron screening."
-    ],
-    "tip": "Nursing a lot and barely eating? Mention it at the checkup, and try nursing after meals instead of before.",
-    "videos": [
-     "m3xIC24XeXg"
-    ]
-   },
-   {
-    "key": "formula",
-    "icon": "🍼",
-    "label": "Formula",
-    "intro": "Formula’s job is done around 12 months. Switch to whole milk gradually over 2–4 weeks.",
-    "steps": [
-     "Skip “toddler” or “stage 3” formula. Whole cow’s milk plus food does the job (AAP, WHO).",
-     "Start with one feed: mix <b>prepared</b> formula with whole milk 1:1. Never mix powder into cow’s milk.",
-     "Every 3–4 days, use more milk and less formula, one feed at a time, until it’s all whole milk.",
-     "Serve it in a cup with meals or snacks. Drop daytime bottles first, then the nap bottle, and bedtime last.",
-     "Target about 16 oz a day in total, max 24. She’ll drink less than she did formula. That’s normal; food fills the gap."
-    ],
-    "tip": "Happy with straight whole milk on day 1? Great, skip the mixing.",
-    "videos": [
-     "ZXzItS-6Sb8"
-    ]
-   },
-   {
-    "key": "both",
-    "icon": "🤱🍼",
-    "label": "Both",
-    "intro": "Keep the nursing you enjoy, and swap the formula bottles for whole milk.",
-    "steps": [
-     "Keep nursing sessions as they are. Morning and bedtime nursing often last the longest; no rush.",
-     "Replace formula feeds one at a time with whole milk in a cup (mix 1:1 first if needed).",
-     "Count only cow’s milk toward the 16–24 oz. Breast milk is extra, not a problem.",
-     "Lots of nursing + lots of milk + little food? Trim the cow’s milk first.",
-     "At the 12-month visit, ask about vitamin D and iron screening."
-    ],
-    "tip": "Pumping? Pumped milk can go in a cup too, on its own or mixed with whole milk.",
-    "videos": []
-   }
-  ],
+  "how": {
+   "intro": "Formula’s job is done around 12 months. Switch to whole milk gradually over about 4 weeks.",
+   "steps": [
+    "Skip “toddler” or “stage 3” formula. Whole cow’s milk plus food does the job (AAP, WHO).",
+    "Always mix <b>prepared</b> formula (made with water as the label says) with whole milk. Never stir powder into cow’s milk.",
+    "Change one feed at a time, and move it to a cup at the same time.",
+    "Bottles go in order: daytime first, then nap, bedtime last.",
+    "Target about 16 oz a day in total, max 24. She’ll drink less than she did formula. That’s normal; food fills the gap."
+   ],
+   "tip": "Happy with straight whole milk on day 1? Great, skip the mixing and go straight to cups.",
+   "videos": [
+    "ZXzItS-6Sb8"
+   ]
+  },
   "schedule": {
    "steps": [
     {
      "t": "Now → 12 months: warm-up",
      "lines": [
-      "Practice a cup at meals with water (or breast milk / formula).",
+      "Practice a cup at meals with water or her formula.",
       "After 11 months: an optional sip of whole milk to try the taste.",
-      "Buy plain, pasteurized whole milk with vitamin D. No flavored milks."
+      "Buy plain, pasteurized whole milk with vitamin D. Don’t stock up on more formula."
      ]
     },
     {
-     "t": "Week 1",
+     "t": "Week 1: one feed",
      "lines": [
-      "Swap one feed (e.g. lunch) for a 1:1 mix in a cup.",
+      "Replace <b>one daytime feed</b> (e.g. lunch) with <b>1:1</b> prepared formula + whole milk, in a cup.",
+      "Other feeds stay formula in bottles.",
       "Watch her tummy, poop and skin."
      ]
     },
     {
-     "t": "Week 2",
+     "t": "Week 2: two feeds",
      "lines": [
-      "Make that feed all milk; start mixing a second one.",
-      "Daytime bottles are done."
+      "<b>Two daytime feeds</b> (e.g. breakfast + lunch) are now <b>1:1</b>, in cups.",
+      "Daytime bottles are done; nap and bedtime stay for now."
      ]
     },
     {
-     "t": "Week 3",
+     "t": "Week 3: mostly milk",
      "lines": [
-      "Swap the rest of the daytime feeds.",
-      "Nap bottle → cup, or skip it."
+      "Those cups go to <b>3 parts milk : 1 part formula</b>.",
+      "The nap feed moves to a cup (1:1), or skip it if she’s eating well.",
+      "Bedtime bottle: still formula for now."
      ]
     },
     {
-     "t": "Week 4",
+     "t": "Week 4: all whole milk",
      "lines": [
-      "Bedtime last: milk before tooth-brushing, then a book and a cuddle instead of a bottle.",
-      "Settle at about 2 cups a day. Nursing can stay."
+      "Every cup is <b>whole milk only</b>. Formula is done.",
+      "Bedtime bottle switches to whole milk (a few nights of 1:1 first if she fusses)."
+     ]
+    },
+    {
+     "t": "After: last bottle out (by ~15–18 months)",
+     "lines": [
+      "Move bedtime milk earlier, before tooth-brushing, in a cup.",
+      "Or shrink the bedtime bottle by about 1 oz every few nights.",
+      "Replace it with a book and a cuddle. Done!"
      ]
     }
    ],
-   "note": "Faster or slower is fine. Sick or teething week? Pause, then pick up again.",
+   "note": "Sick or teething week? Pause, then pick up again.",
    "videos": [
     "zPAu74Bw08U",
     "4mCh2wEiHWU"
    ]
   },
+  "tips": [
+   {
+    "icon": "🧊",
+    "title": "Storage & temperature",
+    "lines": [
+     "Keep whole milk at the back of the fridge, 40°F (4°C) or colder.",
+     "Cold milk is fine. Want it warmer? Stand the cup in a bowl of warm water for a few minutes. Never the microwave (hot spots).",
+     "Mix formula + milk right before serving. Once she’s drunk from it, toss leftovers within 1 hour.",
+     "Prepared formula not yet served: use within 2 hours at room temperature, or refrigerate and use within 24 hours.",
+     "Pour small amounts (2–4 oz) and top up. Less waste."
+    ]
+   },
+   {
+    "icon": "🥫",
+    "title": "Extra formula cans",
+    "lines": [
+     "Opened powder: lid tight, in a cool, dry cupboard (not the fridge). Most need using within about 1 month of opening, so write the date on the lid and check the label.",
+     "The 4-week plan is a good way to finish an opened can. Skip the big tubs near the end.",
+     "Unopened, unexpired, undamaged cans: many food banks and formula/baby banks accept them. Call first.",
+     "Never use formula past its “use by” date."
+    ]
+   },
+   {
+    "icon": "🇨🇳",
+    "title": "Stage 3 formula (optional)",
+    "lines": [
+     "Not needed: AAP and WHO say whole milk plus food is enough.",
+     "China’s national guideline does suggest a suitable toddler formula at 1–2 years. If you or family prefer it, it’s an OK choice, not a must.",
+     "If you use it: pick one without added sugar, follow the label, and count it in the same ~16–24 oz (~500 ml) daily total, still in a cup.",
+     "Don’t swap it for sweetened “milk drinks” (乳饮料)."
+    ]
+   }
+  ],
   "quiz": [
    {
     "q": "Give whole milk (not skim or 1%) from 12 months to 2 years",
@@ -344,12 +353,17 @@
    {
     "q": "Buy toddler “stage 3” formula so she doesn’t miss nutrients",
     "a": "dont",
-    "why": "AAP and WHO: not needed. Whole milk plus varied food is enough; toddler formulas cost more and often have added sugar. (Chinese guidance differs; see “Where experts disagree”.)"
+    "why": "AAP and WHO: not needed. Whole milk plus varied food is enough; toddler formulas cost more and often have added sugar. (Chinese guidance differs; it’s optional, see “Practical tips”.)"
    },
    {
     "q": "Serve milk in a cup at meals",
     "a": "do",
-    "why": "Cups protect teeth and leave room for food. Aim to be off bottles by 12–18 months."
+    "why": "Cups protect teeth and leave room for food. Aim to be off bottles by about 15–18 months."
+   },
+   {
+    "q": "Put whole milk in her daytime bottles so nothing changes",
+    "a": "dont",
+    "why": "Use the switch to move to cups. Sipping from bottles makes it easy to drink too much and skip meals, and it’s hard on teeth."
    },
    {
     "q": "Let her fall asleep with a bottle of milk",
@@ -359,17 +373,17 @@
    {
     "q": "Mix formula powder into cow’s milk to ease the taste",
     "a": "dont",
-    "why": "That makes it too concentrated. Mix <b>prepared</b> formula (or breast milk) with milk 1:1 instead."
+    "why": "That makes it too concentrated. Make the formula with water as the label says, <b>then</b> mix it 1:1 with milk."
+   },
+   {
+    "q": "Save the leftover formula + milk mix in her cup for later",
+    "a": "dont",
+    "why": "Once she’s drunk from it, toss leftovers within 1 hour, the same rule as formula."
    },
    {
     "q": "Let her drink as much milk as she wants",
     "a": "dont",
     "why": "Over 24 oz a day can push out iron-rich food and lead to anemia. About 2 cups is plenty."
-   },
-   {
-    "q": "Keep breastfeeding after her first birthday",
-    "a": "do",
-    "why": "AAP and WHO support breastfeeding to 2 years or beyond, as long as you both want."
    },
    {
     "q": "Use oat or almond milk as her main milk",
@@ -379,7 +393,7 @@
    {
     "q": "Warm the milk a little if she refuses it cold",
     "a": "do",
-    "why": "Slightly warm milk feels more like breast milk or formula, so it’s easier to accept."
+    "why": "If her formula was warm, slightly warm milk feels more familiar. Use a bowl of warm water, never the microwave."
    }
   ],
   "watch": [
@@ -408,9 +422,9 @@
     "title": "Toddler formula: US vs China",
     "lines": [
      "AAP and WHO: not recommended.",
-     "China’s National Health Commission guideline: at 1–2 years, if there’s no breast milk or not enough, a suitable toddler formula is still suggested, plus some fresh milk, yogurt and cheese.",
+     "China’s National Health Commission guideline: for formula-fed 1–2-year-olds, a suitable toddler formula is still suggested, plus some fresh milk, yogurt and cheese.",
      "Chinese Nutrition Society: for ages 2–3, prefers growth milk fortified with vitamin D and calcium.",
-     "Either way: about 500 ml of dairy a day, plain, and not sweet “milk drinks”."
+     "Either way: about 500 ml of dairy a day, plain, not sweet “milk drinks”. Stage 3 is optional."
     ]
    },
    {
@@ -428,7 +442,8 @@
     "title": "Bottle deadline",
     "lines": [
      "CHOP: as soon after 1 as possible.",
-     "AAP: sometime between 12 and 18 months."
+     "AAP: sometime between 12 and 18 months.",
+     "This plan: daytime bottles gone in 2 weeks, the bedtime bottle by about 15–18 months."
     ]
    },
    {
@@ -443,8 +458,8 @@
     "icon": "🗓️",
     "title": "Cow’s milk before 1?",
     "lines": [
-     "WHO: for babies who aren’t breastfed, animal milk is acceptable from 6 months (low-certainty evidence; full-fat).",
-     "US: wait until 12 months."
+     "WHO: for formula-fed babies 6–11 months, animal milk is an acceptable alternative (low-certainty evidence; full-fat).",
+     "US: wait until 12 months; stay on formula until then."
     ]
    }
   ],
@@ -473,16 +488,16 @@
      "<b>Lunch:</b> ½ sandwich, ½ cup green veggies + ½ cup milk",
      "<b>Snack:</b> cheese cubes or fruit + water or ½ cup milk",
      "<b>Dinner:</b> 2–3 oz meat, ½ cup orange veggies, ½ cup pasta or potato + ½ cup milk",
-     "That adds up to about 12–20 oz of milk. Breastfeeding? Swap the milk cups for nursing, water and yogurt or cheese."
+     "That adds up to about 12–20 oz of milk, all in cups."
     ]
    },
    {
     "icon": "🤧",
     "title": "Allergy or intolerance?",
     "lines": [
-     "<b>Allergy</b> is the immune system: hives, vomiting, blood in poop, trouble breathing. It usually shows up before 1 if she’s had formula or dairy.",
+     "<b>Allergy</b> is the immune system: hives, vomiting, blood in poop, trouble breathing.",
+     "Already drinking a cow’s-milk-based formula without trouble? A true milk allergy is unlikely; most show up before 1.",
      "<b>Lactose intolerance</b> is digestion: gas, bloating, loose poop. It isn’t dangerous, is uncommon before age 3, and can happen briefly after a stomach bug.",
-     "Already eats yogurt and cheese happily? A true milk allergy is unlikely.",
      "Either way: stop, and call the pediatrician."
     ]
    }
@@ -490,15 +505,17 @@
  },
  "zh": {
   "title": "一岁转牛奶",
-  "sub": "Xyla 快满一岁 · 12 个月以后",
-  "oneLiner": "<b>先说结论：</b>换牛奶<b>不是必须的</b>。母乳可以接着喂；配方奶一般到 12 个月就能停；想喝奶的话，全脂牛奶最省事。一岁以后，<b>吃饭才是正餐，奶只是饮品</b>。",
+  "sub": "喝配方奶 · Xyla 快满一岁 · 12 个月以后",
+  "oneLiner": "<b>先说结论：</b>12 个月左右，配方奶就完成任务了。接下来换成<b>全脂牛奶 + 好好吃饭</b>，不用再换另一种奶粉，幼儿配方奶（3段）没必要。花 4 周左右慢慢换，用杯子喝。牛奶本身也不是必须的，只是最省事。一岁以后，<b>吃饭才是正餐，奶只是饮品</b>。",
   "labels": {
-   "pathT": "🧭 你现在是哪种情况？",
-   "pathHint": "点一下，看对应的步骤（会记在这台手机上）。",
-   "planT": "📅 2～4 周过渡计划",
-   "planHint": "针对要换掉的配方奶或奶瓶。亲喂照常就好。",
+   "howT": "🔁 配方奶换全脂奶：几条规矩",
+   "howHint": "记住这五条，换起来就顺。",
+   "planT": "📅 4 周过渡计划",
+   "planHint": "配方奶、奶瓶慢慢退场，全脂奶、杯子上场。快一点慢一点都行。",
+   "tipsT": "🧊 实用小贴士",
+   "tipsHint": "怎么存、喝凉的还是温的、剩下的奶粉、3段要不要。",
    "countT": "🥛 今天喝了多少奶",
-   "countHint": "她每喝一杯牛奶或配方奶就点一下。存在这台手机里，每天自动清零。母乳不用算。",
+   "countHint": "她每喝一次牛奶或配方奶就点一下，混合奶也算。存在这台手机里，每天自动清零。",
    "quizT": "🤔 这样做对吗？",
    "watchT": "🚩 出现这些情况，联系儿科医生",
    "disagreeT": "⚖️ 专家意见不一样的地方",
@@ -519,7 +536,7 @@
    "undo": "撤销",
    "reset": "清零",
    "msg0": "今天还没喝。",
-   "msgLow": "喝得不多，有吃酸奶、奶酪或者亲喂就没问题。",
+   "msgLow": "喝得不多，有吃酸奶、奶酪就没问题。",
    "msgOk": "👍 刚刚好。",
    "msgHigh": "够了，已经偏多。今天别再加，渴了喝水。",
    "msgOver": "⚠️ 超过 720ml 了。奶喝太多会挤掉饭量，还会影响铁的吸收。接下来喝水，下次先吃饭再喝奶。",
@@ -527,13 +544,13 @@
   },
   "bigThree": [
    {
-    "icon": "🥛",
-    "title": "不是非换不可，母乳也算奶",
-    "sub": "没人规定一岁必须喝牛奶",
+    "icon": "🍼",
+    "title": "一岁左右，配方奶就可以毕业了",
+    "sub": "3段奶粉不用买",
     "lines": [
-     "母乳可以喂到<b>两岁甚至更久</b>，只要你们俩都愿意。美国儿科学会（AAP）和世卫组织都支持。",
-     "一岁以后普通配方奶基本不用再喝；专门的幼儿配方奶（3段奶粉）美国儿科学会和世卫组织也都觉得没必要。",
-     "喝全脂牛奶只是补钙、补蛋白、补维D最方便的办法，酸奶、奶酪一样管用。"
+     "12 个月左右，就可以从婴儿配方奶换成全脂牛奶，再加上好好吃饭（美国儿科学会）。",
+     "幼儿配方奶（3段）没必要，美国儿科学会和世卫组织都这么说。全脂牛奶作用一样，还更便宜、不加糖。",
+     "牛奶也没那么神奇，只是补钙、补蛋白、补维D最方便的办法，酸奶、奶酪一样算数。"
     ],
     "videos": [
      "PD3k4BbYQLw",
@@ -556,13 +573,13 @@
    },
    {
     "icon": "📏",
-    "title": "一天两杯左右，别超过三杯",
+    "title": "一天两杯左右，用杯子喝",
     "sub": "约 480ml · 最多 720ml",
     "lines": [
      "每天 <b>480ml 左右</b>（2 杯）全脂奶就够，<b>720ml</b> 是上限。",
      "奶喝多了肚子就饱了，饭吃得少，铁跟不上，容易缺铁性贫血，也容易便秘。",
      "两岁前喝全脂，别喝脱脂或 1%。要不要换 2%，听儿科医生的。",
-     "12～18 个月慢慢戒掉奶瓶，奶用杯子装，配着饭喝。"
+     "用杯子，不用奶瓶：先停白天的奶瓶，睡前那瓶最后停，15～18 个月左右全部戒掉。"
     ],
     "videos": [
      "8G2tnEmRAtI",
@@ -570,102 +587,108 @@
     ]
    }
   ],
-  "paths": [
-   {
-    "key": "breast",
-    "icon": "🤱",
-    "label": "母乳",
-    "intro": "好消息：过完生日什么都不用急着改，第二年的母乳照样是好东西。",
-    "steps": [
-     "想喂就接着喂，喂多久你们俩说了算。母乳就算她的奶，不用算喝了多少毫升。",
-     "把吃饭当正事：一天三顿加两次加餐，多安排含铁的食物，比如肉、蛋、豆子、豆腐、强化铁米粉。",
-     "吃饭时配一杯水，敞口杯、吸管杯都行。",
-     "想多补点钙，可以加全脂牛奶、酸奶或奶酪，比如吃饭时来小半杯（120ml）奶。在背奶想停的话，每隔几天把一瓶母乳换成一杯全脂奶；她不太接受，就先一比一混着喝。",
-     "一岁体检问问医生：要不要补维D（每天喝不到 950ml 强化奶的宝宝基本都要补），要不要查铁。"
-    ],
-    "tip": "总是吃奶、不怎么吃饭？体检时跟医生提一下，可以先把吃奶挪到饭后。",
-    "videos": [
-     "m3xIC24XeXg"
-    ]
-   },
-   {
-    "key": "formula",
-    "icon": "🍼",
-    "label": "配方奶",
-    "intro": "配方奶到一岁差不多就完成任务了，花 2～4 周慢慢换成全脂牛奶。",
-    "steps": [
-     "不用买幼儿配方奶或 3段奶粉，全脂牛奶加上好好吃饭就够了（美国儿科学会、世卫组织的意见）。",
-     "先换一顿：<b>冲好的</b>配方奶和全脂牛奶一比一混着喝。千万别直接用牛奶冲奶粉。",
-     "每隔 3～4 天，牛奶多一点、配方奶少一点，一顿一顿换，直到全换成牛奶。",
-     "用杯子装，配正餐或加餐喝。先停白天的奶瓶，再停午睡那瓶，睡前那瓶最后停。",
-     "一天总共 480ml 左右，最多 720ml。比以前喝配方奶的量少很正常，饭会补上。"
-    ],
-    "tip": "第一天就爱喝纯牛奶？那就不用混，直接换。",
-    "videos": [
-     "ZXzItS-6Sb8"
-    ]
-   },
-   {
-    "key": "both",
-    "icon": "🤱🍼",
-    "label": "混合喂养",
-    "intro": "喜欢的亲喂照常，配方奶那几顿换成全脂牛奶。",
-    "steps": [
-     "亲喂照常。早上和睡前那两顿往往留得最久，不用急着断。",
-     "配方奶一顿一顿换成杯子装的全脂奶，不接受就先一比一混着喝。",
-     "480～720ml 只算牛奶，母乳另算，多喂了也不用担心超量。",
-     "母乳多、牛奶多、饭吃得少？先减牛奶。",
-     "一岁体检问问维D和查铁的事。"
-    ],
-    "tip": "在背奶的话，挤出来的母乳也可以装杯子喝，单喝或者跟牛奶混着都行。",
-    "videos": []
-   }
-  ],
+  "how": {
+   "intro": "配方奶到一岁差不多就完成任务了，花 4 周左右慢慢换成全脂牛奶。",
+   "steps": [
+    "不用买幼儿配方奶或 3段奶粉，全脂牛奶加上好好吃饭就够了（美国儿科学会、世卫组织的意见）。",
+    "混的时候，一定是<b>冲好的</b>配方奶（按说明用水冲）再兑全脂牛奶。千万别直接用牛奶冲奶粉。",
+    "一次只换一顿，换的那顿顺便改用杯子。",
+    "奶瓶按顺序停：先白天，再午睡，睡前那瓶最后。",
+    "一天总共 480ml 左右，最多 720ml。比以前喝配方奶的量少很正常，饭会补上。"
+   ],
+   "tip": "第一天就爱喝纯牛奶？那就不用混，直接换杯子喝。",
+   "videos": [
+    "ZXzItS-6Sb8"
+   ]
+  },
   "schedule": {
    "steps": [
     {
      "t": "现在～满一岁：热身",
      "lines": [
-      "吃饭时用杯子练喝水（装母乳或配方奶也行）。",
+      "吃饭时用杯子练喝水，或者装点配方奶。",
       "满 11 个月以后，可以让她抿一小口全脂奶尝尝味道。",
-      "买巴氏杀菌的全脂纯牛奶，最好强化了维D；调味奶、乳饮料别买。"
+      "买巴氏杀菌的全脂纯牛奶，最好强化了维D。配方奶别再囤了。"
      ]
     },
     {
-     "t": "第 1 周",
+     "t": "第 1 周：换一顿",
      "lines": [
-      "把一顿奶（比如午饭那顿）换成一比一的混合奶，用杯子装。",
+      "把<b>白天的一顿</b>（比如午饭那顿）换成<b>冲好的配方奶 + 全脂奶 1:1</b>，用杯子装。",
+      "其他几顿照旧喝配方奶、用奶瓶。",
       "留意肚子、便便、皮肤有没有异常。"
      ]
     },
     {
-     "t": "第 2 周",
+     "t": "第 2 周：换两顿",
      "lines": [
-      "这一顿换成纯牛奶，再开始换第二顿（先混着）。",
-      "白天不用奶瓶了。"
+      "<b>白天两顿</b>（比如早饭、午饭）都换成 <b>1:1</b>，用杯子。",
+      "白天不用奶瓶了，午睡和睡前那两瓶先留着。"
      ]
     },
     {
-     "t": "第 3 周",
+     "t": "第 3 周：牛奶为主",
      "lines": [
-      "白天剩下的几顿都换掉。",
-      "午睡那瓶改用杯子，或者干脆不喝。"
+      "这两杯改成 <b>3 份牛奶 : 1 份配方奶</b>。",
+      "午睡那顿也换成杯子（1:1）；饭吃得好的话，也可以直接不喝。",
+      "睡前那瓶暂时还是配方奶。"
      ]
     },
     {
-     "t": "第 4 周",
+     "t": "第 4 周：全换成全脂奶",
      "lines": [
-      "最后换睡前：奶挪到刷牙前喝，刷完牙改成讲绘本、抱抱。",
-      "稳定在一天 2 杯左右。亲喂可以照常。"
+      "每一杯都是<b>纯全脂奶</b>，配方奶到此结束。",
+      "睡前那瓶也换成全脂奶（她闹的话，先 1:1 混几个晚上）。"
+     ]
+    },
+    {
+     "t": "之后：戒掉最后一瓶（15～18 个月左右）",
+     "lines": [
+      "把睡前奶往前挪，刷牙前用杯子喝。",
+      "或者每隔几个晚上，睡前那瓶少 30ml。",
+      "最后换成讲绘本、抱抱，搞定！"
      ]
     }
    ],
-   "note": "快一点慢一点都行。生病或出牙那几天先停一停，好了再接着来。",
+   "note": "生病或出牙那几天先停一停，好了再接着来。",
    "videos": [
     "zPAu74Bw08U",
     "4mCh2wEiHWU"
    ]
   },
+  "tips": [
+   {
+    "icon": "🧊",
+    "title": "怎么存、凉的还是温的",
+    "lines": [
+     "全脂奶放冰箱里面靠后的位置，4°C（40°F）以下。",
+     "直接喝凉的没问题。想温一点，把杯子放进温水碗里泡几分钟。千万别用微波炉（会局部过烫）。",
+     "混合奶喝之前现兑。她喝过的，1 小时内没喝完就倒掉。",
+     "冲好还没喝的配方奶：常温 2 小时内喝完，或者放冰箱 24 小时内喝完。",
+     "一次少倒点（60～120ml），不够再添，浪费少。"
+    ]
+   },
+   {
+    "icon": "🥫",
+    "title": "剩下的奶粉怎么办",
+    "lines": [
+     "开过的奶粉：盖紧，放阴凉干燥的柜子里，别放冰箱。大多数要在开罐后 1 个月左右用完，在盖子上写上开罐日期，再看看罐上的说明。",
+     "4 周过渡正好能把开着的那罐用完，快结束时别再买大罐。",
+     "没开封、没过期、罐子完好的：很多食物银行、奶粉/母婴物资银行都收，先打电话问问。",
+     "过了“use by”日期的奶粉不要再用。"
+    ]
+   },
+   {
+    "icon": "🇨🇳",
+    "title": "3段奶粉（可选）",
+    "lines": [
+     "不是必须的：美国儿科学会和世卫组织都说全脂奶加上好好吃饭就够了。",
+     "国内的国家指南确实建议 1～2 岁可以喝合适的幼儿配方奶。你或者家里人更想用的话，也可以，只是不必须。",
+     "要用的话：选不额外加糖的，按说明冲，算进每天 500ml 左右的总奶量里，照样用杯子喝。",
+     "别拿乳饮料代替。"
+    ]
+   }
+  ],
   "quiz": [
    {
     "q": "一岁到两岁喝全脂奶，不喝脱脂或 1%",
@@ -675,12 +698,17 @@
    {
     "q": "怕营养不够，买幼儿配方奶（3段）",
     "a": "dont",
-    "why": "美国儿科学会和世卫组织都说没必要：全脂牛奶加上吃得丰富就够了。幼儿奶粉更贵，还常常加糖。（国内指南说法不太一样，见下面“专家意见不一样的地方”。）"
+    "why": "美国儿科学会和世卫组织都说没必要：全脂牛奶加上吃得丰富就够了。幼儿奶粉更贵，还常常加糖。（国内指南说法不一样，算可选项，见“实用小贴士”。）"
    },
    {
     "q": "吃饭时用杯子喝奶",
     "a": "do",
-    "why": "杯子对牙好，也不耽误吃饭。争取 12～18 个月戒掉奶瓶。"
+    "why": "杯子对牙好，也不耽误吃饭。争取 15～18 个月左右戒掉奶瓶。"
+   },
+   {
+    "q": "白天的奶瓶直接装全脂奶，别的都不变",
+    "a": "dont",
+    "why": "趁换奶顺便换杯子。抱着奶瓶嘬，很容易喝多、不好好吃饭，对牙也不好。"
    },
    {
     "q": "让她叼着奶瓶睡着",
@@ -690,17 +718,17 @@
    {
     "q": "用牛奶冲奶粉，让她慢慢适应味道",
     "a": "dont",
-    "why": "这样冲出来太浓了。正确做法是<b>冲好的</b>配方奶（或母乳）和牛奶一比一混。"
+    "why": "这样冲出来太浓了。先按说明用水冲好配方奶，<b>再</b>跟牛奶 1:1 混。"
+   },
+   {
+    "q": "杯子里没喝完的混合奶留着下顿喝",
+    "a": "dont",
+    "why": "她喝过的，1 小时内没喝完就倒掉，跟配方奶一个规矩。"
    },
    {
     "q": "她爱喝多少就给多少",
     "a": "dont",
     "why": "一天超过 720ml，会把含铁的饭菜挤掉，容易贫血。两杯左右就够。"
-   },
-   {
-    "q": "过了一岁接着喂母乳",
-    "a": "do",
-    "why": "美国儿科学会和世卫组织都支持喂到两岁甚至更久，只要你们俩都愿意。"
    },
    {
     "q": "拿燕麦奶、杏仁奶当她的主要奶",
@@ -710,7 +738,7 @@
    {
     "q": "她嫌牛奶凉不肯喝，稍微温一下",
     "a": "do",
-    "why": "温一点喝起来更像母乳或配方奶，她更容易接受。"
+    "why": "以前喝惯了温的配方奶，温一点的牛奶更熟悉。用温水泡，别用微波炉。"
    }
   ],
   "watch": [
@@ -739,9 +767,9 @@
     "title": "幼儿配方奶：中美说法不同",
     "lines": [
      "美国儿科学会、世卫组织：不推荐。",
-     "国家卫健委的指南：1～2 岁不能母乳或母乳不够时，仍建议喝合适的幼儿配方奶，再加点鲜奶、酸奶、奶酪。",
+     "国家卫健委的指南：喝配方奶的 1～2 岁宝宝，仍建议喝合适的幼儿配方奶，再加点鲜奶、酸奶、奶酪。",
      "中国营养学会：2～3 岁优选强化了维D和钙的成长奶。",
-     "不管选哪种：一天 500ml 左右，选纯奶，别拿乳饮料代替。"
+     "不管选哪种：一天 500ml 左右，选纯奶，别拿乳饮料代替。3段是可选项。"
     ]
    },
    {
@@ -759,7 +787,8 @@
     "title": "奶瓶什么时候戒",
     "lines": [
      "费城儿童医院：过了一岁越早越好。",
-     "美国儿科学会：12～18 个月之间完成就行。"
+     "美国儿科学会：12～18 个月之间完成就行。",
+     "这份计划：白天的奶瓶两周内停掉，睡前那瓶 15～18 个月左右戒掉。"
     ]
    },
    {
@@ -774,8 +803,8 @@
     "icon": "🗓️",
     "title": "一岁前能不能喝牛奶",
     "lines": [
-     "世卫组织：不吃母乳的宝宝，6 个月以后可以喝动物奶（证据等级低），要喝全脂的。",
-     "美国：一定等到 12 个月。"
+     "世卫组织：6～11 个月喝配方奶的宝宝，也可以改喝动物奶（证据等级低），要喝全脂的。",
+     "美国：一定等到 12 个月，在那之前继续喝配方奶。"
     ]
    }
   ],
@@ -804,16 +833,16 @@
      "<b>午饭：</b>半个三明治，半碗绿叶菜 + 半杯奶",
      "<b>加餐：</b>奶酪块或水果 + 水或半杯奶",
      "<b>晚饭：</b>60～90g 肉，半碗胡萝卜或南瓜，半碗面或土豆 + 半杯奶",
-     "这样一天奶大概 360～600ml。亲喂的话，把这几杯奶换成吃母乳、喝水、吃酸奶奶酪就行。（半杯 = 120ml）"
+     "这样一天奶大概 360～600ml，全部用杯子喝。（半杯 = 120ml）"
     ]
    },
    {
     "icon": "🤧",
     "title": "过敏还是乳糖不耐？",
     "lines": [
-     "<b>过敏</b>是免疫系统的反应：起风团、呕吐、便便带血、呼吸困难。喝过配方奶或吃过奶制品的宝宝，一岁前一般就能发现。",
+     "<b>过敏</b>是免疫系统的反应：起风团、呕吐、便便带血、呼吸困难。",
+     "一直喝牛奶基底的配方奶都没事？那真正牛奶过敏的可能性不大，大多数一岁前就会发现。",
      "<b>乳糖不耐</b>是消化的问题：胀气、肚子胀、拉稀，不危险。三岁前少见，拉肚子之后可能短暂出现。",
-     "平时吃酸奶、奶酪都没事？那真正牛奶过敏的可能性不大。",
      "不管是哪种，先停下来，问儿科医生。"
     ]
    }
