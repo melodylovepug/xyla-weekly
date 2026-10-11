@@ -12,37 +12,12 @@
    "length": "7:52",
    "lang": "en"
   },
-  "VNNsN9IJkws": {
-   "title": "Experiences Build Brain Architecture",
-   "titleZh": "经历塑造大脑",
-   "channel": "Harvard Center on the Developing Child",
-   "channelZh": "哈佛大学儿童发展中心",
-   "length": "1:57",
-   "lang": "en"
-  },
   "KNrnZag17Ek": {
    "title": "5 Steps for Brain-Building Serve and Return",
    "titleZh": "“你来我往”5步走，帮宝宝搭建大脑",
    "channel": "Harvard Center on the Developing Child",
    "channelZh": "哈佛大学儿童发展中心",
    "length": "6:07",
-   "lang": "en"
-  },
-  "wRUeSafZtQg": {
-   "title": "Learn About Serve & Return",
-   "titleZh": "认识“你来我往”",
-   "channel": "Harvard Center on the Developing Child",
-   "channelZh": "哈佛大学儿童发展中心",
-   "length": "0:35",
-   "short": true,
-   "lang": "en"
-  },
-  "m_5u8-QSh6A": {
-   "title": "Serve & Return Interaction Shapes Brain Circuitry",
-   "titleZh": "“你来我往”的互动，怎样塑造大脑",
-   "channel": "Harvard Center on the Developing Child",
-   "channelZh": "哈佛大学儿童发展中心",
-   "length": "1:43",
    "lang": "en"
   }
  },
@@ -89,8 +64,12 @@
      "Then go one step harder: hide-and-find, bring-it, pull-the-scarf, container lab.",
      "Mastery without stretch = boredom, not learning."
     ],
-    "videos": [
-     "VNNsN9IJkws"
+    "videos": [],
+    "refs": [
+     {
+      "label": "Harvard Center on the Developing Child: “Experiences Build Brain Architecture” (video)",
+      "url": "https://www.youtube.com/watch?v=VNNsN9IJkws"
+     }
     ]
    },
    {
@@ -107,8 +86,13 @@
      "After a scare, comfort first, then let her choose to retry."
     ],
     "videos": [
-     "KNrnZag17Ek",
-     "wRUeSafZtQg"
+     "KNrnZag17Ek"
+    ],
+    "refs": [
+     {
+      "label": "Harvard Center on the Developing Child: “Learn About Serve & Return” (video)",
+      "url": "https://www.youtube.com/shorts/wRUeSafZtQg"
+     }
     ]
    }
   ],
@@ -336,8 +320,12 @@
      "Understands more than she says: names, simple “where’s ___?”",
      "Frustration at limits is a strong body plus a big goal, not naughtiness."
     ],
-    "videos": [
-     "m_5u8-QSh6A"
+    "videos": [],
+    "refs": [
+     {
+      "label": "Harvard Center on the Developing Child: “Serve & Return Interaction Shapes Brain Circuitry” (video)",
+      "url": "https://www.youtube.com/watch?v=m_5u8-QSh6A"
+     }
     ]
    },
    {
@@ -401,8 +389,12 @@
      "接着来点难的：找藏起来的玩具、送东西、拉围巾够玩具、瓶瓶罐罐实验。",
      "老玩已经会的，那不叫学习，叫无聊。"
     ],
-    "videos": [
-     "VNNsN9IJkws"
+    "videos": [],
+    "refs": [
+     {
+      "label": "哈佛大学儿童发展中心：经历塑造大脑（英文视频）",
+      "url": "https://www.youtube.com/watch?v=VNNsN9IJkws"
+     }
     ]
    },
    {
@@ -419,8 +411,13 @@
      "摔了、吓着了，先抱抱。要不要再试，让她自己决定。"
     ],
     "videos": [
-     "KNrnZag17Ek",
-     "wRUeSafZtQg"
+     "KNrnZag17Ek"
+    ],
+    "refs": [
+     {
+      "label": "哈佛大学儿童发展中心：认识“你来我往”（英文视频）",
+      "url": "https://www.youtube.com/shorts/wRUeSafZtQg"
+     }
     ]
    }
   ],
@@ -648,8 +645,12 @@
      "听懂的比会说的多：自己的名字、简单的“球呢？”",
      "被拦住就闹，是身体有劲、想法又大，不是故意调皮。"
     ],
-    "videos": [
-     "m_5u8-QSh6A"
+    "videos": [],
+    "refs": [
+     {
+      "label": "哈佛大学儿童发展中心：“你来我往”的互动，怎样塑造大脑（英文视频）",
+      "url": "https://www.youtube.com/watch?v=m_5u8-QSh6A"
+     }
     ]
    },
    {

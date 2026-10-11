@@ -73,3 +73,10 @@ General info, not medical advice; ask your pediatrician. 一般信息，不是�
 Phones cache `assets/app.js` and `style.css` (GitHub Pages sends `max-age=600`). An old cached script running against new data once broke the milk page. When you change `assets/` or any JSON, bump the version on **every** page stub:
 `V=$(date +%Y%m%d%H%M); sed -i -E "s#(assets/(style\.css|app\.js))(\?v=[^\"]*)?\"#\1?v=$V\"#g" *.html`
 `app.js` reads its own `?v=` and adds it to every data fetch. Each section renders inside `safe()`, so one bad section can't blank the whole page, and saved data is shape-checked before use.
+
+## Video rule (Melody's standing rule)
+"Not everything requires a video. Only things I need to understand how to do get a video. Things like 'why' just get a text reference, unless it's super important and from a very high-reputation source."
+- **Embed** (`videos`) only for hands-on how-to skills: stairs feet-first, helping her stand, push-walker use, slide safety, safe-sleep setup, choking prevention, cup/straw-cup training, formula→milk mixing, bottle weaning.
+- **Text reference** (`refs: [{label, url}]` on a card, shown as "📎 Learn more / 延伸阅读") for why/concept material: explainers, Q&As, talks.
+- At most **one** top-tier concept video per page, only if it's central (currently Harvard Center's "5 Steps for Brain-Building Serve and Return").
+- Every embedded video must pass the oEmbed check and come from a reputable channel.

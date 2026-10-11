@@ -32,7 +32,7 @@
       homeSub: 'Short, tappable weekly packs. The most important things first.', weeks: '📅 Weeks', thisWeek: 'This week',
       howTitle: 'How to use this', how: ['Open this week → read the <b>3 big things</b> (2 minutes).', 'Tick the <b>daily checklist</b> (saved on your phone).', 'Stuck? Hit <b>🎲 Lucky play</b>.'],
       chooseLang: 'Language / 语言', loadFail: 'Couldn’t load this page', retry: 'Try refreshing.', pageTitle: 'Xyla Weekly',
-      home: '← Home', bigTopics: '📌 Big topics', bigTopicsHint: 'One page per big question. Read once, come back as needed.', weekTopic: '📌 Big topic this week', topicVideos: '🎬 Videos on this topic',
+      home: '← Home', refs: '📎 Learn more: ', bigTopics: '📌 Big topics', bigTopicsHint: 'One page per big question. Read once, come back as needed.', weekTopic: '📌 Big topic this week', topicVideos: '🎬 Videos on this topic',
       tnav: { big3: '⭐ Big 3', how: '🔁 Rules', plan: '📅 4 weeks', tips: '🧊 Tips', count: '🥛 Count', quiz: '🤔 Quiz', watch: '🚩 Red flags', disagree: '⚖️ Debates', more: '📚 More' }, big3T: '⭐ 3 big things', stepsT: 'Step by step', tipT: 'Tip: '
     },
     zh: {
@@ -57,7 +57,7 @@
       homeSub: '每周一份，点开就看，重要的先说。', weeks: '📅 每周内容', thisWeek: '本周',
       howTitle: '怎么用', how: ['打开本周，先看<b>最重要的 3 件事</b>，两分钟搞定。', '每天勾一勾<b>今天的小目标</b>，进度存在手机里。', '不知道玩什么？点<b>🎲 随机抽一个</b>。'],
       chooseLang: 'Language / 语言', loadFail: '页面没加载出来', retry: '刷新一下试试。', pageTitle: 'Xyla 成长周记',
-      home: '← 首页', bigTopics: '📌 重点话题', bigTopicsHint: '大问题单独整理成一页，看一遍，需要时再回来翻。', weekTopic: '📌 这周的重点话题', topicVideos: '🎬 相关视频',
+      home: '← 首页', refs: '📎 延伸阅读：', bigTopics: '📌 重点话题', bigTopicsHint: '大问题单独整理成一页，看一遍，需要时再回来翻。', weekTopic: '📌 这周的重点话题', topicVideos: '🎬 相关视频',
       tnav: { big3: '⭐ 3件事', how: '🔁 规矩', plan: '📅 4周计划', tips: '🧊 贴士', count: '🥛 记奶量', quiz: '🤔 测一测', watch: '🚩 警惕', disagree: '⚖️ 分歧', more: '📚 更多' }, big3T: '⭐ 最重要的 3 件事', stepsT: '一步一步来', tipT: '小提示：'
     }
   };
@@ -133,10 +133,14 @@
   });
 
   function linesHTML(lines) { return lines && lines.length ? '<ul class="lines">' + lines.map(function (l) { return '<li>' + l + '</li>'; }).join('') + '</ul>' : ''; }
+  function refsHTML(refs) {
+    refs = Array.isArray(refs) ? refs.filter(function (r) { return r && r.url; }) : [];
+    return refs.length ? '<p class="refs">' + t.refs + refs.map(function (r) { return '<a href="' + esc(r.url) + '" target="_blank" rel="noopener">' + esc(r.label || r.url) + '</a>'; }).join(' · ') + '</p>' : '';
+  }
   function cardHTML(c, numbered, i) {
     return '<details class="card"><summary>' + (numbered ? '<span class="num">' + (i + 1) + '</span>' : '') +
       '<span class="ico">' + esc(c.icon || '•') + '</span><span class="t">' + esc(c.title) + (c.sub ? '<small>' + esc(c.sub) + '</small>' : '') + '</span></summary>' +
-      '<div class="body">' + tagsHTML(c.roots) + linesHTML(c.lines) + (c.html || '') + (c.videos || []).map(videoHTML).join('') + '</div></details>';
+      '<div class="body">' + tagsHTML(c.roots) + linesHTML(c.lines) + (c.html || '') + (c.videos || []).map(videoHTML).join('') + refsHTML(c.refs) + '</div></details>';
   }
   function section(id, title, hint) {
     var s = el('section', { id: id });

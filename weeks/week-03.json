@@ -20,22 +20,6 @@
    "length": "6:00",
    "lang": "en"
   },
-  "_QLX7Rp2brs": {
-   "title": "You Are the Key to Your Child’s First Words",
-   "titleZh": "宝宝开口说第一个词，关键在你",
-   "channel": "The Hanen Centre",
-   "channelZh": "Hanen 中心（语言治疗）",
-   "length": "1:32",
-   "lang": "en"
-  },
-  "m_5u8-QSh6A": {
-   "title": "Serve & Return Interaction Shapes Brain Circuitry",
-   "titleZh": "“你来我往”的互动，怎样塑造大脑",
-   "channel": "Harvard Center on the Developing Child",
-   "channelZh": "哈佛大学儿童发展中心",
-   "length": "1:43",
-   "lang": "en"
-  },
   "AzA3joFgulo": {
    "title": "Safe Sleep for Your Baby: Every Nap & Every Night",
    "titleZh": "宝宝安全睡眠：每次小睡、每个晚上都一样",
@@ -44,44 +28,12 @@
    "length": "0:31",
    "lang": "en"
   },
-  "6tdpDi4sZ2A": {
-   "title": "#AskThePediatrician: Teething",
-   "titleZh": "儿科医生答疑：长牙",
-   "channel": "American Academy of Pediatrics",
-   "channelZh": "美国儿科学会（AAP）",
-   "length": "0:39",
-   "lang": "en"
-  },
-  "_sWGkYCxLEQ": {
-   "title": "Why Is My Baby Afraid of Strangers?",
-   "titleZh": "宝宝为什么怕生人？",
-   "channel": "What To Expect",
-   "channelZh": "What To Expect（育儿网站）",
-   "length": "4:21",
-   "lang": "en"
-  },
-  "Rs9Jw3uIoaU": {
-   "title": "Safe Sleep For Your Baby — 60 Seconds",
-   "titleZh": "60秒看懂宝宝安全睡眠",
-   "channel": "NIH (NICHD) Safe to Sleep",
-   "channelZh": "美国国立卫生研究院 Safe to Sleep",
-   "length": "1:01",
-   "lang": "en"
-  },
   "S28sR2uNro8": {
    "title": "Mayo Clinic Minute: A warning to parents about sliding with kids",
    "titleZh": "梅奥诊所提醒：别抱着孩子滑滑梯",
    "channel": "Mayo Clinic",
    "channelZh": "梅奥诊所",
    "length": "0:55",
-   "lang": "en"
-  },
-  "Gnd7joNP_gI": {
-   "title": "Encouraging your Child to Talk with Music",
-   "titleZh": "用音乐引导孩子开口",
-   "channel": "The Hanen Centre",
-   "channelZh": "Hanen 中心（语言治疗）",
-   "length": "3:37",
    "lang": "en"
   },
   "4yIOSrxcaCw": {
@@ -106,23 +58,6 @@
    "channel": "Harvard Center on the Developing Child",
    "channelZh": "哈佛大学儿童发展中心",
    "length": "6:07",
-   "lang": "en"
-  },
-  "TO367LWQqpQ": {
-   "title": "What is a serve & return interaction?",
-   "titleZh": "什么是“你来我往”？为什么这么重要",
-   "channel": "Harvard Center on the Developing Child",
-   "channelZh": "哈佛大学儿童发展中心",
-   "length": "0:34",
-   "short": true,
-   "lang": "en"
-  },
-  "TJR-PKKecDU": {
-   "title": "Baby Gagging on Food: What’s normal… what’s not?",
-   "titleZh": "宝宝吃辅食干呕，哪些正常、哪些不正常？",
-   "channel": "Katie Ferraro (registered dietitian)",
-   "channelZh": "Katie Ferraro（注册营养师）",
-   "length": "4:20",
    "lang": "en"
   },
   "tQlyJl2S9rs": {
@@ -187,9 +122,16 @@
      "Never “Say mama for Grandma!” Saying words on request comes a few months later.",
      "Pen handoff = she’s asking. <b>“Help? Mama helps! Your turn!”</b>"
     ],
-    "videos": [
-     "_QLX7Rp2brs",
-     "m_5u8-QSh6A"
+    "videos": [],
+    "refs": [
+     {
+      "label": "The Hanen Centre: “You Are the Key to Your Child’s First Words” (video)",
+      "url": "https://www.youtube.com/watch?v=_QLX7Rp2brs"
+     },
+     {
+      "label": "Harvard Center on the Developing Child: “Serve & Return Interaction Shapes Brain Circuitry” (video)",
+      "url": "https://www.youtube.com/watch?v=m_5u8-QSh6A"
+     }
     ]
    },
    {
@@ -207,8 +149,13 @@
      "Teething doesn’t cause fever ≥100.4°F. A fever means something else."
     ],
     "videos": [
-     "AzA3joFgulo",
-     "6tdpDi4sZ2A"
+     "AzA3joFgulo"
+    ],
+    "refs": [
+     {
+      "label": "American Academy of Pediatrics: “#AskThePediatrician: Teething” (video)",
+      "url": "https://www.youtube.com/watch?v=6tdpDi4sZ2A"
+     }
     ]
    }
   ],
@@ -226,8 +173,12 @@
      "Let people <b>warm up</b>: they talk to you first, offer a toy, wait for her to come.",
      "<b>Don’t force holding</b> or hand her over while she’s crying. Stay close; she can watch from your lap."
     ],
-    "videos": [
-     "_sWGkYCxLEQ"
+    "videos": [],
+    "refs": [
+     {
+      "label": "What To Expect: “Why Is My Baby Afraid of Strangers?” (video)",
+      "url": "https://www.youtube.com/watch?v=_sWGkYCxLEQ"
+     }
     ]
    },
    {
@@ -244,8 +195,12 @@
      "<b>Cons:</b> she can roam at night, so the whole fenced area must be baby-proof; gaps against the wall or fence are a risk; some nights she won’t stay put.",
      "Under 12 months: <b>bare, firm, flat</b>. Keep books outside until her birthday, then ask the pediatrician."
     ],
-    "videos": [
-     "Rs9Jw3uIoaU"
+    "videos": [],
+    "refs": [
+     {
+      "label": "NIH (NICHD) Safe to Sleep: “Safe Sleep For Your Baby — 60 Seconds” (video)",
+      "url": "https://www.youtube.com/watch?v=Rs9Jw3uIoaU"
+     }
     ]
    },
    {
@@ -292,8 +247,12 @@
      "Rhythm copy: tap the pot twice, wait, copy whatever she does.",
      "Sing slowly and pause before the gesture so she can join in. No “Mozart effect” needed."
     ],
-    "videos": [
-     "Gnd7joNP_gI"
+    "videos": [],
+    "refs": [
+     {
+      "label": "The Hanen Centre: “Encouraging your Child to Talk with Music” (video)",
+      "url": "https://www.youtube.com/watch?v=Gnd7joNP_gI"
+     }
     ]
    }
   ],
@@ -825,8 +784,13 @@
      "AAP: two languages don’t cause delays. Each adult uses the language they’re most comfortable in."
     ],
     "videos": [
-     "KNrnZag17Ek",
-     "TO367LWQqpQ"
+     "KNrnZag17Ek"
+    ],
+    "refs": [
+     {
+      "label": "Harvard Center on the Developing Child: “What is a serve & return interaction?” (video)",
+      "url": "https://www.youtube.com/shorts/TO367LWQqpQ"
+     }
     ]
    },
    {
@@ -899,8 +863,13 @@
      "Gagging (coughing, red face) is normal learning. Choking (silent, can’t breathe, turning blue) is an emergency. Consider an infant CPR class."
     ],
     "videos": [
-     "TJR-PKKecDU",
      "tQlyJl2S9rs"
+    ],
+    "refs": [
+     {
+      "label": "Katie Ferraro (registered dietitian): “Baby Gagging on Food: What’s normal… what’s not?” (video)",
+      "url": "https://www.youtube.com/watch?v=TJR-PKKecDU"
+     }
     ]
    },
    {
@@ -1060,9 +1029,16 @@
      "别让她“表演”：“快，叫奶奶！叫一个！”听指令开口这件事，还得再等几个月。",
      "她把点读笔塞给你，其实就是在求助。<b>“要妈妈帮忙呀？好，妈妈帮你！到你啦！”</b>"
     ],
-    "videos": [
-     "_QLX7Rp2brs",
-     "m_5u8-QSh6A"
+    "videos": [],
+    "refs": [
+     {
+      "label": "Hanen 中心（语言治疗）：宝宝开口说第一个词，关键在你（英文视频）",
+      "url": "https://www.youtube.com/watch?v=_QLX7Rp2brs"
+     },
+     {
+      "label": "哈佛大学儿童发展中心：“你来我往”的互动，怎样塑造大脑（英文视频）",
+      "url": "https://www.youtube.com/watch?v=m_5u8-QSh6A"
+     }
     ]
    },
    {
@@ -1080,8 +1056,13 @@
      "长牙不会烧到38°C（100.4°F）以上。真烧起来了，那是别的原因。"
     ],
     "videos": [
-     "AzA3joFgulo",
-     "6tdpDi4sZ2A"
+     "AzA3joFgulo"
+    ],
+    "refs": [
+     {
+      "label": "美国儿科学会（AAP）：儿科医生答疑：长牙（英文视频）",
+      "url": "https://www.youtube.com/watch?v=6tdpDi4sZ2A"
+     }
     ]
    }
   ],
@@ -1099,8 +1080,12 @@
      "给她时间慢慢熟：让对方先和你聊，再递个玩具，等她自己凑过去。",
      "<b>别硬塞给别人抱</b>，哭着的时候更别递出去。你就在旁边，让她坐你腿上先看着。"
     ],
-    "videos": [
-     "_sWGkYCxLEQ"
+    "videos": [],
+    "refs": [
+     {
+      "label": "What To Expect（育儿网站）：宝宝为什么怕生人？（英文视频）",
+      "url": "https://www.youtube.com/watch?v=_sWGkYCxLEQ"
+     }
     ]
    },
    {
@@ -1117,8 +1102,12 @@
      "<b>麻烦在哪：</b>半夜醒了能到处爬，所以围栏里每个角落都得做好防护；床垫和墙、围栏之间有缝很危险；有些晚上就是不肯老实待在床上。",
      "一岁前记住三个字：<b>硬、平、空</b>。绘本放外面，过完生日再问问医生能不能放回来。"
     ],
-    "videos": [
-     "Rs9Jw3uIoaU"
+    "videos": [],
+    "refs": [
+     {
+      "label": "美国国立卫生研究院 Safe to Sleep：60秒看懂宝宝安全睡眠（英文视频）",
+      "url": "https://www.youtube.com/watch?v=Rs9Jw3uIoaU"
+     }
     ]
    },
    {
@@ -1165,8 +1154,12 @@
      "学节奏：你敲两下锅，停下来等她，她怎么敲你就怎么学。",
      "儿歌唱慢点，做动作前停一拍，给她跟上的机会。什么“莫扎特效应”，不用追。"
     ],
-    "videos": [
-     "Gnd7joNP_gI"
+    "videos": [],
+    "refs": [
+     {
+      "label": "Hanen 中心（语言治疗）：用音乐引导孩子开口（英文视频）",
+      "url": "https://www.youtube.com/watch?v=Gnd7joNP_gI"
+     }
     ]
    }
   ],
@@ -1698,8 +1691,13 @@
      "AAP说双语不会导致说话晚。家里每个人用自己最顺口的语言跟她聊就好。"
     ],
     "videos": [
-     "KNrnZag17Ek",
-     "TO367LWQqpQ"
+     "KNrnZag17Ek"
+    ],
+    "refs": [
+     {
+      "label": "哈佛大学儿童发展中心：什么是“你来我往”？为什么这么重要（英文视频）",
+      "url": "https://www.youtube.com/shorts/TO367LWQqpQ"
+     }
     ]
    },
    {
@@ -1772,8 +1770,13 @@
      "干呕（咳、脸红）是在学吃饭，正常。噎住（发不出声、喘不上气、发紫）是急症。有空可以去上一节婴幼儿急救课。"
     ],
     "videos": [
-     "TJR-PKKecDU",
      "tQlyJl2S9rs"
+    ],
+    "refs": [
+     {
+      "label": "Katie Ferraro（注册营养师）：宝宝吃辅食干呕，哪些正常、哪些不正常？（英文视频）",
+      "url": "https://www.youtube.com/watch?v=TJR-PKKecDU"
+     }
     ]
    },
    {

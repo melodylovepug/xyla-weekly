@@ -3,44 +3,12 @@
  "version": 2,
  "emoji": "🥛",
  "videos": {
-  "_T-baecQk4M": {
-   "title": "12 - 18 months old: Introduction of Whole Milk",
-   "titleZh": "12～18 个月：开始喝全脂奶",
-   "channel": "IntermountainParents",
-   "channelZh": "Intermountain 医疗（美国医院）",
-   "length": "0:38",
-   "lang": "en"
-  },
-  "8G2tnEmRAtI": {
-   "title": "How much milk should my toddler be drinking?",
-   "titleZh": "宝宝一天该喝多少奶？",
-   "channel": "IntermountainParents",
-   "channelZh": "Intermountain 医疗（美国医院）",
-   "length": "1:03",
-   "lang": "en"
-  },
   "4mCh2wEiHWU": {
    "title": "How can I wean my baby off the bottle?",
    "titleZh": "怎么帮宝宝戒奶瓶？",
    "channel": "IntermountainParents",
    "channelZh": "Intermountain 医疗（美国医院）",
    "length": "1:03",
-   "lang": "en"
-  },
-  "CIp2pcOebDg": {
-   "title": "How Much Milk Is Too Much for a Toddler?",
-   "titleZh": "幼儿喝多少奶算太多？",
-   "channel": "Jill Castle | Pediatric Dietitian",
-   "channelZh": "Jill Castle（儿童营养师）",
-   "length": "11:20",
-   "lang": "en"
-  },
-  "PD3k4BbYQLw": {
-   "title": "Do Toddlers Need Milk? (This Dietitian's Recommendation)",
-   "titleZh": "幼儿一定要喝牛奶吗？营养师的建议",
-   "channel": "Jill Castle | Pediatric Dietitian",
-   "channelZh": "Jill Castle（儿童营养师）",
-   "length": "12:20",
    "lang": "en"
   },
   "ZXzItS-6Sb8": {
@@ -59,20 +27,20 @@
    "length": "6:50",
    "lang": "en"
   },
-  "Ism9tiYmjMc": {
-   "title": "Toddler Formulas: What are They & Does Your Toddler Need One?",
-   "titleZh": "幼儿配方奶是什么？需要喝吗？",
-   "channel": "Malina Malkani, LLC",
-   "channelZh": "Malina Malkani（注册营养师）",
-   "length": "0:45",
+  "Dwj2reELIlg": {
+   "title": "Learn Open Cup Drinking For Your Infant With an Occupational Therapist",
+   "titleZh": "跟着职业治疗师学：教宝宝用敞口杯喝水",
+   "channel": "Emerge Pediatric Therapy",
+   "channelZh": "Emerge 儿童治疗中心（职业治疗师）",
+   "length": "2:23",
    "lang": "en"
   },
-  "PG-UIY5b9S8": {
-   "title": "Raw Milk: What Parents Should Know | AAP",
-   "titleZh": "生奶（未杀菌）：家长要知道的",
-   "channel": "American Academy of Pediatrics",
-   "channelZh": "美国儿科学会 AAP",
-   "length": "0:40",
+  "sAdAUjqp9hk": {
+   "title": "How to Introduce Straw Cup Drinking to Your Infant 6+ Months of Age",
+   "titleZh": "怎么教宝宝用吸管杯（6 个月以上）",
+   "channel": "Emerge Pediatric Therapy",
+   "channelZh": "Emerge 儿童治疗中心（职业治疗师）",
+   "length": "4:22",
    "lang": "en"
   }
  },
@@ -208,9 +176,16 @@
      "Toddler or “stage 3” formula isn’t needed (AAP, WHO). Whole milk does the same job for less money, without added sugar.",
      "Cow’s milk isn’t magic either: it’s just the easiest source of calcium, protein and vitamin D. Yogurt and cheese count too."
     ],
-    "videos": [
-     "PD3k4BbYQLw",
-     "Ism9tiYmjMc"
+    "videos": [],
+    "refs": [
+     {
+      "label": "Jill Castle | Pediatric Dietitian: “Do Toddlers Need Milk? (This Dietitian's Recommendation)” (video)",
+      "url": "https://www.youtube.com/watch?v=PD3k4BbYQLw"
+     },
+     {
+      "label": "Malina Malkani, LLC: “Toddler Formulas: What are They & Does Your Toddler Need One?” (video)",
+      "url": "https://www.youtube.com/watch?v=Ism9tiYmjMc"
+     }
     ]
    },
    {
@@ -223,8 +198,12 @@
      "Yogurt and cheese in her food are fine before 1.",
      "Want a preview? After 11 months, a 1-oz sip of whole milk in a cup lets her try the taste (CHOP)."
     ],
-    "videos": [
-     "_T-baecQk4M"
+    "videos": [],
+    "refs": [
+     {
+      "label": "IntermountainParents: “12 - 18 months old: Introduction of Whole Milk” (video)",
+      "url": "https://www.youtube.com/watch?v=_T-baecQk4M"
+     }
     ]
    },
    {
@@ -237,9 +216,16 @@
      "Whole milk (not skim or 1%) until 2. Use 2% only if the pediatrician suggests it.",
      "Cups, not bottles: daytime bottles go first, the bedtime bottle last, all done by about 15–18 months."
     ],
-    "videos": [
-     "8G2tnEmRAtI",
-     "CIp2pcOebDg"
+    "videos": [],
+    "refs": [
+     {
+      "label": "IntermountainParents: “How much milk should my toddler be drinking?” (video)",
+      "url": "https://www.youtube.com/watch?v=8G2tnEmRAtI"
+     },
+     {
+      "label": "Jill Castle | Pediatric Dietitian: “How Much Milk Is Too Much for a Toddler?” (video)",
+      "url": "https://www.youtube.com/watch?v=CIp2pcOebDg"
+     }
     ]
    }
   ],
@@ -308,6 +294,8 @@
    ],
    "note": "Sick or teething week? Pause, then pick up again.",
    "videos": [
+    "Dwj2reELIlg",
+    "sAdAUjqp9hk",
     "zPAu74Bw08U",
     "4mCh2wEiHWU"
    ]
@@ -475,8 +463,12 @@
      "Skip flavored milks, toddler “milk drinks” and juice.",
      "Lactose-free whole milk is fine if lactose bothers her (true lactose intolerance is uncommon before 3)."
     ],
-    "videos": [
-     "PG-UIY5b9S8"
+    "videos": [],
+    "refs": [
+     {
+      "label": "American Academy of Pediatrics: “Raw Milk: What Parents Should Know | AAP” (video)",
+      "url": "https://www.youtube.com/watch?v=PG-UIY5b9S8"
+     }
     ]
    },
    {
@@ -555,9 +547,16 @@
      "幼儿配方奶（3段）没必要，美国儿科学会和世卫组织都这么说。全脂牛奶作用一样，还更便宜、不加糖。",
      "牛奶也没那么神奇，只是补钙、补蛋白、补维D最方便的办法，酸奶、奶酪一样算数。"
     ],
-    "videos": [
-     "PD3k4BbYQLw",
-     "Ism9tiYmjMc"
+    "videos": [],
+    "refs": [
+     {
+      "label": "Jill Castle（儿童营养师）：幼儿一定要喝牛奶吗？营养师的建议（英文视频）",
+      "url": "https://www.youtube.com/watch?v=PD3k4BbYQLw"
+     },
+     {
+      "label": "Malina Malkani（注册营养师）：幼儿配方奶是什么？需要喝吗？（英文视频）",
+      "url": "https://www.youtube.com/watch?v=Ism9tiYmjMc"
+     }
     ]
    },
    {
@@ -570,8 +569,12 @@
      "辅食里加点酸奶、奶酪，一岁前就可以。",
      "想提前试试口味？11 个月以后，每天用杯子让她抿一小口（30ml 左右）全脂奶就行（费城儿童医院的建议）。"
     ],
-    "videos": [
-     "_T-baecQk4M"
+    "videos": [],
+    "refs": [
+     {
+      "label": "Intermountain 医疗（美国医院）：12～18 个月：开始喝全脂奶（英文视频）",
+      "url": "https://www.youtube.com/watch?v=_T-baecQk4M"
+     }
     ]
    },
    {
@@ -584,9 +587,16 @@
      "两岁前喝全脂，别喝脱脂或 1%。要不要换 2%，听儿科医生的。",
      "用杯子，不用奶瓶：先停白天的奶瓶，睡前那瓶最后停，15～18 个月左右全部戒掉。"
     ],
-    "videos": [
-     "8G2tnEmRAtI",
-     "CIp2pcOebDg"
+    "videos": [],
+    "refs": [
+     {
+      "label": "Intermountain 医疗（美国医院）：宝宝一天该喝多少奶？（英文视频）",
+      "url": "https://www.youtube.com/watch?v=8G2tnEmRAtI"
+     },
+     {
+      "label": "Jill Castle（儿童营养师）：幼儿喝多少奶算太多？（英文视频）",
+      "url": "https://www.youtube.com/watch?v=CIp2pcOebDg"
+     }
     ]
    }
   ],
@@ -655,6 +665,8 @@
    ],
    "note": "生病或出牙那几天先停一停，好了再接着来。",
    "videos": [
+    "Dwj2reELIlg",
+    "sAdAUjqp9hk",
     "zPAu74Bw08U",
     "4mCh2wEiHWU"
    ]
@@ -822,8 +834,12 @@
      "调味奶、乳饮料、果汁都别买。",
      "乳糖不耐的话，可以喝无乳糖全脂奶（不过三岁前真正乳糖不耐的很少）。"
     ],
-    "videos": [
-     "PG-UIY5b9S8"
+    "videos": [],
+    "refs": [
+     {
+      "label": "美国儿科学会 AAP：生奶（未杀菌）：家长要知道的（英文视频）",
+      "url": "https://www.youtube.com/watch?v=PG-UIY5b9S8"
+     }
     ]
    },
    {

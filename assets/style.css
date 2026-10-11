@@ -181,3 +181,5 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var
 .counter.z-msgOver .cmsg{color:var(--bad)}
 @media (max-width:600px){.cnum{font-size:28px}}
 .tl.sched li li b{display:inline}
+.refs{font-size:13px;color:var(--soft);margin:10px 0 0;line-height:1.5}
+.refs a{color:var(--accent2)}
