@@ -36,5 +36,24 @@
    "dates": "2026年10月4日–17日",
    "tagline": "学站 · 学说话 · 地床安全"
   }
+ },
+ {
+  "id": "week-04",
+  "file": "week-04.html",
+  "emoji": "👣",
+  "start": "2026-10-18",
+  "end": "2026-10-31",
+  "en": {
+   "title": "Week 4",
+   "age": "~11½ months",
+   "dates": "Oct 18–31, 2026",
+   "tagline": "First steps · words without testing · flying food · goodbye practice"
+  },
+  "zh": {
+   "title": "第4周",
+   "age": "11个半月左右",
+   "dates": "2026年10月18日–31日",
+   "tagline": "迈第一步 · 说话不考试 · 扔饭怎么办 · 练告别"
+  }
  }
 ]
