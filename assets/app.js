@@ -83,6 +83,8 @@
 
   /* ---------- language ---------- */
   function detectLang() {
+    var q = (location.search.match(/[?&]lang=(en|zh)\b/) || [])[1];
+    if (q) { store(LANG_KEY, q); return q; }
     var saved = store(LANG_KEY);
     if (saved == null) { try { saved = localStorage.getItem(LANG_KEY); } catch (e) {} } // tolerate a raw, non-JSON value
     if (saved === 'en' || saved === 'zh') return saved;
@@ -211,8 +213,8 @@
     if (!w.daily) return;
     var s = section('today', t.today, t.todayHint);
     var today = localISO();
-    var key = function (d) { return 'xyla:' + w.id + ':daily:' + d; };
-    var todoKey = 'xyla:' + w.id + ':todo';
+    var key = function (d) { return 'xyla:' + (w.pid || w.id) + ':daily:' + d; };
+    var todoKey = 'xyla:' + (w.pid || w.id) + ':todo';
     var box = el('div');
     box.innerHTML = '<div class="tabs" role="tablist"><button role="tab" aria-selected="' + (checkTab === 'd') + '" data-tab="d">' + t.tabDaily + '</button>' +
       (w.todos ? '<button role="tab" aria-selected="' + (checkTab === 't') + '" data-tab="t">' + t.tabOnce + '</button>' : '') + '</div>' +
@@ -259,7 +261,7 @@
 
   function renderQuiz(w, root) {
     if (!w.quiz || !w.quiz.length) return;
-    var qKey = 'xyla:' + w.id + ':quiz';
+    var qKey = 'xyla:' + (w.pid || w.id) + ':quiz';
     var s = section('quiz', t.quiz, t.quizHint);
     s.insertAdjacentHTML('beforeend', '<p class="score">' + t.score + ': <span class="sc">0</span> / ' + w.quiz.length + ' <button type="button" class="reset">' + t.reset + '</button></p>');
     var g = el('div', { class: 'qgrid' });
@@ -577,7 +579,7 @@
 
   /* ---------- pages ---------- */
   function buildWeek(d) {
-    var w = d[lang] || d.en; w.id = d.id; w.emoji = d.emoji;
+    var w = d[lang] || d.en; w.id = d.id; w.emoji = d.emoji; w.pid = d.perLang ? d.id + ':' + lang : d.id; // perLang: en/zh lists differ, so progress is saved per language
     document.title = w.title + ' · ' + t.pageTitle;
     var root = document.getElementById('app'); root.innerHTML = '';
     renderHero(w, root);

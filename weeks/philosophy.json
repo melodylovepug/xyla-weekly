@@ -1,0 +1,579 @@
+{
+ "id": "philosophy",
+ "emoji": "💛",
+ "perLang": true,
+ "videos": {},
+ "en": {
+  "title": "Space to grow",
+  "age": "For the whole family, grandparents first",
+  "dates": "Standing page",
+  "oneLiner": "Three ideas behind how we raise Xyla: <b>watch first, help less, let her do it</b>. Not because older ways are wrong. At this age a little more room makes her more capable and more confident.",
+  "bigThree": [
+   {
+    "icon": "👀",
+    "title": "Watch before you step in",
+    "sub": "Observing is caring",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "lines": [
+     "When she’s playing, don’t rush to teach or help. Watch what she’s figuring out.",
+     "Focus is precious. Five minutes on one lid is real thinking; interrupting cuts it off.",
+     "When she looks back at you, that’s her invitation. Smile, say one thing."
+    ]
+   },
+   {
+    "icon": "🙌",
+    "title": "If she can do it, let her",
+    "sub": "Help one step less",
+    "roots": [
+     "Self-led",
+     "Brave"
+    ],
+    "lines": [
+     "Finger food: she feeds herself. Steps she can climb: spot her. Paths she can walk: hold a hand, don’t carry.",
+     "Feeding and carrying are faster for us, but each one takes away a practice turn.",
+     "It’s not hands-off: the adult owns safety, she owns the doing."
+    ]
+   },
+   {
+    "icon": "🧗",
+    "title": "A little struggle, a lot of mess",
+    "sub": "Small challenges build skills",
+    "roots": [
+     "Brave",
+     "Curious"
+    ],
+    "lines": [
+     "Just out of reach, a stuck lid, a sitting fall: slightly hard is where learning happens. Count to five before helping, then help one small step.",
+     "Food on her face and wet sleeves = learning with her whole body. Clothes wash.",
+     "Real distress? Comfort first, then try again together."
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "icon": "🧸",
+    "title": "Montessori: “Help me do it myself”",
+    "sub": "Montessori",
+    "roots": [
+     "Self-led"
+    ],
+    "lines": [
+     "Prepare the space, then step back: toys on a low shelf she can reach and put away, a small open cup, a cloth to wipe her tray.",
+     "Fewer toys (4–6 out at a time) means deeper play."
+    ]
+   },
+   {
+    "icon": "🎨",
+    "title": "Reggio Emilia: she’s a little researcher",
+    "sub": "Reggio Emilia",
+    "roots": [
+     "Curious"
+    ],
+    "lines": [
+     "Adults are research partners, not teachers giving lessons.",
+     "Water, sand and noodles are experiments. Narrate what she notices: “The water is pouring.” Her way of playing is the right way."
+    ]
+   },
+   {
+    "icon": "🤲",
+    "title": "RIE / Pikler: respect from day one",
+    "sub": "Magda Gerber · Emmi Pikler",
+    "roots": [
+     "Secure",
+     "Self-led"
+    ],
+    "lines": [
+     "<b>Tell her before you handle her:</b> “I’m going to pick you up.” Pause, then do it.",
+     "<b>Free movement:</b> don’t prop her to sit or stand; positions she gets into herself are steadier.",
+     "<b>Name feelings first:</b> “You’re upset, the toy fell.” Then help."
+    ]
+   },
+   {
+    "icon": "🍚",
+    "title": "Food: she decides how much",
+    "sub": "Division of responsibility",
+    "roots": [
+     "Healthy",
+     "Self-led"
+    ],
+    "lines": [
+     "Adults decide what, when and where. She decides whether and how much.",
+     "Turning away, throwing or pushing the bowl = full. No chasing with bites."
+    ]
+   },
+   {
+    "icon": "🤗",
+    "title": "Holding: yes when she needs it",
+    "sub": "Secure ≠ always in arms",
+    "roots": [
+     "Secure",
+     "Brave"
+    ],
+    "lines": [
+     "Scared, sad, missing you? Hold her. That doesn’t spoil her; it builds security.",
+     "Happy and wanting to move? Put her down. Security is “you’re there when I need you,” not “you never put me down.”"
+    ]
+   },
+   {
+    "icon": "👏",
+    "title": "Praise: say what you see",
+    "sub": "Specific beats “good job”",
+    "roots": [
+     "Kind",
+     "Self-led"
+    ],
+    "lines": [
+     "Constant “Good job!” can make her do things for applause, or startle her mid-move.",
+     "Try: “You opened the lid!” “You climbed up by yourself.” Her own pride is the reward."
+    ]
+   }
+  ],
+  "daily": [
+   "Watched her play a while before joining",
+   "Let her do one thing herself",
+   "Waited 5 seconds before helping",
+   "She fed herself and stopped when full",
+   "Put her down to crawl or walk when she was happy",
+   "Said what she did instead of “good job”",
+   "Told her before handling her"
+  ],
+  "quiz": [
+   {
+    "q": "She’s focused on a lid; you jump in: “What color is that?”",
+    "a": "dont",
+    "why": "Wait until she looks up for you."
+   },
+   {
+    "q": "She can almost reach a toy; you wait a few seconds?",
+    "a": "do",
+    "why": "Slightly hard builds skill. She often gets it herself."
+   },
+   {
+    "q": "Spoon-feed everything so she stays clean?",
+    "a": "dont",
+    "why": "Self-feeding builds hand skills and trust in her own hunger and fullness."
+   },
+   {
+    "q": "She sits down hard but doesn’t cry; you watch her reaction first?",
+    "a": "do",
+    "why": "If she’s fine she gets up herself. If she cries, go comfort."
+   },
+   {
+    "q": "Say “I’m going to wipe your face” first?",
+    "a": "do",
+    "why": "She cooperates more and learns she’s respected."
+   },
+   {
+    "q": "She comes to you upset; you say “Don’t cry, go play”?",
+    "a": "dont",
+    "why": "When she needs you, hold her. That’s where security comes from."
+   }
+  ],
+  "scripts": [
+   {
+    "icon": "🧗",
+    "when": "She’s stuck and frustrated",
+    "steps": [
+     {
+      "do": "Stay close, count to five."
+     },
+     {
+      "say": "You’re working hard. That’s tricky."
+     },
+     {
+      "do": "Help one small step.",
+      "say": "Try again?"
+     }
+    ],
+    "note": "Let it feel like “I did it.”"
+   },
+   {
+    "icon": "🍚",
+    "when": "She stops eating",
+    "steps": [
+     {
+      "say": "All done?"
+     },
+     {
+      "do": "Show the all-done sign."
+     },
+     {
+      "say": "Okay, all done. Let’s wash hands."
+     }
+    ],
+    "note": "No chasing, no “one more bite.”"
+   },
+   {
+    "icon": "🤲",
+    "when": "Picking her up or cleaning her",
+    "steps": [
+     {
+      "say": "I’m going to pick you up."
+     },
+     {
+      "do": "Hold out your hands and pause."
+     },
+     {
+      "say": "Up we go!"
+     }
+    ],
+    "note": "Respect lives in daily care."
+   },
+   {
+    "icon": "🫧",
+    "when": "She’s covered in mess",
+    "steps": [
+     {
+      "do": "Breathe, don’t wipe yet."
+     },
+     {
+      "say": "Ooh, sticky! What are you feeling?"
+     },
+     {
+      "do": "Clean up together after.",
+      "say": "Let’s wipe together."
+     }
+    ],
+    "note": "Clean after play, not during."
+   }
+  ],
+  "details": [
+   {
+    "icon": "💛",
+    "title": "Older habits, gently reconsidered",
+    "roots": [
+     "Secure"
+    ],
+    "lines": [
+     "<b>Chasing to feed</b> comes from worry she’s hungry, but it can blur her own fullness signals.",
+     "<b>Holding all the time</b> comes from love, but she needs floor time to walk steadily.",
+     "<b>Stopping mess</b> keeps things clean, but touch and taste are how she learns now.",
+     "<b>Praising everything</b> means to encourage; describing works better.",
+     "<b>Rushing to help</b> is love too; being half a beat slower gives her one more “I can.”"
+    ]
+   },
+   {
+    "icon": "🛡️",
+    "title": "Space is not neglect",
+    "roots": [
+     "Healthy"
+    ],
+    "lines": [
+     "Adults own safety: stairs, outlets, roads, water, small objects.",
+     "Within safe limits, she tries, plays and does it herself. You nearby is her confidence."
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "Harvard Center on the Developing Child: Serve and Return",
+    "url": "https://developingchild.harvard.edu/key-concept/serve-and-return/"
+   },
+   {
+    "label": "RIE: Educaring approach",
+    "url": "https://www.rie.org/educaring/"
+   },
+   {
+    "label": "Pikler (USA)",
+    "url": "https://pikler.org/"
+   },
+   {
+    "label": "Ellyn Satter: Division of responsibility in feeding",
+    "url": "https://www.ellynsatterinstitute.org/how-to-feed/the-division-of-responsibility-in-feeding/"
+   }
+  ]
+ },
+ "zh": {
+  "title": "给爷爷奶奶的话",
+  "age": "带孙辈的新想法",
+  "dates": "常驻页，随时翻",
+  "oneLiner": "您带孩子的经验比书上多得多。这页只想分享几个新研究里的小想法：<b>多看一会儿、少帮一点、让她自己来</b>。不是说以前的做法不对，只是孩子这么大的时候，多给她一点空间，她会长得更有本事、更有底气。",
+  "bigThree": [
+   {
+    "icon": "👀",
+    "title": "先看，再出手",
+    "sub": "观察是最好的陪伴",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "lines": [
+     "孩子在玩的时候，先别急着教、别急着帮。看看她在琢磨什么。",
+     "专心是很宝贵的。她盯着一个盖子研究五分钟，脑子里正忙着呢，这时候打断，等于把她的思路掐断了。",
+     "她回头看您，就是在“请您来”。这时候笑一笑、说一句，刚刚好。"
+    ]
+   },
+   {
+    "icon": "🙌",
+    "title": "她能做的，让她自己做",
+    "sub": "少帮一步",
+    "roots": [
+     "Self-led",
+     "Brave"
+    ],
+    "lines": [
+     "能自己抓的饭，让她抓；能自己爬的台阶，护着让她爬；能自己走的路，牵着让她走。",
+     "喂得快、抱着快，大人省心，但孩子少了一次练习的机会。",
+     "不是不管：您在旁边护着安全，事情让她来做。"
+    ]
+   },
+   {
+    "icon": "🧗",
+    "title": "让她费点劲，也让她弄脏",
+    "sub": "小困难长本事",
+    "roots": [
+     "Brave",
+     "Curious"
+    ],
+    "lines": [
+     "够不着、打不开、摔个屁股墩，有一点点难，是最长本事的时候。数五秒再帮，帮也只帮一小步。",
+     "手上脸上都是饭、衣服弄湿了，是她在用全身学东西。衣服能洗，这份好奇心可金贵。",
+     "她哭了、真着急了，再抱。先安抚情绪，再陪她试一次。"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "icon": "🧸",
+    "title": "蒙台梭利：“帮我，让我自己做”",
+    "sub": "Montessori",
+    "roots": [
+     "Self-led"
+    ],
+    "lines": [
+     "意大利的蒙台梭利医生发现，孩子天生就想自己做事，大人最好的帮法是<b>把环境准备好</b>，然后退后一点。",
+     "比如：玩具放矮架子上，她自己拿、自己放回去；给她小杯子学自己喝；吃完饭给块小布擦桌子。",
+     "东西少一点，每次摆四五样就够，她反而玩得更专心。"
+    ]
+   },
+   {
+    "icon": "🎨",
+    "title": "瑞吉欧：孩子是小小研究家",
+    "sub": "Reggio Emilia",
+    "roots": [
+     "Curious"
+    ],
+    "lines": [
+     "意大利瑞吉欧的幼儿园相信，孩子自己会提问、会探索，大人是陪她一起“研究”的伙伴，不是老师在上课。",
+     "她玩水、玩沙、捏面条，就是在做实验。您可以在旁边说她看到的：“水流下来了”“黏黏的”。",
+     "不用急着告诉她“对的玩法”，她的玩法就是她的研究。"
+    ]
+   },
+   {
+    "icon": "🤲",
+    "title": "RIE / 皮克勒：把孩子当个小人来尊重",
+    "sub": "Magda Gerber · Emmi Pikler",
+    "roots": [
+     "Secure",
+     "Self-led"
+    ],
+    "lines": [
+     "匈牙利的皮克勒医生和美国的玛格达·格伯认为：小宝宝也是一个完整的人，值得被好好对待。",
+     "<b>做事前先告诉她：</b>“奶奶要抱你起来了。”“我要给你擦嘴了。”等她一下再动手。",
+     "<b>让她自己动：</b>不扶着坐、不扶着站，她自己爬起来、自己站起来，动作更稳。",
+     "<b>她哭了先听：</b>“你不高兴了，玩具掉了。”先说出她的感受，再帮忙。"
+    ]
+   },
+   {
+    "icon": "🍚",
+    "title": "吃饭：她吃多少，她自己说了算",
+    "sub": "不追喂",
+    "roots": [
+     "Healthy",
+     "Self-led"
+    ],
+    "lines": [
+     "大人管：吃什么、什么时候吃、在哪儿吃。孩子管：吃不吃、吃多少。",
+     "她扭头、扔饭、推开碗，就是饱了。别追着喂，下顿照样吃。",
+     "让她用手抓、慢慢学勺子，弄得满桌都是没关系。自己吃，才会好好吃。"
+    ]
+   },
+   {
+    "icon": "🤗",
+    "title": "抱：想抱就抱，但别一直抱着",
+    "sub": "安全感≠一直在怀里",
+    "roots": [
+     "Secure",
+     "Brave"
+    ],
+    "lines": [
+     "她害怕、难过、想您了，抱！这不会“惯坏”，反而让她更有安全感。",
+     "她开开心心想爬想走的时候，放她下来。一直抱着，她就少了练腿脚、看世界的机会。",
+     "安全感是“我需要时，你一定在”，不是“你一直抱着我”。"
+    ]
+   },
+   {
+    "icon": "👏",
+    "title": "夸：说看到的，少说“真棒”",
+    "sub": "具体比夸张好",
+    "roots": [
+     "Kind",
+     "Self-led"
+    ],
+    "lines": [
+     "每一下都“宝宝真棒！”，孩子容易为了听夸才做事，也可能被吓一跳停下来。",
+     "换成说您看到的：“你把盖子打开了！”“你自己爬上去了。”",
+     "她自己做成了会很开心，那份开心本身就是奖励。"
+    ]
+   }
+  ],
+  "daily": [
+   "今天先看了她玩一会儿，没急着插手",
+   "她能自己做的事，让她做了一件",
+   "她费劲时，等了五秒才帮",
+   "让她吃饭自己抓，饱了就停",
+   "她开心时放她下来自己爬、自己走",
+   "说“你做到了……”代替“真棒”",
+   "做事前先告诉她（抱她、擦嘴、换尿布）"
+  ],
+  "quiz": [
+   {
+    "q": "她在专心拍盖子，您过去说“宝宝这是什么颜色呀？”",
+    "a": "dont",
+    "why": "她正专心呢，等她抬头找您再说。"
+   },
+   {
+    "q": "她够玩具差一点点，您先等几秒看看？",
+    "a": "do",
+    "why": "有点难最长本事。等一等，她常常自己就够着了。"
+   },
+   {
+    "q": "怕她弄脏，饭都喂给她吃？",
+    "a": "dont",
+    "why": "自己抓着吃，手更巧，也更知道自己饿不饿。脏了洗洗就好。"
+   },
+   {
+    "q": "她摔倒没哭，您先看看她的反应？",
+    "a": "do",
+    "why": "没事她会自己起来，这就是在练勇敢。她哭了再去抱。"
+   },
+   {
+    "q": "给她擦脸前说“奶奶要擦脸啦”？",
+    "a": "do",
+    "why": "先告诉她，她会更配合，也学会别人是尊重她的。"
+   },
+   {
+    "q": "她难过找您抱，您说“别哭，自己玩去”？",
+    "a": "dont",
+    "why": "她需要的时候一定要抱。安全感就是这么来的。"
+   }
+  ],
+  "scripts": [
+   {
+    "icon": "🧗",
+    "when": "她卡住了、着急了",
+    "steps": [
+     {
+      "do": "先在旁边，数五秒。"
+     },
+     {
+      "say": "你在使劲呢，有点难。"
+     },
+     {
+      "do": "只帮一小步（扶一下、把东西挪近一点）。",
+      "say": "再试试？"
+     }
+    ],
+    "note": "让她觉得“是我自己做到的”。"
+   },
+   {
+    "icon": "🍚",
+    "when": "她不吃了",
+    "steps": [
+     {
+      "say": "吃饱了吗？"
+     },
+     {
+      "do": "比“吃完了”手势。"
+     },
+     {
+      "say": "好，吃完啦。我们去洗手。"
+     }
+    ],
+    "note": "不追喂，不哄“再吃一口”。"
+   },
+   {
+    "icon": "🤲",
+    "when": "要抱她、给她擦洗",
+    "steps": [
+     {
+      "say": "奶奶要抱你起来了。"
+     },
+     {
+      "do": "伸出手，等她一下（她可能会伸手配合）。"
+     },
+     {
+      "say": "起来啦！"
+     }
+    ],
+    "note": "每天的小事里，她学会被尊重。"
+   },
+   {
+    "icon": "🫧",
+    "when": "她弄得一身脏",
+    "steps": [
+     {
+      "do": "深呼吸，先别擦。"
+     },
+     {
+      "say": "哇，黏黏的！你在摸什么呀？"
+     },
+     {
+      "do": "玩完了再一起擦干净。",
+      "say": "我们一起擦一擦。"
+     }
+    ],
+    "note": "玩完再收拾，比边玩边擦好。"
+   }
+  ],
+  "details": [
+   {
+    "icon": "💛",
+    "title": "以前的习惯，为什么可以换个做法",
+    "roots": [
+     "Secure"
+    ],
+    "lines": [
+     "<b>追着喂：</b>出发点是怕她饿着。但长期追喂，孩子会不太知道自己饱没饱，吃饭也容易变成拉锯。",
+     "<b>一直抱着：</b>是心疼她。但她现在正是爱爬爱走的时候，下地多练才走得稳。",
+     "<b>怕脏不让碰：</b>是为了干净。但用手摸、用嘴尝，是这个年纪最主要的学习方式。",
+     "<b>什么都夸：</b>是想鼓励她。具体地说出她做了什么，鼓励效果更好。",
+     "<b>马上帮忙：</b>是爱她。偶尔慢半拍，她会多一次“我能行”的经验。"
+    ]
+   },
+   {
+    "icon": "🛡️",
+    "title": "放手，不是不管",
+    "roots": [
+     "Healthy"
+    ],
+    "lines": [
+     "安全的事大人说了算：楼梯、插座、马路、小东西放嘴里、水边，这些一步都不能离。",
+     "放手是指：在安全范围里，让她自己试、自己玩、自己做。",
+     "您在旁边，就是她最大的底气。"
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "哈佛儿童发展中心：发球与回球（英文）",
+    "url": "https://developingchild.harvard.edu/key-concept/serve-and-return/"
+   },
+   {
+    "label": "RIE 基本理念（英文）",
+    "url": "https://www.rie.org/educaring/"
+   },
+   {
+    "label": "Pikler 研究所（英文）",
+    "url": "https://pikler.org/"
+   },
+   {
+    "label": "Ellyn Satter：喂养分工（英文）",
+    "url": "https://www.ellynsatterinstitute.org/how-to-feed/the-division-of-responsibility-in-feeding/"
+   }
+  ]
+ }
+}
