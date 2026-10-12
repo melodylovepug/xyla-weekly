@@ -90,12 +90,20 @@
     return /^zh/i.test(langs[0] || '') ? 'zh' : 'en';
   }
   var lang = detectLang(), t = T[lang], DATA = null, VIDEOS = {};
+  // Single-language sites: <html data-site-lang="en|zh"> locks the language and hides the toggle.
+  var HTML = document.documentElement, SITE = HTML.getAttribute('data-site-lang');
+  if (SITE === 'en' || SITE === 'zh') { lang = SITE; t = T[lang]; } else SITE = null;
+  (function siteText() {
+    var a = HTML.getAttribute('data-site-title'), b = HTML.getAttribute('data-site-sub'), c = HTML.getAttribute('data-site-how');
+    if (a) t.pageTitle = a; if (b) t.homeSub = b; if (c) t.how = c.split('|');
+  })();
   function setLang(l) {
-    if (l !== 'en' && l !== 'zh') return;
+    if (SITE || (l !== 'en' && l !== 'zh')) return;
     store(LANG_KEY, l); lang = l; t = T[l];
     var y = window.scrollY; render(); window.scrollTo(0, y);
   }
   function langToggleHTML(big) {
+    if (SITE) return '';
     return '<div class="lang' + (big ? ' big' : '') + '" role="group" aria-label="Language / 语言">' +
       '<button type="button" data-lang="zh" aria-pressed="' + (lang === 'zh') + '" lang="zh-Hans">中文</button>' +
       '<button type="button" data-lang="en" aria-pressed="' + (lang === 'en') + '" lang="en">English</button></div>';
@@ -582,7 +590,7 @@
   function buildHome(list) {
     document.title = t.pageTitle;
     var root = document.getElementById('app'); root.innerHTML = '';
-    root.insertAdjacentHTML('beforeend', '<header class="hero"><div class="toprow end"><span class="small">🌐</span>' + langToggleHTML(false) + '</div><h1>🧸 ' + t.pageTitle + '</h1><p class="sub">' + t.homeSub + '</p>' +
+    root.insertAdjacentHTML('beforeend', '<header class="hero"><div class="toprow end">' + (SITE ? '' : '<span class="small">🌐</span>' + langToggleHTML(false)) + '</div><h1>🧸 ' + t.pageTitle + '</h1><p class="sub">' + t.homeSub + '</p>' +
       '</header>');
     var s = section('weeks', t.weeks, ''); s.className = 'weeks';
     var today = localISO();

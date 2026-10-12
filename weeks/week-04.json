@@ -6,16 +6,12 @@
  "videos": {
   "bEHaCVLeMtE": {
    "title": "STOP Making These Walking Mistakes | PT-Approved Tools to Get Baby Walking",
-   "titleZh": "儿科康复师：帮宝宝学走路，这几个坑别踩",
    "channel": "Dr. Olivia, the baby PT",
-   "channelZh": "Dr. Olivia（儿科物理治疗师）",
    "lang": "en"
   },
   "DBCnRoOcsQQ": {
    "title": "All Done in Baby Sign Language, ASL",
-   "titleZh": "手语“吃完了/不要了”怎么比",
    "channel": "TalkBox.Mom",
-   "channelZh": "TalkBox.Mom",
    "lang": "en"
   }
  },
@@ -23,7 +19,7 @@
   "title": "Week 4",
   "age": "~11½ months",
   "dates": "Oct 18–31, 2026",
-  "oneLiner": "Let first steps come <b>at her pace</b>, keep words <b>fun, not a test</b>, stay calm when food flies, and build a <b>safe goodbye</b> before daycare.",
+  "oneLiner": "She’s in a <b>calmer, more independent</b> stretch. This week: <b>step practice twice a day</b>, <b>echo-and-point</b> for words, and start a <b>goodbye routine</b> before the next wave (walking + daycare) arrives.",
   "now": [
    "🛝 Playground about twice a day",
    "🪜 Stairs up, and now steps down smoothly",
@@ -34,14 +30,70 @@
    "🗣️ baba · mama · yeye · baibai, with meaning",
    "🙊 Won’t repeat words on request",
    "🖊️ Talking pen: points at books to play sounds",
-   "🙈 Stranger anxiety",
    "🛏️ Floor bed",
    "🦷 Teething",
    "🍝 Smashes and throws food",
+   "😌 Calmer · explores on her own · warms up to people faster",
    "🫧 Loves messy texture play",
    "🧩 Plays on her own more"
   ],
   "bigThree": [
+   {
+    "icon": "👣",
+    "title": "Do “couch to Mama” steps, twice a day",
+    "sub": "Body · 5 min",
+    "roots": [
+     "Brave",
+     "Healthy"
+    ],
+    "lines": [
+     "<b>When:</b> after her morning nap and before the afternoon playground, barefoot, on a clear floor. Stop while she’s still having fun.",
+     "<b>How:</b> she sits on your lap one small step from the couch, with a toy on the seat. Stand her up and let her step to it. Next time, sit a little farther away. Then switch: she starts at the couch and steps to you.",
+     "<b>Help less each day:</b> hold her hips, then her forearms (no higher than her shoulders), then just a finger. Give her a big ball to carry so her hands are busy.",
+     "<b>Say:</b> “Come to Mama!” (open arms, wait). If she steps: “You walked to me!” If she sits down: “Plop! Up again?” No big cheers or clapping, which can startle her down.",
+     "If she crawls instead, that’s fine. Try again later."
+    ],
+    "videos": [
+     "bEHaCVLeMtE"
+    ]
+   },
+   {
+    "icon": "🗣️",
+    "title": "Echo, point, name: 3 times a day",
+    "sub": "Words · no testing",
+    "roots": [
+     "Curious",
+     "Kind"
+    ],
+    "lines": [
+     "<b>When:</b> breakfast, pen-book time, and the walk to the playground.",
+     "<b>How 1, echo and add:</b> she says “baba” → you say <b>“Baba! Baba’s at work.”</b> Repeat her word and add a little.",
+     "<b>How 2, follow her point:</b> look where she points, then name it: <b>“Bird! A bird is flying.”</b> Then point to something yourself and wait for her to look.",
+     "<b>How 3, pen-book turns:</b> she presses, you say the word (“Cat! Meow.”), then it’s her turn again.",
+     "<b>Pause</b> 3–5 seconds before a word she knows (“Bai…”). If she doesn’t say it, just say it yourself and move on.",
+     "<b>Don’t say:</b> “Say mama! Say it again!” She says words when she needs them, not on request."
+    ],
+    "videos": []
+   },
+   {
+    "icon": "👋",
+    "title": "Start a goodbye routine before the next wave",
+    "sub": "Feelings · 3 practices",
+    "roots": [
+     "Secure",
+     "Brave"
+    ],
+    "lines": [
+     "<b>When:</b> 3 times this week, while she’s calm and fed, with a grandparent or another familiar adult. Try 5 minutes, then 10, then 20.",
+     "<b>How:</b> same steps every time. Get down to her level, give a hug, say the goodbye line, wave, and leave even if she cries. Come back warm and unhurried.",
+     "<b>Say leaving:</b> “Mama’s going out. Grandma stays with you. Mama comes back.” → “Bye bye!”",
+     "<b>Say returning:</b> “Mama’s back! I said I’d come back.” Then sit with her for a few minutes.",
+     "<b>Don’t:</b> sneak out while she’s busy. Use this exact routine on the <a href=\"daycare-first-day.html\">daycare first day</a>."
+    ],
+    "videos": []
+   }
+  ],
+  "cards": [
    {
     "icon": "🦵",
     "title": "Where she is now: body",
@@ -57,9 +109,7 @@
      "Her hands are getting precise too: small food pieces, the pen tip on a picture.",
      "<b>Where it’s heading:</b> 1–3 wobbly steps toward you, then walking with arms up and many falls. Anywhere from now to ~18 months is normal."
     ],
-    "videos": [
-     "bEHaCVLeMtE"
-    ]
+    "videos": []
    },
    {
     "icon": "🧠",
@@ -79,24 +129,21 @@
     "videos": []
    },
    {
-    "icon": "❤️",
+    "icon": "😌",
     "title": "Where she is now: feelings",
-    "sub": "Bolder, and more attached",
+    "sub": "Calmer, more independent",
     "roots": [
      "Secure",
      "Self-led"
     ],
     "lines": [
-     "Stranger anxiety means she knows <b>you are her safe base</b>. That is healthy, not shy.",
-     "She plays alone longer because she feels safe. She checks back with a look: that look is her refueling.",
-     "Throwing food and watching your face: she is testing <b>what happens</b> and <b>how you react</b>. Not naughty.",
-     "Teething can make her clingy, drooly, and short on sleep for a few days.",
-     "<b>Where it’s heading:</b> separation protest often peaks soon. A predictable goodbye and a warm return teach her you always come back."
-    ],
-    "videos": []
-   }
-  ],
-  "cards": [
+     "Last week’s fussy, clingy dip has passed. Now that she can <b>get around and explore on her own</b>, she is happier and calmer.",
+     "She plays alone longer, goes farther from you, and glances back to check in. That glance is how she refuels.",
+     "She warms up to new people faster. She may still watch from your lap first, and that’s fine.",
+     "Throwing food and watching your face is still experimenting (what happens? how does Mama react?), not naughtiness.",
+     "<b>What comes next:</b> babies move in cycles. A calm, capable stretch often comes before a new wave of clinginess when a big change arrives. For her, that’s <b>walking</b> (the world suddenly feels bigger) and <b>daycare</b>. Expect more protest at goodbyes, extra night waking, and wanting you close. It’s the next cycle starting, not going backwards."
+    ]
+   },
    {
     "icon": "👣",
     "title": "Do & don’t: first steps",
@@ -189,17 +236,18 @@
    },
    {
     "icon": "🙈",
-    "title": "Do & don’t: strangers and goodbyes",
-    "sub": "Getting ready for daycare",
+    "title": "Do & don’t: the next goodbye wave",
+    "sub": "Walking + daycare",
     "roots": [
      "Secure",
      "Brave"
     ],
     "lines": [
-     "✅ <b>Do</b> let new people warm up: they chat with you first, she watches from your lap. <i>Why:</i> she reads your face to decide it’s safe.",
-     "✅ <b>Do</b> practice short goodbyes with family: same words, a wave, back in 10 minutes, warm hello. <i>Why:</i> repeated returns build trust.",
-     "🚫 <b>Don’t</b> sneak out while she’s busy. <i>Why:</i> she learns you vanish without warning and clings harder.",
-     "🚫 <b>Don’t</b> hand her over mid-cry and walk off fast. Stay calm, short, and kind.",
+     "She’s calmer now and warms up faster. Enjoy it, and use this calm stretch to build the routine she’ll need next.",
+     "✅ <b>Do</b> let new people take their time. They talk to you first while she watches. <i>Why:</i> she reads your face to decide if someone is safe.",
+     "✅ <b>Do</b> practice short goodbyes now, while she’s calm. <i>Why:</i> each time you come back, her trust grows, and that carries her through the daycare wave.",
+     "✅ <b>Do</b> expect more clinginess when she starts walking or starts daycare. <i>Why:</i> a big new skill or change often brings a new round of needing you. It’s a new cycle, not going backwards.",
+     "🚫 <b>Don’t</b> sneak out. <i>Why:</i> she learns you can disappear without warning, and she clings harder.",
      "<a href=\"daycare-first-day.html\">Daycare first-day page</a> has the full goodbye script and packing list."
     ],
     "videos": []
@@ -272,7 +320,7 @@
      "Healthy"
     ],
     "lines": [
-     "<b>Feelings:</b> “I want to do it myself” starts. More protest at limits and goodbyes. Your calm limit plus comfort is the plan.",
+     "<b>Feelings:</b> the calm stretch now usually gives way to a new wave around walking and daycare: more protest at goodbyes, wanting you close, night waking for a week or two. After that comes “I do it myself.” Hold limits calmly and comfort her; that’s the whole plan.",
      "<b>Food:</b> family foods in small pieces, eating with fingers, then trying a spoon. <a href=\"milk-at-one.html\">Milk at one</a> switch starts at 12 months.",
      "<b>Sleep:</b> after 12 months, a small light blanket or soft toy can be added to the floor bed if you want. Most keep 2 naps until 13–18 months.",
      "<b>Daycare:</b> a week or two of rough sleep or extra clinginess after starting is common and passes."
@@ -347,7 +395,7 @@
    {
     "emoji": "🛋️",
     "name": "Couch to Mama",
-    "how": "Sit her on your lap a step away from the couch with a toy on it. Help her stand and step to it. Slowly move a little farther.",
+    "how": "Lap → step to toys on the couch, then couch → your arms. Move a little farther each day. (from Wk 3 “One step to me”)",
     "roots": [
      "Brave",
      "Healthy"
@@ -356,8 +404,8 @@
    },
    {
     "emoji": "⚽",
-    "name": "Carry the ball",
-    "how": "Give a big light ball to hold in both hands while she stands. Busy hands = standing alone without noticing.",
+    "name": "Hands-busy standing",
+    "how": "Big light ball or two clappers to hold. Busy hands let go without noticing. (Wk 3)",
     "roots": [
      "Brave",
      "Healthy"
@@ -365,9 +413,28 @@
     "time": "3 min"
    },
    {
+    "emoji": "↔️",
+    "name": "Wider stand-to-stand gap",
+    "how": "Two sturdy pieces of furniture, now a full step apart, so she has to let go and step across. (Wk 3, harder)",
+    "roots": [
+     "Brave",
+     "Healthy"
+    ],
+    "time": "3 min"
+   },
+   {
+    "emoji": "⬇️",
+    "name": "Squat-to-pick-up, in the open",
+    "how": "Toy by her feet while she stands without holding on. Squat, grab, stand back up. (Wk 3, harder)",
+    "roots": [
+     "Healthy"
+    ],
+    "time": "3 min"
+   },
+   {
     "emoji": "🤝",
     "name": "One-hand walk",
-    "how": "Walk slowly holding one hand at her shoulder height, the other hand holds a toy. Switch sides.",
+    "how": "Hold one hand at her shoulder height, toy in her other hand. Switch sides.",
     "roots": [
      "Healthy",
      "Self-led"
@@ -375,9 +442,49 @@
     "time": "5 min"
    },
    {
+    "emoji": "🛒",
+    "name": "Push-walker delivery",
+    "how": "A toy in the walker: “Take it to Baba!” Weigh it down if it rolls too fast. (Wk 3)",
+    "roots": [
+     "Healthy",
+     "Kind"
+    ],
+    "time": "5 min"
+   },
+   {
+    "emoji": "🪜",
+    "name": "Stairs down with a rail",
+    "how": "She already steps down smoothly. Now: one hand on the rail or wall, you one step below. (Wk 3, harder)",
+    "roots": [
+     "Brave",
+     "Healthy"
+    ],
+    "time": "3 min"
+   },
+   {
+    "emoji": "🛝",
+    "name": "Playground mission",
+    "how": "Pick ONE stretch per visit (a new climber, a bigger slide with you at the bottom). Stop while she’s happy. (Wk 1)",
+    "roots": [
+     "Brave",
+     "Healthy"
+    ],
+    "time": "per visit"
+   },
+   {
+    "emoji": "📦",
+    "name": "Bring-it delivery, 2 steps",
+    "how": "“Pick up the ball and give it to Grandma.” Help with a gesture. (Wk 1, harder)",
+    "roots": [
+     "Curious",
+     "Kind"
+    ],
+    "time": "3 min"
+   },
+   {
     "emoji": "🧺",
     "name": "Throw into the basket",
-    "how": "Balls or bean bags into a laundry basket. “Throw! In!” This is the yes-place for throwing.",
+    "how": "Balls into a laundry basket: “Throw! In!” The yes-place for throwing.",
     "roots": [
      "Curious",
      "Self-led"
@@ -386,8 +493,8 @@
    },
    {
     "emoji": "👉",
-    "name": "Where’s the…?",
-    "how": "In a book or at the window: “Where’s the dog?” Point, wait, then name it together. Let her point too.",
+    "name": "Point-and-name walk",
+    "how": "Carry or walk her around: “Where’s the light?” When she points, look and name it. (Wk 3)",
     "roots": [
      "Curious",
      "Kind"
@@ -397,7 +504,7 @@
    {
     "emoji": "🖊️",
     "name": "Pen-book turns",
-    "how": "She presses, you say the word and add one (“Cat! Soft cat.”). Then your turn. Then hers.",
+    "how": "She presses, you say the word and add one, then it’s her turn. (Wk 3)",
     "roots": [
      "Curious",
      "Kind"
@@ -405,19 +512,157 @@
     "time": "5–10 min"
    },
    {
-    "emoji": "🙈",
-    "name": "Peekaboo goodbye",
-    "how": "Hide behind a door, say “Bye bye!” and pop back “Mama’s back!” Practice leaving and returning as a game.",
+    "emoji": "🔁",
+    "name": "Echo-and-add",
+    "how": "“Baibai” → “Baibai! Bye-bye, car!” (Wk 3)",
     "roots": [
-     "Secure",
-     "Brave"
+     "Curious",
+     "Kind"
+    ],
+    "time": "all day"
+   },
+   {
+    "emoji": "📸",
+    "name": "Family photo book",
+    "how": "“Where’s yeye?” Let her pat the photo. Echo any name she says. (Wk 3)",
+    "roots": [
+     "Kind",
+     "Secure"
+    ],
+    "time": "5 min"
+   },
+   {
+    "emoji": "📖",
+    "name": "Quiet board book",
+    "how": "No buttons. Point and name, wait for her to point back. (Wk 1)",
+    "roots": [
+     "Curious"
+    ],
+    "time": "5 min"
+   },
+   {
+    "emoji": "🍌",
+    "name": "Banana or cracker?",
+    "how": "Hold up two things. Any reach, look or point is her answer: name it. (Wk 3)",
+    "roots": [
+     "Self-led",
+     "Curious"
+    ],
+    "time": "1 min"
+   },
+   {
+    "emoji": "🥤",
+    "name": "Three-cup shuffle",
+    "how": "Hide a toy under one of three cups and move it while she watches. (Wk 3, harder)",
+    "roots": [
+     "Curious"
     ],
     "time": "3 min"
    },
    {
+    "emoji": "🗼",
+    "name": "Stack & crash",
+    "how": "Stack blocks together; she tries to put one on top, then crashes them. (Wk 1)",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "time": "5 min"
+   },
+   {
+    "emoji": "🫙",
+    "name": "Lid lab, harder",
+    "how": "Lids that pull off, then lids that push on; a box with a slot to post things through. (Wk 1, harder)",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "time": "5 min"
+   },
+   {
+    "emoji": "🕺",
+    "name": "Freeze dance",
+    "how": "Music on: bounce. Off: “FREEZE!” (Wk 3)",
+    "roots": [
+     "Self-led",
+     "Healthy"
+    ],
+    "time": "3 min"
+   },
+   {
+    "emoji": "🥁",
+    "name": "Rhythm copy",
+    "how": "Tap a pot twice, wait, copy what she does. (Wk 3)",
+    "roots": [
+     "Curious",
+     "Kind"
+    ],
+    "time": "3 min"
+   },
+   {
+    "emoji": "🕷️",
+    "name": "Gesture songs",
+    "how": "Itsy Bitsy, Wheels on the Bus. Pause before the gesture so she fills it in. (Wk 3)",
+    "roots": [
+     "Kind",
+     "Curious"
+    ],
+    "time": "5 min"
+   },
+   {
+    "emoji": "🪞",
+    "name": "Copy-me",
+    "how": "Wipe the table, phone to ear, brush hair. She copies, then you copy her. (Wk 3)",
+    "roots": [
+     "Kind",
+     "Self-led"
+    ],
+    "time": "3 min"
+   },
+   {
+    "emoji": "💧",
+    "name": "Wipe-up helper",
+    "how": "Damp cloth after meals; she “cleans” her tray. (Wk 1)",
+    "roots": [
+     "Self-led",
+     "Kind"
+    ],
+    "time": "2 min"
+   },
+   {
+    "emoji": "🧩",
+    "name": "Solo play + check-ins",
+    "how": "4–6 toys out, play together briefly, then “I’ll be right here.” Smile when she looks back. (Wk 3)",
+    "roots": [
+     "Self-led",
+     "Secure"
+    ],
+    "time": "10+ min"
+   },
+   {
+    "emoji": "👯",
+    "name": "Peer time side by side",
+    "how": "1–2 babies at the playground or a class. No need to share. (Wk 3, good daycare prep)",
+    "roots": [
+     "Kind",
+     "Brave"
+    ],
+    "time": "20 min"
+   },
+   {
+    "emoji": "😴",
+    "name": "Daytime night-night",
+    "how": "Lie on her floor bed together, “shhh”… “Good morning!” (Wk 3)",
+    "roots": [
+     "Secure",
+     "Healthy"
+    ],
+    "time": "2 min"
+   },
+   {
     "emoji": "🫧",
     "name": "Messy tray",
-    "how": "Yogurt, cooked noodles or water on a tray. Squish, pour, smear. You name it: “sticky, wet, cold.”",
+    "how": "Yogurt, soft noodles or water on a tray. Squish, pour; you name “sticky, wet, cold.”",
     "roots": [
      "Curious",
      "Healthy"
@@ -425,24 +670,14 @@
     "time": "10 min"
    },
    {
-    "emoji": "💧",
+    "emoji": "💦",
     "name": "Water table pouring",
-    "how": "Cups, a funnel, floating toys. Always within arm’s reach, empty it after play.",
+    "how": "Cups, a funnel, floating toys. Always within arm’s reach; empty after play.",
     "roots": [
      "Curious",
      "Healthy"
     ],
     "time": "10–15 min"
-   },
-   {
-    "emoji": "🛒",
-    "name": "Push-walker delivery",
-    "how": "Put a toy in the walker: “Take it to Baba!” Weigh it down if it rolls too fast.",
-    "roots": [
-     "Healthy",
-     "Kind"
-    ],
-    "time": "5 min"
    }
   ],
   "scripts": [
@@ -594,13 +829,14 @@
    },
    {
     "icon": "🙈",
-    "title": "Why goodbyes get harder before daycare",
+    "title": "Why calm now, and a new wave soon",
     "roots": [
      "Secure"
     ],
     "lines": [
-     "Separation anxiety usually rises around 9–18 months as she understands you exist when out of sight but can’t yet predict your return.",
-     "A consistent goodbye and a warm return teach her the pattern. Most babies settle in daycare within a few weeks."
+     "Development comes in cycles: a new skill brings a fussy, clingy dip, then a calmer stretch once the skill settles. Exploring on her own has brought her into a calm stretch.",
+     "Walking and daycare are the next big changes. Separation protest often peaks somewhere between 9 and 18 months, as she understands you exist when you’re gone but can’t yet predict when you’ll be back.",
+     "A consistent goodbye and a warm return teach her the pattern. Most babies settle into daycare within a few weeks."
     ],
     "refs": [
      {
@@ -654,645 +890,6 @@
    },
    {
     "label": "AAP/HealthyChildren: Separation anxiety",
-    "url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/Soothing-Your-Childs-Separation-Anxiety.aspx"
-   }
-  ]
- },
- "zh": {
-  "title": "第4周",
-  "age": "11个半月左右",
-  "dates": "2026年10月18日–31日",
-  "oneLiner": "迈步<b>让她自己定节奏</b>，说话<b>当玩不当考</b>，扔饭别激动，上托班前先把<b>告别</b>练熟。",
-  "now": [
-   "🛝 每天去两趟游乐场",
-   "🪜 会上楼梯，下台阶也很稳了",
-   "🛒 学步车推得溜 · 会推扭扭车",
-   "🤲 要你牵着两只手走",
-   "🧍 能自己站几秒（她还没意识到）",
-   "🦶 光脚",
-   "🗣️ 会有意识地叫爸爸、妈妈、爷爷、拜拜",
-   "🙊 让她再说一遍就不说",
-   "🖊️ 用点读笔点书",
-   "🙈 认生",
-   "🛏️ 睡地床",
-   "🦷 在长牙",
-   "🍝 抓饭、扔饭",
-   "🫧 爱玩黏糊糊的感官游戏",
-   "🧩 越来越能自己玩"
-  ],
-  "bigThree": [
-   {
-    "icon": "🦵",
-    "title": "现在的她：身体",
-    "sub": "离走路就差一点",
-    "roots": [
-     "Brave",
-     "Healthy"
-    ],
-    "lines": [
-     "腿上力气早够了，还在练的是<b>平衡</b>：敢松手，晃了能稳住。",
-     "不知不觉自己站几秒，一般就是独立迈步前的那一步。",
-     "牵手走、推学步车、滑滑梯、爬楼梯，全是在练平衡。光脚能让小脚丫更好地感受地面。",
-     "小手也越来越准：捏小块食物，用笔尖点中图片。",
-     "<b>接下来：</b>先晃晃悠悠朝你走一到三步，再到举着小手、摔了起、起了摔地走。从现在到18个月左右开始走都算正常。"
-    ],
-    "videos": [
-     "bEHaCVLeMtE"
-    ]
-   },
-   {
-    "icon": "🧠",
-    "title": "现在的她：大脑和说话",
-    "sub": "听懂的比会说的多得多",
-    "roots": [
-     "Curious",
-     "Kind"
-    ],
-    "lines": [
-     "她<b>听得懂</b>的远比会说的多：名字、“拜拜”、“不行”、“爸爸呢？”",
-     "看到对的人、在对的时候叫爸爸妈妈、爷爷、拜拜，这就是真正的第一批词。中英文加起来算。",
-     "“让她说她就说”是另一项更难的本事，一般要晚一些。现在的词，都是她想要什么、或者碰上什么事的时候自己蹦出来的。",
-     "拿点读笔点图，说明她懂了“图代表东西”，也懂了“一按就有声”（因果关系）。",
-     "<b>还做不到：</b>听懂两步指令，记住上顿饭说过的“不能扔”，也还不会等。"
-    ],
-    "videos": []
-   },
-   {
-    "icon": "❤️",
-    "title": "现在的她：情绪",
-    "sub": "胆子更大，也更黏你",
-    "roots": [
-     "Secure",
-     "Self-led"
-    ],
-    "lines": [
-     "认生说明她心里清楚<b>妈妈是她的安全基地</b>，这是健康的表现，不是胆小。",
-     "能自己玩更久，是因为有安全感。时不时回头看你一眼，就是在“充电”。",
-     "扔饭还盯着你的脸看，她是在研究<b>会发生什么</b>、<b>你会有啥反应</b>，不是故意捣蛋。",
-     "长牙那几天容易黏人、流口水、睡不踏实。",
-     "<b>接下来：</b>分离焦虑往往快到高峰了。告别有固定流程、回来时热情拥抱，她就慢慢明白：妈妈一定会回来。"
-    ],
-    "videos": []
-   }
-  ],
-  "cards": [
-   {
-    "icon": "👣",
-    "title": "该做/别做：迈出第一步",
-    "sub": "让她自己来",
-    "roots": [
-     "Brave",
-     "Healthy"
-    ],
-    "lines": [
-     "✅ <b>可以</b>扶她的胯或腰，或者扶小胳膊，手别高过她肩膀。<i>为啥：</i>这样她靠自己找平衡，不是被你拽着走。",
-     "✅ <b>可以</b>把玩具放沙发上，或者给她一个要两只手抱的球。<i>为啥：</i>手上有事干，不知不觉就松开你了。",
-     "✅ <b>可以</b>在家光脚，出门再穿软底鞋。<i>为啥：</i>脚趾能抓地，脚底给大脑传平衡信号。",
-     "🚫 <b>别</b>举着她两只手在头顶上走很远。<i>为啥：</i>身体会往前栽，踮着脚尖追着跑。",
-     "🚫 <b>别</b>用坐着的那种学步车。<i>为啥：</i>美国儿科学会说容易出事，对学走路也没帮助。"
-    ],
-    "videos": [],
-    "refs": [
-     {
-      "label": "美国儿科学会 HealthyChildren：坐式学步车很危险（英文）",
-      "url": "https://www.healthychildren.org/English/safety-prevention/at-home/Pages/Baby-Walkers-A-Dangerous-Choice.aspx"
-     }
-    ]
-   },
-   {
-    "icon": "🗣️",
-    "title": "该做/别做：说话",
-    "sub": "为什么让她说她偏不说",
-    "roots": [
-     "Curious",
-     "Kind",
-     "Secure"
-    ],
-    "lines": [
-     "✅ <b>可以</b>重复再加一点：她说“爸爸”，你接“爸爸！爸爸回来啦！”<i>为啥：</i>她听到自己的词，还多学了一点。",
-     "✅ <b>可以</b>说熟悉的词前停个三五秒（“拜……”），她没接你就自己说完。<i>为啥：</i>给她机会，但没压力。",
-     "✅ <b>可以</b>两种语言都说。<i>为啥：</i>两种语言加起来算，双语宝宝说话并不晚。",
-     "🚫 <b>别</b>“叫妈妈！快叫给奶奶听！”<i>为啥：</i>当众表演本来就难，一考她就闭嘴了。词是在她用得上的时候冒出来的，不是叫一声就来。",
-     "🚫 <b>别</b>纠正她的发音。<i>为啥：</i>你清清楚楚说一遍就够了。"
-    ],
-    "videos": [],
-    "refs": [
-     {
-      "label": "Hanen 中心：怎么帮孩子说出第一个词（英文）",
-      "url": "https://www.hanen.org/helpful-info/articles/how-to-help-your-child-say-their-first-words.aspx"
-     }
-    ]
-   },
-   {
-    "icon": "🍝",
-    "title": "该做/别做：饭到处飞",
-    "sub": "在探索、吃饱了，或者在看你反应",
-    "roots": [
-     "Self-led",
-     "Healthy",
-     "Kind"
-    ],
-    "lines": [
-     "为啥：抓饭是在感受口感手感；扔饭是在玩因果（掉下去了！妈妈有反应了！）。很多时候其实是在说<b>“我饱了”</b>。",
-     "✅ <b>可以</b>一次只放两三块，要了再加。<i>为啥：</i>能扔的少了，她也更容易表达“还要”。",
-     "✅ <b>可以</b>平静地说一次：“饭待在桌上。”再比个<b>“吃完了”</b>的手势。<i>为啥：</i>给她一个说“不吃了”的办法。",
-     "✅ <b>可以</b>还接着扔，就平静地结束这顿。<i>为啥：</i>这是她在给你信号，不是跟你较劲。下顿重新来。",
-     "🚫 <b>别</b>哈哈大笑、大声凶，或者追着喂。<i>为啥：</i>反应越大越好玩，她就越想再来一次。",
-     "想扔就换个地方扔：把球扔进篮子里。"
-    ],
-    "videos": [
-     "DBCnRoOcsQQ"
-    ]
-   },
-   {
-    "icon": "👉",
-    "title": "该做/别做：指东西、一起看",
-    "sub": "共同注意力",
-    "roots": [
-     "Curious",
-     "Kind"
-    ],
-    "lines": [
-     "她指一下、回头看你、再看那个东西，这是在<b>跟你分享她的想法</b>，是学说话的一大步。",
-     "✅ <b>可以</b>顺着她指的看过去，说出名字再加一点：“狗狗！好大的狗狗！”<i>为啥：</i>她正感兴趣的时候，词最容易记住。",
-     "✅ <b>可以</b>你也指给她看，等她看过去。点读书变成两个人的游戏：她点，你说。",
-     "🚫 <b>别</b>总让点读笔自己“教”她。<i>为啥：</i>宝宝是从人身上学说话的，光听声音学不会。"
-    ],
-    "videos": [],
-    "refs": [
-     {
-      "label": "美国疾控中心：12个月和15个月发育里程碑（英文）",
-      "url": "https://www.cdc.gov/ncbddd/actearly/milestones/milestones-1yr.html"
-     }
-    ]
-   },
-   {
-    "icon": "🙈",
-    "title": "该做/别做：认生和告别",
-    "sub": "为上托班做准备",
-    "roots": [
-     "Secure",
-     "Brave"
-    ],
-    "lines": [
-     "✅ <b>可以</b>让新朋友慢慢来：先跟你聊，她坐你腿上看着。<i>为啥：</i>她看你的表情来判断安不安全。",
-     "✅ <b>可以</b>跟家里人练短暂分开：说同样的话、挥挥手、十分钟后回来、热情打招呼。<i>为啥：</i>一次次回来，安全感就攒起来了。",
-     "🚫 <b>别</b>趁她玩得专心偷偷溜走。<i>为啥：</i>她会觉得妈妈随时会消失，反而更黏。",
-     "🚫 <b>别</b>她正哭着就塞给别人、扭头快走。平静、简短、温柔就好。",
-     "<a href=\"daycare-first-day.html\">托班第一天</a>那页有完整的告别话术和入园清单。"
-    ],
-    "videos": []
-   },
-   {
-    "icon": "🦷",
-    "title": "该做/别做：长牙",
-    "sub": "能安抚，也要安全",
-    "roots": [
-     "Healthy",
-     "Secure"
-    ],
-    "lines": [
-     "✅ <b>可以</b>洗干净手指帮她按摩牙龈；给冷藏过（别冷冻）的牙胶。<i>为啥：</i>压一压、凉一凉能舒服点。",
-     "✅ <b>可以</b>每天刷两次牙，含氟牙膏<b>米粒大小</b>。<i>为啥：</i>新牙很容易蛀。",
-     "🚫 <b>别</b>用含苯佐卡因的麻醉凝胶、出牙片、琥珀项链。<i>为啥：</i>美国FDA和儿科学会都警告过，有真实风险。",
-     "发烧到<b>38°C（100.4°F）</b>以上不是长牙引起的。止痛药剂量问儿科医生。"
-    ],
-    "videos": [],
-    "refs": [
-     {
-      "label": "美国儿科学会 HealthyChildren：长牙疼（英文）",
-      "url": "https://www.healthychildren.org/English/ages-stages/baby/teething-tooth-care/Pages/Teething-Pain.aspx"
-     },
-     {
-      "label": "美国FDA：出牙项链和凝胶的警告（英文）",
-      "url": "https://www.fda.gov/consumers/consumer-updates/safely-soothing-teething-pain-and-sensory-needs-babies-and-older-children"
-     }
-    ]
-   },
-   {
-    "icon": "🔭",
-    "title": "接下来：走路",
-    "sub": "未来1–3个月",
-    "roots": [
-     "Brave",
-     "Healthy"
-    ],
-    "lines": [
-     "先是她<b>发现</b>自己站着呢，开始故意多站一会儿。",
-     "然后能在空地上从蹲着直接站起来，啥也不扶。",
-     "再然后从沙发到你怀里走一到三步，一头扑进你怀里。两脚岔开、手举高高，都正常。",
-     "之后走得比爬得多，一屁股坐地上是常事。就是这么一次次摔，平衡才练出来的。",
-     "等她经常在外面走了再买鞋：轻、软、鞋头宽。"
-    ]
-   },
-   {
-    "icon": "🔭",
-    "title": "接下来：说话和理解",
-    "sub": "12–18个月左右",
-    "roots": [
-     "Curious",
-     "Kind"
-    ],
-    "lines": [
-     "能听懂配手势的简单指令了（“把球给妈妈”）。",
-     "会越来越多地用手指<b>要东西</b>（“要那个！”）和<b>给你看</b>（“你看！”）。",
-     "新词一开始来得慢，一两周冒一个很正常，18个月左右以后会突然变快。",
-     "会有半个词、像词的音（用“ba”说球）。只要她每次都这么用，就算一个词。",
-     "美国疾控中心的标准：15个月左右，除了爸爸妈妈还会一两个词，中英文加起来算。"
-    ]
-   },
-   {
-    "icon": "🔭",
-    "title": "接下来：情绪、吃饭、睡觉",
-    "sub": "一岁生日前后",
-    "roots": [
-     "Secure",
-     "Self-led",
-     "Healthy"
-    ],
-    "lines": [
-     "<b>情绪：</b>“我自己来”要开始了。被拦着、跟你分开时会更闹。你温和地守住规矩、再抱抱她，就是最好的办法。",
-     "<b>吃饭：</b>家常饭切小块、用手抓着吃，慢慢开始试勺子。满12个月开始<a href=\"milk-at-one.html\">转牛奶</a>。",
-     "<b>睡觉：</b>过了12个月，愿意的话可以在地床放一条轻薄小毯或一个软玩偶。大多数宝宝13–18个月前还睡两觉。",
-     "<b>托班：</b>刚去的一两周睡不好、格外黏人很常见，会过去的。"
-    ]
-   }
-  ],
-  "daily": [
-   "光脚练走：抱着球走，或者够沙发上的玩具",
-   "扶胯或扶小胳膊走，别举高高",
-   "爬楼梯、滑滑梯时你在她下方护着",
-   "两三次“重复再加一点”，不考她",
-   "顺着她指的看三次，说出名字",
-   "点读书一起玩：她点，你说",
-   "每顿饭少量放 + 比“吃完了”手势",
-   "练一次短暂告别再回来",
-   "闹的时候按摩牙龈或给冷牙胶",
-   "刷牙两次（米粒大小牙膏）"
-  ],
-  "todos": [
-   "家里清出一条平整的“跑道”（拿走会滑的地毯）",
-   "跟爷爷奶奶说好：别让她“快叫”，跟着她说就行",
-   "定下告别仪式：同样的话、挥手、亲一下",
-   "找熟悉的大人练两三次短暂分开",
-   "餐椅下铺防溅垫",
-   "装好玩水桌（玩的时候伸手就能够到她）",
-   "把出牙凝胶、琥珀项链都扔掉",
-   "把一岁体检要问的问题写下来"
-  ],
-  "quiz": [
-   {
-    "q": "举着她两只手在公园走一大圈？",
-    "a": "dont",
-    "why": "玩一小会儿没事，但手举高身体会往前栽。扶胯，或者扶小胳膊别高过肩。"
-   },
-   {
-    "q": "她说“爸爸”，你接“爸爸！爸爸在这儿！”",
-    "a": "do",
-    "why": "重复再加一点，词就是这么长出来的。"
-   },
-   {
-    "q": "“快叫爷爷！叫呀，叫一声！”",
-    "a": "dont",
-    "why": "让说就说要晚一些才会，一催她就不吭声了。"
-   },
-   {
-    "q": "她扔豌豆，你平静地说“饭待在桌上”，再比“吃完了”？",
-    "a": "do",
-    "why": "平静、简短，还给了她说“不吃了”的办法。"
-   },
-   {
-    "q": "她第一次扔饭，你笑得停不下来？",
-    "a": "dont",
-    "why": "反应越大越像表演，她就会再来。"
-   },
-   {
-    "q": "趁她玩的时候偷偷溜走，省得她哭？",
-    "a": "dont",
-    "why": "偷溜反而更黏。说拜拜、挥手、离开，回来时热情点。"
-   },
-   {
-    "q": "长牙用苯佐卡因麻醉凝胶？",
-    "a": "dont",
-    "why": "美国FDA不建议给宝宝用。按摩牙龈、冷牙胶就好。"
-   },
-   {
-    "q": "顺着她指的方向看，说出名字？",
-    "a": "do",
-    "why": "共同注意力：她正感兴趣的那一刻，词最容易记住。"
-   }
-  ],
-  "plays": [
-   {
-    "emoji": "🛋️",
-    "name": "从妈妈腿上走到沙发",
-    "how": "让她坐你腿上，离沙发一步远，沙发上放个玩具。扶她站起来迈过去，慢慢拉远一点。",
-    "roots": [
-     "Brave",
-     "Healthy"
-    ],
-    "time": "5分钟"
-   },
-   {
-    "emoji": "⚽",
-    "name": "抱球站",
-    "how": "站着时给她一个又大又轻的球，两只手抱。手上忙，不知不觉就自己站住了。",
-    "roots": [
-     "Brave",
-     "Healthy"
-    ],
-    "time": "3分钟"
-   },
-   {
-    "emoji": "🤝",
-    "name": "牵一只手走",
-    "how": "慢慢走，牵一只手，高度到她肩膀，另一只手拿玩具。左右换着牵。",
-    "roots": [
-     "Healthy",
-     "Self-led"
-    ],
-    "time": "5分钟"
-   },
-   {
-    "emoji": "🧺",
-    "name": "往篮子里扔",
-    "how": "把球或沙包扔进脏衣篮。“扔！进啦！”这儿就是可以随便扔的地方。",
-    "roots": [
-     "Curious",
-     "Self-led"
-    ],
-    "time": "5–10分钟"
-   },
-   {
-    "emoji": "👉",
-    "name": "……在哪儿？",
-    "how": "看书或看窗外：“狗狗在哪儿？”你指一下，等等她，再一起说出来。也让她指给你看。",
-    "roots": [
-     "Curious",
-     "Kind"
-    ],
-    "time": "5分钟"
-   },
-   {
-    "emoji": "🖊️",
-    "name": "点读书轮流玩",
-    "how": "她点，你说词再加一点（“猫！软软的猫。”）。然后你点，再轮到她。",
-    "roots": [
-     "Curious",
-     "Kind"
-    ],
-    "time": "5–10分钟"
-   },
-   {
-    "emoji": "🙈",
-    "name": "躲猫猫版告别",
-    "how": "躲到门后说“拜拜！”，再探出头“妈妈回来啦！”把离开和回来当游戏玩。",
-    "roots": [
-     "Secure",
-     "Brave"
-    ],
-    "time": "3分钟"
-   },
-   {
-    "emoji": "🫧",
-    "name": "黏糊糊托盘",
-    "how": "托盘里放酸奶、煮软的面条或水，让她捏、倒、抹。你在旁边说：“黏黏的、湿湿的、凉凉的。”",
-    "roots": [
-     "Curious",
-     "Healthy"
-    ],
-    "time": "10分钟"
-   },
-   {
-    "emoji": "💧",
-    "name": "玩水桌倒水",
-    "how": "杯子、漏斗、能漂的小玩具。全程伸手就能够到她，玩完把水倒掉。",
-    "roots": [
-     "Curious",
-     "Healthy"
-    ],
-    "time": "10–15分钟"
-   },
-   {
-    "emoji": "🛒",
-    "name": "学步车送快递",
-    "how": "玩具放学步车里：“送给爸爸！”车跑太快就压点重物。",
-    "roots": [
-     "Healthy",
-     "Kind"
-    ],
-    "time": "5分钟"
-   }
-  ],
-  "scripts": [
-   {
-    "icon": "🍝",
-    "when": "饭开始到处飞",
-    "steps": [
-     {
-      "do": "别激动，表情平静。",
-      "say": "饭待在桌上。"
-     },
-     {
-      "do": "比“吃完了”的手势。",
-      "say": "吃饱了吗？"
-     },
-     {
-      "do": "还扔，就平静地把她抱出来。",
-      "say": "吃完啦，我们待会儿再吃。"
-     }
-    ],
-    "note": "每顿都说一样的话。她在学，不是在捣乱。"
-   },
-   {
-    "icon": "🗣️",
-    "when": "她说了一个词",
-    "steps": [
-     {
-      "say": "妈妈！对，妈妈在这儿！"
-     },
-     {
-      "do": "笑一笑，停一下，等她接着出声。"
-     },
-     {
-      "do": "不要“再说一遍”，好好享受这一刻。"
-     }
-    ],
-    "note": "词是被温柔回应养大的，不是考出来的。"
-   },
-   {
-    "icon": "👋",
-    "when": "练告别",
-    "steps": [
-     {
-      "do": "蹲下来，看着她。",
-      "say": "妈妈要出去一下，奶奶陪你，妈妈会回来。"
-     },
-     {
-      "do": "抱一抱，挥挥手。",
-      "say": "拜拜！"
-     },
-     {
-      "do": "她哭也照样走，回来时热情点。",
-      "say": "妈妈回来啦！说好了会回来的。"
-     }
-    ],
-    "note": "简短、每次一样。告别时哭很正常，很快会好。"
-   },
-   {
-    "icon": "🙈",
-    "when": "有生人靠近",
-    "steps": [
-     {
-      "do": "让她坐在你腿上。",
-      "say": "这是我们的朋友，你先看看。"
-     },
-     {
-      "do": "你跟对方热情聊几句，让她看到你很放松。"
-     },
-     {
-      "say": "准备好了再打招呼就行。"
-     }
-    ],
-    "note": "不强迫抱、不硬塞，按她的节奏来。"
-   }
-  ],
-  "timeline": {
-   "now": 0,
-   "hint": "每一步可能几天，也可能几周，跳着来也正常。",
-   "steps": [
-    {
-     "label": "不知不觉站着",
-     "note": "玩得专心就松手了，然后坐下或赶紧扶住。（现在）"
-    },
-    {
-     "label": "发现自己站着",
-     "note": "故意多站会儿，可能还一脸得意"
-    },
-    {
-     "label": "空地上站起来",
-     "note": "从蹲着直接站，啥也不扶"
-    },
-    {
-     "label": "走一到三步",
-     "note": "从沙发走向你，扑进你怀里"
-    },
-    {
-     "label": "走得比爬得多",
-     "note": "两脚岔开、手举高，摔很多次（正常）"
-    },
-    {
-     "label": "走得稳了",
-     "note": "能拿着玩具走、会转弯、会蹲下捡东西"
-    }
-   ],
-   "ruler": {
-    "label": "健康宝宝第一次独立走路的月龄（世界卫生组织数据）：",
-    "min": 8,
-    "max": 18,
-    "from": 8.2,
-    "to": 17.6,
-    "age": 11.5,
-    "ticks": [
-     8,
-     10,
-     12,
-     14,
-     16,
-     18
-    ]
-   },
-   "footer": "很多宝宝12–15个月会走，16–18个月也正常。18个月左右还不能自己走，或者你任何时候觉得不对劲，都可以问儿科医生。"
-  },
-  "details": [
-   {
-    "icon": "🙊",
-    "title": "为什么让她说她偏不说",
-    "roots": [
-     "Curious",
-     "Secure"
-    ],
-    "lines": [
-     "自己说是“触景生情”（爸爸进门→“爸爸！”）。让她说，是在没有提示的情况下从记忆里把词翻出来，难多了，所以晚一点才会。",
-     "一群人盯着等她开口，对她来说也是压力，干脆不出声。",
-     "顺序一般是：先听懂，再自己说，最后才是让说就说。"
-    ]
-   },
-   {
-    "icon": "🍽️",
-    "title": "为什么这阵子特别爱扔",
-    "roots": [
-     "Self-led",
-     "Curious"
-    ],
-    "lines": [
-     "她刚学会<b>主动松手</b>，放手这件事本身就新鲜好玩。",
-     "她在研究重力，也在确认东西掉下去了还在（客体永久性）。",
-     "这个月龄饿得快、饱得也快，一吃饱，饭就成了玩具。"
-    ]
-   },
-   {
-    "icon": "🙈",
-    "title": "为什么上托班前告别更难",
-    "roots": [
-     "Secure"
-    ],
-    "lines": [
-     "分离焦虑一般在9–18个月更明显：她知道你走了还在，但还猜不到你什么时候回来。",
-     "告别方式固定、回来时热情，她就能摸清规律。大多数宝宝几周内就能适应托班。"
-    ],
-    "refs": [
-     {
-      "label": "美国儿科学会 HealthyChildren：分离焦虑（英文）",
-      "url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/Soothing-Your-Childs-Separation-Anxiety.aspx"
-     }
-    ]
-   },
-   {
-    "icon": "🦶",
-    "title": "为什么光脚好",
-    "roots": [
-     "Healthy"
-    ],
-    "lines": [
-     "光脚能感受地面，平衡和脚部肌肉都练得更好。",
-     "出门或地面粗糙时：会走以后穿软底、鞋头宽的鞋。"
-    ]
-   }
-  ],
-  "watch": [
-   "腿不肯承重，或者腿特别僵、特别软",
-   "<b>会的本事退步了</b>：不咿呀了、不挥手了、会说的词不说了",
-   "一边身体用得明显比另一边多",
-   "12个月还不会指、不会挥手，叫名字没反应，你指东西她不看",
-   "16个月左右任何语言都还没有词（中英文加起来算）",
-   "18个月左右还不能自己走",
-   "发烧<b>38°C（100.4°F）</b>及以上，或者长牙期间看起来病得厉害（长牙不会引起高烧）",
-   "好像听不见。美国疾控中心：别等。"
-  ],
-  "sources": [
-   {
-    "label": "世界卫生组织：大运动发育里程碑（英文）",
-    "url": "https://www.who.int/tools/child-growth-standards/standards/motor-development-milestones"
-   },
-   {
-    "label": "Adolph 等 2012：宝宝是怎么学会走路的（英文）",
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3591461/"
-   },
-   {
-    "label": "美国疾控中心：发育里程碑（英文）",
-    "url": "https://www.cdc.gov/ncbddd/actearly/milestones/index.html"
-   },
-   {
-    "label": "哈佛儿童发展中心：发球与回球（英文）",
-    "url": "https://developingchild.harvard.edu/key-concept/serve-and-return/"
-   },
-   {
-    "label": "美国儿科学会 HealthyChildren：长牙疼（英文）",
-    "url": "https://www.healthychildren.org/English/ages-stages/baby/teething-tooth-care/Pages/Teething-Pain.aspx"
-   },
-   {
-    "label": "美国儿科学会 HealthyChildren：分离焦虑（英文）",
     "url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/Soothing-Your-Childs-Separation-Anxiety.aspx"
    }
   ]
