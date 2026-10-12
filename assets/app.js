@@ -580,6 +580,8 @@
   /* ---------- pages ---------- */
   function buildWeek(d) {
     var w = d[lang] || d.en; w.id = d.id; w.emoji = d.emoji; w.pid = d.perLang ? d.id + ':' + lang : d.id; // perLang: en/zh lists differ, so progress is saved per language
+    var t0 = t; if (w.labels && typeof w.labels === 'object') { t = Object.assign({}, t, w.labels); if (w.labels.nav) t.nav = Object.assign({}, t0.nav, w.labels.nav); } // per-page section titles
+    try {
     document.title = w.title + ' · ' + t.pageTitle;
     var root = document.getElementById('app'); root.innerHTML = '';
     renderHero(w, root);
@@ -588,6 +590,7 @@
     [renderBig3, renderWeekTopics, renderCards, renderChecklist, renderQuiz, renderPlay, renderScripts, renderTimeline, renderDetails, renderWatch, renderVideos, renderSources]
       .forEach(function (fn) { safe(fn, w, root); });
     footer(root);
+    } finally { t = t0; }
   }
   function buildHome(list) {
     document.title = t.pageTitle;

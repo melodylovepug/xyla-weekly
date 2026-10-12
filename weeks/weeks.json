@@ -23,17 +23,17 @@
   "file": "week-03.html",
   "emoji": "🌱",
   "start": "2026-10-04",
-  "end": "2026-10-17",
+  "end": "2026-10-11",
   "en": {
    "title": "Week 3",
    "age": "~11 months",
-   "dates": "Oct 4–17, 2026",
+   "dates": "Oct 4–11, 2026",
    "tagline": "Standing on purpose · first words · safe floor bed"
   },
   "zh": {
    "title": "第3周",
    "age": "11个月左右",
-   "dates": "2026年10月4日–17日",
+   "dates": "2026年10月4日–11日",
    "tagline": "学站 · 学说话 · 地床安全"
   }
  },
@@ -41,18 +41,18 @@
   "id": "week-04",
   "file": "week-04.html",
   "emoji": "👣",
-  "start": "2026-10-18",
-  "end": "2026-10-24",
+  "start": "2026-10-12",
+  "end": "2026-10-18",
   "en": {
    "title": "Week 4",
    "age": "~11½ months",
-   "dates": "Oct 18–24, 2026",
+   "dates": "Oct 12–18, 2026",
    "tagline": "Step practice · words without testing · goodbye routine · flying food"
   },
   "zh": {
    "title": "第4周",
    "age": "11个半月左右",
-   "dates": "2026年10月18日–24日",
+   "dates": "2026年10月12日–18日",
    "tagline": "练迈步 · 陪说话不考 · 练告别 · 扔饭别急"
   }
  }

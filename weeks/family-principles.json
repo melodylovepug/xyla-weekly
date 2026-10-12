@@ -1,0 +1,724 @@
+{
+ "id": "family-principles",
+ "emoji": "🤝",
+ "perLang": true,
+ "videos": {},
+ "en": {
+  "title": "Our family’s way",
+  "age": "Family principles for everyone who loves Xyla",
+  "dates": "Screenshot the summary",
+  "labels": {
+   "big3": "⭐ The 3-second check",
+   "big3Hint": "Before saying “no,” ask these three. Then keep going.",
+   "topics": "🤝 Our 6 principles",
+   "topicsHint": "Short enough to remember in the moment.",
+   "scripts": "🔁 Not this → Try this",
+   "scriptsHint": "Same love, different words.",
+   "more": "🧩 Play schemas: why she repeats it",
+   "moreHint": "Repeated “naughty” actions are usually a learning pattern. Feed it safely.",
+   "today": "✅ We all agree",
+   "todayHint": "Our family summary. Screenshot or print it.",
+   "nav": {
+    "big3": "⭐ Check",
+    "topics": "🤝 Principles",
+    "today": "✅ Agree",
+    "scripts": "🔁 Try this",
+    "more": "🧩 Schemas"
+   }
+  },
+  "oneLiner": "<b>“There are no naughty children, only growth needs we haven’t understood yet.”</b> Everyone who cares for Xyla loves her and wants her safe. This page is how we turn that love into the same small choices, so we’re all on one team and nobody needs correcting.",
+  "bigThree": [
+   {
+    "icon": "⚠️",
+    "title": "1. Is it dangerous?",
+    "sub": "Yes → act now",
+    "roots": [
+     "Healthy",
+     "Secure"
+    ],
+    "lines": [
+     "Stairs without a spotter, roads, water, outlets, hot things, small objects near her mouth.",
+     "<b>Do:</b> calmly stop her body first, words second. “I won’t let you. That’s hot.” Then move her to a safe version."
+    ]
+   },
+   {
+    "icon": "💔",
+    "title": "2. Is it hurting someone or something precious?",
+    "sub": "Yes → stop + redirect",
+    "roots": [
+     "Kind"
+    ],
+    "lines": [
+     "Hitting, pulling hair, grabbing a phone, a book that can’t be replaced.",
+     "<b>Do:</b> gently block. “Gentle hands.” / “That’s Grandpa’s book.” Then offer something she <b>can</b> hit, pull or tear."
+    ]
+   },
+   {
+    "icon": "✅",
+    "title": "3. If not: can I let her, or redirect her?",
+    "sub": "Most of the time: let her",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "lines": [
+     "Messy, loud, noisy, repetitive, not how adults do it? That’s fine. Let her explore.",
+     "Wrong place? Move the action, don’t stop it: “Throw the ball, not the bowl.”",
+     "Then watch: what is she trying to learn? (see Play schemas below)"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "icon": "🔍",
+    "title": "1. Look for the need behind the behavior",
+    "sub": "Curious, not cross",
+    "roots": [
+     "Secure",
+     "Curious"
+    ],
+    "lines": [
+     "Ask “What is she trying to find out?” before “How do I stop this?”",
+     "Throwing = testing gravity. Dumping = in and out. Climbing = up and down. Smashing food = feeling textures, or she’s full."
+    ]
+   },
+   {
+    "icon": "👉",
+    "title": "2. Say what she CAN do",
+    "sub": "Instead of “no” and “don’t”",
+    "roots": [
+     "Self-led",
+     "Kind"
+    ],
+    "lines": [
+     "Babies hear the action word. “Don’t climb” sounds like “climb.”",
+     "Say the yes: “Feet on the floor.” “Climb the cushions.” “Throw the ball.”"
+    ]
+   },
+   {
+    "icon": "🏠",
+    "title": "3. Change the space, not the child",
+    "sub": "Fewer no’s needed",
+    "roots": [
+     "Healthy",
+     "Self-led"
+    ],
+    "lines": [
+     "Put away what we’d keep saying “no” to. Leave out things she’s allowed to explore.",
+     "A low basket of safe things beats a hundred “don’t touch”."
+    ]
+   },
+   {
+    "icon": "🛑",
+    "title": "4. Stop only for danger, hurting, or precious things",
+    "sub": "Otherwise, let her explore",
+    "roots": [
+     "Brave",
+     "Curious"
+    ],
+    "lines": [
+     "Save “stop” for when it really matters, so it means something.",
+     "Mess, noise and odd ways of playing are not on the stop list."
+    ]
+   },
+   {
+    "icon": "⏳",
+    "title": "5. Let her try before we help",
+    "sub": "Count to five",
+    "roots": [
+     "Brave",
+     "Self-led"
+    ],
+    "lines": [
+     "Stay close and wait a few seconds. Often she gets it.",
+     "If she’s truly stuck, help one small step, then hand it back."
+    ]
+   },
+   {
+    "icon": "🗣️",
+    "title": "6. Describe, don’t judge",
+    "sub": "Instead of praise or scolding",
+    "roots": [
+     "Kind",
+     "Self-led"
+    ],
+    "lines": [
+     "“You put the block in!” “You climbed up by yourself.”",
+     "Mistake? Say what happened, no blame: “The cup tipped. Let’s get a cloth.”"
+    ]
+   }
+  ],
+  "daily": [
+   "Look for the need first",
+   "Say what she <b>can</b> do",
+   "Change the space, not the child",
+   "Stop only for danger, hurting, or precious things",
+   "Let her try first, count to five",
+   "Describe what she did",
+   "We back each other up, and talk later, not in front of her"
+  ],
+  "scripts": [
+   {
+    "icon": "✋",
+    "when": "Not “Don’t touch!”",
+    "steps": [
+     {
+      "say": "Touch gently, with one finger."
+     },
+     {
+      "say": "This one is for looking. Here’s one you can hold."
+     }
+    ],
+    "note": "Most touching is learning. Offer a yes-thing."
+   },
+   {
+    "icon": "🍝",
+    "when": "Not “Don’t throw!”",
+    "steps": [
+     {
+      "say": "Food stays on the table. Balls are for throwing."
+     },
+     {
+      "do": "Hand her a ball, or move to the basket."
+     }
+    ],
+    "note": "She needs to throw; we choose what."
+   },
+   {
+    "icon": "🧗",
+    "when": "Not “Don’t climb!”",
+    "steps": [
+     {
+      "say": "Climb the cushions / the slide steps. I’m right here."
+     },
+     {
+      "say": "Feet on the floor here, please. Let’s go climb over there."
+     }
+    ],
+    "note": "Climbing is a need. Give it a safe place."
+   },
+   {
+    "icon": "🤕",
+    "when": "Not “Careful, you’ll fall!”",
+    "steps": [
+     {
+      "say": "Feet on the step. Hold on with your hand."
+     },
+     {
+      "do": "Stand close and spot her quietly."
+     }
+    ],
+    "note": "Tell her what to do with her body; worry words don’t help balance."
+   },
+   {
+    "icon": "🫧",
+    "when": "Not “Don’t get dirty!”",
+    "steps": [
+     {
+      "say": "Sticky! How does it feel?"
+     },
+     {
+      "say": "When you’re done, we’ll wash together."
+     }
+    ],
+    "note": "Clothes wash. Exploring is how she learns."
+   }
+  ],
+  "details": [
+   {
+    "icon": "🏹",
+    "title": "Trajectory: throwing, dropping",
+    "sub": "Things moving through the air",
+    "roots": [
+     "Curious"
+    ],
+    "lines": [
+     "<b>Looks like:</b> throwing food off the tray, dropping toys over and over, splashing.",
+     "<b>Need:</b> how things move and fall; cause and effect.",
+     "<b>Yes instead:</b> balls into a basket, dropping blocks into a bucket, pouring water at the water table."
+    ]
+   },
+   {
+    "icon": "🧺",
+    "title": "Transporting: carrying things around",
+    "sub": "From here to there",
+    "roots": [
+     "Self-led"
+    ],
+    "lines": [
+     "<b>Looks like:</b> pushing the walker or ride-on with stuff in it, carrying toys from room to room.",
+     "<b>Need:</b> moving things, space and weight.",
+     "<b>Yes instead:</b> a small bag or basket to fill and carry, “take it to Grandma.”"
+    ]
+   },
+   {
+    "icon": "📦",
+    "title": "Enclosing & enveloping: covering, hiding",
+    "sub": "Inside, hidden, wrapped",
+    "roots": [
+     "Curious",
+     "Secure"
+    ],
+    "lines": [
+     "<b>Looks like:</b> pulling a cloth over her head, crawling into boxes, covering toys.",
+     "<b>Need:</b> things still exist when hidden; edges and boundaries.",
+     "<b>Yes instead:</b> scarves, a box to sit in, tunnels, peekaboo with toys."
+    ]
+   },
+   {
+    "icon": "🫙",
+    "title": "Containing: in and out",
+    "sub": "Fill, dump, repeat",
+    "roots": [
+     "Curious"
+    ],
+    "lines": [
+     "<b>Looks like:</b> dumping baskets and drawers, pulling everything out.",
+     "<b>Need:</b> in vs out, full vs empty.",
+     "<b>Yes instead:</b> a “dump drawer” of safe things, cups and blocks, posting into a slot."
+    ]
+   },
+   {
+    "icon": "🔄",
+    "title": "Rotation: spinning",
+    "sub": "Round and round",
+    "roots": [
+     "Curious"
+    ],
+    "lines": [
+     "<b>Looks like:</b> watching wheels, turning lids and knobs, spinning herself.",
+     "<b>Need:</b> how circles and turning work.",
+     "<b>Yes instead:</b> ride-on wheels, a salad spinner, screw-top jars with a toy inside."
+    ]
+   },
+   {
+    "icon": "🔗",
+    "title": "Connecting & disconnecting",
+    "sub": "Join it, pull it apart",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "lines": [
+     "<b>Looks like:</b> pulling things apart, knocking down towers, opening and closing doors and lids.",
+     "<b>Need:</b> how things fit together and come apart.",
+     "<b>Yes instead:</b> big blocks, pop beads, stack-and-crash towers, lids on containers."
+    ]
+   },
+   {
+    "icon": "📏",
+    "title": "Positioning & lining up",
+    "sub": "On top, under, in a row",
+    "roots": [
+     "Curious"
+    ],
+    "lines": [
+     "<b>Looks like:</b> putting things on her head, placing objects just so, climbing onto things.",
+     "<b>Need:</b> where things are: on, under, next to.",
+     "<b>Yes instead:</b> stacking cups, “put it on top,” cushions to climb on."
+    ]
+   },
+   {
+    "icon": "🥣",
+    "title": "Transforming: mixing, smashing",
+    "sub": "Make it change",
+    "roots": [
+     "Curious",
+     "Healthy"
+    ],
+    "lines": [
+     "<b>Looks like:</b> smashing food, mixing water and food, squishing.",
+     "<b>Need:</b> things change when you squeeze or mix them.",
+     "<b>Yes instead:</b> messy tray with yogurt, soft noodles, water and sand. Mess time is planned, not punished."
+    ],
+    "refs": [
+     {
+      "label": "Chris Athey, Extending Thought in Young Children (2007); Tina Bruce and Cathy Nutbrown on schemas (summarized in the sources below)",
+      "url": "https://www.nurseryworld.co.uk/content/features/learning-development-schemas-on-repeat"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "Pen Green Centre: Schemas (parent guide, based on Chris Athey)",
+    "url": "https://www.pengreen.org/wp-content/uploads/2023/11/Schemas.pdf"
+   },
+   {
+    "label": "Nursery World: All about supporting schemas (Athey 1990 definition)",
+    "url": "https://www.nurseryworld.co.uk/content/features/eyfs-best-practice-all-about-supporting-schemas"
+   },
+   {
+    "label": "Nursery World: Schemas on repeat (Athey 2007, Nutbrown 2011)",
+    "url": "https://www.nurseryworld.co.uk/content/features/learning-development-schemas-on-repeat"
+   },
+   {
+    "label": "Teach Early Years: Schematic play",
+    "url": "https://www.teachearlyyears.com/learning-and-development/view/schematic-play"
+   },
+   {
+    "label": "Harvard Center on the Developing Child: Serve and Return",
+    "url": "https://developingchild.harvard.edu/key-concept/serve-and-return/"
+   }
+  ]
+ },
+ "zh": {
+  "title": "家庭教养原则",
+  "age": "全家人一起的约定",
+  "dates": "截图保存最下面那张就行",
+  "labels": {
+   "big3": "⭐ 三秒自问",
+   "big3Hint": "想说“不许”之前，先问自己这三个问题。",
+   "topics": "🤝 我们家的 6 条原则",
+   "topicsHint": "短短几句，当下就能想起来。",
+   "scripts": "🔁 换个说法",
+   "scriptsHint": "一样的疼爱，换句话说。",
+   "more": "🧩 图式游戏：她为什么老这么干",
+   "moreHint": "反复做的“捣蛋”事，多半是在学东西。给她安全的方式去做。",
+   "today": "✅ 全家约定",
+   "todayHint": "截图或者打印出来，贴在冰箱上。",
+   "nav": {
+    "big3": "⭐ 自问",
+    "topics": "🤝 原则",
+    "today": "✅ 约定",
+    "scripts": "🔁 换说法",
+    "more": "🧩 图式"
+   }
+  },
+  "oneLiner": "<b>没有调皮的孩子，只有没被看懂的成长需求。</b>家里每个人都疼 Xyla，都想她平平安安。这页是咱们一家人的共同约定：遇到事儿大家都按这几条来，心往一处想，谁也不用说谁。",
+  "bigThree": [
+   {
+    "icon": "⚠️",
+    "title": "一问：危险吗？",
+    "sub": "危险 → 马上管",
+    "roots": [
+     "Healthy",
+     "Secure"
+    ],
+    "lines": [
+     "没人护着的楼梯、马路、水边、插座、烫的东西、能塞进嘴的小东西。",
+     "<b>怎么做：</b>先稳稳地拦住，再说话：“这个烫，我不让你碰。”然后带她去玩安全的。"
+    ]
+   },
+   {
+    "icon": "💔",
+    "title": "二问：会伤到人、弄坏要紧的东西吗？",
+    "sub": "会 → 拦住 + 换一样",
+    "roots": [
+     "Kind"
+    ],
+    "lines": [
+     "打人、拽头发、抢手机、撕爷爷的书。",
+     "<b>怎么做：</b>轻轻挡住：“轻轻摸。”“这是爷爷的书。”再给她一样<b>可以</b>拍、可以拽、可以撕的。"
+    ]
+   },
+   {
+    "icon": "✅",
+    "title": "三问：都不是？那就让她玩，或者换个地方玩",
+    "sub": "大多数时候：让她玩",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "lines": [
+     "弄脏了、吵了、一遍遍重复、玩法跟大人想的不一样，都没关系。",
+     "地方不对，就换地方，不用叫停：“碗不扔，扔球。”",
+     "然后看看她在琢磨什么（看下面的图式游戏）。"
+    ]
+   }
+  ],
+  "cards": [
+   {
+    "icon": "🔍",
+    "title": "1. 先看懂她要什么",
+    "sub": "先好奇，再着急",
+    "roots": [
+     "Secure",
+     "Curious"
+    ],
+    "lines": [
+     "先想“她想弄明白什么”，再想“怎么让她别这样”。",
+     "扔东西是在试重力，倒东西是在玩进进出出，爬高是在练上上下下，抓饭是在摸口感，或者是吃饱了。"
+    ]
+   },
+   {
+    "icon": "👉",
+    "title": "2. 告诉她能做什么",
+    "sub": "少说“不许”“别”",
+    "roots": [
+     "Self-led",
+     "Kind"
+    ],
+    "lines": [
+     "小宝宝只听得到动作词，“别爬”在她耳朵里就是“爬”。",
+     "直接说可以做的：“脚踩地上。”“去爬垫子。”“扔球。”"
+    ]
+   },
+   {
+    "icon": "🏠",
+    "title": "3. 改环境，不改孩子",
+    "sub": "少说好多个“不”",
+    "roots": [
+     "Healthy",
+     "Self-led"
+    ],
+    "lines": [
+     "老得说“不许碰”的东西，收起来；可以随便玩的，放在她够得到的地方。",
+     "一篮子能随便摸的东西，比说一百遍“别碰”管用。"
+    ]
+   },
+   {
+    "icon": "🛑",
+    "title": "4. 只有危险、伤人、弄坏要紧东西才叫停",
+    "sub": "其他时候放手让她探索",
+    "roots": [
+     "Brave",
+     "Curious"
+    ],
+    "lines": [
+     "“停”留到真要紧的时候说，她才会当回事。",
+     "弄脏、吵闹、玩法奇怪，都不在叫停的名单里。"
+    ]
+   },
+   {
+    "icon": "⏳",
+    "title": "5. 先让她试，再帮忙",
+    "sub": "心里数五下",
+    "roots": [
+     "Brave",
+     "Self-led"
+    ],
+    "lines": [
+     "在旁边护着，等几秒，很多时候她自己就弄成了。",
+     "真卡住了，帮一小步，剩下的还给她。"
+    ]
+   },
+   {
+    "icon": "🗣️",
+    "title": "6. 说看到的，不夸也不骂",
+    "sub": "把她做的事说出来",
+    "roots": [
+     "Kind",
+     "Self-led"
+    ],
+    "lines": [
+     "“你把积木放进去了！”“你自己爬上去了。”",
+     "出了岔子，说事实不怪人：“杯子倒了，我们拿块布擦擦。”"
+    ]
+   }
+  ],
+  "daily": [
+   "先看懂她要什么",
+   "告诉她<b>能</b>做什么",
+   "改环境，不改孩子",
+   "只有危险、伤人、弄坏要紧东西才叫停",
+   "先让她试，数五下再帮",
+   "说看到的，不夸不骂",
+   "大人之间互相撑着，有不同想法私下聊，不当着孩子说"
+  ],
+  "scripts": [
+   {
+    "icon": "✋",
+    "when": "不说“别摸！”",
+    "steps": [
+     {
+      "say": "轻轻摸，用一根手指。"
+     },
+     {
+      "say": "这个用眼睛看，这个给你拿着玩。"
+     }
+    ],
+    "note": "摸是在学。给她一样能摸的。"
+   },
+   {
+    "icon": "🍝",
+    "when": "不说“别扔！”",
+    "steps": [
+     {
+      "say": "饭待在桌上，球可以扔。"
+     },
+     {
+      "do": "递给她一个球，或者换到篮子那边扔。"
+     }
+    ],
+    "note": "她就是想扔，咱们决定扔什么。"
+   },
+   {
+    "icon": "🧗",
+    "when": "不说“别爬！”",
+    "steps": [
+     {
+      "say": "去爬垫子、爬滑梯台阶，奶奶在这儿。"
+     },
+     {
+      "say": "这里脚踩地上，我们去那边爬。"
+     }
+    ],
+    "note": "爬是她的需要，给她找个安全的地方。"
+   },
+   {
+    "icon": "🤕",
+    "when": "不说“小心摔！”",
+    "steps": [
+     {
+      "say": "脚踩稳，手扶好。"
+     },
+     {
+      "do": "站近一点，不出声地护着。"
+     }
+    ],
+    "note": "告诉她身体怎么做，比“小心”有用。"
+   },
+   {
+    "icon": "🫧",
+    "when": "不说“别弄脏！”",
+    "steps": [
+     {
+      "say": "黏黏的！摸起来什么感觉？"
+     },
+     {
+      "say": "玩完了，我们一起洗干净。"
+     }
+    ],
+    "note": "衣服能洗，这份好奇心可金贵。"
+   }
+  ],
+  "details": [
+   {
+    "icon": "🏹",
+    "title": "抛物线：扔、丢",
+    "sub": "东西在空中飞",
+    "roots": [
+     "Curious"
+    ],
+    "lines": [
+     "<b>她在做：</b>把饭扔下餐椅，玩具一遍遍往地上丢，拍水。",
+     "<b>她需要：</b>弄明白东西怎么飞、怎么落，一做就有结果。",
+     "<b>换成可以的：</b>球扔进篮子，积木丢进桶里，玩水桌倒水。"
+    ]
+   },
+   {
+    "icon": "🧺",
+    "title": "搬运：搬来搬去",
+    "sub": "从这儿到那儿",
+    "roots": [
+     "Self-led"
+    ],
+    "lines": [
+     "<b>她在做：</b>学步车、扭扭车里装着东西推，抱着玩具满屋跑。",
+     "<b>她需要：</b>体会远近、轻重。",
+     "<b>换成可以的：</b>给她个小包或小篮子装了提着走，“送给奶奶”。"
+    ]
+   },
+   {
+    "icon": "📦",
+    "title": "包裹、围起来：盖、藏",
+    "sub": "里面、藏起来、包起来",
+    "roots": [
+     "Curious",
+     "Secure"
+    ],
+    "lines": [
+     "<b>她在做：</b>把布往头上一蒙，钻纸箱，把玩具盖住。",
+     "<b>她需要：</b>看不见的东西还在；里外、边界。",
+     "<b>换成可以的：</b>丝巾、能坐进去的纸箱、隧道、用布藏玩具。"
+    ]
+   },
+   {
+    "icon": "🫙",
+    "title": "装进倒出",
+    "sub": "装满、倒空、再来",
+    "roots": [
+     "Curious"
+    ],
+    "lines": [
+     "<b>她在做：</b>把篮子、抽屉倒个底朝天，东西全掏出来。",
+     "<b>她需要：</b>里和外、满和空。",
+     "<b>换成可以的：</b>给她一个专门能随便倒的抽屉，杯子和积木，往小口里塞东西。"
+    ]
+   },
+   {
+    "icon": "🔄",
+    "title": "旋转：转圈圈",
+    "sub": "转啊转",
+    "roots": [
+     "Curious"
+    ],
+    "lines": [
+     "<b>她在做：</b>盯着轮子看，拧盖子、拧旋钮，自己转圈。",
+     "<b>她需要：</b>弄明白转动是怎么回事。",
+     "<b>换成可以的：</b>扭扭车轮子、沙拉甩干器、装了小玩具的旋盖瓶。"
+    ]
+   },
+   {
+    "icon": "🔗",
+    "title": "连接与拆开",
+    "sub": "拼上、拆开",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "lines": [
+     "<b>她在做：</b>把东西拆开、推倒积木、开门关门、开盖关盖。",
+     "<b>她需要：</b>东西怎么拼上、怎么分开。",
+     "<b>换成可以的：</b>大积木、串珠、搭了推倒、带盖的盒子。"
+    ]
+   },
+   {
+    "icon": "📏",
+    "title": "摆放与排队",
+    "sub": "上面、下面、排一排",
+    "roots": [
+     "Curious"
+    ],
+    "lines": [
+     "<b>她在做：</b>把东西顶头上，东西非得摆在某个地方，爬到东西上面。",
+     "<b>她需要：</b>弄清楚位置：上、下、旁边。",
+     "<b>换成可以的：</b>叠叠杯，“放上面”，垫子给她爬。"
+    ]
+   },
+   {
+    "icon": "🥣",
+    "title": "改变：搅和、捏碎",
+    "sub": "让东西变个样",
+    "roots": [
+     "Curious",
+     "Healthy"
+    ],
+    "lines": [
+     "<b>她在做：</b>把饭捏烂，水和饭搅一起，捏来捏去。",
+     "<b>她需要：</b>东西一捏一搅就会变。",
+     "<b>换成可以的：</b>专门的黏糊糊托盘：酸奶、软面条、水和沙。玩脏是安排好的，不是犯错。"
+    ],
+    "refs": [
+     {
+      "label": "Chris Athey《Extending Thought in Young Children》(2007)，Tina Bruce、Cathy Nutbrown 的图式研究（见下方资料）",
+      "url": "https://www.nurseryworld.co.uk/content/features/learning-development-schemas-on-repeat"
+     }
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "Pen Green 早教中心：图式游戏家长指南（基于 Chris Athey，英文）",
+    "url": "https://www.pengreen.org/wp-content/uploads/2023/11/Schemas.pdf"
+   },
+   {
+    "label": "Nursery World：怎样支持孩子的图式（英文）",
+    "url": "https://www.nurseryworld.co.uk/content/features/eyfs-best-practice-all-about-supporting-schemas"
+   },
+   {
+    "label": "Nursery World：重复里藏着学习（英文）",
+    "url": "https://www.nurseryworld.co.uk/content/features/learning-development-schemas-on-repeat"
+   },
+   {
+    "label": "Teach Early Years：图式游戏（英文）",
+    "url": "https://www.teachearlyyears.com/learning-and-development/view/schematic-play"
+   },
+   {
+    "label": "哈佛儿童发展中心：发球与回球（英文）",
+    "url": "https://developingchild.harvard.edu/key-concept/serve-and-return/"
+   }
+  ]
+ }
+}

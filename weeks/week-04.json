@@ -1,8 +1,8 @@
 {
  "id": "week-04",
  "emoji": "👣",
- "start": "2026-10-18",
- "end": "2026-10-24",
+ "start": "2026-10-12",
+ "end": "2026-10-18",
  "videos": {
   "bEHaCVLeMtE": {
    "title": "STOP Making These Walking Mistakes | PT-Approved Tools to Get Baby Walking",
@@ -18,7 +18,7 @@
  "en": {
   "title": "Week 4",
   "age": "~11½ months",
-  "dates": "Oct 18–24, 2026",
+  "dates": "Oct 12–18, 2026",
   "oneLiner": "She’s in a <b>calmer, more independent</b> stretch. This week: <b>step practice twice a day</b>, <b>echo-and-point</b> for words, and start a <b>goodbye routine</b> before the next wave (walking + daycare) arrives.",
   "now": [
    "🛝 Playground about twice a day",
@@ -340,7 +340,7 @@
    "Brush teeth twice (rice-grain smear)"
   ],
   "todos": [
-   "Share the <a href=\"philosophy.html\">Space to grow</a> page with the grandparents (Chinese side)",
+   "Share <a href=\"family-principles.html\">Our family’s way</a> with everyone who cares for her",
    "Clear a flat “walking runway” at home (no rugs that slip)",
    "Tell grandparents: no “say it!” testing, just echo her words",
    "Make the goodbye ritual: same words, wave, kiss",
@@ -898,7 +898,7 @@
  "zh": {
   "title": "第4周",
   "age": "11个半月左右",
-  "dates": "2026年10月18日–24日",
+  "dates": "2026年10月12日–18日",
   "oneLiner": "小家伙最近<b>情绪稳多了</b>，能自己到处探索了。这周咱们帮她三件事：<b>练迈步</b>、<b>陪她说话不考她</b>、<b>练好告别</b>，为学走路和上托班打底。",
   "now": [
    "🛝 每天去两趟游乐场",
@@ -1083,7 +1083,7 @@
    "刷牙两次（米粒大小牙膏）"
   ],
   "todos": [
-   "先看一遍《<a href=\"philosophy.html\">给爷爷奶奶的话</a>》",
+   "全家一起看看《<a href=\"family-principles.html\">家庭教养原则</a>》",
    "家里清出一条平整的“跑道”",
    "跟妈妈商量好告别时说的那句话",
    "餐椅下铺防溅垫",

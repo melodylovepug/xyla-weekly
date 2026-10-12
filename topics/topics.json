@@ -1,18 +1,18 @@
 [
  {
-  "id": "philosophy",
-  "file": "philosophy.html",
-  "emoji": "💛",
+  "id": "family-principles",
+  "file": "family-principles.html",
+  "emoji": "🤝",
   "weeks": [
    "week-04"
   ],
   "en": {
-   "title": "Space to grow (for grandparents too)",
-   "tagline": "Watch first, help less, let her do it: Montessori, Reggio, RIE/Pikler."
+   "title": "Our family’s way",
+   "tagline": "6 shared principles, a 3-second check, play schemas, and “not this → try this.”"
   },
   "zh": {
-   "title": "给爷爷奶奶的话",
-   "tagline": "多看一会儿、少帮一点、让她自己来"
+   "title": "家庭教养原则",
+   "tagline": "没有调皮的孩子，只有没被看懂的成长需求"
   }
  },
  {
