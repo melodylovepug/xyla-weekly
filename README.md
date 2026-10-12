@@ -10,6 +10,7 @@ Short, tappable weekly baby-development packs. **English only, for Melody.** Sta
 **Privacy:** this repo is public. First name only, no birth date, addresses, photos, daycare details, or private links.
 
 ## Weekly content rules (Melody)
+- **One week per page:** each week page covers exactly 7 days (Sun–Sat, e.g. Week 4 = Oct 18–24, 2026). Never write “these two weeks”. Past pages keep their original dates (Week 3 = Oct 4–17).
 - Order: (1) where she is now (body, brain, feelings, what she can/can’t understand, where it’s heading), (2) do & don’t with a why, (3) what’s next in clear detail, (4) exercises and plays. Secure-first, tagged with the six roots.
 - **Big 3 must be actionable:** concrete things to do *this week*, each with **When**, **How**, and **Say** (exact words). Descriptions of where she is go in the “Where she is now” cards, not in the Big 3.
 - **Feelings:** describe her actual current phase from Melody’s updates (calm/independent vs. clingy dip) and say what the next cycle will bring. Don’t default to “stranger anxiety.”
