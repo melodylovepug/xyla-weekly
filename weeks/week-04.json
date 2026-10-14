@@ -14,7 +14,7 @@
   "title": "Week 4",
   "age": "~11½ months",
   "dates": "Oct 12–18, 2026",
-  "oneLiner": "She’s in a <b>calmer, more independent</b> stretch, and goodbyes are going well. This week: <b>step practice twice a day</b>, <b>echo-and-point</b> for words, and a <b>hand-washing routine</b> after every meal where she does as much as she can.",
+  "oneLiner": "She’s in a <b>calmer, more independent</b> stretch, and goodbyes are going well. This week: <b>step practice twice a day</b>, <b>echo-and-add</b> for words, and <b>pointing + “Where’s the ___?”</b> games.",
   "now": [
    "🛝 Playground about twice a day",
    "🪜 Stairs up, and now steps down smoothly",
@@ -54,37 +54,37 @@
    },
    {
     "icon": "🗣️",
-    "title": "Echo, point, name: 3 times a day",
+    "title": "Echo and add: 3 times a day",
     "sub": "Words · no testing",
     "roots": [
      "Curious",
      "Kind"
     ],
     "lines": [
-     "<b>When:</b> breakfast, pen-book time, and the walk to the playground.",
-     "<b>How 1, echo and add:</b> she says “baba” → you say <b>“Baba! Baba’s at work.”</b> Repeat her word and add a little.",
-     "<b>How 2, follow her point:</b> look where she points, then name it: <b>“Bird! A bird is flying.”</b> Then point to something yourself and wait for her to look.",
-     "<b>How 3, pen-book turns:</b> she presses, you say the word (“Cat! Meow.”), then it’s her turn again.",
-     "<b>Pause</b> 3–5 seconds before a word she knows (“Bai…”). If she doesn’t say it, just say it yourself and move on.",
+     "<b>When:</b> breakfast, pen-book time, and bath.",
+     "<b>How 1, echo and add:</b> she says “baba” → you say <b>“Baba! Baba’s at work.”</b> Her word back, plus a little more.",
+     "<b>How 2, pen-book turns:</b> she presses, you say the word (“Cat! Meow.”), then it’s her turn again.",
+     "<b>How 3, pause:</b> wait 3–5 seconds before a word she knows (“Bai…”). If she doesn’t say it, say it yourself and move on.",
      "<b>Don’t say:</b> “Say mama! Say it again!” She says words when she needs them, not on request."
     ],
     "videos": []
    },
    {
-    "icon": "🧼",
-    "title": "After every meal: she washes her hands",
-    "sub": "Self-led · 2 min",
+    "icon": "👉",
+    "title": "Point and play “Where’s the ___?”",
+    "sub": "Pointing · shared attention",
     "roots": [
-     "Self-led",
-     "Healthy",
-     "Brave"
+     "Curious",
+     "Kind",
+     "Self-led"
     ],
     "lines": [
-     "<b>Set up once:</b> a sturdy step stool at the sink, foam soap (easy for small hands), a small towel she can reach. Lukewarm water only; you stand right behind her on the stool.",
-     "<b>When:</b> right after every meal, while her hands are messy anyway. Same order every time: <b>water → soap → rub with a song → rinse → dry</b>.",
-     "<b>How:</b> at each step, let her try first (reach for the tap, push the pump, rub). Wait a few seconds; then help with just the part she can’t do yet, hand over hand.",
-     "<b>Say:</b> “Hands wet… one pump of soap… rub, rub!” Sing the same short song while rubbing (Row Row Row Your Boat, twice). “Rinse… dry. You washed your hands!”",
-     "<b>Expect:</b> splashing, licking soap foam, wanting to play in the water. That’s fine; keep it short and cheerful. By about 18 months she washes with help; most wash on their own around 2½–3 years."
+     "<b>When:</b> during routines you already do: diaper change, getting dressed, the walk to the playground, books before nap.",
+     "<b>How 1, you point and name:</b> point clearly and say it: “Light! There’s the light.” “Bird!”",
+     "<b>How 2, ask and wait:</b> “Where’s the ball?” / “Where’s Mama?” / “Where’s the light?” Then wait a full <b>5 seconds</b>, quietly.",
+     "<b>How 3, celebrate anything:</b> a look, a reach, or a point counts. “Yes, there’s the ball!” If nothing, point for her and name it, no pressure.",
+     "<b>How 4, follow her point:</b> when she points, look where she points, then name it and add a little: “Dog! A big dog.”",
+     "<b>Say:</b> “Where’s the ___?” … (wait) … “You found it!” / “You’re pointing at the fan. The fan goes round.”"
     ],
     "videos": []
    }
@@ -317,6 +317,17 @@
      "<b>Sleep:</b> after 12 months, a small light blanket or soft toy can be added to the floor bed if you want. Most keep 2 naps until 13–18 months.",
      "<b>Daycare:</b> a week or two of rough sleep or extra clinginess after starting is common and passes."
     ]
+   },
+   {
+    "icon": "🧼",
+    "title": "Optional: hand-washing helper",
+    "sub": "She just helps",
+    "roots": [
+     "Self-led"
+    ],
+    "lines": [
+     "If you like, after meals let her stand on a stool at the sink and help: reach for the water, push the foam soap, rub. You do the rest. No routine to teach yet."
+    ]
    }
   ],
   "daily": [
@@ -324,10 +335,9 @@
    "Hip or forearm support walks, not arms high",
    "Stairs and slides with you below her",
    "2–3 echo-and-add word moments, no testing",
-   "Follow 3 of her points and name what she sees",
+   "👉 2–3 “Where’s the ___?” moments: ask, wait 5 seconds, celebrate any look or point",
    "Pen-book time together: her press, your word",
    "Small portions + “all done” sign at each meal",
-   "🧼 Hand-washing after meals: she tries each step first",
    "Gum rub or chilled teether when fussy",
    "Brush teeth twice (rice-grain smear)",
    "🤟 Sign EAT before food and ALL DONE at the end, saying the word each time",
@@ -336,7 +346,6 @@
   "todos": [
    "Share <a href=\"family-principles.html\">Our family’s way</a> with everyone who cares for her",
    "Clear a flat “walking runway” at home (no rugs that slip)",
-   "Set up the sink: sturdy step stool, foam soap, a towel she can reach",
    "Tell grandparents: no “say it!” testing, just echo her words",
    "Splat mat under the high chair",
    "Set up the water table (always within arm’s reach)",
@@ -383,11 +392,6 @@
     "q": "Look where she points and name it?",
     "a": "do",
     "why": "Joint attention: the word lands exactly when she is interested."
-   },
-   {
-    "q": "Wash her hands for her after meals because it’s faster?",
-    "a": "dont",
-    "why": "Let her try each step first, then help with the rest. Doing it herself is the point; speed comes later."
    }
   ],
   "plays": [
@@ -700,28 +704,6 @@
     "note": "Same words every meal. She’s learning, not misbehaving."
    },
    {
-    "icon": "🧼",
-    "when": "Washing hands after meals",
-    "steps": [
-     {
-      "do": "Lift her onto the stool; stand behind her.",
-      "say": "Time to wash hands!"
-     },
-     {
-      "do": "Let her reach for the water and push the soap.",
-      "say": "Hands wet… one pump!"
-     },
-     {
-      "do": "Rub together while you sing.",
-      "say": "Rub, rub, rub… 🎵"
-     },
-     {
-      "say": "Rinse… dry. You washed your hands!"
-     }
-    ],
-    "note": "She tries each step first; you help only with what she can’t do yet."
-   },
-   {
     "icon": "🗣️",
     "when": "She says a word",
     "steps": [
@@ -1010,7 +992,7 @@
   "title": "第4周",
   "age": "11个半月左右",
   "dates": "2026年10月12日–18日",
-  "oneLiner": "小家伙最近<b>情绪稳多了</b>，告别也越来越顺。这周咱们帮她三件事：<b>练迈步</b>、<b>陪她说话不考她</b>、<b>饭后自己洗手</b>，能自己做的让她自己做。",
+  "oneLiner": "小家伙最近<b>情绪稳多了</b>，告别也越来越顺。这周咱们帮她三件事：<b>练迈步</b>、<b>跟着她说不考她</b>、<b>指一指玩“……在哪儿”</b>。",
   "now": [
    "🛝 每天去两趟游乐场",
    "🪜 会上楼梯，下台阶也很稳",
@@ -1047,36 +1029,37 @@
    },
    {
     "icon": "🗣️",
-    "title": "每天三次：跟着她说，顺着她指",
+    "title": "每天三次：跟着她说，再多说一点",
     "sub": "学说话 · 不考她",
     "roots": [
      "Curious",
      "Kind"
     ],
     "lines": [
-     "<b>什么时候：</b>吃早饭、看点读书、去游乐场的路上。",
+     "<b>什么时候：</b>吃早饭、看点读书、洗澡。",
      "<b>跟着说再多一点：</b>她说“爷爷”，您就接“爷爷！爷爷在这儿呢！”",
-     "<b>顺着她指的看：</b>她一指，您就看过去，告诉她是什么：“小鸟！小鸟飞走啦。”您也指给她看，等她看过去。",
      "<b>点读书轮流玩：</b>她点一下，您说个词，再轮到她。",
-     "<b>别说：</b>“叫奶奶！快叫一声！再叫一遍！”她不是不会，而是“让说就说”这本事要晚几个月才有。越催越不开口。"
+     "<b>停一停：</b>说熟悉的词前等三五秒（“拜……”），她没接就您说完，接着玩。",
+     "<b>别说：</b>“叫奶奶！快叫一声！再叫一遍！”“让说就说”要晚几个月才会，越催越不开口。"
     ],
     "videos": []
    },
    {
-    "icon": "🧼",
-    "title": "每顿饭后：让她自己洗手",
-    "sub": "自己来 · 2分钟",
+    "icon": "👉",
+    "title": "指一指，玩“……在哪儿？”",
+    "sub": "用手指 · 一起看",
     "roots": [
-     "Self-led",
-     "Healthy",
-     "Brave"
+     "Curious",
+     "Kind",
+     "Self-led"
     ],
     "lines": [
-     "<b>先准备好：</b>水池前放个稳当的踩脚凳，换成泡沫洗手液（小手好按、好搓），毛巾挂在她够得着的地方。水温要温的，她站凳子上时您就站在她身后护着。",
-     "<b>什么时候：</b>每顿饭吃完，反正手也脏了。每次顺序都一样：<b>打湿 → 按洗手液 → 唱着歌搓 → 冲干净 → 擦干</b>。",
-     "<b>怎么做：</b>每一步都先让她自己试（够水龙头、按泡沫、搓手），等几秒，她做不到的那一点再握着她的手帮一下，别全包了。",
-     "<b>可以说：</b>“小手打湿……按一下泡泡……搓呀搓！”搓的时候唱同一首短儿歌（比如《洗手歌》唱两遍）。“冲一冲……擦一擦。你自己洗手啦！”",
-     "<b>心里有个数：</b>玩水、舔泡沫、不想走，都正常，开开心心洗完就好。一岁半左右能在大人帮忙下洗，两岁半到三岁左右大多能自己洗。"
+     "<b>什么时候：</b>就在每天本来要做的事里：换尿布、穿衣服、去游乐场的路上、午睡前看书。",
+     "<b>您先指、先说：</b>手指清清楚楚指过去：“灯！灯在那儿。”“小鸟！”",
+     "<b>问一句，等一等：</b>“球在哪儿？”“妈妈在哪儿？”“灯在哪儿？”然后安安静静等<b>五秒</b>。",
+     "<b>有反应就夸：</b>看过去、伸手、用手指，都算！“对，球在这儿！”没反应也没关系，您指给她看、说出来就行。",
+     "<b>顺着她指的看：</b>她一指，您就看过去，说出是什么再多说一点：“狗狗！好大的狗狗。”",
+     "<b>可以说：</b>“……在哪儿呀？”（等一等）“你找到啦！”/“你在指风扇呀，风扇转转转。”"
     ],
     "videos": []
    }
@@ -1197,16 +1180,27 @@
      "<b>托班：</b>刚去一两周睡不好、更黏人很常见，会过去的。详见<a href=\"daycare-first-day.html\">托班第一天</a>。"
     ],
     "videos": []
+   },
+   {
+    "icon": "🧼",
+    "title": "可选：饭后帮忙洗手",
+    "sub": "她只是搭把手",
+    "roots": [
+     "Self-led"
+    ],
+    "lines": [
+     "想试的话，饭后让她站在凳子上帮忙：够够水、按按泡沫、搓一搓，剩下的大人来。现在不用专门教。"
+    ]
    }
   ],
   "daily": [
    "光脚练迈步两次（从腿上走到沙发）",
    "扶腰或扶小胳膊走，不举高高",
    "三次“跟着说再多一点”，不催她说",
+   "👉 玩两三次“……在哪儿？”：问完等五秒，看一眼、指一下都夸",
    "她指什么，您就看过去、说出来",
    "吃饭少放点，饱了就比“吃完了”",
    "让她自己玩一段，不打断",
-   "🧼 饭后洗手：每一步先让她自己试",
    "手能做的让她自己做（拿、抓、爬上去）",
    "刷牙两次（米粒大小牙膏）",
    "🤟 开饭前比“吃”，结束时比“吃完了”，边比边说",
@@ -1215,7 +1209,6 @@
   "todos": [
    "全家一起看看《<a href=\"family-principles.html\">家庭教养原则</a>》",
    "家里清出一条平整的“跑道”",
-   "水池前备好：稳当的踩脚凳、泡沫洗手液、她够得着的毛巾",
    "餐椅下铺防溅垫",
    "玩水桌装好（玩的时候伸手就够得着她）",
    "把出牙凝胶、琥珀项链收起来不用"
@@ -1260,11 +1253,6 @@
     "q": "趁她玩，让妈妈偷偷走掉，免得她哭？",
     "a": "dont",
     "why": "偷偷走反而更黏。好好说再见，哭一会儿没关系，您抱着她陪着她。"
-   },
-   {
-    "q": "饭后洗手图省事，直接给她洗了？",
-    "a": "dont",
-    "why": "每一步先让她自己试，做不到的再帮。重点是她自己来，快慢以后自然就有了。"
    }
   ],
   "plays": [
@@ -1565,28 +1553,6 @@
      }
     ],
     "note": "每顿说一样的话。她在学，不是捣乱。"
-   },
-   {
-    "icon": "🧼",
-    "when": "饭后洗手",
-    "steps": [
-     {
-      "do": "扶她站上凳子，您站在身后。",
-      "say": "洗小手啦！"
-     },
-     {
-      "do": "让她自己去够水、按泡沫。",
-      "say": "打湿……按一下！"
-     },
-     {
-      "do": "一起搓，边搓边唱。",
-      "say": "搓呀搓呀搓……🎵"
-     },
-     {
-      "say": "冲一冲……擦一擦。你自己洗手啦！"
-     }
-    ],
-    "note": "每一步先让她试，做不到的再帮一下。"
    },
    {
     "icon": "🗣️",
