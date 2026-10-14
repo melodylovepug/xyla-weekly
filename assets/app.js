@@ -8,6 +8,16 @@
   var LANG_KEY = 'xyla:lang';
   /* Cache-busting: the page stubs load this file as app.js?v=<version>; data files get the same ?v=. */
   var VER = (function () { try { var m = /[?&]v=([^&#]+)/.exec((document.currentScript && document.currentScript.src) || ''); return m ? m[1] : String(Date.now()); } catch (e) { return String(Date.now()); } })();
+  // Google Apps Script web app (/exec URL). Empty string = sync off (notes stay on this phone only).
+  var SYNC_URL = '';
+  var DEVICE_KEY = 'xyla:device', NOTES_KEY = 'xyla:notes';
+  var DEVICES = ['Mama', 'Grandma', 'Grandpa', 'Other'];
+  function device() { var d = store(DEVICE_KEY); return DEVICES.indexOf(d) > -1 ? d : ''; }
+  function syncPost(obj) { // fire-and-forget; fails silently
+    if (!SYNC_URL) return false;
+    try { fetch(SYNC_URL, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain' }, body: JSON.stringify(obj) }).catch(function () {}); } catch (e) {}
+    return true;
+  }
 
   var T = {
     en: {
@@ -20,7 +30,7 @@
       tabDaily: 'Every day', tabOnce: 'Once this week', ofToday: function (d, n) { return d + ' of ' + n + ' today'; }, ofDone: function (d, n) { return d + ' of ' + n + ' done'; }, allDone: ' 🎉 Amazing.',
       quiz: '🤔 Do or Don’t?', quizHint: 'Guess first, then see why.', score: 'Score', reset: 'Reset', doBtn: '✅ Do', dontBtn: '❌ Don’t',
       right: '👍 Right! ', wrong: '🙂 Not quite. ', DO: '✅ DO', DONT: '❌ DON’T',
-      play: '🎲 Lucky play', playHint: 'Not sure what to do? Tap the button. Filter by root if you like.', lucky: '🎲 Pick a play for us!', all: 'All', seeAll: 'See all plays', mastered: 'Mastered', masteredBtn: '✓ Mastered', undo: 'Undo', copyMastered: '📋 Copy mastered list', copied: 'Copied! Paste it to your assistant.', copyHead: 'Xyla’s mastered plays (drop from next week):', masteredHint: 'Mastered plays stay hidden on this phone in later weeks. Tap Undo if it was a mis-tap.', ideas: function (n) { return n + ' ideas'; },
+      play: '🎲 Lucky play', playHint: 'Not sure what to do? Tap the button. Filter by root if you like.', lucky: '🎲 Pick a play for us!', all: 'All', seeAll: 'See all plays', notesBtn: '📝 Notes', notesPh: 'Anything to remember for next week? (new skill, a worry, what she loved…)', send: 'Send', saved: 'Saved ✓', savedLocal: 'Saved on this phone ✓', whoAmI: 'Who’s writing?', devNames: { Mama: 'Mama', Grandma: 'Grandma', Grandpa: 'Grandpa', Other: 'Other' }, sentNotes: 'Notes from this phone', pickWho: 'Pick who you are first.', mastered: 'Mastered', masteredBtn: '✓ Mastered', undo: 'Undo', copyMastered: '📋 Copy mastered list', copied: 'Copied! Paste it to your assistant.', copyHead: 'Xyla’s mastered plays (drop from next week):', masteredHint: 'Mastered plays stay hidden on this phone in later weeks. Tap Undo if it was a mis-tap.', ideas: function (n) { return n + ' ideas'; },
       scripts: '🗣️ What to say', scriptsHint: 'Tap a moment to reveal the exact words.',
       more: '📚 More detail (optional)', moreHint: 'Only if you want it. Everything is tucked away.',
       watch: '🩺 Call or ask the pediatrician if…', watchFoot: 'Gut feeling something’s off? It’s always okay to ask.',
@@ -45,7 +55,7 @@
       tabDaily: '每天', tabOnce: '这周做一次', ofToday: function (d, n) { return '今天完成 ' + d + '/' + n; }, ofDone: function (d, n) { return '已完成 ' + d + '/' + n; }, allDone: ' 🎉 全部搞定！',
       quiz: '🤔 这样做对吗？', quizHint: '先猜一猜，再看原因。', score: '答对', reset: '重来', doBtn: '✅ 可以', dontBtn: '❌ 别这样',
       right: '👍 答对啦！', wrong: '🙂 差一点～', DO: '✅ 可以', DONT: '❌ 别这样',
-      play: '🎲 今天玩什么', playHint: '没主意？点一下随机抽一个，也可以按方向筛选。', lucky: '🎲 随机抽一个游戏！', all: '全部', seeAll: '全部游戏', mastered: '已经会了', masteredBtn: '✓ 会了', undo: '撤销', copyMastered: '📋 复制“会了”清单', copied: '已复制！发给助手就行。', copyHead: 'Xyla 已经会了的游戏（下周不用再放）：', masteredHint: '标成“会了”的游戏，以后几周在这台手机上都不再出现。点错了可以撤销。', ideas: function (n) { return '共 ' + n + ' 个'; },
+      play: '🎲 今天玩什么', playHint: '没主意？点一下随机抽一个，也可以按方向筛选。', lucky: '🎲 随机抽一个游戏！', all: '全部', seeAll: '全部游戏', notesBtn: '📝 记一笔', notesPh: '这周有什么想记下的？（新本事、担心的事、她特别喜欢的……）', send: '发送', saved: '已记下 ✓', savedLocal: '已存在这台手机上 ✓', whoAmI: '您是哪位？', devNames: { Mama: '妈妈', Grandma: '奶奶/外婆', Grandpa: '爷爷/外公', Other: '其他' }, sentNotes: '这台手机记过的', pickWho: '先选一下您是谁。', mastered: '已经会了', masteredBtn: '✓ 会了', undo: '撤销', copyMastered: '📋 复制“会了”清单', copied: '已复制！发给助手就行。', copyHead: 'Xyla 已经会了的游戏（下周不用再放）：', masteredHint: '标成“会了”的游戏，以后几周在这台手机上都不再出现。点错了可以撤销。', ideas: function (n) { return '共 ' + n + ' 个'; },
       scripts: '🗣️ 这时候怎么说', scriptsHint: '点开场景，直接照着说。',
       more: '📚 想多了解再看', moreHint: '都折起来了，想看再点。',
       watch: '🩺 有这些情况，问问儿科医生', watchFoot: '总觉得哪里不对劲？随时问，不用不好意思。',
@@ -319,8 +329,8 @@
     s.addEventListener('click', function (e) {
       var b = e.target.closest && e.target.closest('.mbtn'); if (!b) return;
       var m = mastered();
-      if (b.hasAttribute('data-m')) { var id = b.getAttribute('data-m'), x = w.plays.filter(function (y) { return y.id === id; })[0]; m[id] = { name: x ? x.name : id, at: localISO() }; store(MKEY, m); drawList(); }
-      else if (b.hasAttribute('data-u')) { delete m[b.getAttribute('data-u')]; store(MKEY, m); drawList(); }
+      if (b.hasAttribute('data-m')) { var id = b.getAttribute('data-m'), x = w.plays.filter(function (y) { return y.id === id; })[0]; m[id] = { name: x ? x.name : id, at: localISO() }; store(MKEY, m); drawList(); syncPost({ action: 'mastered', play_id: id, play_name: m[id].name, week: w.id, device: device() || 'unset' }); }
+      else if (b.hasAttribute('data-u')) { var uid = b.getAttribute('data-u'), ux = w.plays.filter(function (y) { return y.id === uid; })[0], un = ux ? ux.name : (m[uid] && m[uid].name) || uid; delete m[uid]; store(MKEY, m); drawList(); syncPost({ action: 'unmastered', play_id: uid, play_name: un, week: w.id, device: device() || 'unset' }); }
       else if (b.classList.contains('mcopy')) {
         var txt = t.copyHead + '\n' + Object.keys(m).map(function (id) { var x = w.plays.filter(function (y) { return y.id === id; })[0]; return '- ' + (x ? x.name : m[id].name) + ' [' + id + ']'; }).join('\n');
         var done = function () { s.querySelector('.mcopied').textContent = t.copied; };
@@ -637,6 +647,34 @@
     });
     root.appendChild(s);
   }
+
+  /* ---------- family notes (top of every week page) ---------- */
+  function renderNotes(w, root) {
+    var box = el('div', { class: 'notes' });
+    function whoHTML() { var d = device(); return '<div class="filters notes-who" role="group" aria-label="' + esc(t.whoAmI) + '"><span class="small">' + t.whoAmI + '</span> ' +
+      DEVICES.map(function (k) { return '<button type="button" data-dev="' + k + '" aria-pressed="' + (d === k) + '">' + esc(t.devNames[k]) + '</button>'; }).join('') + '</div>'; }
+    function listHTML() { var L = arr(store(NOTES_KEY)); return L.length ? '<details class="small"><summary>' + t.sentNotes + ' (' + L.length + ')</summary><ul class="lines">' +
+      L.slice().reverse().map(function (n) { return '<li>' + esc(n.at + ' · ' + (t.devNames[n.author] || n.author || '') + ' · ' + n.week) + (n.sent ? '' : ' 📱') + '<br>' + esc(n.note) + '</li>'; }).join('') + '</ul></details>' : ''; }
+    box.innerHTML = '<button type="button" class="mbtn notes-open" aria-expanded="false">' + t.notesBtn + '</button><div class="notes-panel" hidden>' +
+      '<div class="who">' + whoHTML() + '</div><textarea rows="3" placeholder="' + esc(t.notesPh) + '"></textarea>' +
+      '<p style="margin:4px 0"><button type="button" class="mbtn notes-send">' + t.send + '</button> <span class="small notes-msg" aria-live="polite"></span></p><div class="notes-list">' + listHTML() + '</div></div>';
+    var panel = box.querySelector('.notes-panel');
+    box.addEventListener('click', function (e) {
+      var b = e.target.closest && e.target.closest('button'); if (!b) return;
+      if (b.classList.contains('notes-open')) { panel.hidden = !panel.hidden; b.setAttribute('aria-expanded', !panel.hidden); if (!panel.hidden) box.querySelector('textarea').focus(); }
+      else if (b.hasAttribute('data-dev')) { store(DEVICE_KEY, b.getAttribute('data-dev')); box.querySelector('.who').innerHTML = whoHTML(); }
+      else if (b.classList.contains('notes-send')) {
+        var ta = box.querySelector('textarea'), note = ta.value.trim(), msg = box.querySelector('.notes-msg');
+        if (!note) return;
+        if (!device()) { msg.textContent = t.pickWho; return; }
+        var sent = syncPost({ action: 'note', week: w.id, page: location.pathname.split('/').pop() || 'index.html', author: device(), note: note });
+        var L = arr(store(NOTES_KEY)); L.push({ week: w.id, author: device(), note: note, at: localISO(), sent: sent }); store(NOTES_KEY, L.slice(-100));
+        ta.value = ''; msg.textContent = sent ? t.saved : t.savedLocal;
+        box.querySelector('.notes-list').innerHTML = listHTML();
+      }
+    });
+    root.appendChild(box);
+  }
   function buildWeek(d) {
     var w = d[lang] || d.en; w.id = d.id; w.emoji = d.emoji; w.pid = d.perLang ? d.id + ':' + lang : d.id; // perLang: en/zh lists differ, so progress is saved per language
     var t0 = t; if (w.labels && typeof w.labels === 'object') { t = Object.assign({}, t, w.labels); if (w.labels.nav) t.nav = Object.assign({}, t0.nav, w.labels.nav); } // per-page section titles
@@ -644,6 +682,7 @@
     document.title = w.title + ' · ' + t.pageTitle;
     var root = document.getElementById('app'); root.innerHTML = '';
     renderHero(w, root);
+    if (/^week-/.test(d.id)) safe(renderNotes, w, root);
     var have = { big3: w.bigThree, topics: w.cards, signs: w.signs, today: w.daily, quiz: w.quiz, play: w.plays, scripts: w.scripts, next: w.timeline, more: w.details, watch: w.watch };
     if (w.signs && w.signs.nav) t.nav = Object.assign({}, t.nav, { signs: w.signs.nav });
     renderNav(root, ['big3', 'topics', 'signs', 'today', 'quiz', 'play', 'scripts', 'next', 'more', 'watch'].filter(function (k) { return have[k]; }));
