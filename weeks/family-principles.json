@@ -10,7 +10,7 @@
   "labels": {
    "big3": "⭐ The 3-second check",
    "big3Hint": "Before saying “no,” ask these three. Then keep going.",
-   "topics": "🤝 Our 6 principles",
+   "topics": "🤝 Our 7 principles",
    "topicsHint": "Short enough to remember in the moment.",
    "scripts": "🔁 Not this → Try this",
    "scriptsHint": "Same love, different words.",
@@ -83,8 +83,23 @@
     ]
    },
    {
+    "icon": "🤫",
+    "title": "2. Don’t interrupt her focus",
+    "sub": "Wait for the pause",
+    "roots": [
+     "Self-led",
+     "Curious"
+    ],
+    "lines": [
+     "When she’s absorbed in play or exploring, we don’t call her name, offer food, pick her up, hand her another toy, or praise her mid-task.",
+     "Wait until she pauses or looks up at you. That look is her invitation.",
+     "<b>Why:</b> every protected minute of focus grows her attention span and her sense of “I can do this myself.” Montessori called this protecting deep concentration.",
+     "<b>Try this:</b> watch quietly, then when she’s finished, say what she did: “You put all the lids on!”"
+    ]
+   },
+   {
     "icon": "👉",
-    "title": "2. Say what she CAN do",
+    "title": "3. Say what she CAN do",
     "sub": "Instead of “no” and “don’t”",
     "roots": [
      "Self-led",
@@ -97,7 +112,7 @@
    },
    {
     "icon": "🏠",
-    "title": "3. Change the space, not the child",
+    "title": "4. Change the space, not the child",
     "sub": "Fewer no’s needed",
     "roots": [
      "Healthy",
@@ -110,7 +125,7 @@
    },
    {
     "icon": "🛑",
-    "title": "4. Stop only for danger, hurting, or precious things",
+    "title": "5. Stop only for danger, hurting, or precious things",
     "sub": "Otherwise, let her explore",
     "roots": [
      "Brave",
@@ -123,7 +138,7 @@
    },
    {
     "icon": "⏳",
-    "title": "5. Let her try before we help",
+    "title": "6. Let her try before we help",
     "sub": "Count to five",
     "roots": [
      "Brave",
@@ -136,7 +151,7 @@
    },
    {
     "icon": "🗣️",
-    "title": "6. Describe, don’t judge",
+    "title": "7. Describe, don’t judge",
     "sub": "Instead of praise or scolding",
     "roots": [
      "Kind",
@@ -150,6 +165,7 @@
   ],
   "daily": [
    "Look for the need first",
+   "Don’t interrupt her focus; wait for the pause",
    "Say what she <b>can</b> do",
    "Change the space, not the child",
    "Stop only for danger, hurting, or precious things",
@@ -223,6 +239,19 @@
      }
     ],
     "note": "Clothes wash. Exploring is how she learns."
+   },
+   {
+    "icon": "🤫",
+    "when": "Not “Come have a bite!” / “Look at this!” while she’s focused",
+    "steps": [
+     {
+      "do": "Watch quietly until she pauses or looks up."
+     },
+     {
+      "say": "You stacked them all! Ready for a snack?"
+     }
+    ],
+    "note": "Her focus first; food and new toys can wait a minute."
    }
   ],
   "details": [
@@ -370,7 +399,7 @@
   "labels": {
    "big3": "⭐ 三秒自问",
    "big3Hint": "想说“不许”之前，先问自己这三个问题。",
-   "topics": "🤝 我们家的 6 条原则",
+   "topics": "🤝 我们家的 7 条原则",
    "topicsHint": "短短几句，当下就能想起来。",
    "scripts": "🔁 换个说法",
    "scriptsHint": "一样的疼爱，换句话说。",
@@ -443,8 +472,23 @@
     ]
    },
    {
+    "icon": "🤫",
+    "title": "2. 她专心的时候，别打断",
+    "sub": "等她停下来",
+    "roots": [
+     "Self-led",
+     "Curious"
+    ],
+    "lines": [
+     "她玩得入迷、正琢磨东西的时候，咱们不叫她名字、不喂她吃、不抱她起来、不往她手里塞别的玩具，也不在半截夸她。",
+     "等她自己停下来，或者抬头看您，那就是在叫您了。",
+     "<b>为什么：</b>每多护住一分钟专注，她的注意力就长一点，“我自己能行”的底气也多一点。蒙台梭利特别讲究的就是保护孩子的专注。",
+     "<b>可以这样：</b>在旁边安静看着，等她玩完了，再把她做的说出来：“你把盖子全盖上啦！”"
+    ]
+   },
+   {
     "icon": "👉",
-    "title": "2. 告诉她能做什么",
+    "title": "3. 告诉她能做什么",
     "sub": "少说“不许”“别”",
     "roots": [
      "Self-led",
@@ -457,7 +501,7 @@
    },
    {
     "icon": "🏠",
-    "title": "3. 改环境，不改孩子",
+    "title": "4. 改环境，不改孩子",
     "sub": "少说好多个“不”",
     "roots": [
      "Healthy",
@@ -470,7 +514,7 @@
    },
    {
     "icon": "🛑",
-    "title": "4. 只有危险、伤人、弄坏要紧东西才叫停",
+    "title": "5. 只有危险、伤人、弄坏要紧东西才叫停",
     "sub": "其他时候放手让她探索",
     "roots": [
      "Brave",
@@ -483,7 +527,7 @@
    },
    {
     "icon": "⏳",
-    "title": "5. 先让她试，再帮忙",
+    "title": "6. 先让她试，再帮忙",
     "sub": "心里数五下",
     "roots": [
      "Brave",
@@ -496,7 +540,7 @@
    },
    {
     "icon": "🗣️",
-    "title": "6. 说看到的，不夸也不骂",
+    "title": "7. 说看到的，不夸也不骂",
     "sub": "把她做的事说出来",
     "roots": [
      "Kind",
@@ -510,6 +554,7 @@
   ],
   "daily": [
    "先看懂她要什么",
+   "她专心时不打断，等她停下来",
    "告诉她<b>能</b>做什么",
    "改环境，不改孩子",
    "只有危险、伤人、弄坏要紧东西才叫停",
@@ -583,6 +628,19 @@
      }
     ],
     "note": "衣服能洗，这份好奇心可金贵。"
+   },
+   {
+    "icon": "🤫",
+    "when": "她正专心时，不说“宝宝来吃一口！”“快看这个！”",
+    "steps": [
+     {
+      "do": "在旁边安静看着，等她停下或抬头。"
+     },
+     {
+      "say": "你全都摞上去啦！要不要吃点东西？"
+     }
+    ],
+    "note": "先护住她的专注，吃的、新玩具晚一分钟没关系。"
    }
   ],
   "details": [
