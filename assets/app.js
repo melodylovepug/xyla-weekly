@@ -578,6 +578,35 @@
   }
 
   /* ---------- pages ---------- */
+
+  /* ---------- baby signs (recurring section; tracker is global per sign id, so it carries across weeks) ---------- */
+  function renderSigns(w, root) {
+    var g = w.signs; if (!g || !Array.isArray(g.items) || !g.items.length) return;
+    var stages = arr(g.stages).length ? g.stages : ['Seen', 'Tried', 'Uses'];
+    var s = section('signs', g.title || '🤟 Baby signs', g.hint || '');
+    var key = function (id) { return 'xyla:sign:' + id; };
+    function trackHTML(it) {
+      var lv = store(key(it.id)); lv = typeof lv === 'number' ? lv : 0;
+      return '<div class="filters" role="group" aria-label="' + esc(it.name) + '">' + stages.map(function (st, i) {
+        return '<button type="button" data-sign="' + esc(it.id) + '" data-lv="' + (i + 1) + '" aria-pressed="' + (lv >= i + 1) + '">' + (lv >= i + 1 ? '✓ ' : '') + esc(st) + '</button>';
+      }).join('') + '</div>';
+    }
+    s.insertAdjacentHTML('beforeend', (g.intro ? '<p class="small">' + g.intro + '</p>' : '') +
+      g.items.map(function (it) {
+        return '<details class="card" open><summary><span class="ico">' + esc(it.emoji || '🤟') + '</span><span class="t">' + esc(it.name) + (it.sub ? '<small>' + esc(it.sub) + '</small>' : '') + '</span></summary><div class="body">' +
+          linesHTML(it.lines) + (it.videos || []).map(videoHTML).join('') +
+          '<p class="small" style="margin:8px 0 4px"><b>' + esc(g.trackLabel || 'Tracker') + '</b></p><div class="strack">' + trackHTML(it) + '</div></div></details>';
+      }).join('') +
+      arr(g.cards).map(function (c) { return cardHTML(c); }).join(''));
+    s.addEventListener('click', function (e) {
+      var b = e.target.closest && e.target.closest('[data-sign]'); if (!b) return;
+      var id = b.getAttribute('data-sign'), lv = +b.getAttribute('data-lv'), cur = store(key(id));
+      store(key(id), cur === lv ? lv - 1 : lv); // tap the current top stage again to undo it
+      var it = g.items.filter(function (x) { return x.id === id; })[0];
+      b.closest('.strack').innerHTML = trackHTML(it);
+    });
+    root.appendChild(s);
+  }
   function buildWeek(d) {
     var w = d[lang] || d.en; w.id = d.id; w.emoji = d.emoji; w.pid = d.perLang ? d.id + ':' + lang : d.id; // perLang: en/zh lists differ, so progress is saved per language
     var t0 = t; if (w.labels && typeof w.labels === 'object') { t = Object.assign({}, t, w.labels); if (w.labels.nav) t.nav = Object.assign({}, t0.nav, w.labels.nav); } // per-page section titles
@@ -585,9 +614,10 @@
     document.title = w.title + ' · ' + t.pageTitle;
     var root = document.getElementById('app'); root.innerHTML = '';
     renderHero(w, root);
-    var have = { big3: w.bigThree, topics: w.cards, today: w.daily, quiz: w.quiz, play: w.plays, scripts: w.scripts, next: w.timeline, more: w.details, watch: w.watch };
-    renderNav(root, ['big3', 'topics', 'today', 'quiz', 'play', 'scripts', 'next', 'more', 'watch'].filter(function (k) { return have[k]; }));
-    [renderBig3, renderWeekTopics, renderCards, renderChecklist, renderQuiz, renderPlay, renderScripts, renderTimeline, renderDetails, renderWatch, renderVideos, renderSources]
+    var have = { big3: w.bigThree, topics: w.cards, signs: w.signs, today: w.daily, quiz: w.quiz, play: w.plays, scripts: w.scripts, next: w.timeline, more: w.details, watch: w.watch };
+    if (w.signs && w.signs.nav) t.nav = Object.assign({}, t.nav, { signs: w.signs.nav });
+    renderNav(root, ['big3', 'topics', 'signs', 'today', 'quiz', 'play', 'scripts', 'next', 'more', 'watch'].filter(function (k) { return have[k]; }));
+    [renderBig3, renderWeekTopics, renderCards, renderSigns, renderChecklist, renderQuiz, renderPlay, renderScripts, renderTimeline, renderDetails, renderWatch, renderVideos, renderSources]
       .forEach(function (fn) { safe(fn, w, root); });
     footer(root);
     } finally { t = t0; }

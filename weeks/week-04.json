@@ -12,6 +12,15 @@
   "DBCnRoOcsQQ": {
    "title": "All Done in Baby Sign Language, ASL",
    "channel": "TalkBox.Mom",
+   "lang": "en",
+   "titleZh": "手语“吃完了/不要了”怎么比",
+   "channelZh": "TalkBox.Mom"
+  },
+  "_nkTVDYw-VY": {
+   "title": "Eat in Baby Sign Language, ASL",
+   "titleZh": "手语“吃”怎么比",
+   "channel": "TalkBox.Mom",
+   "channelZh": "TalkBox.Mom",
    "lang": "en"
   }
  },
@@ -206,11 +215,10 @@
      "✅ <b>Do</b> say once, calmly: “Food stays on the table.” Show the <b>“all done”</b> sign. <i>Why:</i> she gets a way to say done.",
      "✅ <b>Do</b> end the meal calmly if throwing continues. <i>Why:</i> it’s info, not a fight. Next meal is a fresh start.",
      "🚫 <b>Don’t</b> laugh, scold loudly, or chase her with bites. <i>Why:</i> a big reaction is the best show in town, so she repeats it.",
-     "Play with throwing elsewhere: balls into a basket."
+     "Play with throwing elsewhere: balls into a basket.",
+     "How to do the all-done sign: see 🤟 Baby signs below."
     ],
-    "videos": [
-     "DBCnRoOcsQQ"
-    ]
+    "videos": []
    },
    {
     "icon": "👉",
@@ -337,7 +345,8 @@
    "Small portions + “all done” sign at each meal",
    "One short goodbye-and-return practice",
    "Gum rub or chilled teether when fussy",
-   "Brush teeth twice (rice-grain smear)"
+   "Brush teeth twice (rice-grain smear)",
+   "🤟 Sign EAT before food and ALL DONE at the end, saying the word each time"
   ],
   "todos": [
    "Share <a href=\"family-principles.html\">Our family’s way</a> with everyone who cares for her",
@@ -893,7 +902,90 @@
     "label": "AAP/HealthyChildren: Separation anxiety",
     "url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/Soothing-Your-Childs-Separation-Anxiety.aspx"
    }
-  ]
+  ],
+  "signs": {
+   "title": "🤟 Baby signs",
+   "nav": "🤟 Signs",
+   "hint": "A section that comes back every week. She knows no signs yet; that’s the normal starting point.",
+   "trackLabel": "Tracker (saved on this phone, carries to next week)",
+   "stages": [
+    "Seen it",
+    "Tried it",
+    "Uses it"
+   ],
+   "intro": "Starting with two ASL signs: <b>EAT</b> and <b>ALL DONE</b>. Expect weeks to a couple of months of modeling before her first one.",
+   "items": [
+    {
+     "id": "eat",
+     "emoji": "🍽️",
+     "name": "EAT",
+     "sub": "Before and while offering food",
+     "lines": [
+      "<b>How:</b> fingertips and thumb pinched together (like holding a bit of food), tap them to your lips.",
+      "<b>When:</b> right before you offer food (“Time to <b>eat</b>!”) and while she eats (“You’re <b>eating</b> banana”).",
+      "<b>On her body:</b> now and then, gently bring her hand to her own mouth as you say “eat.”"
+     ],
+     "videos": [
+      "_nkTVDYw-VY"
+     ]
+    },
+    {
+     "id": "all-done",
+     "emoji": "🙌",
+     "name": "ALL DONE",
+     "sub": "End of meals, baths, play",
+     "lines": [
+      "<b>How:</b> both hands up, palms facing you, then twist so palms face out, like shaking something off.",
+      "<b>When:</b> end of every meal, bath, and play session. When she turns away or starts throwing food: “All done?” + sign.",
+      "<b>On her body:</b> sometimes gently twist her hands with yours, then end the activity right away so the sign means something."
+     ],
+     "videos": [
+      "DBCnRoOcsQQ"
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "icon": "🎯",
+     "title": "How to teach it",
+     "sub": "Four rules",
+     "roots": [
+      "Curious",
+      "Self-led"
+     ],
+     "lines": [
+      "<b>Always say the word while you sign.</b> The sign supports talking; it doesn’t replace it.",
+      "<b>Sign on her hand or body sometimes</b>, not only in the air: tap her lips for eat, twist her hands for all done.",
+      "<b>Everyone does it the same way</b>: Melody, Dad, grandparents, daycare. Same hand shape, same moments.",
+      "<b>Celebrate any rough version.</b> A clap, a hand wave near her mouth counts. Respond like she said it: “All done! Okay!” and act on it."
+     ]
+    },
+    {
+     "icon": "⏳",
+     "title": "What to expect",
+     "sub": "Slow start, then it clicks",
+     "roots": [
+      "Secure",
+      "Curious"
+     ],
+     "lines": [
+      "Most babies make a first sign after <b>weeks to a couple of months</b> of steady modeling, often around 12–15 months.",
+      "Early signs look rough: a hand to the face for eat, flapping hands for all done. That counts.",
+      "<b>Signing doesn’t delay speech.</b> A randomized trial found no delay (and no big speed-up either). The real win: she can tell you “done” before she can say it, so fewer meltdowns and less food flying."
+     ],
+     "refs": [
+      {
+       "label": "Kirk et al. 2013, Child Development (randomized trial): baby signing did not delay or speed up speech",
+       "url": "https://academic.oup.com/chidev/article-abstract/84/2/574/8267176"
+      },
+      {
+       "label": "Fitzpatrick et al. 2014, systematic review of baby signs",
+       "url": "https://journals.sagepub.com/doi/10.1177/0142723714562864"
+      }
+     ]
+    }
+   ]
+  }
  },
  "zh": {
   "title": "第4周",
@@ -1080,7 +1172,8 @@
    "吃饭少放点，饱了就比“吃完了”",
    "让她自己玩一段，不打断",
    "手能做的让她自己做（拿、抓、爬上去）",
-   "刷牙两次（米粒大小牙膏）"
+   "刷牙两次（米粒大小牙膏）",
+   "🤟 开饭前比“吃”，结束时比“吃完了”，边比边说"
   ],
   "todos": [
    "全家一起看看《<a href=\"family-principles.html\">家庭教养原则</a>》",
@@ -1551,7 +1644,90 @@
     "label": "美国儿科学会：分离焦虑（英文）",
     "url": "https://www.healthychildren.org/English/ages-stages/baby/Pages/Soothing-Your-Childs-Separation-Anxiety.aspx"
    }
-  ]
+  ],
+  "signs": {
+   "title": "🤟 宝宝手语",
+   "nav": "🤟 手语",
+   "hint": "每周都会有的固定栏目。她现在一个手语都还不会，很正常，咱们从头开始。",
+   "trackLabel": "进度（存在这台手机上，下周接着用）",
+   "stages": [
+    "见过",
+    "试过",
+    "会用了"
+   ],
+   "intro": "先教两个美式手语：<b>吃</b> 和 <b>吃完了/不要了</b>。一般要天天比、比上几周到一两个月，她才会比出第一个，别着急。",
+   "items": [
+    {
+     "id": "eat",
+     "emoji": "🍽️",
+     "name": "吃",
+     "sub": "给她吃东西前、吃的时候",
+     "lines": [
+      "<b>怎么比：</b>五个指尖捏在一起（像捏着一小口饭），往嘴唇上点一点。",
+      "<b>什么时候比：</b>端饭给她之前（“要<b>吃</b>饭啦！”），她吃的时候（“在<b>吃</b>香蕉呢”）。",
+      "<b>在她身上比：</b>时不时轻轻握着她的小手，碰碰她自己的嘴，嘴里说“吃”。"
+     ],
+     "videos": [
+      "_nkTVDYw-VY"
+     ]
+    },
+    {
+     "id": "all-done",
+     "emoji": "🙌",
+     "name": "吃完了 / 不要了",
+     "sub": "吃完饭、洗完澡、玩完了",
+     "lines": [
+      "<b>怎么比：</b>两只手举起来，手心朝自己，再一翻，手心朝外，像把东西甩掉。",
+      "<b>什么时候比：</b>每顿饭、每次洗澡、每段游戏结束时都比。她扭头不吃、开始扔饭时，问一句“吃完了吗？”同时比。",
+      "<b>在她身上比：</b>偶尔握着她的小手一起翻，然后马上结束，让她知道这个手势真管用。"
+     ],
+     "videos": [
+      "DBCnRoOcsQQ"
+     ]
+    }
+   ],
+   "cards": [
+    {
+     "icon": "🎯",
+     "title": "怎么教",
+     "sub": "四个要点",
+     "roots": [
+      "Curious",
+      "Self-led"
+     ],
+     "lines": [
+      "<b>比手势时嘴里一定要说出来。</b>手语是帮她说话的，不是代替说话。",
+      "<b>时不时在她身上比</b>，别光在空中比：“吃”就点点她的嘴，“吃完了”就握着她的小手翻一翻。",
+      "<b>全家比法一样：</b>妈妈、爸爸、爷爷奶奶、托班老师，同样的手势，同样的时候用。",
+      "<b>比得歪歪扭扭也要鼓励。</b>手往脸上一拍、两手乱挥都算。像她真说了一样回应：“吃完啦！好！”然后照做。"
+     ]
+    },
+    {
+     "icon": "⏳",
+     "title": "心里有个数",
+     "sub": "开始慢，突然就会了",
+     "roots": [
+      "Secure",
+      "Curious"
+     ],
+     "lines": [
+      "大多数宝宝要天天看、看上<b>几周到一两个月</b>，才比出第一个，常在12–15个月左右。",
+      "刚开始比得不像：手往脸上一碰就是“吃”，两手乱甩就是“吃完了”，这些都算数。",
+      "<b>教手语不会让说话变晚。</b>随机对照研究发现不会耽误说话（也不会让说话明显变早）。真正的好处是：她还不会说之前就能告诉您“不要了”，哭闹和扔饭都会少一些。"
+     ],
+     "refs": [
+      {
+       "label": "Kirk 等 2013，《儿童发展》随机对照研究：教宝宝手语不会让说话变晚，也不会变早（英文）",
+       "url": "https://academic.oup.com/chidev/article-abstract/84/2/574/8267176"
+      },
+      {
+       "label": "Fitzpatrick 等 2014，宝宝手语系统综述（英文）",
+       "url": "https://journals.sagepub.com/doi/10.1177/0142723714562864"
+      }
+     ]
+    }
+   ]
+  }
  },
  "perLang": true
 }
