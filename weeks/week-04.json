@@ -14,7 +14,7 @@
   "title": "Week 4",
   "age": "~11½ months",
   "dates": "Oct 12–18, 2026",
-  "oneLiner": "She’s in a <b>calmer, more independent</b> stretch. This week: <b>step practice twice a day</b>, <b>echo-and-point</b> for words, and start a <b>goodbye routine</b> before the next wave (walking + daycare) arrives.",
+  "oneLiner": "She’s in a <b>calmer, more independent</b> stretch, and goodbyes are going well. This week: <b>step practice twice a day</b>, <b>echo-and-point</b> for words, and a <b>hand-washing routine</b> after every meal where she does as much as she can.",
   "now": [
    "🛝 Playground about twice a day",
    "🪜 Stairs up, and now steps down smoothly",
@@ -71,19 +71,20 @@
     "videos": []
    },
    {
-    "icon": "👋",
-    "title": "Start a goodbye routine before the next wave",
-    "sub": "Feelings · 3 practices",
+    "icon": "🧼",
+    "title": "After every meal: she washes her hands",
+    "sub": "Self-led · 2 min",
     "roots": [
-     "Secure",
+     "Self-led",
+     "Healthy",
      "Brave"
     ],
     "lines": [
-     "<b>When:</b> 3 times this week, while she’s calm and fed, with a grandparent or another familiar adult. Try 5 minutes, then 10, then 20.",
-     "<b>How:</b> same steps every time. Get down to her level, give a hug, say the goodbye line, wave, and leave even if she cries. Come back warm and unhurried.",
-     "<b>Say leaving:</b> “Mama’s going out. Grandma stays with you. Mama comes back.” → “Bye bye!”",
-     "<b>Say returning:</b> “Mama’s back! I said I’d come back.” Then sit with her for a few minutes.",
-     "<b>Don’t:</b> sneak out while she’s busy. Use this exact routine on the <a href=\"daycare-first-day.html\">daycare first day</a>."
+     "<b>Set up once:</b> a sturdy step stool at the sink, foam soap (easy for small hands), a small towel she can reach. Lukewarm water only; you stand right behind her on the stool.",
+     "<b>When:</b> right after every meal, while her hands are messy anyway. Same order every time: <b>water → soap → rub with a song → rinse → dry</b>.",
+     "<b>How:</b> at each step, let her try first (reach for the tap, push the pump, rub). Wait a few seconds; then help with just the part she can’t do yet, hand over hand.",
+     "<b>Say:</b> “Hands wet… one pump of soap… rub, rub!” Sing the same short song while rubbing (Row Row Row Your Boat, twice). “Rinse… dry. You washed your hands!”",
+     "<b>Expect:</b> splashing, licking soap foam, wanting to play in the water. That’s fine; keep it short and cheerful. By about 18 months she washes with help; most wash on their own around 2½–3 years."
     ],
     "videos": []
    }
@@ -230,19 +231,16 @@
    },
    {
     "icon": "🙈",
-    "title": "Do & don’t: the next goodbye wave",
-    "sub": "Walking + daycare",
+    "title": "Keep doing: goodbyes",
+    "sub": "Going well, so just maintain",
     "roots": [
      "Secure",
      "Brave"
     ],
     "lines": [
-     "She’s calmer now and warms up faster. Enjoy it, and use this calm stretch to build the routine she’ll need next.",
-     "✅ <b>Do</b> let new people take their time. They talk to you first while she watches. <i>Why:</i> she reads your face to decide if someone is safe.",
-     "✅ <b>Do</b> practice short goodbyes now, while she’s calm. <i>Why:</i> each time you come back, her trust grows, and that carries her through the daycare wave.",
-     "✅ <b>Do</b> expect more clinginess when she starts walking or starts daycare. <i>Why:</i> a big new skill or change often brings a new round of needing you. It’s a new cycle, not going backwards.",
-     "🚫 <b>Don’t</b> sneak out. <i>Why:</i> she learns you can disappear without warning, and she clings harder.",
-     "<a href=\"daycare-first-day.html\">Daycare first-day page</a> has the full goodbye script and packing list."
+     "She’s handling goodbyes well. Keep the same short routine whenever you leave: get low, hug, “Mama’s going. Mama comes back.” → wave → go → warm hello.",
+     "No extra practice sessions needed. Never sneak out.",
+     "Expect a wobble when walking or daycare starts; it’s the next cycle, not going backwards. Same routine on the <a href=\"daycare-first-day.html\">daycare first day</a>."
     ],
     "videos": []
    },
@@ -329,17 +327,17 @@
    "Follow 3 of her points and name what she sees",
    "Pen-book time together: her press, your word",
    "Small portions + “all done” sign at each meal",
-   "One short goodbye-and-return practice",
+   "🧼 Hand-washing after meals: she tries each step first",
    "Gum rub or chilled teether when fussy",
    "Brush teeth twice (rice-grain smear)",
-   "🤟 Sign EAT before food and ALL DONE at the end, saying the word each time"
+   "🤟 Sign EAT before food and ALL DONE at the end, saying the word each time",
+   "👋 Keep doing: same goodbye words when anyone leaves (no sneaking out)"
   ],
   "todos": [
    "Share <a href=\"family-principles.html\">Our family’s way</a> with everyone who cares for her",
    "Clear a flat “walking runway” at home (no rugs that slip)",
+   "Set up the sink: sturdy step stool, foam soap, a towel she can reach",
    "Tell grandparents: no “say it!” testing, just echo her words",
-   "Make the goodbye ritual: same words, wave, kiss",
-   "2–3 practice separations with a familiar adult",
    "Splat mat under the high chair",
    "Set up the water table (always within arm’s reach)",
    "Throw out any teething gels or amber necklaces",
@@ -385,6 +383,11 @@
     "q": "Look where she points and name it?",
     "a": "do",
     "why": "Joint attention: the word lands exactly when she is interested."
+   },
+   {
+    "q": "Wash her hands for her after meals because it’s faster?",
+    "a": "dont",
+    "why": "Let her try each step first, then help with the rest. Doing it herself is the point; speed comes later."
    }
   ],
   "plays": [
@@ -697,6 +700,28 @@
     "note": "Same words every meal. She’s learning, not misbehaving."
    },
    {
+    "icon": "🧼",
+    "when": "Washing hands after meals",
+    "steps": [
+     {
+      "do": "Lift her onto the stool; stand behind her.",
+      "say": "Time to wash hands!"
+     },
+     {
+      "do": "Let her reach for the water and push the soap.",
+      "say": "Hands wet… one pump!"
+     },
+     {
+      "do": "Rub together while you sing.",
+      "say": "Rub, rub, rub… 🎵"
+     },
+     {
+      "say": "Rinse… dry. You washed your hands!"
+     }
+    ],
+    "note": "She tries each step first; you help only with what she can’t do yet."
+   },
+   {
     "icon": "🗣️",
     "when": "She says a word",
     "steps": [
@@ -985,7 +1010,7 @@
   "title": "第4周",
   "age": "11个半月左右",
   "dates": "2026年10月12日–18日",
-  "oneLiner": "小家伙最近<b>情绪稳多了</b>，能自己到处探索了。这周咱们帮她三件事：<b>练迈步</b>、<b>陪她说话不考她</b>、<b>练好告别</b>，为学走路和上托班打底。",
+  "oneLiner": "小家伙最近<b>情绪稳多了</b>，告别也越来越顺。这周咱们帮她三件事：<b>练迈步</b>、<b>陪她说话不考她</b>、<b>饭后自己洗手</b>，能自己做的让她自己做。",
   "now": [
    "🛝 每天去两趟游乐场",
    "🪜 会上楼梯，下台阶也很稳",
@@ -1038,18 +1063,20 @@
     "videos": []
    },
    {
-    "icon": "👋",
-    "title": "这周练三次：好好告别",
-    "sub": "安全感 · 为上托班准备",
+    "icon": "🧼",
+    "title": "每顿饭后：让她自己洗手",
+    "sub": "自己来 · 2分钟",
     "roots": [
-     "Secure",
+     "Self-led",
+     "Healthy",
      "Brave"
     ],
     "lines": [
-     "<b>为什么现在练：</b>她最近情绪稳，正是练的好时候。等学会走路、开始上托班，往往又会黏人一阵，现在打好底，到时候好过很多。",
-     "<b>怎么做：</b>妈妈出门时，您陪着她。妈妈每次用一样的话、抱一抱、挥挥手，就走。先5分钟，再10分钟，再20分钟。",
-     "<b>您可以说：</b>“妈妈出去一下，奶奶陪你，妈妈会回来的。”她哭的时候抱着她：“你想妈妈了，奶奶知道。妈妈会回来。”",
-     "<b>别：</b>趁她玩得专心让妈妈偷偷溜走。她会觉得大人随时会不见，反而更黏。也别说“再哭妈妈就不要你了”这类吓唬的话。"
+     "<b>先准备好：</b>水池前放个稳当的踩脚凳，换成泡沫洗手液（小手好按、好搓），毛巾挂在她够得着的地方。水温要温的，她站凳子上时您就站在她身后护着。",
+     "<b>什么时候：</b>每顿饭吃完，反正手也脏了。每次顺序都一样：<b>打湿 → 按洗手液 → 唱着歌搓 → 冲干净 → 擦干</b>。",
+     "<b>怎么做：</b>每一步都先让她自己试（够水龙头、按泡沫、搓手），等几秒，她做不到的那一点再握着她的手帮一下，别全包了。",
+     "<b>可以说：</b>“小手打湿……按一下泡泡……搓呀搓！”搓的时候唱同一首短儿歌（比如《洗手歌》唱两遍）。“冲一冲……擦一擦。你自己洗手啦！”",
+     "<b>心里有个数：</b>玩水、舔泡沫、不想走，都正常，开开心心洗完就好。一岁半左右能在大人帮忙下洗，两岁半到三岁左右大多能自己洗。"
     ],
     "videos": []
    }
@@ -1140,6 +1167,20 @@
     "videos": []
    },
    {
+    "icon": "👋",
+    "title": "继续保持：好好告别",
+    "sub": "现在挺顺，保持就好",
+    "roots": [
+     "Secure",
+     "Brave"
+    ],
+    "lines": [
+     "她现在告别做得挺好。每次妈妈出门还是老样子：蹲下、抱一抱、“妈妈出去一下，会回来的”、挥手、走，回来时热情打招呼。",
+     "不用再专门练了，但千万别偷偷溜走。",
+     "等她学走路、上托班时可能又会黏一阵，是新一轮开始，不是退步。"
+    ]
+   },
+   {
     "icon": "🔭",
     "title": "接下来：一岁生日前后",
     "sub": "心里有个数",
@@ -1165,14 +1206,16 @@
    "她指什么，您就看过去、说出来",
    "吃饭少放点，饱了就比“吃完了”",
    "让她自己玩一段，不打断",
+   "🧼 饭后洗手：每一步先让她自己试",
    "手能做的让她自己做（拿、抓、爬上去）",
    "刷牙两次（米粒大小牙膏）",
-   "🤟 开饭前比“吃”，结束时比“吃完了”，边比边说"
+   "🤟 开饭前比“吃”，结束时比“吃完了”，边比边说",
+   "👋 继续保持：出门好好说再见，不偷偷走"
   ],
   "todos": [
    "全家一起看看《<a href=\"family-principles.html\">家庭教养原则</a>》",
    "家里清出一条平整的“跑道”",
-   "跟妈妈商量好告别时说的那句话",
+   "水池前备好：稳当的踩脚凳、泡沫洗手液、她够得着的毛巾",
    "餐椅下铺防溅垫",
    "玩水桌装好（玩的时候伸手就够得着她）",
    "把出牙凝胶、琥珀项链收起来不用"
@@ -1217,6 +1260,11 @@
     "q": "趁她玩，让妈妈偷偷走掉，免得她哭？",
     "a": "dont",
     "why": "偷偷走反而更黏。好好说再见，哭一会儿没关系，您抱着她陪着她。"
+   },
+   {
+    "q": "饭后洗手图省事，直接给她洗了？",
+    "a": "dont",
+    "why": "每一步先让她自己试，做不到的再帮。重点是她自己来，快慢以后自然就有了。"
    }
   ],
   "plays": [
@@ -1517,6 +1565,28 @@
      }
     ],
     "note": "每顿说一样的话。她在学，不是捣乱。"
+   },
+   {
+    "icon": "🧼",
+    "when": "饭后洗手",
+    "steps": [
+     {
+      "do": "扶她站上凳子，您站在身后。",
+      "say": "洗小手啦！"
+     },
+     {
+      "do": "让她自己去够水、按泡沫。",
+      "say": "打湿……按一下！"
+     },
+     {
+      "do": "一起搓，边搓边唱。",
+      "say": "搓呀搓呀搓……🎵"
+     },
+     {
+      "say": "冲一冲……擦一擦。你自己洗手啦！"
+     }
+    ],
+    "note": "每一步先让她试，做不到的再帮一下。"
    },
    {
     "icon": "🗣️",
