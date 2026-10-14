@@ -8,20 +8,6 @@
    "title": "STOP Making These Walking Mistakes | PT-Approved Tools to Get Baby Walking",
    "channel": "Dr. Olivia, the baby PT",
    "lang": "en"
-  },
-  "DBCnRoOcsQQ": {
-   "title": "All Done in Baby Sign Language, ASL",
-   "channel": "TalkBox.Mom",
-   "lang": "en",
-   "titleZh": "手语“吃完了/不要了”怎么比",
-   "channelZh": "TalkBox.Mom"
-  },
-  "_nkTVDYw-VY": {
-   "title": "Eat in Baby Sign Language, ASL",
-   "titleZh": "手语“吃”怎么比",
-   "channel": "TalkBox.Mom",
-   "channelZh": "TalkBox.Mom",
-   "lang": "en"
   }
  },
  "en": {
@@ -925,8 +911,12 @@
       "<b>When:</b> right before you offer food (“Time to <b>eat</b>!”) and while she eats (“You’re <b>eating</b> banana”).",
       "<b>On her body:</b> now and then, gently bring her hand to her own mouth as you say “eat.”"
      ],
-     "videos": [
-      "_nkTVDYw-VY"
+     "images": [
+      {
+       "src": "assets/signs/eat.svg",
+       "alt": "EAT sign: 1, fingertips pinched to the thumb near the mouth; 2, they tap the lips twice.",
+       "caption": "① Pinch fingertips to thumb → ② tap your lips twice."
+      }
      ]
     },
     {
@@ -939,8 +929,12 @@
       "<b>When:</b> end of every meal, bath, and play session. When she turns away or starts throwing food: “All done?” + sign.",
       "<b>On her body:</b> sometimes gently twist her hands with yours, then end the activity right away so the sign means something."
      ],
-     "videos": [
-      "DBCnRoOcsQQ"
+     "images": [
+      {
+       "src": "assets/signs/all-done.svg",
+       "alt": "ALL DONE sign: 1, both hands up, palms facing you (others see the backs); 2, twist both wrists so the palms face out.",
+       "caption": "① Both hands up, palms facing you → ② twist so palms face out."
+      }
      ]
     }
    ],
@@ -1667,8 +1661,12 @@
       "<b>什么时候比：</b>端饭给她之前（“要<b>吃</b>饭啦！”），她吃的时候（“在<b>吃</b>香蕉呢”）。",
       "<b>在她身上比：</b>时不时轻轻握着她的小手，碰碰她自己的嘴，嘴里说“吃”。"
      ],
-     "videos": [
-      "_nkTVDYw-VY"
+     "images": [
+      {
+       "src": "assets/signs/eat.svg",
+       "alt": "“吃”的手语：1. 五指指尖捏到一起，靠近嘴边；2. 在嘴唇上点两下。",
+       "caption": "① 指尖捏拢 → ② 往嘴唇上点两下"
+      }
      ]
     },
     {
@@ -1681,8 +1679,12 @@
       "<b>什么时候比：</b>每顿饭、每次洗澡、每段游戏结束时都比。她扭头不吃、开始扔饭时，问一句“吃完了吗？”同时比。",
       "<b>在她身上比：</b>偶尔握着她的小手一起翻，然后马上结束，让她知道这个手势真管用。"
      ],
-     "videos": [
-      "DBCnRoOcsQQ"
+     "images": [
+      {
+       "src": "assets/signs/all-done.svg",
+       "alt": "“吃完了”的手语：1. 两手举起，手心朝自己（别人看到的是手背）；2. 手腕一翻，手心朝外。",
+       "caption": "① 两手举起，手心朝自己 → ② 手腕一翻，手心朝外"
+      }
      ]
     }
    ],

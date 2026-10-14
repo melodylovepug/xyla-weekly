@@ -580,6 +580,12 @@
   /* ---------- pages ---------- */
 
   /* ---------- baby signs (recurring section; tracker is global per sign id, so it carries across weeks) ---------- */
+  // Sign pictures: repo-hosted, freely licensed or our own SVGs in assets/signs/. {src, alt, caption?, credit?}
+  function signImgHTML(im) {
+    if (!im || !im.src || !/^assets\/signs\//.test(im.src)) return '';
+    return '<figure class="signimg"><img src="' + esc(im.src) + (VER ? '?v=' + encodeURIComponent(VER) : '') + '" alt="' + esc(im.alt || '') + '" loading="lazy" width="360" height="170">' +
+      (im.caption || im.credit ? '<figcaption>' + (im.caption ? esc(im.caption) : '') + (im.credit ? ' <span class="small">' + im.credit + '</span>' : '') + '</figcaption>' : '') + '</figure>';
+  }
   function renderSigns(w, root) {
     var g = w.signs; if (!g || !Array.isArray(g.items) || !g.items.length) return;
     var stages = arr(g.stages).length ? g.stages : ['Seen', 'Tried', 'Uses'];
@@ -594,7 +600,8 @@
     s.insertAdjacentHTML('beforeend', (g.intro ? '<p class="small">' + g.intro + '</p>' : '') +
       g.items.map(function (it) {
         return '<details class="card" open><summary><span class="ico">' + esc(it.emoji || '🤟') + '</span><span class="t">' + esc(it.name) + (it.sub ? '<small>' + esc(it.sub) + '</small>' : '') + '</span></summary><div class="body">' +
-          linesHTML(it.lines) + (it.videos || []).map(videoHTML).join('') +
+          linesHTML(it.lines) + arr(it.images).map(signImgHTML).join('') + // signs use still images (start→end / arrows), never videos
+
           '<p class="small" style="margin:8px 0 4px"><b>' + esc(g.trackLabel || 'Tracker') + '</b></p><div class="strack">' + trackHTML(it) + '</div></div></details>';
       }).join('') +
       arr(g.cards).map(function (c) { return cardHTML(c); }).join(''));

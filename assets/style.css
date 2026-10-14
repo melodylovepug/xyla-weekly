@@ -208,3 +208,5 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var
   .psheet .blank{display:block;border-bottom:1px solid #999;height:16pt}
   .psheet .pfoot{font-size:9pt;color:#444}
 }
+
+.signimg{margin:8px 0}.signimg img{display:block;width:100%;max-width:360px;height:auto;border-radius:12px;border:1px solid var(--line)}.signimg figcaption{font-size:13px;color:var(--soft);margin-top:4px}
