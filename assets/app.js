@@ -9,7 +9,7 @@
   /* Cache-busting: the page stubs load this file as app.js?v=<version>; data files get the same ?v=. */
   var VER = (function () { try { var m = /[?&]v=([^&#]+)/.exec((document.currentScript && document.currentScript.src) || ''); return m ? m[1] : String(Date.now()); } catch (e) { return String(Date.now()); } })();
   // Google Apps Script web app (/exec URL). Empty string = sync off (notes stay on this phone only).
-  var SYNC_URL = '';
+  var SYNC_URL = 'https://script.google.com/macros/s/AKfycbygFPwrHJ5dBKqjuLpuf-Lflqm4-5f6BMwxSVFBEV438TvytM6Q0SKHEOVf72a-81xV5Q/exec';
   var DEVICE_KEY = 'xyla:device', NOTES_KEY = 'xyla:notes';
   var DEVICES = ['Mama', 'Grandma', 'Grandpa', 'Other'];
   function device() { var d = store(DEVICE_KEY); return DEVICES.indexOf(d) > -1 ? d : ''; }
