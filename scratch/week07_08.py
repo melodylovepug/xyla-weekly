@@ -17,6 +17,8 @@ def P(i,emoji,en,zh,roots,t):
 
 NEW={}
 def add(*a): NEW[a[0]]=P(*a)
+import sys; sys.path.insert(0,"scratch"); from week07_08_social import *
+add_social(NEW, add)
 add("floor-to-stand","🧸",("Floor to stand","She sits on the floor; a toy sits on a low stool just in front. Wait for her to get up on her own: hands down, bottom up, push. Help only at the hips, briefly."),("从地上站起来","她坐在地上，前面矮凳上放个玩具。等她自己撑起来：手撑地、屁股撅起来、往上推。实在要帮，就扶一下胯。"),["Brave","Healthy"],("3 min","3分钟"))
 add("squat-to-stand","⬇️",("Squat, pick up, stand","Scatter 4–5 balls on a clear floor while she stands. “Can you get the red ball?” She squats, grabs, stands up. That’s the exact move she needs to stand from the floor."),("蹲下捡、再站起来","她站着的时候，地上撒四五个球：“把红球捡起来？”蹲下、抓、站起来，正是从地上站起来要练的那个动作。"),["Brave","Healthy"],("5 min","5分钟"))
 add("point-honor","👉",("Honor her point","She points and calls out → go there, name it, and give it if it’s OK: “Ball! You want the ball. Here’s the ball.” If not OK: name it and offer something else."),("她指，您就接","她一边指一边“啊啊”叫，您就走过去，说出来，能给就给：“球！你要球呀，给你。”不能给：说出来，再换个能玩的。"),["Secure","Curious"],("all day","随时"))
@@ -272,15 +274,15 @@ C7=[("couch-to-mama",("Wider gap: couch to your arms, 2–3 steps. Hold nothing;
     ("playground-mission",None),("bring-it",None),("throw-basket",None),("point-name-walk",None),("pen-book-turns",None),("echo-and-add",None),
     ("family-photo-book",("“Where’s Nainai? Where’s Yeye?” Pat the photos; grandparents are far away now, so this keeps them close. (Wk 4)","“奶奶在哪儿？爷爷在哪儿？”拍拍照片。爷爷奶奶回国了，翻翻相册让她记着。（第4周）")),
     ("quiet-board-book",None),("this-or-that",None),("cup-shuffle",None),("stack-crash",None),("lid-lab",None),("freeze-dance",None),("rhythm-copy",None),("gesture-songs",None),("copy-me",None),("wipe-up-helper",None),("solo-play-checkins",None),("peer-time",None),("messy-tray",None),("water-table",None),("daytime-night-night",None)]
-N7=["floor-to-stand","squat-to-stand","point-honor","door-open-close","faucet-pour","in-and-out","cup-sips","swim-bath-pour","mouth-ok-basket","mirror-signs"]
+N7=["color-match-1","posting-box","tube-ball-drop","big-sticker","sticky-wall","floor-to-stand","squat-to-stand","point-honor","door-open-close","faucet-pour","in-and-out","cup-sips","swim-bath-pour","mouth-ok-basket","mirror-signs"]
 # week 8: carry from wk7 minus squat-pick-up (merged into squat-to-stand) and stand-to-stand-gap, cup-shuffle kept
 C8=[c for c in C7 if c[0] not in ("squat-pick-up","stand-to-stand-gap","throw-basket","messy-tray")]
-N8=N7+["bye-bye-teddy","hat-on-off"]
+N8=N7+["color-match-2","pipe-colander","bye-bye-teddy","hat-on-off"]
 
 def build(n,start,end,emoji,fn,ci,ni):
     d={"id":"week-%02d"%n,"emoji":emoji,"start":start,"end":end,"perLang":True,"videos":W4["videos"]}
     for L in ("en","zh"):
-        w=fn(L); w["signs"]=signs(L,n); w["timeline"]=tl(L); w["watch"]=WATCH[L]; w["sources"]=SRC[L]
+        w=fn(L); (revise7 if n==7 else revise8)(w,L); w["signs"]=signs(L,n); w["timeline"]=tl(L); w["watch"]=WATCH[L]; w["sources"]=SRC[L]
         w["plays"]=plays(L,ci,ni,("",""))
         d[L]=w
     assert [p["id"] for p in d["en"]["plays"]]==[p["id"] for p in d["zh"]["plays"]]

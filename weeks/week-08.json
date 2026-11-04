@@ -31,7 +31,7 @@
    "🦷 Mouths things",
    "🏠 Grandparents back in China · just the three of you"
   ],
-  "oneLiner": "Daycare is starting. This week is <b>Secure first</b>: <b>the same goodbye every time</b>, <b>a calm reunion hour</b>, and <b>keep floor-to-stand + pointing going</b> at home. Expect some clinginess; it’s the next cycle, not a step back.",
+  "oneLiner": "Daycare is starting. This week is <b>Secure first</b>: <b>the same goodbye every time</b>, <b>a calm reunion hour</b>, and short <b>home play</b> (color step 2 + posting box). Expect some clinginess; it’s the next cycle, not a step back.",
   "bigThree": [
    {
     "icon": "👋",
@@ -68,22 +68,21 @@
     "videos": []
    },
    {
-    "icon": "🧸",
-    "title": "Keep floor-to-stand + pointing going (short)",
-    "sub": "Body & words · 5 min",
+    "icon": "📮",
+    "title": "Home play after daycare: color step 2 + posting box",
+    "sub": "Curious · 5 min, weekends + calm evenings",
     "roots": [
-     "Brave",
-     "Curious"
+     "Curious",
+     "Brave"
     ],
     "lines": [
-     "<b>When:</b> weekend mornings and 5 minutes after the reunion if she’s up for it. If she’s tired, skip it; connection comes first this week.",
-     "<b>How:</b> squat-and-pick with 3 balls; toy on a low stool; one-hand walks. Keep answering her points: look, name, give or swap, pause.",
-     "<b>Say:</b> “Up, up… you’re up!” / “<b>Shoe!</b> You want your shoe.”",
-     "<b>Milk, week 2 of 4:</b> swap a second daytime bottle for whole milk in a cup. Bedtime bottle still last. Tell daycare: whole milk in a cup."
+     "<b>When:</b> weekend mornings, or 5 minutes after the reunion hour if she’s up for it. Tired? Skip it; connection first this week.",
+     "<b>Color step 2:</b> hold up a red ball: “Where’s another <b>red</b> one?” with just a red and a yellow ball on the floor. Then a red block next to the red ball: “Red with red!”",
+     "<b>Posting box:</b> formula tin with a round hole for balls; once she gets it, add a slot for big lids or 2-inch wooden discs. Show slowly, then wait. Say: “In it goes… <b>bye-bye</b>, ball!” (bye-bye practice too).",
+     "<b>Keep going:</b> floor-to-stand (squat to pick up the balls) and answering her points. <b>Milk week 2 of 4:</b> a second daytime bottle becomes whole milk in a cup; tell daycare.",
+     "<b>Mouth-safe rule for every activity:</b> nothing that fits through a toilet-paper tube (~1¼ in / 3 cm). So: ball-pit balls or 2-inch+ balls, not small pom-poms or beads; big lids or wooden discs, not coins; you sit right there, and it goes up high after."
     ],
-    "videos": [
-     "bEHaCVLeMtE"
-    ]
+    "videos": []
    }
   ],
   "cards": [
@@ -129,6 +128,43 @@
     ]
    },
    {
+    "icon": "📱",
+    "title": "What real parents are doing at 12–18 months",
+    "sub": "Ideas from Instagram & Xiaohongshu",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "lines": [
+     "The most-shared hands-on activities for this age: <b>color matching</b> (2 colors first), <b>posting boxes</b> (coin box, balls into a hole), <b>ball drops</b> through tubes, <b>sticker peeling</b>, <b>poking sticks into a colander</b> (before bead threading), and <b>sticky walls</b>.",
+     "Most are DIY from things at home: formula tins, cups, paper-towel tubes, contact paper.",
+     "Many posts use small pom-poms and beads. <b>Not for her yet</b>, because she still mouths: we swapped in ball-pit balls, big lids, and big stickers.",
+     "<b>Watch her, not the post:</b> if she pushes it away, it’s too hard or too easy. Put it away and try again in 1–2 weeks."
+    ],
+    "refs": [
+     {
+      "label": "Hands On As We Grow: pom-pom sorting + posting at 15 months (mom blog/IG)",
+      "url": "https://handsonaswegrow.com/pom-pom-sorting-posting-activity/"
+     },
+     {
+      "label": "@thetwomamabears (Instagram): color sorting, 15–19 months",
+      "url": "https://twomamabears.com/pom-pom-color-sorting-activity-idea-with-tweezers-for-fine-motor-practice/"
+     },
+     {
+      "label": "The Montessori Twin Mama: 12-month activities (coin drop, ball tracker)",
+      "url": "https://themontessoritwinmama.com/2024/01/16/engaging-montessori-activities-to-try-at-12-months-old/"
+     },
+     {
+      "label": "Hellobee: DIY coin box, tube posting, pipe cleaners in a colander",
+      "url": "https://www.hellobee.com/2013/02/13/5-quick-and-easy-montessori-activities-for-toddlers/"
+     },
+     {
+      "label": "Chinese parent site: 15-month “red and yellow beads” sorting game",
+      "url": "http://www.jiyifa.net/zaojiao/1042435.html"
+     }
+    ]
+   },
+   {
     "icon": "✅",
     "title": "Do & don’t: daycare start",
     "sub": "Small things that help",
@@ -161,6 +197,7 @@
    "👋 Same goodbye line + wave at drop-off",
    "🤗 Reunion hour: hold, floor time, she leads",
    "👉 Answer her points: look, name, give or swap",
+   "🔴 Color step 2 or posting box, 5 min if she’s up for it",
    "🧸 One short floor-to-stand session (if she’s up for it)",
    "🥛 Whole milk in a cup at 2 meals (bedtime bottle last)",
    "🤟 EAT, MILK, ALL DONE with words",
@@ -169,6 +206,7 @@
   ],
   "todos": [
    "Pack and label (see <a href=\"daycare-first-day.html\">Daycare: first day</a>)",
+   "Make a posting box from a formula tin (round hole first)",
    "Practice the Teddy goodbye at home",
    "Tell teachers: points to ask, signs EAT/MILK/ALL DONE, whole milk in a cup, mouths things",
    "Ask about nap routine and how they handle mouthing",
@@ -694,6 +732,61 @@
     "id": "daytime-night-night"
    },
    {
+    "id": "color-match-1",
+    "emoji": "🔴",
+    "name": "Red goes with red (step 1)",
+    "how": "Two VERY different colors, identical objects: 3 red + 3 yellow ball-pit balls, one red cup, one yellow cup. You drop one: “Red goes with red.” Hand her one, point to the cup. Any ball in any cup is fine; just keep naming. (from parent posts)",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "time": "3–5 min"
+   },
+   {
+    "id": "posting-box",
+    "emoji": "📮",
+    "name": "Posting box",
+    "how": "Cut a slot in a formula-tin or oatmeal lid; post big lids or 2-inch wooden discs. Start with a round hole + balls, then the slot. Tilting the disc is the hard part. (Montessori “coin box”, IG favorite)",
+    "roots": [
+     "Curious",
+     "Brave"
+    ],
+    "time": "5 min"
+   },
+   {
+    "id": "tube-ball-drop",
+    "emoji": "🎳",
+    "name": "Ball drop tube",
+    "how": "Tape a paper-towel or wrapping-paper tube on the wall at a slant; she drops a ball in the top and watches it come out the bottom. Use a wide poster tube and balls bigger than a toilet-paper tube opening. (IG/XHS DIY)",
+    "roots": [
+     "Curious",
+     "Brave"
+    ],
+    "time": "5 min"
+   },
+   {
+    "id": "big-sticker",
+    "emoji": "⭐",
+    "name": "Big sticker peel",
+    "how": "Large stickers (palm-size or bigger) on the back of your hand or her tray edge; she peels them off and sticks them on paper. Lift a corner for her at first. Supervised. (XHS 贴纸 favorite)",
+    "roots": [
+     "Self-led",
+     "Curious"
+    ],
+    "time": "5 min"
+   },
+   {
+    "id": "sticky-wall",
+    "emoji": "🧻",
+    "name": "Sticky wall",
+    "how": "Contact paper taped sticky-side out on a low wall; she sticks big paper shapes or scarves on and pulls them off. Great while standing. (IG/XHS DIY)",
+    "roots": [
+     "Curious",
+     "Healthy"
+    ],
+    "time": "5–10 min"
+   },
+   {
     "id": "floor-to-stand",
     "emoji": "🧸",
     "name": "Floor to stand",
@@ -804,6 +897,28 @@
     "time": "2 min"
    },
    {
+    "id": "color-match-2",
+    "emoji": "🟡",
+    "name": "Find the same (step 2)",
+    "how": "Hold up a red ball: “Where’s another red one?” with 2 balls on the floor (red, yellow). Then try a red block next to a red ball. Still two colors. (from parent posts)",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "time": "3 min"
+   },
+   {
+    "id": "pipe-colander",
+    "emoji": "🥣",
+    "name": "Colander poking (pre-threading)",
+    "how": "Thick pipe cleaners or chopsticks poked into a colander’s holes; take them out, poke again. Real bead threading comes ~18 months+ with big 2-inch beads. Supervised. (IG Montessori favorite)",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "time": "5 min"
+   },
+   {
     "id": "bye-bye-teddy",
     "emoji": "🧸",
     "name": "Teddy goes to daycare",
@@ -847,7 +962,7 @@
    "🦷 什么都往嘴里放",
    "🏠 爷爷奶奶回国了 · 家里就你们三个"
   ],
-  "oneLiner": "要上托班啦。这周<b>安全感第一</b>：<b>每次告别都一样</b>；<b>接回来先好好黏一小时</b>；在家<b>接着练站起来、接着接她的“指”</b>。会黏人一阵，这是新一轮成长，不是退步。",
+  "oneLiner": "要上托班啦。这周<b>安全感第一</b>：<b>每次告别都一样</b>；<b>接回来先好好黏一小时</b>；在家<b>短短玩一会儿</b>（颜色第二步 + 投币盒）。会黏人一阵，这是新一轮成长，不是退步。",
   "bigThree": [
    {
     "icon": "👋",
@@ -884,22 +999,21 @@
     "videos": []
    },
    {
-    "icon": "🧸",
-    "title": "接着练站起来、接着接“指”（短一点）",
-    "sub": "大运动 · 说话 · 5分钟",
+    "icon": "📮",
+    "title": "托班回来在家玩：颜色第二步 + 投币盒",
+    "sub": "好奇 · 5分钟，周末或晚上状态好时",
     "roots": [
-     "Brave",
-     "Curious"
+     "Curious",
+     "Brave"
     ],
     "lines": [
-     "<b>什么时候：</b>周末早上，或者接回来黏够了、她有兴致时练五分钟。累了就不练，这周陪伴第一。",
-     "<b>怎么练：</b>扔三个球蹲下捡；矮凳上放玩具；牵一只手走。她指了照样接：看、说、给或换、等一等。",
-     "<b>可以说：</b>“起、起……站起来啦！”／“<b>鞋</b>！你要鞋呀。”",
-     "<b>牛奶第二周：</b>白天再换掉一瓶，改杯子喝牛奶。睡前那瓶还是最后换。跟托班说：杯子装全脂奶。"
+     "<b>什么时候：</b>周末早上，或者接回来黏够了、她有兴致时玩五分钟。累了就不玩，这周陪伴第一。",
+     "<b>颜色第二步：</b>举起红球：“另一个<b>红的</b>在哪儿？”地上只摆一红一黄。再把红积木放红球旁边：“红的跟红的！”",
+     "<b>投币盒：</b>奶粉罐盖子先开圆洞投球；会了再开长缝，投大瓶盖或5厘米大木片。慢慢示范，然后等。可以说：“进去啦……球球<b>拜拜</b>！”（顺便练拜拜）",
+     "<b>接着练：</b>从地上站起来（蹲下捡球）、接住她的“指”。<b>牛奶第二周：</b>白天再换一瓶成杯子喝牛奶，告诉托班。",
+     "<b>所有游戏都守一条：</b>能穿过卫生纸筒（约3厘米）的东西不给。所以用海洋球或5厘米以上的大球，不用小毛球、小珠子；用大瓶盖或大木片，不用硬币。大人坐在旁边，玩完收高处。"
     ],
-    "videos": [
-     "bEHaCVLeMtE"
-    ]
+    "videos": []
    }
   ],
   "cards": [
@@ -945,6 +1059,43 @@
     ]
    },
    {
+    "icon": "📱",
+    "title": "别的爸妈在给12–18个月宝宝玩什么",
+    "sub": "来自Instagram和小红书",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "lines": [
+     "这个年龄最多人晒的动手游戏：<b>颜色配对</b>（先两种颜色）、<b>投币盒、投球</b>、<b>纸筒滚球</b>、<b>撕贴纸</b>、<b>往漏勺里插棍子</b>（穿珠子前的练习）、<b>粘粘墙</b>。",
+     "大多是家里东西自己做：奶粉罐、杯子、纸筒、透明贴纸。",
+     "很多帖子用小毛球、小珠子。<b>她现在还啃东西，先别用</b>：我们换成海洋球、大瓶盖、大贴纸。",
+     "<b>看她，不看帖子：</b>她推开不玩，就是太难或太简单。先收起来，过一两周再拿出来。"
+    ],
+    "refs": [
+     {
+      "label": "15个月早教游戏：分红黄珠（中文）",
+      "url": "http://www.jiyifa.net/zaojiao/1042435.html"
+     },
+     {
+      "label": "颜色分类游戏玩法（早教机构，中文）",
+      "url": "https://www.youkee.com/ziliao/14832.html"
+     },
+     {
+      "label": "美国妈妈博主：15个月玩毛球分色、投洞（英文）",
+      "url": "https://handsonaswegrow.com/pom-pom-sorting-posting-activity/"
+     },
+     {
+      "label": "Instagram @thetwomamabears：15–19个月颜色分类（英文）",
+      "url": "https://twomamabears.com/pom-pom-color-sorting-activity-idea-with-tweezers-for-fine-motor-practice/"
+     },
+     {
+      "label": "蒙氏双胞胎妈妈：12个月教具（投币盒、滚球轨道，英文）",
+      "url": "https://themontessoritwinmama.com/2024/01/16/engaging-montessori-activities-to-try-at-12-months-old/"
+     }
+    ]
+   },
+   {
     "icon": "✅",
     "title": "上托班，几件小事",
     "sub": "有用的小细节",
@@ -977,6 +1128,7 @@
    "👋 送托班：一样的话 + 挥手拜拜",
    "🤗 接回来一小时：抱、地上陪玩、她说了算",
    "👉 她指了就接：看、说、给或换",
+   "🔴 有兴致就玩五分钟：找一样的颜色或投币盒",
    "🧸 有兴致就练一会儿站起来",
    "🥛 两顿饭用杯子喝牛奶（睡前那瓶最后换）",
    "🤟 比“吃”“奶”“吃完了”，边比边说",
@@ -985,6 +1137,7 @@
   ],
   "todos": [
    "打包贴名（见<a href=\"daycare-first-day.html\">上托班第一天</a>）",
+   "用奶粉罐做个投币盒（先开圆洞）",
    "在家用小熊演一遍告别",
    "告诉老师：会指着要、手语（吃/奶/吃完了）、杯子喝全脂奶、爱啃东西",
    "问问午睡怎么安排、宝宝啃东西怎么处理",
@@ -1506,6 +1659,61 @@
     "id": "daytime-night-night"
    },
    {
+    "id": "color-match-1",
+    "emoji": "🔴",
+    "name": "红的找红的（第一步）",
+    "how": "两种差别很大的颜色、一模一样的东西：红黄海洋球各三个，一个红杯、一个黄杯。您先放一个：“红的找红的。”递给她一个，指指杯子。放哪个杯子都行，您只管说颜色。（家长分享的玩法）",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "time": "3–5分钟"
+   },
+   {
+    "id": "posting-box",
+    "emoji": "📮",
+    "name": "投币盒",
+    "how": "奶粉罐或燕麦罐盖子上开个口，投大瓶盖或5厘米的大木片。先开圆洞投球，再换成长缝。把木片转过来对准缝，是最难的一步。（蒙氏投币盒，Instagram上很火）",
+    "roots": [
+     "Curious",
+     "Brave"
+    ],
+    "time": "5分钟"
+   },
+   {
+    "id": "tube-ball-drop",
+    "emoji": "🎳",
+    "name": "滚球管道",
+    "how": "把粗纸筒（海报筒）斜着贴在墙上，她从上面放球，看球从下面滚出来。球要比卫生纸筒口大。（Instagram、小红书都有人做）",
+    "roots": [
+     "Curious",
+     "Brave"
+    ],
+    "time": "5分钟"
+   },
+   {
+    "id": "big-sticker",
+    "emoji": "⭐",
+    "name": "撕大贴纸",
+    "how": "手掌大的贴纸贴在您手背或餐盘边上，她撕下来贴到纸上。一开始帮她翘起一个角。大人在旁边看着。（小红书很火的贴纸游戏）",
+    "roots": [
+     "Self-led",
+     "Curious"
+    ],
+    "time": "5分钟"
+   },
+   {
+    "id": "sticky-wall",
+    "emoji": "🧻",
+    "name": "粘粘墙",
+    "how": "矮处墙上贴一张透明贴纸（粘面朝外），让她把大纸片、丝巾粘上去再撕下来。站着玩，还顺便练站。（Instagram、小红书DIY）",
+    "roots": [
+     "Curious",
+     "Healthy"
+    ],
+    "time": "5–10分钟"
+   },
+   {
     "id": "floor-to-stand",
     "emoji": "🧸",
     "name": "从地上站起来",
@@ -1614,6 +1822,28 @@
      "Kind"
     ],
     "time": "2分钟"
+   },
+   {
+    "id": "color-match-2",
+    "emoji": "🟡",
+    "name": "找一样的（第二步）",
+    "how": "举起红球：“另一个红的在哪儿？”地上只摆一红一黄。再试试红积木放红球旁边。还是只用两种颜色。（家长分享的玩法）",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "time": "3分钟"
+   },
+   {
+    "id": "pipe-colander",
+    "emoji": "🥣",
+    "name": "插漏勺（穿珠前练习）",
+    "how": "粗扭扭棒或筷子插进漏勺的小洞，拔出来再插。真正穿珠子要18个月以后，用5厘米大珠子。大人看着。（Instagram蒙氏常见）",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "time": "5分钟"
    },
    {
     "id": "bye-bye-teddy",
