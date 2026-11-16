@@ -13,22 +13,6 @@
    "length": "4:53",
    "lang": "en"
   },
-  "mFTwsPVn6dk": {
-   "title": "Half Kneel to Stand at Furniture",
-   "titleZh": "单膝跪到扶着家具站起来",
-   "channel": "Pediatric Physical Therapy Exercises",
-   "channelZh": "Pediatric Physical Therapy Exercises（儿科康复）",
-   "length": "1:34",
-   "lang": "en"
-  },
-  "jKT9ICWs6oU": {
-   "title": "Help Your Baby Stand Up from the Middle of the Floor",
-   "titleZh": "帮宝宝不扶东西，从地上站起来",
-   "channel": "Pediatric Physical Therapy Exercises",
-   "channelZh": "Pediatric Physical Therapy Exercises（儿科康复）",
-   "length": "1:56",
-   "lang": "en"
-  },
   "Dwj2reELIlg": {
    "title": "Learn Open Cup Drinking For Your Infant With an Occupational Therapist",
    "titleZh": "职业治疗师教：宝宝怎么用敞口杯喝水",
@@ -43,22 +27,23 @@
   "age": "12 months",
   "dates": "Nov 16–22, 2026",
   "now": [
-   "🧍 Stands alone · still learning sit-to-stand",
+   "🧍 Stands alone on purpose · trying floor-to-stand on her own",
    "🛒 Walks fast with the push walker or one hand",
-   "🧗 Climbs stairs and playground stuff, up and down",
+   "🧗 Climbs stairs and playground stuff · has loved slides since 10 months",
    "🏊 Swims since June · dips under 1–2 s",
-   "🧱 Stacks 2 blocks · uses a spoon",
+   "🧱 Prefers big soft blocks · uses a spoon",
    "🖊️ Uses the pointer pen on her music book",
-   "🚪 Opens/closes closets, the toy faucet · copies adults",
+   "🚪 Opens the faucet herself after watching · knows tongs go in the pot",
    "👏 Copies clapping and bye-bye",
    "👉 Points + calls out to ask, very confidently",
-   "🗣️ baba/mama faded since pointing took off",
+   "🗣️ Softly, unclearly copies some two-word phrases you say · she’s learning",
+   "🧩 Tries a two-piece puzzle and stays curious · early baba/mama faded after pointing took off",
    "✋ “Mine!” Won’t give things up without agreeing",
    "🍽️ Wants what we eat · prefers bigger chunks",
    "🥤 Hasn’t tried an open cup yet",
    "🦷 Still mouths things"
   ],
-  "oneLiner": "One year old and very much <b>her own person</b>. This week, three things: <b>turn her points into words</b> (name it, pause, give it anyway), <b>play her way up from the floor</b>, and <b>start a tiny open cup</b>. Plus a new <b>reading</b> rhythm: short and often.",
+  "oneLiner": "One year old, a keen <b>observer</b> and a little problem-solver. This week, three things: <b>turn her points into words</b> (name it, pause, give it anyway), <b>show her slowly, then hand it over and wait</b>, and <b>start a tiny open cup</b>. Plus a new <b>reading</b> rhythm: short and often.",
   "bigThree": [
    {
     "icon": "👉",
@@ -91,30 +76,19 @@
     ]
    },
    {
-    "icon": "🧸",
-    "title": "Up from the floor: sit-to-stand play",
-    "sub": "Body · 2 × 5 min a day",
+    "icon": "👀",
+    "title": "Show me, then her turn",
+    "sub": "Play · short moments all day",
     "roots": [
-     "Brave",
-     "Healthy"
+     "Curious",
+     "Self-led"
     ],
     "lines": [
-     "<b>When:</b> two short floor sessions a day, when she’s fresh (after nap, before dinner).",
-     "<b>How 1, half-kneel:</b> she kneels at the couch; put a toy on the cushion just out of reach. She brings one foot forward and pushes up. Next time, the other leg leads.",
-     "<b>How 2, lap-to-stand:</b> she sits on your lap facing the couch, feet flat on the floor. A light hand on her hips, <b>lean her body slightly forward</b>, and she stands; then sits back onto your lap. Repeat 5 times.",
-     "<b>How 3, squat:</b> once she’s up, put toys at knee height, then on the floor, so she squats and comes back up.",
-     "<b>Steps:</b> stand her at a sturdy stool, kneel 2–3 steps away with open arms, and let her come. Hold one hand at most, not both arms up high.",
-     "<b>Say:</b> “Up… you did it!” If she plops: “Plop! Again?” Calm, no big fuss either way."
-    ],
-    "videos": [
-     "mFTwsPVn6dk",
-     "jKT9ICWs6oU"
-    ],
-    "refs": [
-     {
-      "label": "Pathways.org: sit-to-stand activity",
-      "url": "https://pathways.org/activities/sit-to-stand"
-     }
+     "<b>When:</b> little pockets in real life — the kitchen, the sink, toys, getting dressed. One or two slow demos, then stop.",
+     "<b>How:</b> ① Do it slowly where she can see, once or twice. ② Hand her the same thing, or a toddler-safe version. ③ <b>Pause and wait.</b> Any try counts: a miss, a mouth, a new idea. Don’t take over, and don’t ask her to copy.",
+     "<b>Say, in two words:</b> “Tongs in.” “Lid off.” “Light on.” “Faucet on.” Then wait for her sound or her move.",
+     "<b>Why this fits her:</b> she already watches how things work — she knows the tongs go in the pot, and she can open the faucet after seeing you do it. Showing, then waiting, uses that strength.",
+     "<b>Keep it safe:</b> stay right there. Only big pieces (nothing that fits through a toilet-paper tube). No hot pots, and no climbing to a light switch or the faucet. Water not too hot."
     ]
    },
    {
@@ -147,23 +121,50 @@
      "Healthy"
     ],
     "lines": [
-     "She <b>stands alone</b>, climbs stairs and playground equipment up and down, walks fast with the push walker or one hand, and dips underwater calmly. That’s a strong, brave mover.",
-     "The missing piece is getting <b>up from sitting with nothing to hold</b>. It often comes <b>around 13–14 months, sometimes after first steps</b>, so she isn’t behind.",
-     "<b>Heading toward (next 3 months):</b> a few steps alone, squatting to pick things up, getting on and off the couch, then early running. Anywhere up to ~18 months for walking alone is normal."
+     "She <b>stands alone on purpose</b>, climbs stairs and playground equipment, walks fast with the push walker or one hand, and has loved slides since she was 10 months. That’s a strong, brave mover.",
+     "She’s tried getting <b>up from the floor</b> a few times and is close, but hasn’t made it all the way yet. She’s figuring this out herself — no need to practice it on a schedule. <b>Just give her safe space</b> on the floor and let her try when she wants.",
+     "<b>Heading toward:</b> first steps and floor-to-stand often arrive in their own order. Anywhere up to ~18 months for walking alone is normal."
     ]
    },
    {
     "icon": "🧠",
     "title": "Where she is now: hands and thinking",
-    "sub": "A little engineer",
+    "sub": "A little engineer who learns by watching",
     "roots": [
      "Curious",
      "Self-led"
     ],
     "lines": [
-     "She stacks 2 blocks, uses a spoon, and taps a pointer pen to make music: she already <b>knows touching a spot makes something happen</b> (cause and effect). Those are 15-month skills.",
-     "She <b>loves figuring out how things work</b> (doors, faucets, lids) and doesn’t love sitting and listening. So: short, hands-on, and let her lead.",
-     "<b>Next:</b> 3–4 block towers, scribbling, a simple shape sorter, fill-and-dump, real helping jobs."
+     "She uses a spoon and taps a pointer pen to make music: she already <b>knows touching a spot makes something happen</b> (cause and effect).",
+     "<b>Watching is her strength.</b> She studies how you use things she’s never used — she knows the tongs go in the pot, even before she can grab with them — then she wants to figure it out. She’s a little problem-solver.",
+     "She prefers <b>big soft blocks</b> (small hard blocks can wait), and she’ll work at a <b>two-piece puzzle</b> even when the piece doesn’t go in yet. Stay with that curiosity; no need to finish it for her.",
+     "<b>Next:</b> show-me turns with everyday tools, lids, in-and-out, a knob puzzle, a safe faucet or light switch, and soft-block towers to crash."
+    ]
+   },
+   {
+    "icon": "🌟",
+    "title": "What she’s ready to try at 12 months",
+    "sub": "Because she learns by watching",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "lines": [
+     "Watching first is her superpower. She studies a new thing, then wants to figure out how it works — that’s a real problem-solver at one.",
+     "Parents who notice this often invite the same everyday tries: in-and-out, lids on and off, a slow “your turn” with a real tool (toddler tongs, a scoop, a whisk, a brush), a chunky knob puzzle, big soft blocks, the faucet or a light switch with you right there.",
+     "<b>What most one-year-olds can already do</b> (CDC): put something in a container, look for a toy they saw you hide, drink from a cup you hold, and pick up small bits with thumb and finger.",
+     "<b>What often comes next</b> (by ~15 months): taking a lid off while holding a container, trying a word or two, showing you something she likes. A two-piece puzzle may not “solve” yet — staying curious is the win.",
+     "Your job is to show slowly, hand it over, and wait. No quiz, and no pressure to finish."
+    ],
+    "refs": [
+     {
+      "label": "CDC: milestones by 1 year",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html"
+     },
+     {
+      "label": "CDC: milestones by 15 months",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+     }
     ]
    },
    {
@@ -175,9 +176,10 @@
      "Kind"
     ],
     "lines": [
-     "<b>She can:</b> point to ask, clap and wave when you do, understand familiar names (Mama, milk, ball), simple routines (“bath time”), and often “give me” with your hand out.",
+     "<b>She can:</b> point to ask, clap and wave when you do, understand familiar names (Mama, milk, ball) and simple routines (“bath time”), and often “give me” with your hand out. She’s also started to <b>quietly copy some of your two-word phrases</b>, still soft and unclear. That’s real learning.",
+     "<b>How to help:</b> repeat what she tried, warmly, add one word, then <b>pause and wait</b>. She says a fuzzy “more ba” → “More banana.” Never “Say banana!” Pressure makes talking harder.",
      "<b>Not yet:</b> “wait,” “later,” “gently,” reasons, or “don’t” (she hears the action word). So say what TO do: “Feet on the floor,” not “Don’t climb.”",
-     "Words often pause while a big motor skill takes off; pointing has become her main tool. <b>Coming next:</b> trying 1–2 words or word-bits (“ba” for ball counts) by ~15 months, and <b>pointing to show</b> you things, not just to ask."
+     "Words often pause while a big motor skill takes off; pointing is still her main tool. <b>Coming next:</b> clearer word-bits, and <b>pointing to show</b> you things, not just to ask."
     ],
     "refs": [
      {
@@ -197,7 +199,7 @@
     "lines": [
      "She won’t let you take something unless she agrees. That’s <b>her sense of self growing</b>: “This is mine, and I get a say.” It’s a good sign.",
      "Asking first is the right instinct. See <b>What to say</b> for the exact words (ask, trade, warn-and-count, two choices).",
-     "<b>Coming next:</b> more “no,” more big feelings, showing you things she likes, and checking you’re near while she explores. The whole family uses the same simple rules (see <a href=\"family-principles.html\">Our family’s way</a>)."
+     "<b>Coming next:</b> more “no,” more big feelings, showing you things she likes, and checking you’re near while she explores."
     ]
    },
    {
@@ -281,8 +283,8 @@
   ],
   "daily": [
    "👉 Answer her points: name it, pause 5–10 s, then give it",
-   "🔁 Say “more,” “open,” “help” in real moments",
-   "🧸 Sit-to-stand play, twice (half-kneel, lap-to-stand, squat)",
+   "🔁 Model two-word phrases in real moments (“more bubbles,” “open lid”); pause and wait, no pressure to copy",
+   "👀 Show her slowly, hand it over, wait (tools, lids, faucet, puzzle)",
    "🥛 Tiny open cup: 1–2 sips of water at a meal, with help",
    "📚 2–3 short reading moments + calm 1–2 bedtime books",
    "🤟 EAT, MILK, ALL DONE, MORE, saying the word each time",
@@ -297,7 +299,8 @@
    "Start a 2-week log of sounds, signs, and words for the checkup",
    "Write checkup questions: faded words, length, iron",
    "Show everyone who cares for her the MORE sign",
-   "Make an “Open? Help?” clear jar with a favorite toy inside"
+   "Make an “Open? Help?” clear jar with a favorite toy inside",
+   "Set out a two-piece or knob puzzle, and toddler tongs with a play pot (pieces bigger than a toilet-paper tube)"
   ],
   "quiz": [
    {
@@ -326,9 +329,9 @@
     "why": "Short and often wins. Stop when she’s done; come back later."
    },
    {
-    "q": "Lean her body slightly forward as she pushes up from sitting.",
+    "q": "You show her the tongs once, slowly, then hand them over and wait, even if her first try misses.",
     "a": "do",
-    "why": "Weight over her feet is the move she’s learning. Light hands at the hips only."
+    "why": "That’s how she learns: watch, then try. Any attempt counts. No need to do it for her."
    },
    {
     "q": "Fill the open cup to the top so she gets a good drink.",
@@ -458,20 +461,15 @@
     ]
    },
    {
-    "icon": "🧸",
-    "title": "Why sit-to-stand comes late",
+    "icon": "👀",
+    "title": "Why quiet, messy copies still count",
     "roots": [
-     "Brave",
-     "Healthy"
+     "Curious",
+     "Kind"
     ],
     "lines": [
-     "Standing up in open space means shifting weight forward over her feet from a crouch, with nothing to pull on. Many babies take first steps before they can do it. Either order is fine."
-    ],
-    "refs": [
-     {
-      "label": "Pathways.org: sit-to-stand",
-      "url": "https://pathways.org/activities/sit-to-stand"
-     }
+     "When she whispers a two-word phrase, or pokes the tongs toward the pot without grabbing yet, she’s practicing what she saw. Unclear and unfinished is how this age learns.",
+     "Repeating her attempt warmly, adding one word, and waiting teaches more than asking her to say it or do it “right.”"
     ]
    },
    {
@@ -625,7 +623,7 @@
     },
     {
      "label": "Floor to stand, nothing to hold",
-     "note": "Hands down, bottom up, push (working on it)"
+     "note": "She’s trying it on her own. Safe floor space is enough — no need to drill it."
     },
     {
      "label": "1–3 steps alone",
@@ -670,6 +668,10 @@
   ],
   "sources": [
    {
+    "label": "CDC: milestones by 1 year",
+    "url": "https://www.cdc.gov/act-early/milestones/1-year.html"
+   },
+   {
     "label": "CDC: milestones by 15 months",
     "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
    },
@@ -680,10 +682,6 @@
    {
     "label": "ASHA: communication milestones 13–18 months",
     "url": "https://www.asha.org/public/developmental-milestones/communication-milestones-13-to-18-months/"
-   },
-   {
-    "label": "Pathways.org: sit-to-stand",
-    "url": "https://pathways.org/activities/sit-to-stand"
    },
    {
     "label": "Speech Sisters (SLP parent tips, Instagram)",
@@ -724,7 +722,7 @@
    {
     "emoji": "🛝",
     "name": "Playground mission",
-    "how": "Pick ONE stretch per visit (a new climber, a bigger slide with you at the bottom). Stop while she’s happy. (Wk 1)",
+    "how": "She’s loved slides since 10 months. This week add language and turns: “Up… down… whee!” Then “Your turn, my turn.” You stay at the bottom. Stop while she’s happy. (Wk 1)",
     "roots": [
      "Brave",
      "Healthy"
@@ -757,7 +755,7 @@
    {
     "emoji": "🖊️",
     "name": "Pen-book turns",
-    "how": "She taps a picture; you name it and <b>pause</b> before the music plays. Add one word: “Cat! Soft cat.” Then her turn. (Wk 3)",
+    "how": "Show me, then her turn with the pointer pen: you tap one picture, name it, pause, then hand her the pen. “Cat. Soft cat.” Don’t rush the music. (Wk 3)",
     "roots": [
      "Curious",
      "Kind"
@@ -768,7 +766,7 @@
    {
     "emoji": "🔁",
     "name": "Echo-and-add",
-    "how": "Any sound counts: she says “ba” while pointing → “Ball! Big ball.” Add one word, never “say ball.” (Wk 3)",
+    "how": "She’s already softly copying some of your two-word phrases, even if they’re unclear. Keep going: she says “ba” → “Ball! Big ball.” Repeat, add one word, pause and wait. Never “say ball.” (Wk 3)",
     "roots": [
      "Curious",
      "Kind"
@@ -821,7 +819,7 @@
    {
     "emoji": "🗼",
     "name": "Stack & crash",
-    "how": "Aim for 3, then 4 blocks: you build 2, hand her the third. Crash and cheer. (Wk 1, harder)",
+    "how": "Big soft blocks only (skip small hard ones for now): you stack two, hand her the third, crash and cheer. Towers can be short. (Wk 1, now with soft blocks)",
     "roots": [
      "Curious",
      "Self-led"
@@ -832,7 +830,7 @@
    {
     "emoji": "🫙",
     "name": "Lid lab, harder",
-    "how": "Lids that pull off, then lids that push on; a box with a slot to post things through. (Wk 1, harder)",
+    "how": "Show me, then her turn: you slowly pull a lid off, or push one on, then hand her the container and wait. Boxes with a slot to post big pieces through count too. (Wk 1, harder)",
     "roots": [
      "Curious",
      "Self-led"
@@ -876,7 +874,7 @@
    {
     "emoji": "🪞",
     "name": "Copy-me",
-    "how": "Wipe the table, phone to ear, brush hair. She copies, then you copy her. (Wk 3)",
+    "how": "Show me, then her turn: slowly wipe the table, brush hair, or hold a phone to your ear, then hand her the cloth or brush and wait. After she tries, you can copy her back. (Wk 3)",
     "roots": [
      "Kind",
      "Self-led"
@@ -918,28 +916,6 @@
     "id": "water-table"
    },
    {
-    "id": "floor-to-stand",
-    "emoji": "🧸",
-    "name": "Floor to stand",
-    "how": "Toy on the couch while she half-kneels: one foot forward, push up. Switch which leg leads. Lean her body slightly forward as she rises. (Wk 7, harder)",
-    "roots": [
-     "Brave",
-     "Healthy"
-    ],
-    "time": "3 min"
-   },
-   {
-    "id": "squat-to-stand",
-    "emoji": "⬇️",
-    "name": "Squat, pick up, stand",
-    "how": "Scatter 4–5 balls on a clear floor while she stands. “Can you get the red ball?” She squats, grabs, stands up. That’s the exact move she needs to stand from the floor.",
-    "roots": [
-     "Brave",
-     "Healthy"
-    ],
-    "time": "5 min"
-   },
-   {
     "id": "point-honor",
     "emoji": "👉",
     "name": "Honor her point",
@@ -954,7 +930,7 @@
     "id": "faucet-pour",
     "emoji": "🚰",
     "name": "Toy-kitchen turns",
-    "how": "Her toy faucet: you turn it, then wait. Add a cup to “fill” and pour into a bowl. Name it: on, off, pour, all gone.",
+    "how": "Handwashing at the real faucet: you turn it on slowly, say “Faucet on,” wash together, “Faucet off.” Then her turn, with you right there. Water warm, not hot; no climbing. The toy faucet is good practice too. (Parent tip)",
     "roots": [
      "Curious",
      "Kind"
@@ -965,7 +941,7 @@
     "id": "in-and-out",
     "emoji": "📥",
     "name": "In and out",
-    "how": "Fill-and-dump, harder: a basket she fills, pushes across the room, and dumps. All pieces wider than a toilet-paper tube. (Wk 7, harder)",
+    "how": "Show me, then her turn: you put one big piece in a basket and take it out, then hand the basket over. She can fill it, push it, dump it. All pieces wider than a toilet-paper tube. (Wk 7, harder)",
     "roots": [
      "Curious",
      "Self-led"
@@ -1031,7 +1007,7 @@
     "id": "color-match-2",
     "emoji": "🟡",
     "name": "Find the same (step 2)",
-    "how": "Hold up a red ball: “Where’s another red one?” with 2 balls on the floor (red, yellow). Then try a red block next to a red ball. Still two colors. (from parent posts)",
+    "how": "Hold up a red ball: “Where’s another red one?” with 2 balls on the floor (red, yellow). Then try a red soft block next to a red ball. Still two colors. (from parent posts)",
     "roots": [
      "Curious",
      "Self-led"
@@ -1151,8 +1127,8 @@
    {
     "id": "tower-steps",
     "emoji": "🧱",
-    "name": "Road to a 4-block tower",
-    "how": "Easiest first: drop blocks into a cup → ring stacker → soft cups or tins → big blocks. Move up only when one feels easy. Falling is part of it. (Parent tip; 3–4 block towers usually come around 15–18 months)",
+    "name": "Soft-block towers",
+    "how": "Road to a soft-block tower: start by dropping big soft blocks into a basket, then stack two or three and knock them down. Laugh when it falls. Small hard blocks can wait. (Parent tip)",
     "roots": [
      "Curious",
      "Brave"
@@ -1169,17 +1145,6 @@
      "Self-led"
     ],
     "time": "3 min"
-   },
-   {
-    "id": "stool-stand-steps",
-    "emoji": "🪑",
-    "name": "Stool stand, then steps to you",
-    "how": "She stands at a small sturdy stool or the couch playing; you kneel 2–3 steps away with a toy and open arms. Coax, don’t pull: let her let go and come to you. Hold one hand at most, never both arms up high. (Parent tip)",
-    "roots": [
-     "Brave",
-     "Healthy"
-    ],
-    "time": "5 min"
    },
    {
     "id": "first-scribble",
@@ -1235,6 +1200,39 @@
      "Curious"
     ],
     "time": "2–5 min"
+   },
+   {
+    "id": "watch-try-tools",
+    "emoji": "🥄",
+    "name": "Show me: tongs, scoop, whisk, brush",
+    "how": "Toddler-safe tools and a play pot (not a hot one). You slowly drop a big pom-pom or cloth ball in with tongs or a scoop, or stir with a whisk, or brush a doll’s hair. Hand it over and wait. Big pieces only; watch little fingers with tongs. (Parent kitchen-helper play)",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "time": "5 min"
+   },
+   {
+    "id": "knob-puzzle",
+    "emoji": "🧩",
+    "name": "Two-piece or knob puzzle",
+    "how": "A two-piece puzzle or a chunky wooden knob puzzle (knobs easy to grab, pieces too big to swallow). Show once: take a piece out, put it back, slowly. Then her turn. Hand-over-hand only if she accepts it; otherwise show and wait. It may not fit yet — staying curious is enough. (Parent / Montessori-shelf favorite)",
+    "roots": [
+     "Curious",
+     "Brave"
+    ],
+    "time": "5 min"
+   },
+   {
+    "id": "light-switch",
+    "emoji": "💡",
+    "name": "Show me: light on, light off",
+    "how": "If a switch is already within reach, or you hold her, show “Light on… light off,” then her turn. Never let her climb to it. A push night-light or a toy switch board works too. Cover outlets; fingers stay off the bulb and the fixture. (Everyday parent play)",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "time": "2 min"
    }
   ]
  },
@@ -1243,22 +1241,23 @@
   "age": "1岁",
   "dates": "2026年11月16日–22日",
   "now": [
-   "🧍 能自己站 · 从坐到站还在学",
+   "🧍 能自己站，而且是有意识地站 · 从地上站起来她自己在摸索",
    "🛒 推着学步车或牵一只手走得飞快",
-   "🧗 楼梯、游乐设施上上下下都会",
+   "🧗 会爬楼梯和游乐设施 · 10个月起就爱滑梯",
    "🏊 六月开始游泳 · 能潜水一两秒",
-   "🧱 会摞两块积木 · 会用勺子",
+   "🧱 更喜欢大软积木 · 会用勺子",
    "🖊️ 会用点读笔点书放音乐",
-   "🚪 会开关柜门、玩具水龙头 · 爱学大人",
+   "🚪 看过就会自己开水龙头 · 知道夹子要伸进锅里",
    "👏 会跟着拍手、拜拜",
    "👉 指着东西“啊啊”要，特别有底气",
-   "🗣️ 会指以后，爸爸妈妈反而说得少了",
+   "🗣️ 会轻轻、不太清楚地跟着您学两个字的话 · 正在学",
+   "🧩 在玩两块的拼图，还拼不上也照样好奇 · 会指以后爸爸妈妈说得少了",
    "✋ 手里的东西，她不同意就不给",
    "🍽️ 想吃大人吃的 · 爱吃大块",
    "🥤 还没用过敞口杯",
    "🦷 还爱往嘴里塞东西"
   ],
-  "oneLiner": "满一岁了，越来越<b>有自己的主意</b>。这周三件事：<b>把她的“指”变成话</b>（说出来、等一等、照样给）、<b>玩着练从地上站起来</b>、<b>开始用小敞口杯喝水</b>。另外加一个<b>读书</b>的新习惯：每次短短的，一天多几次。",
+  "oneLiner": "满一岁了，最会<b>看</b>，也爱自己琢磨新东西。这周三件事：<b>把她的“指”变成话</b>（说出来、等一等、照样给）、<b>您先慢慢做给她看，再交给她、等一等</b>、<b>开始用小敞口杯喝水</b>。另外加一个<b>读书</b>的新习惯：每次短短的，一天多几次。",
   "bigThree": [
    {
     "icon": "👉",
@@ -1291,30 +1290,19 @@
     ]
    },
    {
-    "icon": "🧸",
-    "title": "玩着练：从地上站起来",
-    "sub": "大运动 · 一天两次，每次5分钟",
+    "icon": "👀",
+    "title": "先看您做，再轮到她",
+    "sub": "玩耍 · 日常里的一小会儿",
     "roots": [
-     "Brave",
-     "Healthy"
+     "Curious",
+     "Self-led"
     ],
     "lines": [
-     "<b>什么时候：</b>一天两次，挑她精神好的时候（睡醒后、晚饭前）。",
-     "<b>玩法一，单膝跪：</b>她跪在沙发前，把玩具放在沙发垫上、够不着一点点。她会一只脚往前迈、撑起来。下次换另一条腿先迈。",
-     "<b>玩法二，从腿上站：</b>她坐在您腿上，面朝沙发，两脚踩地。您手轻轻扶着她的胯，<b>让她身体稍微往前倾</b>，她就站起来了；再坐回您腿上。来五次。",
-     "<b>玩法三，蹲下：</b>站起来以后，把玩具先放膝盖高，再放地上，让她蹲下去拿、再站起来。",
-     "<b>迈步：</b>让她扶着结实的小凳子站，您蹲在两三步外张开手等她过来。最多牵一只手，别把她两只胳膊高高拎着走。",
-     "<b>可以说：</b>“起来……站起来啦！”坐下了：“扑通！再来？”语气平静，成不成都别大惊小怪。"
-    ],
-    "videos": [
-     "mFTwsPVn6dk",
-     "jKT9ICWs6oU"
-    ],
-    "refs": [
-     {
-      "label": "Pathways.org：从坐到站练习（英文）",
-      "url": "https://pathways.org/activities/sit-to-stand"
-     }
+     "<b>什么时候：</b>就在过日子的空当——厨房、水池边、玩具、穿衣服。慢慢做给她看一两遍，就停。",
+     "<b>怎么做：</b>① 让她看得见，慢慢做一两遍。② 把同样的东西交给她，或者换成宝宝能安全用的。③ <b>停下来等一等。</b>她怎么试都算：没夹住、放进嘴里、自己换种玩法，都好。别抢过来做，也别说“你学一下”。",
+     "<b>两个字就够：</b>“夹进去。”“盖打开。”“灯开了。”“水龙头开。”然后等她出声或动手。",
+     "<b>为什么适合她：</b>她已经会看东西怎么用——知道夹子要伸进锅里，看您开过水龙头自己也会开。先演示、再等她，正好用上她会看的本事。",
+     "<b>注意安全：</b>大人一直在旁边。只给大块的东西（能塞进卫生纸筒口的太小）。不要热锅，也别让她爬高够开关或水龙头。水不要太烫。"
     ]
    },
    {
@@ -1347,23 +1335,50 @@
      "Healthy"
     ],
     "lines": [
-     "能<b>自己站</b>，楼梯和游乐设施上上下下，推学步车或牵一只手走得飞快，潜水也不慌。大运动又强又勇敢。",
-     "还差一步：<b>不扶东西从坐着站起来</b>。很多宝宝<b>13–14个月左右</b>才会，有的先会走才会这个，所以她一点都不晚。",
-     "<b>接下来三个月：</b>自己走几步、蹲下捡东西再站起来、自己上下沙发，然后开始小跑。18个月之前会自己走都正常。"
+     "能<b>自己站，而且是有意识地站</b>，楼梯和游乐设施都会爬，推学步车或牵一只手走得飞快，10个月起就爱滑梯。大运动又强又勇敢。",
+     "从地上站起来，她已经试过几次，很接近了，还差一点点。这事她自己就在摸索，不必专门安排练习。<b>给她一块安全的地板</b>，想试的时候让她自己试就好。",
+     "<b>接下来：</b>自己走几步和从地上站起来，哪个先来都正常。18个月之前会自己走都算正常。"
     ]
    },
    {
     "icon": "🧠",
     "title": "她现在：小手和脑子",
-    "sub": "小小工程师",
+    "sub": "会看、爱琢磨的小小工程师",
     "roots": [
      "Curious",
      "Self-led"
     ],
     "lines": [
-     "会摞两块积木、会用勺子、会拿点读笔点出音乐：她已经<b>明白点一下就会有反应</b>（因果关系）。这些都是15个月的本事。",
-     "她<b>最爱琢磨东西怎么弄</b>（门、水龙头、盖子），不爱坐着听。所以：时间短、动手玩、让她带头。",
-     "<b>接下来：</b>搭三四块积木、乱涂乱画、简单的形状盒、装了倒、帮着做点真家务。"
+     "会用勺子，也会拿点读笔点出音乐：她已经<b>明白点一下就会有反应</b>（因果关系）。",
+     "<b>会看，是她的本事。</b>没见过的东西，她先盯着您怎么用——还不会夹，就已经知道夹子要伸进锅里——然后再自己琢磨。她是个爱想办法的小家伙。",
+     "她更喜欢<b>大软积木</b>（小硬积木可以再等一等），两块的<b>拼图</b>还拼不进去，她也照样好奇。陪着这份好奇就好，不必替她拼完。",
+     "<b>接下来：</b>用日常工具、盖子、放进去拿出来、带把手的拼图、安全的水龙头或灯开关，还有大软积木搭了推倒，都用“先看再试”的方式和她玩。"
+    ]
+   },
+   {
+    "icon": "🌟",
+    "title": "凭她现在的本事，1岁可以试试什么",
+    "sub": "因为她最会看、爱琢磨",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "lines": [
+     "会先看，是她的本事。一样新东西，她先琢磨您怎么用，再自己想办法——一岁就能这样观察、解决问题，很难得。",
+     "很多家长会这样请她试试：放进去拿出来、开盖盖盖、您慢慢做一遍再换她来（宝宝夹子、小勺、打蛋器、刷子）、带大把手的拼图、大软积木，还有大人陪着开水龙头或灯开关。",
+     "<b>一岁大多数宝宝已经会的</b>（美国疾控中心）：把东西放进盒子里，找您当着她面藏起来的玩具，您端着杯子她能喝，能用拇指和食指捏起小东西。",
+     "<b>接下来常常会的</b>（大约15个月）：一只手拿着盒子，另一只手打开盖子；试着说一两个词；把喜欢的东西拿给您看。两块的拼图这会儿还不一定拼得上——她肯继续试，就很好。",
+     "您要做的就是：慢慢做给她看，交到她手里，等一等。别考她，也别急着帮她做完。"
+    ],
+    "refs": [
+     {
+      "label": "美国疾控中心：1岁（12个月）里程碑（英文）",
+      "url": "https://www.cdc.gov/act-early/milestones/1-year.html"
+     },
+     {
+      "label": "美国疾控中心：15个月里程碑（英文）",
+      "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
+     }
     ]
    },
    {
@@ -1375,9 +1390,10 @@
      "Kind"
     ],
     "lines": [
-     "<b>她能：</b>指着要东西，您拍手挥手她跟着做，听得懂熟悉的名字（妈妈、奶、球）、简单的日常（“洗澡啦”），您伸手说“给我”她常常会给。",
+     "<b>她能：</b>指着要东西，您拍手挥手她跟着做，听得懂熟悉的名字（妈妈、奶、球）和简单的日常（“洗澡啦”），您伸手说“给我”她常常会给。她也开始<b>轻轻跟着您学两个字的话</b>，声音还小、还不太清楚。这就是在学。",
+     "<b>怎么帮她：</b>她试着说了，您温暖地跟着说一遍，再加一个词，然后<b>停一停等她</b>。她轻轻说了有点糊的“还要 ba”→“还要香蕉。”别说“说‘香蕉’！”一逼她，更不愿开口。",
      "<b>还听不懂：</b>“等一下”“待会儿”“轻一点”、讲道理、“不要……”（她只听进去后面那个动作）。所以要说该做什么：“脚踩地上”，别说“不许爬”。",
-     "大运动突飞猛进时，说话常常会停一停；现在“指”是她最好用的工具。<b>接下来：</b>15个月左右试着说一两个词或半个词（“ba”就是球，算数），还会<b>指给您看</b>东西，不光是指着要。"
+     "大运动突飞猛进时，说话常常会停一停；现在“指”还是她最好用的工具。<b>接下来：</b>音会更清楚一点，还会<b>指给您看</b>东西，不光是指着要。"
     ],
     "refs": [
      {
@@ -1397,7 +1413,7 @@
     "lines": [
      "手里的东西，她不同意您就拿不走。这是<b>自我意识在长</b>：“这是我的，我说了算。”是好兆头。",
      "先问她，这个直觉是对的。具体怎么说，见下面<b>怎么说</b>（问一问、换一换、数一数、两个都行的选择）。",
-     "<b>接下来：</b>会更多说“不”、情绪更大，会拿东西给您看，玩着玩着回头确认您在不在。全家用同样简单的规矩（见<a href=\"family-principles.html\">家庭教养原则</a>）。"
+     "<b>接下来：</b>会更多说“不”、情绪更大，会拿东西给您看，玩着玩着回头确认您在不在。"
     ]
    },
    {
@@ -1481,8 +1497,8 @@
   ],
   "daily": [
    "👉 接住她的“指”：说出来、等5–10秒、再给她",
-   "🔁 在真实场景里说“还要”“打开”“帮忙”",
-   "🧸 从坐到站的小游戏，两次（单膝跪、从腿上站、蹲下捡）",
+   "🔁 在真实场景里说两个字的话（“还要泡泡”“打开盖子”）；说完等一等，别逼她学",
+   "👀 先慢慢做给她看，交到她手里，等一等（工具、盖子、水龙头、拼图）",
    "🥛 小敞口杯：吃饭时喝一两口水，大人帮着",
    "📚 白天两三次小读书 + 睡前安静读一两本",
    "🤟 比“吃”“奶”“吃完了”“还要”，边比边说",
@@ -1497,7 +1513,8 @@
    "开始记两周：她发的音、比的手势、说的词，体检带去",
    "写下体检要问的：说的词变少了、身长、补铁",
    "把“还要”的手势比给照顾她的每个人看",
-   "准备一个“打开？帮忙？”透明罐，里面放她喜欢的玩具"
+   "准备一个“打开？帮忙？”透明罐，里面放她喜欢的玩具",
+   "准备一套两块或带大把手的拼图，再加宝宝夹子和一只玩具锅（东西都要比卫生纸筒口粗）"
   ],
   "quiz": [
    {
@@ -1526,9 +1543,9 @@
     "why": "短一点、多几次更好。她不想看就停，过会儿再读。"
    },
    {
-    "q": "她从坐着往上撑时，扶着她身体稍微往前倾。",
+    "q": "您慢慢夹一次给她看，再把夹子交给她，她没夹住您也等着，不抢过来。",
     "a": "do",
-    "why": "把重心移到脚上，正是她在学的动作。手只轻轻扶胯。"
+    "why": "她就是这样学的：先看，再试。试了就算。不必替她做对。"
    },
    {
     "q": "敞口杯倒满，让她一次喝个够。",
@@ -1658,20 +1675,15 @@
     ]
    },
    {
-    "icon": "🧸",
-    "title": "为什么“从坐到站”学得晚",
+    "icon": "👀",
+    "title": "为什么声音很小、做得还不像，也算在学",
     "roots": [
-     "Brave",
-     "Healthy"
+     "Curious",
+     "Kind"
     ],
     "lines": [
-     "不扶东西站起来，要从蹲着把重心往前移到脚上，手上没有可以借力的地方。很多宝宝先会走才会这个，哪个先都正常。"
-    ],
-    "refs": [
-     {
-      "label": "Pathways.org：从坐到站（英文）",
-      "url": "https://pathways.org/activities/sit-to-stand"
-     }
+     "她轻轻跟着说两个字，或者把夹子往锅里伸、还不会夹，都是在练她刚看到的事。一岁这个阶段，不清楚、做不完，才是正常的学法。",
+     "您温暖地跟着说一遍、再加一个词、等一等，比让她“说对”或“做对”更有用。"
     ]
    },
    {
@@ -1825,7 +1837,7 @@
     },
     {
      "label": "不扶东西从地上站起来",
-     "note": "手撑地、屁股撅起、往上推（正在练）"
+     "note": "她自己在试。给她安全的地板就好，不必专门练。"
     },
     {
      "label": "自己走一到三步",
@@ -1870,6 +1882,10 @@
   ],
   "sources": [
    {
+    "label": "美国疾控中心：1岁（12个月）里程碑（英文）",
+    "url": "https://www.cdc.gov/act-early/milestones/1-year.html"
+   },
+   {
     "label": "美国疾控中心：15个月里程碑（英文）",
     "url": "https://www.cdc.gov/act-early/milestones/15-months.html"
    },
@@ -1880,10 +1896,6 @@
    {
     "label": "美国言语听力协会：13–18个月交流能力（英文）",
     "url": "https://www.asha.org/public/developmental-milestones/communication-milestones-13-to-18-months/"
-   },
-   {
-    "label": "Pathways.org：从坐到站（英文）",
-    "url": "https://pathways.org/activities/sit-to-stand"
    },
    {
     "label": "Speech Sisters（语言治疗师，Instagram，英文）",
@@ -1924,7 +1936,7 @@
    {
     "emoji": "🛝",
     "name": "游乐场小挑战",
-    "how": "每次只挑一样新的试试（新的攀爬架、大一点的滑梯，您在下面接）。她还开心时就收。别抱着她一起滑。（第4周）",
+    "how": "她10个月起就爱滑梯。这周加上话和轮流：“上去……下来……呀！”再来：“该你了，该我了。”您在下面接。她还开心时就收。别抱着她一起滑。（第1周）",
     "roots": [
      "Brave",
      "Healthy"
@@ -1957,7 +1969,7 @@
    {
     "emoji": "🖊️",
     "name": "点读书轮流玩",
-    "how": "她点一个图，您先说名字，<b>停一下</b>再让音乐响。多加一个词：“猫！软软的猫。”再轮到她。（第3周）",
+    "how": "点读书也用先看再试：您先点一个图、说出名字、停一下，再把笔交给她。“猫。软软的猫。”别急着放音乐。（第3周）",
     "roots": [
      "Curious",
      "Kind"
@@ -1968,7 +1980,7 @@
    {
     "emoji": "🔁",
     "name": "跟着说再多一点",
-    "how": "她发什么音都算：指着说“ba”→“球！大球。”加一个词就行，别让她“说球”。（第3周）",
+    "how": "她已经会轻轻跟着您学两个字的话，哪怕还不清楚。继续这样就好：她说“ba”→“球！大球。”跟着说、加一个词、停一停等她。别让她“说球”。（第3周）",
     "roots": [
      "Curious",
      "Kind"
@@ -2021,7 +2033,7 @@
    {
     "emoji": "🗼",
     "name": "搭了推倒",
-    "how": "目标三块、四块：您先搭两块，递给她第三块。推倒了一起欢呼。（第1周，升级）",
+    "how": "只用大软积木（小硬积木这会儿先不用）：您先搭两块，递给她第三块，推倒了一起欢呼。塔矮一点也行。（第1周，改用软积木）",
     "roots": [
      "Curious",
      "Self-led"
@@ -2032,7 +2044,7 @@
    {
     "emoji": "🫙",
     "name": "开盖子、投进去",
-    "how": "能拔开、能按上的盖子；盒子开个口，让她把东西塞进去。她弄不开时先等一等。（第4周）",
+    "how": "先看再试：您慢慢把盖子拔开或按上，再把盒子交给她，等一等。盒子开个口、让她塞进大块的东西，也算。（第1周，升级）",
     "roots": [
      "Curious",
      "Self-led"
@@ -2076,7 +2088,7 @@
    {
     "emoji": "🪞",
     "name": "跟我学",
-    "how": "擦桌子、打电话、梳头，她学您，您再学她。（第4周）",
+    "how": "先看再试：您慢慢擦一下桌子、梳一下头、或把电话放在耳边，再把布或刷子交给她，等一等。她试了以后，您也可以学她。（第3周）",
     "roots": [
      "Kind",
      "Self-led"
@@ -2118,28 +2130,6 @@
     "id": "water-table"
    },
    {
-    "id": "floor-to-stand",
-    "emoji": "🧸",
-    "name": "从地上站起来",
-    "how": "她单膝跪着时把玩具放沙发上：一只脚往前迈、撑起来。换条腿来。她起身时扶着让身体稍微往前倾。（第7周，升级）",
-    "roots": [
-     "Brave",
-     "Healthy"
-    ],
-    "time": "3分钟"
-   },
-   {
-    "id": "squat-to-stand",
-    "emoji": "⬇️",
-    "name": "蹲下捡、再站起来",
-    "how": "她站着的时候，地上撒四五个球：“把红球捡起来？”蹲下、抓、站起来，正是从地上站起来要练的那个动作。",
-    "roots": [
-     "Brave",
-     "Healthy"
-    ],
-    "time": "5分钟"
-   },
-   {
     "id": "point-honor",
     "emoji": "👉",
     "name": "她指，您就接",
@@ -2154,7 +2144,7 @@
     "id": "faucet-pour",
     "emoji": "🚰",
     "name": "玩具厨房轮流玩",
-    "how": "玩具水龙头：您拧一下，停下来等她。再给个杯子“接水”，倒进碗里。边玩边说：开、关、倒、没啦。",
+    "how": "在真水龙头边洗手：您慢慢打开，说“水龙头开”，一起洗手，“水龙头关。”然后换她来，您就在旁边。水要温、不要烫，别让她爬上去。玩具水龙头也可以先练。（家长分享）",
     "roots": [
      "Curious",
      "Kind"
@@ -2165,7 +2155,7 @@
     "id": "in-and-out",
     "emoji": "📥",
     "name": "放进去、倒出来",
-    "how": "装了倒，升级：她把小篮子装满、推着走、再倒出来。东西都要比卫生纸筒粗。（第7周，升级）",
+    "how": "先看再试：您先把一块大的放进篮子再拿出来，再把篮子交给她。她可以装满、推着走、倒出来。东西都要比卫生纸筒粗。（第7周，升级）",
     "roots": [
      "Curious",
      "Self-led"
@@ -2231,7 +2221,7 @@
     "id": "color-match-2",
     "emoji": "🟡",
     "name": "找一样的（第二步）",
-    "how": "举起红球：“另一个红的在哪儿？”地上只摆一红一黄。再试试红积木放红球旁边。还是只用两种颜色。（家长分享的玩法）",
+    "how": "举起红球：“另一个红的在哪儿？”地上只摆一红一黄。再试试红色软积木放红球旁边。还是只用两种颜色。（家长分享的玩法）",
     "roots": [
      "Curious",
      "Self-led"
@@ -2351,8 +2341,8 @@
    {
     "id": "tower-steps",
     "emoji": "🧱",
-    "name": "一步步搭到四块",
-    "how": "从简单的来：积木丢进杯子 → 套圈 → 软杯子或铁罐摞 → 大积木。这一步玩得轻松了再往下走。倒了很正常。（家长分享；搭三四块一般在15–18个月左右）",
+    "name": "大软积木搭一搭",
+    "how": "用大软积木来搭：先把大软积木丢进篮子，再试着摞两三块、推倒。倒了就笑。小硬积木可以再等一等。（家长分享）",
     "roots": [
      "Curious",
      "Brave"
@@ -2369,17 +2359,6 @@
      "Self-led"
     ],
     "time": "3分钟"
-   },
-   {
-    "id": "stool-stand-steps",
-    "emoji": "🪑",
-    "name": "扶凳子站，再朝您走",
-    "how": "她扶着结实的小凳子或沙发站着玩，您蹲在两三步外，拿着玩具张开手。逗她过来，别拉：让她自己松手走过来。最多牵一只手，别把她两只胳膊高高拎起来。（家长分享）",
-    "roots": [
-     "Brave",
-     "Healthy"
-    ],
-    "time": "5分钟"
    },
    {
     "id": "first-scribble",
@@ -2435,6 +2414,39 @@
      "Curious"
     ],
     "time": "2–5分钟"
+   },
+   {
+    "id": "watch-try-tools",
+    "emoji": "🥄",
+    "name": "先看再试：夹子、小勺、打蛋器、刷子",
+    "how": "用宝宝能安全拿的工具和一只玩具锅（千万别用热锅）。您慢慢用夹子或小勺把大毛球或布球放进去，或用打蛋器搅一搅，或给娃娃梳梳头。交到她手里，等一等。只给大块的；用夹子时看好她的小手指。（家长在厨房带宝宝帮忙的玩法）",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "time": "5分钟"
+   },
+   {
+    "id": "knob-puzzle",
+    "emoji": "🧩",
+    "name": "两块拼图或带大把手的拼图",
+    "how": "两块的拼图，或带粗把手的木制拼图（把手好抓，块要大，不能整块咽下去）。您先做一遍：慢慢拿出来、再放回去。然后换她。她愿意您才手把手帮一下，不然就做给她看、等着。这会儿还不一定拼得上——她肯继续试，就很好。（家长、蒙氏架子上常见）",
+    "roots": [
+     "Curious",
+     "Brave"
+    ],
+    "time": "5分钟"
+   },
+   {
+    "id": "light-switch",
+    "emoji": "💡",
+    "name": "先看再试：灯开了，灯关了",
+    "how": "开关本来就够得着，或您抱着她，先做给她看：“灯开了……灯关了。”再换她。千万别让她爬高去按。按一按的小夜灯或开关玩具也可以。插座要挡住；小手不要碰灯泡和灯具。（日常里家长常这样玩）",
+    "roots": [
+     "Curious",
+     "Self-led"
+    ],
+    "time": "2分钟"
    }
   ]
  }

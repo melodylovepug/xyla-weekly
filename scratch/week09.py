@@ -252,14 +252,248 @@ def trim(o):
         L["sources"]=[s for s in L["sources"] if "Recommended-Drinks" not in s["url"]]
     return o
 out=trim(out)
+
+# ---- Nov 15 evening (Melody): pause standing as a focus; rebuild around observer strength;
+# no "Our family way" on weekly pages (it stays on the home page) ----
+CDC12="https://www.cdc.gov/act-early/milestones/1-year.html"
+DROP_STAND=["floor-to-stand","squat-to-stand","stool-stand-steps"]
+
+def refocus(o):
+    e,z=o["en"],o["zh"]
+    # where she is now
+    e["now"][0]="🧍 Stands alone on purpose · trying floor-to-stand on her own"
+    z["now"][0]="🧍 能自己站，而且是有意识地站 · 从地上站起来她自己在摸索"
+    e["now"][2]="🧗 Climbs stairs and playground stuff · has loved slides since 10 months"
+    z["now"][2]="🧗 会爬楼梯和游乐设施 · 10个月起就爱滑梯"
+    e["now"][4]="🧱 Prefers big soft blocks · uses a spoon"
+    z["now"][4]="🧱 更喜欢大软积木 · 会用勺子"
+    e["now"][6]="🚪 Opens the faucet herself after watching · knows tongs go in the pot"
+    z["now"][6]="🚪 看过就会自己开水龙头 · 知道夹子要伸进锅里"
+    e["now"][9]="🗣️ Softly, unclearly copies some two-word phrases you say · she’s learning"
+    z["now"][9]="🗣️ 会轻轻、不太清楚地跟着您学两个字的话 · 正在学"
+    e["now"].insert(10,"🧩 Tries a two-piece puzzle and stays curious · early baba/mama faded after pointing took off")
+    z["now"].insert(10,"🧩 在玩两块的拼图，还拼不上也照样好奇 · 会指以后爸爸妈妈说得少了")
+
+    e["oneLiner"]="One year old, a keen <b>observer</b> and a little problem-solver. This week, three things: <b>turn her points into words</b> (name it, pause, give it anyway), <b>show her slowly, then hand it over and wait</b>, and <b>start a tiny open cup</b>. Plus a new <b>reading</b> rhythm: short and often."
+    z["oneLiner"]="满一岁了，最会<b>看</b>，也爱自己琢磨新东西。这周三件事：<b>把她的“指”变成话</b>（说出来、等一等、照样给）、<b>您先慢慢做给她看，再交给她、等一等</b>、<b>开始用小敞口杯喝水</b>。另外加一个<b>读书</b>的新习惯：每次短短的，一天多几次。"
+
+    e["bigThree"][1]={"icon":"👀","title":"Show me, then her turn","sub":"Play · short moments all day","roots":["Curious","Self-led"],"lines":[
+        "<b>When:</b> little pockets in real life — the kitchen, the sink, toys, getting dressed. One or two slow demos, then stop.",
+        "<b>How:</b> ① Do it slowly where she can see, once or twice. ② Hand her the same thing, or a toddler-safe version. ③ <b>Pause and wait.</b> Any try counts: a miss, a mouth, a new idea. Don’t take over, and don’t ask her to copy.",
+        "<b>Say, in two words:</b> “Tongs in.” “Lid off.” “Light on.” “Faucet on.” Then wait for her sound or her move.",
+        "<b>Why this fits her:</b> she already watches how things work — she knows the tongs go in the pot, and she can open the faucet after seeing you do it. Showing, then waiting, uses that strength.",
+        "<b>Keep it safe:</b> stay right there. Only big pieces (nothing that fits through a toilet-paper tube). No hot pots, and no climbing to a light switch or the faucet. Water not too hot."
+    ]}
+    z["bigThree"][1]={"icon":"👀","title":"先看您做，再轮到她","sub":"玩耍 · 日常里的一小会儿","roots":["Curious","Self-led"],"lines":[
+        "<b>什么时候：</b>就在过日子的空当——厨房、水池边、玩具、穿衣服。慢慢做给她看一两遍，就停。",
+        "<b>怎么做：</b>① 让她看得见，慢慢做一两遍。② 把同样的东西交给她，或者换成宝宝能安全用的。③ <b>停下来等一等。</b>她怎么试都算：没夹住、放进嘴里、自己换种玩法，都好。别抢过来做，也别说“你学一下”。",
+        "<b>两个字就够：</b>“夹进去。”“盖打开。”“灯开了。”“水龙头开。”然后等她出声或动手。",
+        "<b>为什么适合她：</b>她已经会看东西怎么用——知道夹子要伸进锅里，看您开过水龙头自己也会开。先演示、再等她，正好用上她会看的本事。",
+        "<b>注意安全：</b>大人一直在旁边。只给大块的东西（能塞进卫生纸筒口的太小）。不要热锅，也别让她爬高够开关或水龙头。水不要太烫。"
+    ]}
+
+    # body, hands, words
+    e["cards"][0]={"icon":"🦵","title":"Where she is now: body","sub":"Strong, almost walking","roots":["Brave","Healthy"],"lines":[
+        "She <b>stands alone on purpose</b>, climbs stairs and playground equipment, walks fast with the push walker or one hand, and has loved slides since she was 10 months. That’s a strong, brave mover.",
+        "She’s tried getting <b>up from the floor</b> a few times and is close, but hasn’t made it all the way yet. She’s figuring this out herself — no need to practice it on a schedule. <b>Just give her safe space</b> on the floor and let her try when she wants.",
+        "<b>Heading toward:</b> first steps and floor-to-stand often arrive in their own order. Anywhere up to ~18 months for walking alone is normal."
+    ]}
+    z["cards"][0]={"icon":"🦵","title":"她现在：身体","sub":"很有劲，快会走了","roots":["Brave","Healthy"],"lines":[
+        "能<b>自己站，而且是有意识地站</b>，楼梯和游乐设施都会爬，推学步车或牵一只手走得飞快，10个月起就爱滑梯。大运动又强又勇敢。",
+        "从地上站起来，她已经试过几次，很接近了，还差一点点。这事她自己就在摸索，不必专门安排练习。<b>给她一块安全的地板</b>，想试的时候让她自己试就好。",
+        "<b>接下来：</b>自己走几步和从地上站起来，哪个先来都正常。18个月之前会自己走都算正常。"
+    ]}
+    e["cards"][1]={"icon":"🧠","title":"Where she is now: hands and thinking","sub":"A little engineer who learns by watching","roots":["Curious","Self-led"],"lines":[
+        "She uses a spoon and taps a pointer pen to make music: she already <b>knows touching a spot makes something happen</b> (cause and effect).",
+        "<b>Watching is her strength.</b> She studies how you use things she’s never used — she knows the tongs go in the pot, even before she can grab with them — then she wants to figure it out. She’s a little problem-solver.",
+        "She prefers <b>big soft blocks</b> (small hard blocks can wait), and she’ll work at a <b>two-piece puzzle</b> even when the piece doesn’t go in yet. Stay with that curiosity; no need to finish it for her.",
+        "<b>Next:</b> show-me turns with everyday tools, lids, in-and-out, a knob puzzle, a safe faucet or light switch, and soft-block towers to crash."
+    ]}
+    z["cards"][1]={"icon":"🧠","title":"她现在：小手和脑子","sub":"会看、爱琢磨的小小工程师","roots":["Curious","Self-led"],"lines":[
+        "会用勺子，也会拿点读笔点出音乐：她已经<b>明白点一下就会有反应</b>（因果关系）。",
+        "<b>会看，是她的本事。</b>没见过的东西，她先盯着您怎么用——还不会夹，就已经知道夹子要伸进锅里——然后再自己琢磨。她是个爱想办法的小家伙。",
+        "她更喜欢<b>大软积木</b>（小硬积木可以再等一等），两块的<b>拼图</b>还拼不进去，她也照样好奇。陪着这份好奇就好，不必替她拼完。",
+        "<b>接下来：</b>用日常工具、盖子、放进去拿出来、带把手的拼图、安全的水龙头或灯开关，还有大软积木搭了推倒，都用“先看再试”的方式和她玩。"
+    ]}
+    e["cards"][2]["lines"]=[
+        "<b>She can:</b> point to ask, clap and wave when you do, understand familiar names (Mama, milk, ball) and simple routines (“bath time”), and often “give me” with your hand out. She’s also started to <b>quietly copy some of your two-word phrases</b>, still soft and unclear. That’s real learning.",
+        "<b>How to help:</b> repeat what she tried, warmly, add one word, then <b>pause and wait</b>. She says a fuzzy “more ba” → “More banana.” Never “Say banana!” Pressure makes talking harder.",
+        "<b>Not yet:</b> “wait,” “later,” “gently,” reasons, or “don’t” (she hears the action word). So say what TO do: “Feet on the floor,” not “Don’t climb.”",
+        "Words often pause while a big motor skill takes off; pointing is still her main tool. <b>Coming next:</b> clearer word-bits, and <b>pointing to show</b> you things, not just to ask."
+    ]
+    z["cards"][2]["lines"]=[
+        "<b>她能：</b>指着要东西，您拍手挥手她跟着做，听得懂熟悉的名字（妈妈、奶、球）和简单的日常（“洗澡啦”），您伸手说“给我”她常常会给。她也开始<b>轻轻跟着您学两个字的话</b>，声音还小、还不太清楚。这就是在学。",
+        "<b>怎么帮她：</b>她试着说了，您温暖地跟着说一遍，再加一个词，然后<b>停一停等她</b>。她轻轻说了有点糊的“还要 ba”→“还要香蕉。”别说“说‘香蕉’！”一逼她，更不愿开口。",
+        "<b>还听不懂：</b>“等一下”“待会儿”“轻一点”、讲道理、“不要……”（她只听进去后面那个动作）。所以要说该做什么：“脚踩地上”，别说“不许爬”。",
+        "大运动突飞猛进时，说话常常会停一停；现在“指”还是她最好用的工具。<b>接下来：</b>音会更清楚一点，还会<b>指给您看</b>东西，不光是指着要。"
+    ]
+    # drop the Our family's way link; keep the rest of the feelings card
+    e["cards"][3]["lines"][-1]="<b>Coming next:</b> more “no,” more big feelings, showing you things she likes, and checking you’re near while she explores."
+    z["cards"][3]["lines"][-1]="<b>接下来：</b>会更多说“不”、情绪更大，会拿东西给您看，玩着玩着回头确认您在不在。"
+
+    cap_en={"icon":"🌟","title":"What she’s ready to try at 12 months","sub":"Because she learns by watching","roots":["Curious","Self-led"],"lines":[
+        "Watching first is her superpower. She studies a new thing, then wants to figure out how it works — that’s a real problem-solver at one.",
+        "Parents who notice this often invite the same everyday tries: in-and-out, lids on and off, a slow “your turn” with a real tool (toddler tongs, a scoop, a whisk, a brush), a chunky knob puzzle, big soft blocks, the faucet or a light switch with you right there.",
+        "<b>What most one-year-olds can already do</b> (CDC): put something in a container, look for a toy they saw you hide, drink from a cup you hold, and pick up small bits with thumb and finger.",
+        "<b>What often comes next</b> (by ~15 months): taking a lid off while holding a container, trying a word or two, showing you something she likes. A two-piece puzzle may not “solve” yet — staying curious is the win.",
+        "Your job is to show slowly, hand it over, and wait. No quiz, and no pressure to finish."
+    ],"refs":[{"label":"CDC: milestones by 1 year","url":CDC12},{"label":"CDC: milestones by 15 months","url":CDC}]}
+    cap_zh={"icon":"🌟","title":"凭她现在的本事，1岁可以试试什么","sub":"因为她最会看、爱琢磨","roots":["Curious","Self-led"],"lines":[
+        "会先看，是她的本事。一样新东西，她先琢磨您怎么用，再自己想办法——一岁就能这样观察、解决问题，很难得。",
+        "很多家长会这样请她试试：放进去拿出来、开盖盖盖、您慢慢做一遍再换她来（宝宝夹子、小勺、打蛋器、刷子）、带大把手的拼图、大软积木，还有大人陪着开水龙头或灯开关。",
+        "<b>一岁大多数宝宝已经会的</b>（美国疾控中心）：把东西放进盒子里，找您当着她面藏起来的玩具，您端着杯子她能喝，能用拇指和食指捏起小东西。",
+        "<b>接下来常常会的</b>（大约15个月）：一只手拿着盒子，另一只手打开盖子；试着说一两个词；把喜欢的东西拿给您看。两块的拼图这会儿还不一定拼得上——她肯继续试，就很好。",
+        "您要做的就是：慢慢做给她看，交到她手里，等一等。别考她，也别急着帮她做完。"
+    ],"refs":[{"label":"美国疾控中心：1岁（12个月）里程碑（英文）","url":CDC12},{"label":"美国疾控中心：15个月里程碑（英文）","url":CDC}]}
+    e["cards"].insert(2,cap_en); z["cards"].insert(2,cap_zh)
+
+    e["daily"][1]="🔁 Model two-word phrases in real moments (“more bubbles,” “open lid”); pause and wait, no pressure to copy"
+    z["daily"][1]="🔁 在真实场景里说两个字的话（“还要泡泡”“打开盖子”）；说完等一等，别逼她学"
+    e["daily"][2]="👀 Show her slowly, hand it over, wait (tools, lids, faucet, puzzle)"
+    z["daily"][2]="👀 先慢慢做给她看，交到她手里，等一等（工具、盖子、水龙头、拼图）"
+
+    e["todos"].append("Set out a two-piece or knob puzzle, and toddler tongs with a play pot (pieces bigger than a toilet-paper tube)")
+    z["todos"].append("准备一套两块或带大把手的拼图，再加宝宝夹子和一只玩具锅（东西都要比卫生纸筒口粗）")
+
+    e["quiz"][5]={"q":"You show her the tongs once, slowly, then hand them over and wait, even if her first try misses.","a":"do","why":"That’s how she learns: watch, then try. Any attempt counts. No need to do it for her."}
+    z["quiz"][5]={"q":"您慢慢夹一次给她看，再把夹子交给她，她没夹住您也等着，不抢过来。","a":"do","why":"她就是这样学的：先看，再试。试了就算。不必替她做对。"}
+
+    e["details"][1]={"icon":"👀","title":"Why quiet, messy copies still count","roots":["Curious","Kind"],"lines":[
+        "When she whispers a two-word phrase, or pokes the tongs toward the pot without grabbing yet, she’s practicing what she saw. Unclear and unfinished is how this age learns.",
+        "Repeating her attempt warmly, adding one word, and waiting teaches more than asking her to say it or do it “right.”"
+    ]}
+    z["details"][1]={"icon":"👀","title":"为什么声音很小、做得还不像，也算在学","roots":["Curious","Kind"],"lines":[
+        "她轻轻跟着说两个字，或者把夹子往锅里伸、还不会夹，都是在练她刚看到的事。一岁这个阶段，不清楚、做不完，才是正常的学法。",
+        "您温暖地跟着说一遍、再加一个词、等一等，比让她“说对”或“做对”更有用。"
+    ]}
+
+    e["timeline"]["steps"][2]["note"]="She’s trying it on her own. Safe floor space is enough — no need to drill it."
+    z["timeline"]["steps"][2]["note"]="她自己在试。给她安全的地板就好，不必专门练。"
+
+    # sources: drop sit-to-stand how-to; add CDC 1-year
+    def src(L, path=False):
+        out=[]
+        seen=set()
+        first={"label":"CDC: milestones by 1 year" if L is e else "美国疾控中心：1岁（12个月）里程碑（英文）","url":CDC12}
+        out.append(first); seen.add(CDC12)
+        for s in L["sources"]:
+            if "pathways.org" in s["url"]: continue
+            if s["url"] in seen: continue
+            out.append(s); seen.add(s["url"])
+        return out
+    e["sources"]=src(e); z["sources"]=src(z)
+
+    # plays: drop standing practice; retune texts; add show-then-wait plays
+    hows={
+    "stack-crash":(
+        "Big soft blocks only (skip small hard ones for now): you stack two, hand her the third, crash and cheer. Towers can be short. (Wk 1, now with soft blocks)",
+        "只用大软积木（小硬积木这会儿先不用）：您先搭两块，递给她第三块，推倒了一起欢呼。塔矮一点也行。（第1周，改用软积木）"
+    ),
+    "tower-steps":(
+        "Road to a soft-block tower: start by dropping big soft blocks into a basket, then stack two or three and knock them down. Laugh when it falls. Small hard blocks can wait. (Parent tip)",
+        "用大软积木来搭：先把大软积木丢进篮子，再试着摞两三块、推倒。倒了就笑。小硬积木可以再等一等。（家长分享）"
+    ),
+    "playground-mission":(
+        "She’s loved slides since 10 months. This week add language and turns: “Up… down… whee!” Then “Your turn, my turn.” You stay at the bottom. Stop while she’s happy. (Wk 1)",
+        "她10个月起就爱滑梯。这周加上话和轮流：“上去……下来……呀！”再来：“该你了，该我了。”您在下面接。她还开心时就收。别抱着她一起滑。（第1周）"
+    ),
+    "faucet-pour":(
+        "Handwashing at the real faucet: you turn it on slowly, say “Faucet on,” wash together, “Faucet off.” Then her turn, with you right there. Water warm, not hot; no climbing. The toy faucet is good practice too. (Parent tip)",
+        "在真水龙头边洗手：您慢慢打开，说“水龙头开”，一起洗手，“水龙头关。”然后换她来，您就在旁边。水要温、不要烫，别让她爬上去。玩具水龙头也可以先练。（家长分享）"
+    ),
+    "echo-and-add":(
+        "She’s already softly copying some of your two-word phrases, even if they’re unclear. Keep going: she says “ba” → “Ball! Big ball.” Repeat, add one word, pause and wait. Never “say ball.” (Wk 3)",
+        "她已经会轻轻跟着您学两个字的话，哪怕还不清楚。继续这样就好：她说“ba”→“球！大球。”跟着说、加一个词、停一停等她。别让她“说球”。（第3周）"
+    ),
+    "lid-lab":(
+        "Show me, then her turn: you slowly pull a lid off, or push one on, then hand her the container and wait. Boxes with a slot to post big pieces through count too. (Wk 1, harder)",
+        "先看再试：您慢慢把盖子拔开或按上，再把盒子交给她，等一等。盒子开个口、让她塞进大块的东西，也算。（第1周，升级）"
+    ),
+    "in-and-out":(
+        "Show me, then her turn: you put one big piece in a basket and take it out, then hand the basket over. She can fill it, push it, dump it. All pieces wider than a toilet-paper tube. (Wk 7, harder)",
+        "先看再试：您先把一块大的放进篮子再拿出来，再把篮子交给她。她可以装满、推着走、倒出来。东西都要比卫生纸筒粗。（第7周，升级）"
+    ),
+    "pen-book-turns":(
+        "Show me, then her turn with the pointer pen: you tap one picture, name it, pause, then hand her the pen. “Cat. Soft cat.” Don’t rush the music. (Wk 3)",
+        "点读书也用先看再试：您先点一个图、说出名字、停一下，再把笔交给她。“猫。软软的猫。”别急着放音乐。（第3周）"
+    ),
+    "copy-me":(
+        "Show me, then her turn: slowly wipe the table, brush hair, or hold a phone to your ear, then hand her the cloth or brush and wait. After she tries, you can copy her back. (Wk 3)",
+        "先看再试：您慢慢擦一下桌子、梳一下头、或把电话放在耳边，再把布或刷子交给她，等一等。她试了以后，您也可以学她。（第3周）"
+    ),
+    "color-match-2":(
+        "Hold up a red ball: “Where’s another red one?” with 2 balls on the floor (red, yellow). Then try a red soft block next to a red ball. Still two colors. (from parent posts)",
+        "举起红球：“另一个红的在哪儿？”地上只摆一红一黄。再试试红色软积木放红球旁边。还是只用两种颜色。（家长分享的玩法）"
+    ),
+    }
+    new_plays={
+    "watch-try-tools":{
+        "en":{"id":"watch-try-tools","emoji":"🥄","name":"Show me: tongs, scoop, whisk, brush","how":"Toddler-safe tools and a play pot (not a hot one). You slowly drop a big pom-pom or cloth ball in with tongs or a scoop, or stir with a whisk, or brush a doll’s hair. Hand it over and wait. Big pieces only; watch little fingers with tongs. (Parent kitchen-helper play)","roots":["Curious","Self-led"],"time":"5 min"},
+        "zh":{"id":"watch-try-tools","emoji":"🥄","name":"先看再试：夹子、小勺、打蛋器、刷子","how":"用宝宝能安全拿的工具和一只玩具锅（千万别用热锅）。您慢慢用夹子或小勺把大毛球或布球放进去，或用打蛋器搅一搅，或给娃娃梳梳头。交到她手里，等一等。只给大块的；用夹子时看好她的小手指。（家长在厨房带宝宝帮忙的玩法）","roots":["Curious","Self-led"],"time":"5分钟"}
+    },
+    "knob-puzzle":{
+        "en":{"id":"knob-puzzle","emoji":"🧩","name":"Two-piece or knob puzzle","how":"A two-piece puzzle or a chunky wooden knob puzzle (knobs easy to grab, pieces too big to swallow). Show once: take a piece out, put it back, slowly. Then her turn. Hand-over-hand only if she accepts it; otherwise show and wait. It may not fit yet — staying curious is enough. (Parent / Montessori-shelf favorite)","roots":["Curious","Brave"],"time":"5 min"},
+        "zh":{"id":"knob-puzzle","emoji":"🧩","name":"两块拼图或带大把手的拼图","how":"两块的拼图，或带粗把手的木制拼图（把手好抓，块要大，不能整块咽下去）。您先做一遍：慢慢拿出来、再放回去。然后换她。她愿意您才手把手帮一下，不然就做给她看、等着。这会儿还不一定拼得上——她肯继续试，就很好。（家长、蒙氏架子上常见）","roots":["Curious","Brave"],"time":"5分钟"}
+    },
+    "light-switch":{
+        "en":{"id":"light-switch","emoji":"💡","name":"Show me: light on, light off","how":"If a switch is already within reach, or you hold her, show “Light on… light off,” then her turn. Never let her climb to it. A push night-light or a toy switch board works too. Cover outlets; fingers stay off the bulb and the fixture. (Everyday parent play)","roots":["Curious","Self-led"],"time":"2 min"},
+        "zh":{"id":"light-switch","emoji":"💡","name":"先看再试：灯开了，灯关了","how":"开关本来就够得着，或您抱着她，先做给她看：“灯开了……灯关了。”再换她。千万别让她爬高去按。按一按的小夜灯或开关玩具也可以。插座要挡住；小手不要碰灯泡和灯具。（日常里家长常这样玩）","roots":["Curious","Self-led"],"time":"2分钟"}
+    },
+    }
+    for L,lang in ((e,"en"),(z,"zh")):
+        L["plays"]=[p for p in L["plays"] if p["id"] not in DROP_STAND]
+        for p in L["plays"]:
+            if p["id"] in hows:
+                p["how"]=hows[p["id"]][0 if lang=="en" else 1]
+            if p["id"]=="tower-steps":
+                p["name"]="Soft-block towers" if lang=="en" else "大软积木搭一搭"
+        have={p["id"] for p in L["plays"]}
+        for i in ("watch-try-tools","knob-puzzle","light-switch"):
+            if i not in have:
+                L["plays"].append(new_plays[i][lang])
+
+    # drop unused sit-to-stand how-to videos
+    for k in ("mFTwsPVn6dk","jKT9ICWs6oU"):
+        o.get("videos",{}).pop(k,None)
+    return o
+
+out=refocus(out)
+
+# Home page keeps "Our family’s way"; weekly pages should not show that topic card
+T=json.load(open("topics/topics.json"))
+for t in T:
+    if t["id"]=="family-principles":
+        t["weeks"]=[]
+json.dump(T,open("topics/topics.json","w"),ensure_ascii=False,indent=1)
+
+W=json.load(open("weeks/weeks.json"))
+for w in W:
+    if w["id"]=="week-09":
+        w["en"]["tagline"]="Points → words · show me, then her turn · first open cup · short, often reading · new sign: MORE"
+        w["zh"]["tagline"]="把“指”变成话 · 先看再试 · 小敞口杯 · 读书短而多 · 新手语：还要"
+json.dump(W,open("weeks/weeks.json","w"),ensure_ascii=False,indent=1)
+
 # privacy guard
 txt=json.dumps(out,ensure_ascii=False)
 for bad in ["Love","2025-11","Nov 5","11月5","98115","53rd","Ct NE","Seattle","UCDS"]:
     assert bad not in txt, bad
+# no leftover family-way or sit-to-stand focus
+assert "family-principles.html" not in txt
+assert "Our family’s way" not in txt
+assert "家庭教养原则" not in txt
+assert "Up from the floor" not in txt
+assert "从地上站起来：" not in txt  # title form; body may mention it as a one-line note
 for L in ("en","zh"):
     ids=[p["id"] for p in out[L]["plays"]]; assert len(ids)==len(set(ids))
+    for d in DROP_STAND:
+        assert d not in ids, d
 assert [p["id"] for p in out["en"]["plays"]]==[p["id"] for p in out["zh"]["plays"]]
 for k in ("daily","quiz","scripts","bigThree","cards","details","watch","sources","todos"):
     assert len(out["en"][k])==len(out["zh"][k]),k
+# keep the sections Melody asked to keep
+assert out["en"]["bigThree"][0]["title"].startswith("Turn her points")
+assert "open cup" in out["en"]["bigThree"][2]["title"].lower() or "open-cup" in out["en"]["bigThree"][2]["title"].lower()
+assert any("Reading" in c["title"] for c in out["en"]["cards"])
+assert out["en"]["signs"] and out["en"]["signs"]["items"]
 json.dump(out,open("weeks/week-09.json","w"),ensure_ascii=False,indent=1)
-print("plays",len(out["en"]["plays"]),"dropped",DROPPED)
+print("plays",len(out["en"]["plays"]),"dropped standing",DROP_STAND,"cards",len(out["en"]["cards"]),"big3",[b["title"] for b in out["en"]["bigThree"]])
