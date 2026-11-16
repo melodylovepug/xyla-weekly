@@ -224,6 +224,34 @@ for L,B in (("en",EN),("zh",ZH)):
     B["signs"]=signs(L); B["timeline"]=tl(L); B["plays"]=plays(L)
     order=list(W8[L].keys())
     out[L]={k:B[k] for k in order}
+
+# ---- Nov 15 trim (Melody): milk transition done, daycare going well → no milk-transition or daycare-adjustment content ----
+def trim(o):
+    e,z=o["en"],o["zh"]
+    e["now"][11]="🍽️ Wants what we eat · prefers bigger chunks"; z["now"][11]="🍽️ 想吃大人吃的 · 爱吃大块"
+    e["now"][12]="🥤 Hasn’t tried an open cup yet"; z["now"][12]="🥤 还没用过敞口杯"
+    e["now"][13]="🦷 Still mouths things"; z["now"][13]="🦷 还爱往嘴里塞东西"
+    for L in (e,z):
+        b=L["bigThree"][2]; b["lines"]=b["lines"][:4]
+    e["bigThree"][2]["title"]="First open-cup sips"; e["bigThree"][2]["sub"]="Drinking skill · 1–2 meals"
+    z["bigThree"][2]["sub"]="喝水本领 · 一天一两顿"
+    e["bigThree"][2]["lines"].append("<b>Why it matters:</b> sipping from an open cup trains lip closure and controlled swallowing, the same mouth skills she uses for chewing and talking.")
+    z["bigThree"][2]["lines"].append("<b>为什么练：</b>用敞口杯小口喝，练的是嘴唇闭合和控制吞咽，跟嚼东西、说话用的是同一套口腔本领。")
+    e["cards"][6]={"icon":"🦷","title":"Mouthing: normal toddler exploring","sub":"Made safer, not stopped","roots":["Healthy","Secure"],"lines":["Mouthing is still how one-year-olds explore, plus teething. It fades slowly through the second year.","<b>Choke check:</b> if it fits through a toilet-paper tube opening, it’s too small to be in her space. Never button batteries, loose small magnets, coins, balloons.","<b>Do:</b> keep a yes-to-mouth basket and swap rather than grab. <b>Don’t:</b> chase her for it; it becomes a game."],"refs":e["cards"][6]["refs"]}
+    z["cards"][6]={"icon":"🦷","title":"啃东西：一岁宝宝的正常探索","sub":"做好安全，不用禁止","roots":["Healthy","Secure"],"lines":["往嘴里放东西还是一岁宝宝探索的方式，加上在长牙。一岁到两岁会慢慢少。","<b>噎呛自查：</b>能塞进卫生纸筒口的东西，就太小了，别放在她够得着的地方。纽扣电池、散落的小磁铁、硬币、气球一律不行。","<b>要：</b>准备一篮“可以啃的”，看到就换，别硬抢。<b>别：</b>追着她抢，她会当成游戏。"],"refs":z["cards"][6]["refs"]}
+    e["todos"][3]="Write checkup questions: faded words, length, iron"; z["todos"][3]="写下体检要问的：说的词变少了、身长、补铁"
+    e["todos"][4]="Show everyone who cares for her the MORE sign"; z["todos"][4]="把“还要”的手势比给照顾她的每个人看"
+    e["quiz"][6]={"q":"Fill the open cup to the top so she gets a good drink.","a":"dont","why":"1–2 sips only. A tiny amount is easier to control, and spills stay small."}
+    z["quiz"][6]={"q":"敞口杯倒满，让她一次喝个够。","a":"dont","why":"只倒一两口。量少她才好控制，洒了也不多。"}
+    e["signs"]["intro"]="Keep <b>EAT</b>, <b>ALL DONE</b>, <b>MILK</b>, and add one: <b>MORE</b>. She’s pointing to ask, and MORE gives that point a sign. Just <b>say</b> “open” and “help” for now; their signs can come once MORE sticks."
+    z["signs"]["intro"]="“<b>吃</b>”“<b>吃完了</b>”“<b>奶</b>”接着比，再加一个：“<b>还要</b>”。她整天指着要东西，“还要”正好给她的“指”配个手势。“打开”“帮忙”这周先<b>说</b>，等“还要”比顺了再加手势。"
+    for L,sub,l1 in ((e,"Every cup of milk","<b>When:</b> right as you hold up her cup: “<b>Milk</b>? Here’s your milk.”"),(z,"每次喝奶","<b>什么时候比：</b>把杯子举到她面前时：“要喝<b>奶</b>吗？给你。”")):
+        it=[x for x in L["signs"]["items"] if x["id"]=="milk"][0]; it["sub"]=sub; it["lines"]=[it["lines"][0],l1]
+    for L in (e,z):
+        L["plays"]=[p for p in L["plays"] if p["id"]!="bye-bye-teddy"]
+        L["sources"]=[s for s in L["sources"] if "Recommended-Drinks" not in s["url"]]
+    return o
+out=trim(out)
 # privacy guard
 txt=json.dumps(out,ensure_ascii=False)
 for bad in ["Love","2025-11","Nov 5","11月5","98115","53rd","Ct NE","Seattle","UCDS"]:
