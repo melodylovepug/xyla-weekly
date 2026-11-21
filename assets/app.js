@@ -42,7 +42,7 @@
       homeSub: 'Short, tappable weekly packs. The most important things first.', weeks: '📅 Weeks', thisWeek: 'This week',
       howTitle: 'How to use this', how: ['Open this week → read the <b>3 big things</b> (2 minutes).', 'Tick the <b>daily checklist</b> (saved on your phone).', 'Stuck? Hit <b>🎲 Lucky play</b>.'],
       chooseLang: 'Language / 语言', loadFail: 'Couldn’t load this page', retry: 'Try refreshing.', pageTitle: 'Xyla Weekly',
-      home: '← Home', refs: '📎 Learn more: ', bigTopics: '📌 Big topics', bigTopicsHint: 'One page per big question. Read once, come back as needed.', weekTopic: '📌 Big topic this week', topicVideos: '🎬 Videos on this topic',
+      home: '← Home', refs: '📎 Learn more: ', recipes: '🍳 Recipes', recipesHint: 'Family recipes for Xyla, kept in Google Drive. Tap a card to open.', recipesFolder: 'All recipes in Google Drive ↗', bigTopics: '📌 Big topics', bigTopicsHint: 'One page per big question. Read once, come back as needed.', weekTopic: '📌 Big topic this week', topicVideos: '🎬 Videos on this topic',
       tnav: { big3: '⭐ Big 3', how: '🔁 Rules', plan: '📅 4 weeks', tips: '🧊 Tips', count: '🥛 Count', quiz: '🤔 Quiz', watch: '🚩 Red flags', disagree: '⚖️ Debates', more: '📚 More' }, big3T: '⭐ 3 big things', stepsT: 'Step by step', tipT: 'Tip: '
     },
     zh: {
@@ -67,7 +67,7 @@
       homeSub: '每周一份，点开就看，重要的先说。', weeks: '📅 每周内容', thisWeek: '本周',
       howTitle: '怎么用', how: ['打开本周，先看<b>最重要的 3 件事</b>，两分钟搞定。', '每天勾一勾<b>今天的小目标</b>，进度存在手机里。', '不知道玩什么？点<b>🎲 随机抽一个</b>。'],
       chooseLang: 'Language / 语言', loadFail: '页面没加载出来', retry: '刷新一下试试。', pageTitle: 'Xyla 成长周记',
-      home: '← 首页', refs: '📎 延伸阅读：', bigTopics: '📌 重点话题', bigTopicsHint: '大问题单独整理成一页，看一遍，需要时再回来翻。', weekTopic: '📌 这周的重点话题', topicVideos: '🎬 相关视频',
+      home: '← 首页', refs: '📎 延伸阅读：', recipes: '🍳 菜谱', recipesHint: '给 Xyla 做的菜，全文放在 Google 云端硬盘里，点卡片即可打开。', recipesFolder: '全部菜谱（Google 云端硬盘）↗', bigTopics: '📌 重点话题', bigTopicsHint: '大问题单独整理成一页，看一遍，需要时再回来翻。', weekTopic: '📌 这周的重点话题', topicVideos: '🎬 相关视频',
       tnav: { big3: '⭐ 3件事', how: '🔁 规矩', plan: '📅 4周计划', tips: '🧊 贴士', count: '🥛 记奶量', quiz: '🤔 测一测', watch: '🚩 警惕', disagree: '⚖️ 分歧', more: '📚 更多' }, big3T: '⭐ 最重要的 3 件事', stepsT: '一步一步来', tipT: '小提示：'
     }
   };
@@ -703,6 +703,7 @@
       return '<a class="card' + (cur ? ' current' : '') + '" href="' + esc(x.file) + '"><span class="e">' + esc(x.emoji || '📘') + '</span><div><b>' + esc(c.title) + (cur ? '<span class="badge">' + t.thisWeek + '</span>' : '') + '</b><span>' + esc(c.age) + ' · ' + esc(c.dates) + '</span><br><span>' + esc(c.tagline || '') + '</span></div></a>';
     }).join(''));
     root.appendChild(s);
+    renderRecipes(root);
     if (TOPICS.length) {
       var ts = section('topics', t.bigTopics, t.bigTopicsHint); ts.className = 'weeks';
       ts.insertAdjacentHTML('beforeend', topicCardsHTML(TOPICS)); root.appendChild(ts);
@@ -711,7 +712,25 @@
     footer(root);
   }
 
-  var isWeek = !!document.body.getAttribute('data-week'), topicId = document.body.getAttribute('data-topic'), TOPICS = [];
+  function renderRecipes(root) {
+    var data = RECIPES, items = data && arr(data.items), folder = data && data.folder;
+    if (!items) items = [];
+    if (!items.length && !(folder && folder.url)) return;
+    var s = section('recipes', t.recipes, t.recipesHint); s.className = 'weeks';
+    if (items.length) {
+      s.insertAdjacentHTML('beforeend', items.map(function (x) {
+        var c = x[lang] || x.en || {};
+        return '<a class="card" href="' + esc(x.url) + '" target="_blank" rel="noopener"><span class="e">' + esc(x.emoji || '🍳') + '</span><div><b>' + esc(c.title) + '</b><span>' + esc(c.tagline || '') + '</span></div></a>';
+      }).join(''));
+    }
+    if (folder && folder.url) {
+      var fl = (folder[lang] && folder[lang].label) || (folder.en && folder.en.label) || t.recipesFolder;
+      s.insertAdjacentHTML('beforeend', '<p class="hint"><a href="' + esc(folder.url) + '" target="_blank" rel="noopener">' + esc(fl) + '</a></p>');
+    }
+    root.appendChild(s);
+  }
+
+  var isWeek = !!document.body.getAttribute('data-week'), topicId = document.body.getAttribute('data-topic'), TOPICS = [], RECIPES = null;
   function render() {
     document.documentElement.lang = t.htmlLang;
     if (!DATA) return;
@@ -722,9 +741,13 @@
   document.documentElement.lang = t.htmlLang;
   var url = topicId ? 'topics/' + topicId + '.json' : isWeek ? 'weeks/' + document.body.getAttribute('data-week') + '.json' : 'weeks/weeks.json';
   function getJSON(u) { return fetch(u + '?v=' + encodeURIComponent(VER), { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
-  Promise.all([getJSON(url), topicId ? Promise.resolve([]) : getJSON('topics/topics.json').catch(function () { return []; })])
+  Promise.all([
+      getJSON(url),
+      topicId ? Promise.resolve([]) : getJSON('topics/topics.json').catch(function () { return []; }),
+      (!topicId && !isWeek) ? getJSON('recipes/recipes.json').catch(function () { return null; }) : Promise.resolve(null)
+    ])
     .then(function (res) {
-      var d = res[0]; TOPICS = Array.isArray(res[1]) ? res[1] : [];
+      var d = res[0]; TOPICS = Array.isArray(res[1]) ? res[1] : []; RECIPES = res[2] || null;
       DATA = d; VIDEOS = d.videos || {}; render();
       if (location.hash) { var x = document.querySelector(location.hash); if (x) x.scrollIntoView(); }
     })

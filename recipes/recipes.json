@@ -1,0 +1,22 @@
+{
+  "folder": {
+    "url": "https://drive.google.com/drive/folders/1F35OFl6UrrBmsN6_MD0OyX-r54VK5iZ0",
+    "en": { "label": "All recipes in Google Drive ↗" },
+    "zh": { "label": "全部菜谱（Google 云端硬盘）↗" }
+  },
+  "items": [
+    {
+      "id": "beef-cheese-flatbread",
+      "emoji": "🥩",
+      "url": "https://docs.google.com/document/d/1pltAD469guKUltlZf6auY9uDnL4CrjwuM0vRaxzViFM/edit?usp=sharing",
+      "en": {
+        "title": "Beef & Cheese Flatbread",
+        "tagline": "Soft pan-fried flatbread with beef and cheese, cut into strips for self-feeding."
+      },
+      "zh": {
+        "title": "宝宝牛肉芝士饼",
+        "tagline": "软软的牛肉芝士饼，切成条，方便自己抓着吃。"
+      }
+    }
+  ]
+}
