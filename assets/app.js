@@ -8,6 +8,26 @@
   var LANG_KEY = 'xyla:lang';
   /* Cache-busting: the page stubs load this file as app.js?v=<version>; data files get the same ?v=. */
   var VER = (function () { try { var m = /[?&]v=([^&#]+)/.exec((document.currentScript && document.currentScript.src) || ''); return m ? m[1] : String(Date.now()); } catch (e) { return String(Date.now()); } })();
+  /* Site root (the folder that contains assets/), so pages in subfolders can fetch data and link home. */
+  var BASE = (function () {
+    try {
+      var src = (document.currentScript && document.currentScript.src) || '';
+      if (!src) {
+        var scripts = document.getElementsByTagName('script');
+        for (var i = scripts.length - 1; i >= 0; i--) {
+          if ((scripts[i].src || '').indexOf('assets/app.js') !== -1) { src = scripts[i].src; break; }
+        }
+      }
+      var m = src.match(/^(.*\/)assets\/app\.js(?:\?|$)/);
+      if (m) return m[1];
+    } catch (e) {}
+    return '';
+  })();
+  function path(u) {
+    if (!u) return BASE || './';
+    if (/^(https?:|mailto:|tel:|#|\/\/)/i.test(u) || u.charAt(0) === '/') return u;
+    return BASE + String(u).replace(/^\.\//, '');
+  }
   // Google Apps Script web app (/exec URL). Empty string = sync off (notes stay on this phone only).
   var SYNC_URL = 'https://script.google.com/macros/s/AKfycbygFPwrHJ5dBKqjuLpuf-Lflqm4-5f6BMwxSVFBEV438TvytM6Q0SKHEOVf72a-81xV5Q/exec';
   var DEVICE_KEY = 'xyla:device', NOTES_KEY = 'xyla:notes';
@@ -42,7 +62,7 @@
       homeSub: 'Short, tappable weekly packs. The most important things first.', weeks: '📅 Weeks', thisWeek: 'This week',
       howTitle: 'How to use this', how: ['Open this week → read the <b>3 big things</b> (2 minutes).', 'Tick the <b>daily checklist</b> (saved on your phone).', 'Stuck? Hit <b>🎲 Lucky play</b>.'],
       chooseLang: 'Language / 语言', loadFail: 'Couldn’t load this page', retry: 'Try refreshing.', pageTitle: 'Xyla Weekly',
-      home: '← Home', refs: '📎 Learn more: ', recipes: '🍳 Recipes', recipesHint: 'Family recipes for Xyla, kept in Google Drive. Tap a card to open.', recipesFolder: 'All recipes in Google Drive ↗', bigTopics: '📌 Big topics', bigTopicsHint: 'One page per big question. Read once, come back as needed.', weekTopic: '📌 Big topic this week', topicVideos: '🎬 Videos on this topic',
+      home: '← Home', refs: '📎 Learn more: ', recipes: '🍳 Recipes', recipesHint: 'Recipes made for Xyla. Tap a card to open the method.', recipesAll: '← Recipes', tabHome: 'Home', tabRecipes: 'Recipes', bigTopics: '📌 Big topics', bigTopicsHint: 'One page per big question. Read once, come back as needed.', weekTopic: '📌 Big topic this week', topicVideos: '🎬 Videos on this topic',
       tnav: { big3: '⭐ Big 3', how: '🔁 Rules', plan: '📅 4 weeks', tips: '🧊 Tips', count: '🥛 Count', quiz: '🤔 Quiz', watch: '🚩 Red flags', disagree: '⚖️ Debates', more: '📚 More' }, big3T: '⭐ 3 big things', stepsT: 'Step by step', tipT: 'Tip: '
     },
     zh: {
@@ -67,7 +87,7 @@
       homeSub: '每周一份，点开就看，重要的先说。', weeks: '📅 每周内容', thisWeek: '本周',
       howTitle: '怎么用', how: ['打开本周，先看<b>最重要的 3 件事</b>，两分钟搞定。', '每天勾一勾<b>今天的小目标</b>，进度存在手机里。', '不知道玩什么？点<b>🎲 随机抽一个</b>。'],
       chooseLang: 'Language / 语言', loadFail: '页面没加载出来', retry: '刷新一下试试。', pageTitle: 'Xyla 成长周记',
-      home: '← 首页', refs: '📎 延伸阅读：', recipes: '🍳 菜谱', recipesHint: '给 Xyla 做的菜，全文放在 Google 云端硬盘里，点卡片即可打开。', recipesFolder: '全部菜谱（Google 云端硬盘）↗', bigTopics: '📌 重点话题', bigTopicsHint: '大问题单独整理成一页，看一遍，需要时再回来翻。', weekTopic: '📌 这周的重点话题', topicVideos: '🎬 相关视频',
+      home: '← 首页', refs: '📎 延伸阅读：', recipes: '🍳 菜谱', recipesHint: '给 Xyla 做的菜，点卡片打开做法。', recipesAll: '← 菜谱', tabHome: '首页', tabRecipes: '菜谱', bigTopics: '📌 重点话题', bigTopicsHint: '大问题单独整理成一页，看一遍，需要时再回来翻。', weekTopic: '📌 这周的重点话题', topicVideos: '🎬 相关视频',
       tnav: { big3: '⭐ 3件事', how: '🔁 规矩', plan: '📅 4周计划', tips: '🧊 贴士', count: '🥛 记奶量', quiz: '🤔 测一测', watch: '🚩 警惕', disagree: '⚖️ 分歧', more: '📚 更多' }, big3T: '⭐ 最重要的 3 件事', stepsT: '一步一步来', tipT: '小提示：'
     }
   };
@@ -172,7 +192,7 @@
   /* ---------- week sections ---------- */
   function renderHero(w, root) {
     var h = el('header', { class: 'hero' });
-    h.innerHTML = '<div class="toprow"><a class="back" href="./">' + t.allWeeks + '</a>' + langToggleHTML(false) + '</div>' +
+    h.innerHTML = '<div class="toprow"><a class="back" href="' + path('index.html') + '">' + t.allWeeks + '</a>' + langToggleHTML(false) + '</div>' +
       '<h1>' + esc(w.emoji || '') + ' ' + esc(w.title) + '</h1>' +
       '<p class="sub">' + esc(w.age) + ' · ' + esc(w.dates) + '</p>' +
       (w.oneLiner ? '<p style="margin:10px 0 0">' + w.oneLiner + '</p>' : '') +
@@ -400,13 +420,21 @@
   }
   function footer(root) {
     root.insertAdjacentHTML('beforeend', '<footer><strong>' + t.footer + '</strong><br>' + t.made + '</footer>');
+    var recOn = isRecipeList || !!recipeId;
+    var homeOn = !isWeek && !topicId && !recOn;
+    root.insertAdjacentHTML('beforeend',
+      '<nav class="tabbar" aria-label="' + (lang === 'zh' ? '底部导航' : 'Site') + '">' +
+        '<a href="' + path('index.html') + '"' + (homeOn ? ' aria-current="page"' : '') + '><span class="ico" aria-hidden="true">🧸</span><span>' + t.tabHome + '</span></a>' +
+        '<a href="' + path('recipes.html') + '"' + (recOn ? ' aria-current="page"' : '') + '><span class="ico" aria-hidden="true">🍳</span><span>' + t.tabRecipes + '</span></a>' +
+      '</nav>');
+    document.body.classList.add('has-tabbar');
   }
 
   /* ---------- big topics ---------- */
   function topicCardsHTML(list) {
     return list.map(function (x) {
       var c = x[lang] || x.en;
-      return '<a class="card" href="' + esc(x.file) + '"><span class="e">' + esc(x.emoji || '📌') + '</span><div><b>' + esc(c.title) + '</b><span>' + esc(c.tagline || '') + '</span></div></a>';
+      return '<a class="card" href="' + esc(path(x.file)) + '"><span class="e">' + esc(x.emoji || '📌') + '</span><div><b>' + esc(c.title) + '</b><span>' + esc(c.tagline || '') + '</span></div></a>';
     }).join('');
   }
   function renderWeekTopics(w, root) {
@@ -475,7 +503,7 @@
     document.title = w.title + ' · ' + t.pageTitle;
     var root = document.getElementById('app'); root.innerHTML = '';
     var h = el('header', { class: 'hero' });
-    h.innerHTML = '<div class="toprow"><a class="back" href="./">' + t.home + '</a>' + langToggleHTML(false) + '</div>' +
+    h.innerHTML = '<div class="toprow"><a class="back" href="' + path('index.html') + '">' + t.home + '</a>' + langToggleHTML(false) + '</div>' +
       '<h1>' + esc(d.emoji || '') + ' ' + esc(w.title) + '</h1><p class="sub">' + esc(w.sub) + '</p>' +
       '<div class="callout answer">' + w.oneLiner + '</div>';
     root.appendChild(h);
@@ -583,7 +611,7 @@
     document.title = w.title + ' · ' + t.pageTitle;
     var root = document.getElementById('app'); root.innerHTML = '';
     var h = el('header', { class: 'hero' });
-    h.innerHTML = '<div class="toprow"><a class="back" href="./">' + t.home + '</a>' + langToggleHTML(false) + '</div>' +
+    h.innerHTML = '<div class="toprow"><a class="back" href="' + path('index.html') + '">' + t.home + '</a>' + langToggleHTML(false) + '</div>' +
       '<h1>' + esc(d.emoji || '') + ' ' + esc(w.title) + '</h1><p class="sub">' + esc(w.sub || '') + '</p>' +
       (w.oneLiner ? '<div class="callout answer">' + w.oneLiner + '</div>' : '');
     root.appendChild(h);
@@ -700,7 +728,7 @@
     var today = localISO();
     s.insertAdjacentHTML('beforeend', list.slice().reverse().map(function (x) {
       var c = x[lang] || x.en, cur = x.start && x.end && today >= x.start && today <= x.end;
-      return '<a class="card' + (cur ? ' current' : '') + '" href="' + esc(x.file) + '"><span class="e">' + esc(x.emoji || '📘') + '</span><div><b>' + esc(c.title) + (cur ? '<span class="badge">' + t.thisWeek + '</span>' : '') + '</b><span>' + esc(c.age) + ' · ' + esc(c.dates) + '</span><br><span>' + esc(c.tagline || '') + '</span></div></a>';
+      return '<a class="card' + (cur ? ' current' : '') + '" href="' + esc(path(x.file)) + '"><span class="e">' + esc(x.emoji || '📘') + '</span><div><b>' + esc(c.title) + (cur ? '<span class="badge">' + t.thisWeek + '</span>' : '') + '</b><span>' + esc(c.age) + ' · ' + esc(c.dates) + '</span><br><span>' + esc(c.tagline || '') + '</span></div></a>';
     }).join(''));
     root.appendChild(s);
     renderRecipes(root);
@@ -712,42 +740,100 @@
     footer(root);
   }
 
+  function recipeHref(x) {
+    return path((x && x.file) || ('recipes/' + (x && x.id ? x.id : '') + '.html'));
+  }
+  function recipeCardsHTML(list) {
+    return (list || []).map(function (x) {
+      var c = x[lang] || x.en || {};
+      return '<a class="card" href="' + esc(recipeHref(x)) + '"><span class="e">' + esc(x.emoji || '🍳') + '</span><div><b>' + esc(c.title) + '</b><span>' + esc(c.tagline || '') + '</span></div></a>';
+    }).join('');
+  }
   function renderRecipes(root) {
-    var data = RECIPES, items = data && arr(data.items), folder = data && data.folder;
-    if (!items) items = [];
-    if (!items.length && !(folder && folder.url)) return;
+    var items = RECIPES && arr(RECIPES.items);
+    if (!items || !items.length) return;
     var s = section('recipes', t.recipes, t.recipesHint); s.className = 'weeks';
-    if (items.length) {
-      s.insertAdjacentHTML('beforeend', items.map(function (x) {
-        var c = x[lang] || x.en || {};
-        return '<a class="card" href="' + esc(x.url) + '" target="_blank" rel="noopener"><span class="e">' + esc(x.emoji || '🍳') + '</span><div><b>' + esc(c.title) + '</b><span>' + esc(c.tagline || '') + '</span></div></a>';
-      }).join(''));
-    }
-    if (folder && folder.url) {
-      var fl = (folder[lang] && folder[lang].label) || (folder.en && folder.en.label) || t.recipesFolder;
-      s.insertAdjacentHTML('beforeend', '<p class="hint"><a href="' + esc(folder.url) + '" target="_blank" rel="noopener">' + esc(fl) + '</a></p>');
-    }
+    s.insertAdjacentHTML('beforeend', recipeCardsHTML(items));
     root.appendChild(s);
   }
+  function recipeSectionHTML(sec) {
+    if (!sec) return '';
+    var html = '<div class="card pcard recipe-sec' + (sec.kind === 'tips' ? ' tips' : '') + '">';
+    if (sec.title) html += '<h3>' + esc(sec.title) + '</h3>';
+    if (sec.items && sec.items.length) {
+      html += '<ul>' + sec.items.map(function (it) { return '<li>' + esc(it) + '</li>'; }).join('') + '</ul>';
+    }
+    if (sec.steps && sec.steps.length) {
+      html += '<ol>' + sec.steps.map(function (it) { return '<li>' + esc(it) + '</li>'; }).join('') + '</ol>';
+    }
+    if (sec.text) html += '<p>' + esc(sec.text) + '</p>';
+    return html + '</div>';
+  }
+  function buildRecipeList(data) {
+    document.title = t.recipes + ' · ' + t.pageTitle;
+    var root = document.getElementById('app'); root.innerHTML = '';
+    var items = data && arr(data.items);
+    root.insertAdjacentHTML('beforeend',
+      '<header class="hero"><div class="toprow"><a class="back" href="' + path('index.html') + '">' + t.home + '</a>' + langToggleHTML(false) + '</div>' +
+      '<h1>' + t.recipes + '</h1><p class="sub">' + t.recipesHint + '</p></header>');
+    var s = el('section', { id: 'recipes', class: 'weeks' });
+    if (items && items.length) s.insertAdjacentHTML('beforeend', recipeCardsHTML(items));
+    else s.insertAdjacentHTML('beforeend', '<p class="hint">' + (lang === 'zh' ? '还没有菜谱。' : 'No recipes yet.') + '</p>');
+    root.appendChild(s);
+    footer(root);
+  }
+  function buildRecipe(data) {
+    var items = data && arr(data.items);
+    var item = null;
+    for (var i = 0; i < (items || []).length; i++) if (items[i].id === recipeId) { item = items[i]; break; }
+    if (!item) { fail(lang === 'zh' ? '没有找到这道菜' : 'Recipe not found'); return; }
+    var c = item[lang] || item.en || {};
+    document.title = ((item.emoji ? item.emoji + ' ' : '') + (c.title || t.recipes)) + ' · ' + t.pageTitle;
+    var root = document.getElementById('app'); root.innerHTML = '';
+    root.insertAdjacentHTML('beforeend',
+      '<header class="hero"><div class="toprow"><a class="back" href="' + path('recipes.html') + '">' + t.recipesAll + '</a>' + langToggleHTML(false) + '</div>' +
+      '<h1>' + esc(item.emoji || '🍳') + ' ' + esc(c.title) + '</h1>' +
+      (c.tagline ? '<p class="sub">' + esc(c.tagline) + '</p>' : '') +
+      (c.intro ? '<p style="margin:10px 0 0">' + esc(c.intro) + '</p>' : '') +
+      '</header>');
+    var box = el('section', { id: 'recipe' });
+    arr(c.sections).forEach(function (sec) { box.insertAdjacentHTML('beforeend', recipeSectionHTML(sec)); });
+    root.appendChild(box);
+    footer(root);
+  }
 
-  var isWeek = !!document.body.getAttribute('data-week'), topicId = document.body.getAttribute('data-topic'), TOPICS = [], RECIPES = null;
+  var isWeek = !!document.body.getAttribute('data-week');
+  var topicId = document.body.getAttribute('data-topic');
+  var isRecipeList = document.body.hasAttribute('data-recipes');
+  var recipeId = document.body.getAttribute('data-recipe');
+  var TOPICS = [], RECIPES = null;
   function render() {
     document.documentElement.lang = t.htmlLang;
     if (!DATA) return;
-    try { if (topicId) (DATA && DATA.kind === 'guide' ? buildGuide : buildTopic)(DATA); else if (isWeek) buildWeek(DATA); else buildHome(DATA); }
-    catch (e) { if (window.console) console.error(e); fail(e.message); }
+    try {
+      if (recipeId) buildRecipe(DATA);
+      else if (isRecipeList) buildRecipeList(DATA);
+      else if (topicId) (DATA && DATA.kind === 'guide' ? buildGuide : buildTopic)(DATA);
+      else if (isWeek) buildWeek(DATA);
+      else buildHome(DATA);
+    } catch (e) { if (window.console) console.error(e); fail(e.message); }
   }
-  function fail(msg) { document.getElementById('app').innerHTML = '<p style="padding:20px">' + t.loadFail + ' (' + esc(msg) + '). ' + t.retry + '</p><p style="padding:0 20px"><a href="./?r=' + Date.now() + '">↻ ' + (lang === 'zh' ? '回首页' : 'Home') + '</a></p>'; }
+  function fail(msg) { document.getElementById('app').innerHTML = '<p style="padding:20px">' + t.loadFail + ' (' + esc(msg) + '). ' + t.retry + '</p><p style="padding:0 20px"><a href="' + path('index.html') + '?r=' + Date.now() + '">↻ ' + (lang === 'zh' ? '回首页' : 'Home') + '</a></p>'; }
   document.documentElement.lang = t.htmlLang;
-  var url = topicId ? 'topics/' + topicId + '.json' : isWeek ? 'weeks/' + document.body.getAttribute('data-week') + '.json' : 'weeks/weeks.json';
-  function getJSON(u) { return fetch(u + '?v=' + encodeURIComponent(VER), { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+  var url = recipeId || isRecipeList ? 'recipes/recipes.json'
+    : topicId ? 'topics/' + topicId + '.json'
+    : isWeek ? 'weeks/' + document.body.getAttribute('data-week') + '.json'
+    : 'weeks/weeks.json';
+  function getJSON(u) { return fetch(path(u) + '?v=' + encodeURIComponent(VER), { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }); }
+  var loadTopics = !topicId && !recipeId && !isRecipeList;
+  var loadRecipes = !topicId && !isWeek;
   Promise.all([
       getJSON(url),
-      topicId ? Promise.resolve([]) : getJSON('topics/topics.json').catch(function () { return []; }),
-      (!topicId && !isWeek) ? getJSON('recipes/recipes.json').catch(function () { return null; }) : Promise.resolve(null)
+      loadTopics ? getJSON('topics/topics.json').catch(function () { return []; }) : Promise.resolve([]),
+      loadRecipes ? getJSON('recipes/recipes.json').catch(function () { return null; }) : Promise.resolve(null)
     ])
     .then(function (res) {
-      var d = res[0]; TOPICS = Array.isArray(res[1]) ? res[1] : []; RECIPES = res[2] || null;
+      var d = res[0]; TOPICS = Array.isArray(res[1]) ? res[1] : []; RECIPES = res[2] || (isRecipeList || recipeId ? d : null);
       DATA = d; VIDEOS = d.videos || {}; render();
       if (location.hash) { var x = document.querySelector(location.hash); if (x) x.scrollIntoView(); }
     })

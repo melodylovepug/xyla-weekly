@@ -1,21 +1,92 @@
 {
-  "folder": {
-    "url": "https://drive.google.com/drive/folders/1F35OFl6UrrBmsN6_MD0OyX-r54VK5iZ0",
-    "en": { "label": "All recipes in Google Drive ↗" },
-    "zh": { "label": "全部菜谱（Google 云端硬盘）↗" }
-  },
   "items": [
     {
       "id": "beef-cheese-flatbread",
       "emoji": "🥩",
-      "url": "https://docs.google.com/document/d/1pltAD469guKUltlZf6auY9uDnL4CrjwuM0vRaxzViFM/edit?usp=sharing",
+      "file": "recipes/beef-cheese-flatbread.html",
       "en": {
         "title": "Beef & Cheese Flatbread",
-        "tagline": "Soft pan-fried flatbread with beef and cheese, cut into strips for self-feeding."
+        "tagline": "Soft pan-fried flatbread with beef and cheese, cut into strips for self-feeding.",
+        "intro": "A handheld flatbread for Xyla at about 1 year old. This is a version actually made on November 20, 2026.",
+        "sections": [
+          {
+            "title": "Dough (about 1 piece)",
+            "items": [
+              "100 g flour",
+              "3 g sugar",
+              "2 g instant yeast, mixed straight into the flour (no need to bloom first)",
+              "80 g water"
+            ],
+            "text": "Stir into a dough or a slightly soft batter. Cover with plastic wrap. Place it in the microwave with a bowl of hot water beside it; do not turn the microwave on. Let it proof for about 30 minutes, until the dough has puffed up."
+          },
+          {
+            "title": "Method",
+            "steps": [
+              "After proofing, flatten the dough.",
+              "Add cooked ground beef, or seasoned ground beef that will be fully cooked.",
+              "Roll it up, then flatten again.",
+              "Add cheese.",
+              "Optionally brush the pan with a thin layer of oil, add a little water, cover, and pan-fry over low heat until soft and cooked through."
+            ]
+          },
+          {
+            "title": "Baby tips",
+            "kind": "tips",
+            "items": [
+              "No added salt in the dough.",
+              "Choose a lower-sodium cheese, such as mozzarella or Swiss.",
+              "The beef must be fully cooked.",
+              "Let it cool, then cut into strips so a 1-year-old can self-feed.",
+              "Beef is a good source of iron."
+            ]
+          },
+          {
+            "title": "Optional proofing note",
+            "text": "The original inspiration dough ratio was 400 g flour : 330 g water : 4 g yeast : 5 g sugar. Proof at 28–35°C until about doubled; do not exceed 40°C."
+          }
+        ]
       },
       "zh": {
         "title": "宝宝牛肉芝士饼",
-        "tagline": "软软的牛肉芝士饼，切成条，方便自己抓着吃。"
+        "tagline": "软软的牛肉芝士饼，切成条，方便自己抓着吃。",
+        "intro": "给大约 1 岁的宝宝自己抓着吃。这是 2026 年 11 月 20 日实际做过的一版。",
+        "sections": [
+          {
+            "title": "面皮（约 1 张）",
+            "items": [
+              "面粉 100 克",
+              "糖 3 克",
+              "即发干酵母（instant yeast） 2 克，直接和面粉拌匀，不用先泡",
+              "水 80 克"
+            ],
+            "text": "搅匀成面团或稍软的面糊，盖上保鲜膜。把面放到微波炉里，旁边放一碗热水，微波炉本身不要开，发酵约 30 分钟，等面胀起来即可。"
+          },
+          {
+            "title": "做法",
+            "steps": [
+              "发好后把面压扁。",
+              "放上熟牛肉馅，或事先调好、会完全炒熟的牛肉末。",
+              "卷起来，再压扁。",
+              "加上芝士。",
+              "锅里可以刷一层薄油，再加一点点水，盖上盖子，小火煎到软熟。"
+            ]
+          },
+          {
+            "title": "给宝宝吃的小提示",
+            "kind": "tips",
+            "items": [
+              "面里不要额外加盐。",
+              "芝士选钠比较低的，比如马苏里拉或瑞士芝士。",
+              "牛肉一定要完全熟透。",
+              "晾温后切成条，方便大约 1 岁的宝宝自己抓着吃。",
+              "牛肉是铁的好来源。"
+            ]
+          },
+          {
+            "title": "发面参考（可选）",
+            "text": "最初参考的面糊比例是：面粉 400 克、水 330 克、酵母 4 克、糖 5 克。发面温度大约 28–35°C，等到大约两倍大即可，不要超过 40°C。"
+          }
+        ]
       }
     }
   ]

@@ -71,16 +71,16 @@ General info, not medical advice; ask your pediatrician. 一般信息，不是�
 - **Guide pages** (`"kind": "guide"` in the topic JSON, e.g. `daycare-first-day`) use `buildGuide`: grouped checklists `pack` / `papers` (`items: [{id, text, note?, pre?}]`; `pre` = already done; ticks saved by id in `xyla:<id>:pack` / `:papers`), `plan` (countdown timeline), `about` (editable printable handout; edits in `xyla:<id>:about`; zh view can print the English version for teachers), `scripts` (goodbye, tap to reveal), `normal` + `talk`, `why` (cards with refs).
 - **Privacy on the daycare page:** the repo is public. No daycare name, address, phones, teacher names, start date, hours, fees, door codes or account info — generic words only ("daycare", "teacher", "first day"). `scratch/daycare.py` asserts a list of banned strings before writing the JSON.
 
-## Recipes / 菜谱 (home page only)
-- Recipe *content* lives in Google Drive (folder “Xyla Recipes 宝宝菜谱”). The public site only lists cards that link out; it does not copy the recipe text.
-- Add a new recipe: create a bilingual Google Doc in that folder (中文 first, then English; first name “Xyla” and age only — no other personal info), set the Doc (and the folder, if you want the folder link to work) to **Anyone with the link can view**, then add one object to `recipes/recipes.json` under `items`: `id`, `emoji`, `url`, plus `en` and `zh` with `title` and `tagline`. Keep `folder.url` pointed at the Drive folder.
-- The home page loads `recipes/recipes.json` and renders **Recipes / 菜谱** between the week list and **Big topics**. Week pages are not changed.
-- After changing the JSON or `assets/`, bump the cache version on every page stub (see below).
+## Recipes / 菜谱
+- Recipe content lives on the site. The list is `recipes.html`; each recipe has its own page, e.g. `recipes/beef-cheese-flatbread.html` (`<body data-recipe="…">`). A **Recipes / 菜谱** tab in the bottom bar (every page except the philosophy redirect) opens the list.
+- All text is in `recipes/recipes.json` (`items`: `id`, `emoji`, `file`, plus `en` and `zh` with `title`, `tagline`, `intro`, and `sections`). A section may have `items` (bullets), `steps` (numbered), `text`, and optional `kind: "tips"`. The language toggle shows one language at a time, like the rest of the site. First name “Xyla” and age only — no other personal info.
+- Add a new recipe: append an item to `recipes/recipes.json`, copy `recipes/beef-cheese-flatbread.html` to `recipes/<id>.html`, and change `data-recipe` to the new `id`. Then bump the cache version (include `recipes.html` and `recipes/*.html`).
+- The home page also lists the same cards (linking to the on-site pages) above **Big topics**. Week page content is not changed. **Our family’s way** stays on the home page only.
 
 
 ## Cache-busting (important after every change to assets/ or data)
 Phones cache `assets/app.js` and `style.css` (GitHub Pages sends `max-age=600`). An old cached script running against new data once broke the milk page. When you change `assets/` or any JSON, bump the version on **every** page stub:
-`V=$(date +%Y%m%d%H%M); sed -i -E "s#(assets/(style\.css|app\.js))(\?v=[^\"]*)?\"#\1?v=$V\"#g" *.html`
+`V=$(date +%Y%m%d%H%M); sed -i -E "s#(assets/(style\.css|app\.js))(\?v=[^\"]*)?\"#\1?v=$V\"#g" *.html recipes/*.html`
 `app.js` reads its own `?v=` and adds it to every data fetch. Each section renders inside `safe()`, so one bad section can't blank the whole page, and saved data is shape-checked before use.
 
 ## Video rule (Melody's standing rule)
