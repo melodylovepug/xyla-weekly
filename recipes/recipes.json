@@ -88,6 +88,109 @@
           }
         ]
       }
+    },
+    {
+      "id": "bread-flour-toast",
+      "emoji": "🍞",
+      "file": "recipes/bread-flour-toast.html",
+      "en": {
+        "title": "Bread Flour Toast",
+        "tagline": "A light, low-sugar, no-salt loaf from the bread machine, for Xyla at about 1 year old.",
+        "intro": "Made in a Panasonic SD-MT4 bread machine, program 3「食パン」(shokupan), crust color「淡」(light). This is a home adjustment of a half-sugar, no-salt version, not an official Panasonic recipe. One loaf from a 250 g flour batch in the SD-MT4.",
+        "sections": [
+          {
+            "title": "Ingredients",
+            "items": [
+              "King Arthur Bread Flour 250 g (weigh on a scale)",
+              "Cold milk 70 g",
+              "Cold water 125 g",
+              "Unsalted butter 15 g",
+              "Sugar 8.5 g",
+              "Salt: optional; left out in this version",
+              "Instant dry yeast 2.8 g, in the yeast dispenser (must be instant yeast, not active dry)"
+            ]
+          },
+          {
+            "title": "Method",
+            "steps": [
+              "Put the paddle in. Add flour, sugar, and butter to the pan in that order, then pour in the milk and water.",
+              "Lock the pan back into the machine. Put the yeast in the top dispenser.",
+              "Choose program 3, crust「淡」(light), and press start. It takes about 4 hours. The machine does the mixing, proofing, and baking; there are no separate times or temperatures.",
+              "After it finishes, wait about 2 minutes, then turn the loaf out onto a rack. Cool 1–2 hours until it is not hot, then seal it in a bag. Freeze sliced leftovers."
+            ]
+          },
+          {
+            "title": "Water adjustments",
+            "items": [
+              "At a room temperature of about 25°C, use 115 g water.",
+              "If the top collapses or the inside is sticky, use 120 g water.",
+              "If it is still dry, use up to 130 g water."
+            ]
+          },
+          {
+            "title": "Baby tips",
+            "kind": "tips",
+            "items": [
+              "Low sugar, and no added salt.",
+              "Allergens: wheat and milk (plus butter).",
+              "Cool completely, then seal in a bag. Freeze sliced leftovers."
+            ]
+          },
+          {
+            "title": "Optional note",
+            "text": "The first version used all-purpose flour (110 g water, 10 g butter) and came out a bit dry, so it became bread flour with 125 g water and 15 g butter."
+          }
+        ]
+      },
+      "zh": {
+        "title": "高筋面粉版吧司",
+        "tagline": "面包机做的淡味吧司，低糖不加盐，给大约 1 岁的宝宝吃。",
+        "intro": "用松下 SD-MT4 面包机，选程序 3「食パン」（日式吐司），表皮颜色选「淡」。这是自己改过的半糖、不加盐版本，不是松下官方配方。一次出一条（250 克面粉用量，用 SD-MT4）。",
+        "sections": [
+          {
+            "title": "用料",
+            "items": [
+              "King Arthur 高筋面粉 250 克（请用秤称）",
+              "冷牛奶 70 克",
+              "冷水 125 克",
+              "无盐黄油 15 克",
+              "糖 8.5 克",
+              "盐：可选，这版不加",
+              "即发干酵母 2.8 克，放进酵母投放盒（必须是 instant yeast，不要用需要先活化的 active dry yeast）"
+            ]
+          },
+          {
+            "title": "做法",
+            "steps": [
+              "先装好搅拌桨。按面粉、糖、黄油的顺序放进桶里，再倒入牛奶和水。",
+              "把桶锁回机器，酵母放进顶部的投放盒。",
+              "选程序 3，表皮选「淡」，按开始。大约 4 小时做完。搅拌、发酵、烘烤都由机器完成，没有另外的时间和温度。",
+              "结束后大约等 2 分钟，把面包倒出来放到晾网上。晾 1–2 小时，等不烫了再装进袋子密封。切好剩下的可以冷冻。"
+            ]
+          },
+          {
+            "title": "水量怎么调",
+            "items": [
+              "室温大约 25°C 时，水改用 115 克。",
+              "如果顶部塌了，或里面发黏，用水 120 克。",
+              "如果还是偏干，水最多可以加到 130 克。"
+            ]
+          },
+          {
+            "title": "给宝宝吃的小提示",
+            "kind": "tips",
+            "items": [
+              "低糖，没有额外加盐。",
+              "含小麦和牛奶过敏原（还有黄油）。",
+              "完全晾凉后再装袋密封；切好剩下的可以冷冻。"
+            ]
+          },
+          {
+            "title": "可选备注",
+            "text": "第一版用的是中筋面粉（水 110 克、黄油 10 克），做出来有点干，所以改成了高筋面粉，水 125 克、黄油 15 克。"
+          }
+        ]
+      }
     }
   ]
 }
